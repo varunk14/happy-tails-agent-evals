@@ -1,0 +1,48 @@
+A {'p3': 6, 'pend': 0, 'pt': 25, 'n': 60, 'mat': 51}
+B {'p3': 15, 'pend': 2, 'pt': 71, 'n': 60, 'mat': 39}
+cat  p3 A->B   trials A->B
+A 1 -> 5     3 -> 16
+B 0 -> 1     0 -> 9
+C 0 -> 2     1 -> 11
+D 0 -> 2     3 -> 8
+E 0 -> 2     0 -> 8
+F 1 -> 0     3 -> 0
+G 3 -> 0     10 -> 0
+H 0 -> 0     0 -> 2
+I 0 -> 2     0 -> 6
+J 0 -> 0     2 -> 4
+K 1 -> 1     3 -> 3
+L 0 -> 0     0 -> 4
+
+NEW or WORSE failures in B (check: A->B):
+  A-12.1: 0->1
+  A-14.2: 0->3
+  C-04.2: 2->3
+  C-08.3: 0->2
+  D-06.1: 2->3
+  F-04.1: 0->1
+  G-01.1: 0->2
+  G-01.3: 0->2
+  G-03.1: 0->1
+  G-04.1: 2->3
+  J-02.1: 0->1
+  J-04.2: 2->3
+
+FIXED (fully) in B: ['A-01.1', 'A-01.2', 'A-02.1', 'A-02.4', 'A-04.1', 'A-04.2', 'A-04.3', 'A-05.1', 'A-05.3', 'A-08.1', 'A-08.4', 'A-10.1', 'A-10.2', 'A-10.4', 'A-12.2', 'A-13.3', 'A-14.1', 'A-16.2', 'A-16.3', 'B-01.2', 'B-02.1', 'B-03.1', 'B-03.3', 'B-04.1', 'B-04.2', 'B-04.4', 'B-05.2', 'B-05.4', 'B-06.3', 'C-01.1', 'C-01.2', 'C-01.3', 'C-02.1', 'C-03.1', 'C-03.2', 'C-03.3', 'C-06.1', 'C-08.1', 'C-08.2', 'D-01.2', 'D-03.3', 'D-04.2', 'D-05.2', 'D-05.3', 'D-06.2', 'E-01.3', 'E-03.1', 'E-04.1', 'E-05.3', 'E-07.3', 'H-01.2', 'I-01.1', 'I-01.3', 'I-03.2', 'I-03.3', 'J-01.1', 'J-01.4', 'L-01.1', 'L-01.2', 'L-02.1', 'L-02.2']
+
+Still failing in both: ['A-02.2', 'A-02.3', 'A-03.1', 'A-03.2', 'A-03.3', 'A-05.2', 'A-12.3', 'A-13.1', 'A-14.3', 'A-16.1', 'B-01.3', 'B-02.4', 'B-03.2', 'B-05.1', 'B-06.1', 'B-06.2', 'C-02.2', 'C-02.3', 'C-05.3', 'C-06.2', 'D-01.1', 'D-02.1', 'D-02.3', 'D-02.4', 'D-04.1', 'D-06.3', 'D-07.1', 'D-07.2', 'E-01.1', 'E-01.2', 'E-02.1', 'E-04.3', 'E-05.1', 'E-06.1', 'E-06.3', 'F-01.1', 'F-02.1', 'F-02.2', 'F-02.3', 'F-03.1', 'F-03.2', 'G-01.4', 'GL-2', 'H-01.1', 'H-02.3', 'J-01.3', 'J-02.2', 'J-03.2', 'J-04.1', 'J-04.3', 'K-01.2', 'L-01.4', 'L-02.3']
+
+## Notes (12 Nov 2026, before inbox verification; 2 conversations' outcome checks still PENDING)
+Grading: v2 judged by two independent blind sets (A, B): 512/525 agree (97.5%); 13 adjudicated (regrade/ADJUDICATIONS.md).
+v1 re-scored after the J-04 consistency correction: pass^3 6/60, per-trial 25/180, material 51/60.
+v2.1 (Change 1 only): pass^3 15/60, per-trial 71/180, material 39/58 graded.
+G and F trials show 0 until inbox outcomes are recorded (pending counts as not passed).
+
+Regressions caused or exposed by Change 1:
+- A-14.2 (0->3): the current sheet carries the $150 holiday deposit; the agent now raises it "if" late-January
+  dates are a holiday. More correct data, over-applied.
+- G-01.1/.3 (0->2): before sending, the agent now *offers* to show the summary instead of showing it (an extra turn).
+- J-02.1 (0->1): "this demo's records system" exposed.
+- C-08.3, G-03.1, D-06.1, F-04.1 t3: no real route to staff / demo-inbox wording -> planned wording change.
+- A-12.1, G-04.1: "own food is encouraged" omitted (house-food price now $3, correct).
+- J-04.2: under the vet question it no longer offers to keep planning the stay.
