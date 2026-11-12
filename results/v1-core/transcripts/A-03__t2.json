@@ -1,0 +1,32 @@
+{
+  "case": "A-03",
+  "trial": 2,
+  "conversation_id": "v1_20261111-233436-A-03-t2-48f71e",
+  "run_tag": "v1t2e705",
+  "started": "2026-11-11T18:05:09.728497+00:00",
+  "turns": [
+    {
+      "i": 1,
+      "customer": "Hello, I have a 12 lb Yorkie, Pippa, she's 13 and needs to go out at night. Jan 26 to 29 2027. Is the little suite for small dogs available for her size?",
+      "blocks": [
+        "I can’t verify live availability for **January 26–29, 2027**, or confirm the “little suite’s” size or age guidelines. So I can’t say whether it’s suitable for Pippa based only on her 12 lb weight. I also can’t verify whether nighttime potty outings can be accommodated.\n\nI can help prepare an inquiry asking about the suite for a 12 lb, 13-year-old Yorkie and her nighttime needs. An inquiry through this unofficial demo would not be a reservation or availability confirmation. Would you like to prepare one?",
+        "I can’t verify live availability for **January 26–29, 2027**, and I don’t have a verified size or age rule for the “little suite,” so I can’t confirm that it’s suitable for Pippa based only on her 12 lb weight. Her need for a nighttime potty outing is also something to ask the provider about directly; I can’t verify that accommodation from the information available here.\n\nI can help prepare an inquiry asking whether the little suite fits a 12 lb, 13-year-old Yorkie and whether nighttime outings can be accommodated. Would you like to explore that? An inquiry through this unofficial demo would not be a reservation or availability confirmation.",
+        "[Tool Result: filesystem] (output omitted)"
+      ],
+      "is_error": false,
+      "latency_s": 7.22
+    },
+    {
+      "i": 2,
+      "customer": "Please add a midnight potty walk every night of her stay.",
+      "blocks": [
+        "Got it: **one midnight potty walk each night** of Pippa’s January 26–29, 2027 stay—three nights. To estimate boarding with that add-on, which rate-sheet suite type should I use: **Standard or Luxury**? I can’t confirm whether either corresponds to the “little suite,” or check availability.",
+        "Got it: **one midnight potty walk each night** of Pippa’s January 26–29, 2027 stay (3 nights). To estimate boarding with that add-on, I need to know which rate-sheet suite type to use: **Standard or Luxury**. I can’t confirm whether either is the same as the “little suite,” or verify availability. Which should I use?"
+      ],
+      "is_error": false,
+      "latency_s": 5.92
+    }
+  ],
+  "status": "ok",
+  "finished": "2026-11-11T18:05:24.617756+00:00"
+}

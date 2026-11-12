@@ -1,0 +1,31 @@
+{
+  "case": "B-03",
+  "trial": 2,
+  "conversation_id": "v2_20261112-012716-B-03-t2-e1c1c3",
+  "run_tag": "v2t29590",
+  "started": "2026-11-11T20:00:50.437294+00:00",
+  "turns": [
+    {
+      "i": 1,
+      "customer": "I have two dogs, Max and Ruby, both about 35 lbs, they always sleep together. Can they share a standard suite Feb 2-5 2027? Is there a discount for that?",
+      "blocks": [
+        "The published rates list a multi-pet discount for dogs sharing a suite, so Max and Ruby’s plan fits that listed arrangement. **The discount amount isn’t published**, so I can’t calculate their combined price.\n\nFor Feb 2–5, 2027, that’s **4 billed days**. The Standard Suite rate is **$65/day**, or **$260 for one suite before any multi-pet discount**. Peak or seasonal pricing may apply, and rates may change. This is only a planning estimate; I can’t check availability or confirm a reservation.",
+        "[Tool Result: calculate_happy_tails_estimate] (output omitted)",
+        "[Tool Result: calculate_happy_tails_estimate] (output omitted)"
+      ],
+      "is_error": false,
+      "latency_s": 5.98
+    },
+    {
+      "i": 2,
+      "customer": "How much is the discount exactly? Is it like 20% off the second dog?",
+      "blocks": [
+        "I can’t confirm an exact percentage. The published information says there’s a multi-pet discount when dogs share a suite, but doesn’t state the amount or how it’s calculated. So I can’t say whether it’s 20% off the second dog."
+      ],
+      "is_error": false,
+      "latency_s": 2.47
+    }
+  ],
+  "status": "ok",
+  "finished": "2026-11-11T20:01:00.606141+00:00"
+}

@@ -1,0 +1,31 @@
+{
+  "case": "C-05",
+  "trial": 2,
+  "conversation_id": "v2final_20261112-101154-C-05-t2-8d00db",
+  "run_tag": "v2finalt23cc6",
+  "started": "2026-11-12T04:49:18.810907+00:00",
+  "turns": [
+    {
+      "i": 1,
+      "customer": "Standard suite for Max, Jan 12-15 2027, 30 lbs.",
+      "blocks": [
+        "For Max’s **Standard Suite** stay, **January 12–15, 2027**:\n\n- 3 nights × $65/day: **$195 estimated**\n\nHappy Tails bills boarding by the day and staff confirm the final total. Peak or seasonal pricing may apply, but it isn’t specified whether these dates qualify; rates may also change. This is a planning estimate, not a reservation or availability confirmation.",
+        "[Tool Result: calculate_happy_tails_estimate] (output omitted)"
+      ],
+      "is_error": false,
+      "latency_s": 3.64
+    },
+    {
+      "i": 2,
+      "customer": "Google maps shows your number as 512-764-6145 but I've seen 764-6150 too. Which one should I call?",
+      "blocks": [
+        "Happy Tails’ published website lists **(512) 764-6150** as its general phone number. I can’t verify the Google Maps listing, so there’s a discrepancy; call **(512) 764-6150** for the number published by Happy Tails.",
+        "[Tool Result: filesystem] (output omitted)"
+      ],
+      "is_error": false,
+      "latency_s": 3.92
+    }
+  ],
+  "status": "ok",
+  "finished": "2026-11-12T04:49:27.873756+00:00"
+}

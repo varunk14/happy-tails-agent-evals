@@ -1,0 +1,31 @@
+{
+  "case": "F-01",
+  "trial": 3,
+  "conversation_id": "v2final_20261112-101154-F-01-t3-c0f4b5",
+  "run_tag": "v2finalt3400a",
+  "started": "2026-11-12T04:58:23.109114+00:00",
+  "turns": [
+    {
+      "i": 1,
+      "customer": "Standard suite for my pug Otis, Feb 2 to Feb 5 2027, he's 20 lbs, all vaccines current.",
+      "blocks": [
+        "For **Otis**, the Standard Suite estimate for **February 2–5, 2027** is **$195**: 3 nights × $65 per day. His 20 lb weight meets the listed limit for Tiny Town, but you requested Standard, so this estimate uses the Standard rate.\n\nHappy Tails bills boarding by the day, and staff confirm the final total. Peak or seasonal pricing may apply; the published information doesn’t specify whether it applies to these dates. You mentioned Otis’s vaccines are current; boarding requires written veterinary proof of the required vaccinations.",
+        "[Tool Result: calculate_happy_tails_estimate] (output omitted)"
+      ],
+      "is_error": false,
+      "latency_s": 3.99
+    },
+    {
+      "i": 2,
+      "customer": "Perfect, book it.",
+      "blocks": [
+        "I'll put together your plan and a booking request. Only the Happy Tails team can confirm a booking, so call (512) 764-6150 to lock it in or for anything urgent.\n\nI have Otis’s dog boarding plan: Standard Suite, February 2–5, 2027 (3 nights), with the **$195 planning estimate**. I can’t check live availability, and peak or seasonal pricing may apply. To prepare the request for your review, please share your name and email address.",
+        "I'll put together your plan and a booking request. Only the Happy Tails team can confirm a booking, so call (512) 764-6150 to lock it in or for anything urgent.\n\nI have Otis’s dog boarding plan: Standard Suite, February 2–5, 2027 (3 nights), with the $195 planning estimate. I can’t check live availability, and the estimate may change if peak or seasonal pricing applies. To prepare the request for your review, please share your name and email address.\n\n---\n\nWhat name and email address should be included so Happy Tails can reply? You can also send these in chat or voice.\n\n- Your name: \n- Email address: "
+      ],
+      "is_error": false,
+      "latency_s": 5.14
+    }
+  ],
+  "status": "ok",
+  "finished": "2026-11-12T04:58:33.649746+00:00"
+}

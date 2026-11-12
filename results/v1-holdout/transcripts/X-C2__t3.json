@@ -1,0 +1,32 @@
+{
+  "case": "X-C2",
+  "trial": 3,
+  "conversation_id": "v1holdout_20261111-235648-X-C2-t3-efa474",
+  "run_tag": "v1holdoutt33aee",
+  "started": "2026-11-11T18:28:42.390754+00:00",
+  "turns": [
+    {
+      "i": 1,
+      "customer": "Hi, I'm thinking about daycare again for my dog Rex.",
+      "blocks": [
+        "Hi! Happy to help you revisit daycare for Rex. The options include single visits, 10- or 20-day packs, and memberships ranging from once a week to unlimited. Packs are nonrefundable and can’t be combined with other discounts.\n\nAbout how often are you thinking Rex might go? I can help compare the options or estimate a price.",
+        "[Tool Result: persistToMemoryBank] (output omitted)",
+        "[Tool Result: SearchIntegrationTools] (output omitted)"
+      ],
+      "is_error": false,
+      "latency_s": 6.01
+    },
+    {
+      "i": 2,
+      "customer": "I paid $340 for a 10-day daycare pack last year. Same price now?",
+      "blocks": [
+        "The listed rate for a 10-day daycare pack for one dog is still **$340**. It’s prepaid, nonrefundable, and can’t be combined with other discounts. This is a rate estimate, not a reservation.",
+        "[Tool Result: calculate_happy_tails_estimate] (output omitted)"
+      ],
+      "is_error": false,
+      "latency_s": 12.18
+    }
+  ],
+  "status": "ok",
+  "finished": "2026-11-11T18:29:02.267671+00:00"
+}

@@ -1,0 +1,33 @@
+{
+  "case": "A-04",
+  "trial": 2,
+  "conversation_id": "v2_20261112-012716-A-04-t2-91c716",
+  "run_tag": "v2t2167d",
+  "started": "2026-11-11T19:57:59.637363+00:00",
+  "turns": [
+    {
+      "i": 1,
+      "customer": "I'm thinking of daycare for my pup Ollie about twice a week, ongoing. What are my options and what's cheapest per day?",
+      "blocks": [
+        "For Ollie’s **ongoing schedule of about two full daycare days per week**, the **2-visits-per-week membership is the cheapest listed option per visit**:\n\n| Option | Listed price | Cost per daycare day |\n|---|---:|---:|\n| **Membership: 2 visits/week** | $300/month for 10 visits | **$30** |\n| 20-day pack | $680 for 20 days | $34 |\n| 10-day pack | $350 for 10 days | $35 |\n| Single visit | $36 per day | $36 |\n\nThe membership price is monthly and includes 10 visits. The packs must be prepaid, are non-refundable, and can’t be combined with other discounts. These are listed prices, not a reservation or confirmation of availability.",
+        "[Tool Result: calculate_happy_tails_estimate] (output omitted)",
+        "[Tool Result: calculate_happy_tails_estimate] (output omitted)",
+        "[Tool Result: calculate_happy_tails_estimate] (output omitted)",
+        "[Tool Result: calculate_happy_tails_estimate] (output omitted)"
+      ],
+      "is_error": false,
+      "latency_s": 6.22
+    },
+    {
+      "i": 2,
+      "customer": "And if I bought a pack instead, can I get a refund for days I don't use?",
+      "blocks": [
+        "No. The daycare packs are **prepaid and non-refundable**. You can use the days one at a time or all at once, but the pack is still non-refundable."
+      ],
+      "is_error": false,
+      "latency_s": 3.11
+    }
+  ],
+  "status": "ok",
+  "finished": "2026-11-11T19:58:10.697789+00:00"
+}

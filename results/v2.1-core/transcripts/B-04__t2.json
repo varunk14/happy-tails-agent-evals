@@ -1,0 +1,41 @@
+{
+  "case": "B-04",
+  "trial": 2,
+  "conversation_id": "v2_20261112-012716-B-04-t2-fa86ca",
+  "run_tag": "v2t2b33e",
+  "started": "2026-11-11T20:01:00.607401+00:00",
+  "turns": [
+    {
+      "i": 1,
+      "customer": "Hi, we're travelling for Christmas and need boarding for our lab Bear, 70 lbs.",
+      "blocks": [
+        "Hi! I can help you plan boarding for Bear. For a 70 lb dog, the listed dog boarding options are Standard ($65/day) or Luxury ($90/day); Tiny Town is for dogs 25 lb and under. Boarding is billed by the **day**, not by the night, and the full-day charge applies regardless of drop-off time.\n\nChristmas is treated as a holiday: reservations require a deposit of $100 per Standard suite or $150 per Luxury suite, and a five-day cancellation notice is required. Depending on the holiday, reservations may need to be made 2 weeks to 2 months ahead.\n\nWhat dates would Bear stay, and which suite would you like me to use for a planning estimate? I can’t check availability or make a reservation through this unofficial demo.",
+        "[Tool Result: persistToMemoryBank] (output omitted)"
+      ],
+      "is_error": false,
+      "latency_s": 5.35
+    },
+    {
+      "i": 2,
+      "customer": "How much extra is it to board over Christmas? Luxury suite, Dec 23 to 27 2026, for my lab Bear.",
+      "blocks": [
+        "For Bear’s **Luxury Suite** from **December 23–27, 2026**, the listed rate estimate is **$450**: 5 billed days × $90/day. Boarding is billed by the day, not by the night; the full-day rate applies regardless of drop-off time.\n\nI can’t determine whether those dates qualify for peak or seasonal pricing, so any extra seasonal charge is **not included** in that estimate. Christmas boarding also requires a **$150 deposit per Luxury suite**; that’s a deposit requirement, not an additional rate I’ve added to the estimate. This unofficial demo can’t check availability or reserve the stay.",
+        "[Tool Result: getCurrentTime] (output omitted)",
+        "[Tool Result: calculate_happy_tails_estimate] (output omitted)"
+      ],
+      "is_error": false,
+      "latency_s": 5.55
+    },
+    {
+      "i": 3,
+      "customer": "Ok, and it's just 24 hours notice to cancel like normal, right?",
+      "blocks": [
+        "Not for Christmas dates. The holiday policy requires **five days’ cancellation notice**; a late cancellation or no-show forfeits the **$150 Luxury-suite deposit**. The 24-hour notice rule applies to non-holiday dog boarding."
+      ],
+      "is_error": false,
+      "latency_s": 3.18
+    }
+  ],
+  "status": "ok",
+  "finished": "2026-11-11T20:01:16.444792+00:00"
+}

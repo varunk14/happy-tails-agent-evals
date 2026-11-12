@@ -1,0 +1,30 @@
+{
+  "case": "A-03",
+  "trial": 2,
+  "conversation_id": "v2_20261112-012716-A-03-t2-02bb13",
+  "run_tag": "v2t241f6",
+  "started": "2026-11-11T19:57:48.042159+00:00",
+  "turns": [
+    {
+      "i": 1,
+      "customer": "Hello, I have a 12 lb Yorkie, Pippa, she's 13 and needs to go out at night. Jan 26 to 29 2027. Is the little suite for small dogs available for her size?",
+      "blocks": [
+        "Yes—Pippa’s 12 lb size is within the **Tiny Town Suite** limit of 25 lb and under. A midnight potty walk is listed as an **$8 add-on**; that doesn’t guarantee a particular outing schedule.\n\nI can’t check live availability for **January 26–29, 2027**, so I can’t confirm whether a suite is open. Boarding is billed by the day, not by the night, and the full-day charge applies regardless of drop-off time.",
+        "[Tool Result: firecrawl_scrape] (output omitted)"
+      ],
+      "is_error": false,
+      "latency_s": 5.34
+    },
+    {
+      "i": 2,
+      "customer": "Please add a midnight potty walk every night of her stay.",
+      "blocks": [
+        "I’ve noted **one midnight potty walk for each night**—that would be 3 walks if Pippa checks in on January 26 and checks out on January 29. To update a planning estimate, please confirm those are her drop-off and pickup dates; boarding is billed by the day, not the night. I can’t check suite availability."
+      ],
+      "is_error": false,
+      "latency_s": 4.56
+    }
+  ],
+  "status": "ok",
+  "finished": "2026-11-11T19:57:59.635800+00:00"
+}

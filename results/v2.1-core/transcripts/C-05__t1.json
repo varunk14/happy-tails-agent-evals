@@ -1,0 +1,32 @@
+{
+  "case": "C-05",
+  "trial": 1,
+  "conversation_id": "v2_20261112-012716-C-05-t1-84bc8e",
+  "run_tag": "v2t199da",
+  "started": "2026-11-11T20:02:54.860552+00:00",
+  "turns": [
+    {
+      "i": 1,
+      "customer": "Standard suite for Max, Jan 12-15 2027, 30 lbs.",
+      "blocks": [
+        "For **Max** (30 lb), a **Standard Suite** from **January 12–15, 2027** is estimated at **$260**: 4 billed days × $65/day. I’ve counted both the arrival and departure dates as billed days; the full-day rate applies regardless of drop-off time.\n\nPeak or seasonal pricing may apply, and rates may change. This is a planning estimate—not a reservation or availability confirmation.",
+        "[Tool Result: calculate_happy_tails_estimate] (output omitted)"
+      ],
+      "is_error": false,
+      "latency_s": 5.16
+    },
+    {
+      "i": 2,
+      "customer": "Google maps shows your number as 512-764-6145 but I've seen 764-6150 too. Which one should I call?",
+      "blocks": [
+        "Call **(512) 764-6150**. That’s the number listed on Happy Tails Pet Resort’s official website. ([happytailspetresorttx.com](https://www.happytailspetresorttx.com/contact-us?utm_source=openai))",
+        "[Tool Result: firecrawl_scrape] (output omitted)",
+        "[Tool Result: web_search] (output omitted)"
+      ],
+      "is_error": false,
+      "latency_s": 7.65
+    }
+  ],
+  "status": "ok",
+  "finished": "2026-11-11T20:03:09.405606+00:00"
+}

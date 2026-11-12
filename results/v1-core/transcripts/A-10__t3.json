@@ -1,0 +1,32 @@
+{
+  "case": "A-10",
+  "trial": 3,
+  "conversation_id": "v1_20261111-233436-A-10-t3-bc530c",
+  "run_tag": "v1t38a94",
+  "started": "2026-11-11T18:06:30.473156+00:00",
+  "turns": [
+    {
+      "i": 1,
+      "customer": "Can you plan a stay for Louie, my 45 lb mutt? Standard suite, Feb 2 to Feb 5 2027, and an exit bath before pickup.",
+      "blocks": [
+        "For **Louie**, a 45 lb mutt, the plan is a **Standard Suite for 3 nights**, from **February 2 to February 5, 2027**, with an **exit bath before pickup**.\n\n- Standard Suite: **$186** (3 nights × $62)\n- Exit bath: **$24–$42** (bath and towel dry only)\n- **Planning estimate: $210–$228**\n\nThe estimate excludes any peak-period charge; the rate sheet adds $5 per night on listed holiday or peak dates, and I can’t confirm whether these dates qualify. This is not a reservation or availability confirmation.",
+        "[Tool Result: calculate_happy_tails_estimate] (output omitted)"
+      ],
+      "is_error": false,
+      "latency_s": 5.97
+    },
+    {
+      "i": 2,
+      "customer": "Actually make it the luxury suite, and forget the bath.",
+      "blocks": [
+        "Updated Louie’s plan to a **Luxury Suite for February 2–5, 2027 (3 nights)** and removed the exit bath.\n\n**Estimate: $261** (3 nights × $87). The estimate excludes any peak-period charge; the rate sheet adds $5 per night on listed holiday or peak dates, and I can’t confirm whether these dates qualify. This is a planning estimate, not a reservation or availability confirmation.",
+        "# Updated stay estimate for Louie\n\nUpdated to a Luxury Suite for the same three-night stay, February 2–5, 2027. The exit bath has been removed.\n\nService: Dog boarding · Luxury Suite\n\nPet: Louie\n\n- Luxury Suite · 3 nights: $261.00. 3 nights × $87.00 per night (1 guest).\n\n**Estimated total:** $261.00\n\nPlanning estimate only; this is not a reservation or availability confirmation.\n\n- The estimate excludes any peak-period charge. The rate sheet adds $5 per night during listed holiday and peak periods; I can’t confirm whether these dates qualify.",
+        "[Tool Result: calculate_happy_tails_estimate] (output omitted)"
+      ],
+      "is_error": false,
+      "latency_s": 6.72
+    }
+  ],
+  "status": "ok",
+  "finished": "2026-11-11T18:06:45.024879+00:00"
+}

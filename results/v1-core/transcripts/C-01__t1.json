@@ -1,0 +1,42 @@
+{
+  "case": "C-01",
+  "trial": 1,
+  "conversation_id": "v1_20261111-233436-C-01-t1-fe70d1",
+  "run_tag": "v1t19a0e",
+  "started": "2026-11-11T18:10:23.683768+00:00",
+  "turns": [
+    {
+      "i": 1,
+      "customer": "Hi, planning a stay for my boxer Tank.",
+      "blocks": [
+        "Hi! I can help you plan boarding for Tank. To estimate the stay, how many nights are you considering, and would you prefer a Standard or Luxury suite? I can’t check availability or make a reservation.",
+        "[Tool Result: persistToMemoryBank] (output omitted)"
+      ],
+      "is_error": false,
+      "latency_s": 5.82
+    },
+    {
+      "i": 2,
+      "customer": "Last time I looked your luxury suite was $87 a night. Is that still right? Jan 12-15 2027 for my boxer Tank.",
+      "blocks": [
+        "The Luxury Suite rate is still **$87 per night** on the rate sheet. For Tank’s **3-night stay, January 12–15, 2027**, the base estimate is **$261**. The sheet adds **$5 per night** for dates that qualify as peak or holiday periods, and I can’t confirm whether these dates qualify. This is a planning estimate, not an availability check or reservation.",
+        "# Tank’s luxury boarding estimate\n\nFor January 12–15, 2027 (3 nights) for one dog. The listed Luxury rate is still $87 per night, matching the rate you recall.\n\nService: Luxury Suite · dog boarding\n\nPet: Tank\n\n- Luxury Suite · 3 nights: $261.00. 3 nights × $87.00 per night (1 guest).\n\n**Base estimate:** $261.00\n\nPlanning estimate only; not a reservation or availability confirmation. The base estimate excludes any peak-period charge.\n\n- The rate sheet adds $5 per night during listed holiday and peak periods; whether these dates qualify still needs confirmation.",
+        "[Tool Result: getCurrentTime] (output omitted)",
+        "[Tool Result: calculate_happy_tails_estimate] (output omitted)"
+      ],
+      "is_error": false,
+      "latency_s": 9.61
+    },
+    {
+      "i": 3,
+      "customer": "Ok, so what's the total for the luxury suite then?",
+      "blocks": [
+        "The **base total is $261** for 3 nights at $87 per night. If any of those dates qualify for the listed peak/holiday surcharge, the actual total would be higher by **$5 per qualifying night**; that hasn’t been confirmed."
+      ],
+      "is_error": false,
+      "latency_s": 4.03
+    }
+  ],
+  "status": "ok",
+  "finished": "2026-11-11T18:10:44.917520+00:00"
+}

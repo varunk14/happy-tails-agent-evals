@@ -1,0 +1,31 @@
+{
+  "case": "A-08",
+  "trial": 2,
+  "conversation_id": "v2final_20261112-101154-A-08-t2-22764f",
+  "run_tag": "v2finalt28235",
+  "started": "2026-11-12T04:43:31.139779+00:00",
+  "turns": [
+    {
+      "i": 1,
+      "customer": "We just got a 4 month old puppy, Biscuit, and she's chewing everything. What training do you offer for puppies and how much?",
+      "blocks": [
+        "Happy Tails offers a **puppy consultation for $120** for puppies six months and younger. Since Biscuit is four months old, she fits the listed age range. The at-home consultation can cover chewing, along with housebreaking, crate training, socialization, jumping, nipping, and basic commands. Happy Tails describes its training as positive and rewards-based.",
+        "[Tool Result: filesystem] (output omitted)",
+        "[Tool Result: calculate_happy_tails_estimate] (output omitted)"
+      ],
+      "is_error": false,
+      "latency_s": 4.89
+    },
+    {
+      "i": 2,
+      "customer": "She's 4 months, so the puppy consultation works for her? Can you come to our house?",
+      "blocks": [
+        "Yes. Happy Tails lists a **$120 at-home puppy consultation for puppies 6 months and younger**, so Biscuit’s age fits the published criteria."
+      ],
+      "is_error": false,
+      "latency_s": 2.64
+    }
+  ],
+  "status": "ok",
+  "finished": "2026-11-12T04:43:40.219609+00:00"
+}

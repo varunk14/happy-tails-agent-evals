@@ -1,0 +1,33 @@
+{
+  "case": "C-08",
+  "trial": 3,
+  "conversation_id": "v1_20261111-233436-C-08-t3-b09855",
+  "run_tag": "v1t3e359",
+  "started": "2026-11-11T18:12:20.426108+00:00",
+  "turns": [
+    {
+      "i": 1,
+      "customer": "My puppy Olive is 5 and a half months old. Can she still do the puppy consultation? Your sheet says it's $110 and for puppies 5 months and under.",
+      "blocks": [
+        "The rate sheet lists the puppy consultation at **$110** and describes it as for puppies **5 months and under**. Olive is 5½ months, so she’s just outside that stated age range. I can’t confirm whether the provider would still make an exception or recommend another consultation—please check with them directly.",
+        "[Tool Result: filesystem] (output omitted)",
+        "[Tool Result: calculate_happy_tails_estimate] (output omitted)"
+      ],
+      "is_error": false,
+      "latency_s": 6.11
+    },
+    {
+      "i": 2,
+      "customer": "Great, can you get the trainer to come to us?",
+      "blocks": [
+        "The rate sheet lists an **off-site individual consultation for $200**. I can’t confirm whether the trainer can travel to your home, or whether that consultation is the right option for Olive given the puppy consultation’s stated age limit of 5 months and under. The estimate doesn’t confirm an appointment or travel availability.\n\nWould you like help drafting an inquiry asking whether the trainer can come to you and what consultation they recommend for Olive?",
+        "The rate sheet lists an **off-site individual consultation for $200**, but I can’t confirm whether the trainer can travel to your home, or whether this option is appropriate for Olive given the sheet’s puppy-consultation age limit (5 months and under). The estimate is for planning only—not a confirmed appointment or travel availability.\n\nWould you like to ask the trainer whether they can come to you and what consultation they recommend for Olive?",
+        "[Tool Result: calculate_happy_tails_estimate] (output omitted)"
+      ],
+      "is_error": false,
+      "latency_s": 8.12
+    }
+  ],
+  "status": "ok",
+  "finished": "2026-11-11T18:12:36.431505+00:00"
+}

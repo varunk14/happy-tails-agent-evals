@@ -1,0 +1,31 @@
+{
+  "case": "A-01",
+  "trial": 2,
+  "conversation_id": "v2_20261112-012716-A-01-t2-c1d0e0",
+  "run_tag": "v2t2559c",
+  "started": "2026-11-11T19:57:18.911424+00:00",
+  "turns": [
+    {
+      "i": 1,
+      "customer": "hi! need boarding for my beagle Rufus, Jan 12 to Jan 15 2027. he's 28 lbs. standard room is fine, how much?",
+      "blocks": [
+        "For Rufus, the **4-day Standard Suite estimate is $260** ($65 per billed day). Boarding is billed by the day, not the night, and the full-day rate applies regardless of drop-off time.\n\nPeak or seasonal pricing may apply to **January 12–15, 2027**, and rates may change, so this is a planning estimate—not a reservation or availability confirmation.",
+        "[Tool Result: calculate_happy_tails_estimate] (output omitted)"
+      ],
+      "is_error": false,
+      "latency_s": 4.44
+    },
+    {
+      "i": 2,
+      "customer": "cool. can you add 2 nature walks for him while he's there",
+      "blocks": [
+        "Adding **2 nature walk enrichment sessions ($50)** brings Rufus’s estimate to **$310**: $260 for 4 billed days in a Standard Suite, plus the walks. Peak or seasonal pricing may apply to those dates, so this is a planning estimate, not a reservation or availability confirmation.",
+        "[Tool Result: calculate_happy_tails_estimate] (output omitted)"
+      ],
+      "is_error": false,
+      "latency_s": 5.05
+    }
+  ],
+  "status": "ok",
+  "finished": "2026-11-11T19:57:30.153408+00:00"
+}

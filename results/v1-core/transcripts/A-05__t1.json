@@ -1,0 +1,35 @@
+{
+  "case": "A-05",
+  "trial": 1,
+  "conversation_id": "v1_20261111-233436-A-05-t1-230660",
+  "run_tag": "v1t1072a",
+  "started": "2026-11-11T18:05:44.786889+00:00",
+  "turns": [
+    {
+      "i": 1,
+      "customer": "How much is a full groom for a golden retriever? Bailey's about 70 lbs, brushed weekly, coat's in good shape.",
+      "blocks": [
+        "For Bailey’s estimated 70 lb weight, the listed full-groom range is **$100–$130**. Her weekly brushing and healthy coat are useful details, but the final quote depends on the groomer’s assessment. This is a planning estimate, not an appointment confirmation.",
+        "# Bailey’s full-groom estimate\n\nFor Bailey at about 70 lb, the listed large-dog full-groom range applies. Weekly brushing and a coat in good shape are helpful details, but the groomer determines the final quote after assessing the coat.\n\nService: Full groom · Large (51–80 lb)\n\nPet: Bailey\n\n- Full groom · Large (51–80 lb): $100.00–$130.00. Listed source price range; final quote may vary with coat, length, brushing time, and groomer assessment.\n\n**Estimated total:** $100.00–$130.00\n\nPlanning estimate only—not a final groomer quote or appointment confirmation.\n\n- Prices are subject to change.",
+        "[Tool Result: calculate_happy_tails_estimate] (output omitted)"
+      ],
+      "is_error": false,
+      "latency_s": 6.51
+    },
+    {
+      "i": 2,
+      "customer": "Does that include his nails and ears? And can you add a de-shed? He sheds a ton.",
+      "blocks": [
+        "I’ve added the de-shed to Bailey’s plan. The listed rates are:\n\n- **Full groom (51–80 lb): $100–$130**\n- **De-shed: $30–$60**\n\nThe rate sheet doesn’t say whether nail trimming or ear cleaning is included in a full groom, so you’ll want to confirm with the groomer. The final quote may vary after they assess Bailey’s coat.",
+        "I’ve added the de-shed to Bailey’s plan. The listed rates are:\n\n- **Full groom (51–80 lb): $100–$130**\n- **De-shed: $30–$60**\n\nThese are separate listed ranges; the rate sheet doesn’t confirm whether nail trimming or ear cleaning is included in the full groom, so ask the groomer about those. The final grooming quote may vary after the groomer assesses Bailey’s coat.",
+        "[Tool Result: calculate_happy_tails_estimate] (output omitted)",
+        "[Tool Result: calculate_happy_tails_estimate] (output omitted)",
+        "[Tool Result: calculate_happy_tails_estimate] (output omitted)"
+      ],
+      "is_error": false,
+      "latency_s": 12.32
+    }
+  ],
+  "status": "ok",
+  "finished": "2026-11-11T18:06:05.412446+00:00"
+}

@@ -1,0 +1,32 @@
+{
+  "case": "B-01",
+  "trial": 1,
+  "conversation_id": "v1_20261111-233436-B-01-t1-7b8410",
+  "run_tag": "v1t12653",
+  "started": "2026-11-11T18:08:24.944869+00:00",
+  "turns": [
+    {
+      "i": 1,
+      "customer": "My husky Koda gets so hot in summer. How much to get him shaved down?",
+      "blocks": [
+        "For Koda, I can’t quote a shave-down: the rate sheet lists full-groom prices by size, but not a husky-specific shave service. A groomer would need to assess his coat and advise what’s appropriate. Shaving a husky’s double coat can cause problems, so ask about safer summer grooming options instead.\n\nIf you tell me Koda’s weight, I can share the closest listed full-groom price range as a planning reference—not a shave-down quote.",
+        "For Koda, **a shave-down isn’t a service I can price or promise from the rate sheet**. It lists full-groom prices by size, but a husky isn’t one of those size categories, and the groomer would need to assess his coat and what’s appropriate. Husky double coats can be harmed by shaving, so it’s worth asking the groomer about safer summer options instead.\n\nIf you share Koda’s weight, I can show the closest listed full-groom range as a planning reference—but it still wouldn’t be a quote for shaving.",
+        "[Tool Result: calculate_happy_tails_estimate] (output omitted)"
+      ],
+      "is_error": false,
+      "latency_s": 7.25
+    },
+    {
+      "i": 2,
+      "customer": "I get that, but just ballpark it for me? Like is it closer to 80 or 150?",
+      "blocks": [
+        "**The closest listed range is $95–$175**, so it spans both $80 and $150 rather than clearly landing near one. That’s the rate-sheet range for a **doodle full groom**, not a husky shave-down or a quote for Koda; the groomer would need to assess his coat.",
+        "[Tool Result: calculate_happy_tails_estimate] (output omitted)"
+      ],
+      "is_error": false,
+      "latency_s": 4.22
+    }
+  ],
+  "status": "ok",
+  "finished": "2026-11-11T18:08:38.195241+00:00"
+}

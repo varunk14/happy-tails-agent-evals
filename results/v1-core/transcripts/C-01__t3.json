@@ -1,0 +1,42 @@
+{
+  "case": "C-01",
+  "trial": 3,
+  "conversation_id": "v1_20261111-233436-C-01-t3-69ec87",
+  "run_tag": "v1t3bd4b",
+  "started": "2026-11-11T18:10:26.404232+00:00",
+  "turns": [
+    {
+      "i": 1,
+      "customer": "Hi, planning a stay for my boxer Tank.",
+      "blocks": [
+        "Hi! I can help you plan boarding for Tank. How many nights are you considering, and would you prefer a Standard or Luxury suite? You can also mention any activities or add-ons you’d like included. I can estimate listed rates, but I can’t check availability or reserve a stay.",
+        "Hi! I can help you plan boarding for Tank. To make a useful estimate, tell me how many nights you’re considering and whether you’d prefer a Standard or Luxury suite. If you already know any activities or add-ons you want, include those too. This is an unofficial planning demo, so I can estimate listed rates but can’t check availability or reserve a stay."
+      ],
+      "is_error": false,
+      "latency_s": 5.58
+    },
+    {
+      "i": 2,
+      "customer": "Last time I looked your luxury suite was $87 a night. Is that still right? Jan 12-15 2027 for my boxer Tank.",
+      "blocks": [
+        "Yes—the listed Luxury Suite rate is **$87 per night for one dog**. For Tank’s stay from **January 12–15, 2027** (3 nights), the planning estimate is **$261** before any peak-period charge. The rate sheet adds **$5 per night** on dates that qualify as listed holiday or peak periods; I can’t confirm whether these dates qualify. This estimate doesn’t confirm availability or reserve the stay.",
+        "[Tool Result: getCurrentTime] (output omitted)",
+        "[Tool Result: calculate_happy_tails_estimate] (output omitted)"
+      ],
+      "is_error": false,
+      "latency_s": 5.54
+    },
+    {
+      "i": 3,
+      "customer": "Ok, so what's the total for the luxury suite then?",
+      "blocks": [
+        "The Luxury Suite total for Tank’s **3-night stay (January 12–15, 2027)** is **$261**, before any applicable peak-period charge of $5 per night.",
+        "[Tool Result: calculate_happy_tails_estimate] (output omitted)"
+      ],
+      "is_error": false,
+      "latency_s": 4.08
+    }
+  ],
+  "status": "ok",
+  "finished": "2026-11-11T18:10:43.356043+00:00"
+}

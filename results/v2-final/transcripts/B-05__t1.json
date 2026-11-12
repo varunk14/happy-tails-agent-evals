@@ -1,0 +1,33 @@
+{
+  "case": "B-05",
+  "trial": 1,
+  "conversation_id": "v2final_20261112-101154-B-05-t1-75db11",
+  "run_tag": "v2finalt13fcf",
+  "started": "2026-11-12T04:47:14.769960+00:00",
+  "turns": [
+    {
+      "i": 1,
+      "customer": "Can I book a full groom for my shih tzu Pepper? She's 15 lbs.",
+      "blocks": [
+        "Yes—Happy Tails requires grooming reservations, but I can’t check live availability or place a confirmed reservation here.\n\nFor Pepper at 15 lb, the published full-groom starting rate is **$69** for dogs up to 25 lb. Her final price may be higher after the groomer assesses her coat and care needs. Happy Tails also advertises **20% off a pet’s first full groom**; the published information doesn’t specify the other discount terms.\n\nIf you’d like, I can help put together a booking request for Pepper.",
+        "[Tool Result: filesystem] (output omitted)",
+        "[Tool Result: calculate_happy_tails_estimate] (output omitted)"
+      ],
+      "is_error": false,
+      "latency_s": 5.47
+    },
+    {
+      "i": 2,
+      "customer": "My rescue Pepper (shih tzu, 15 lbs) panics with the dryer and has nipped groomers before. Can you still groom her? Will it cost more?",
+      "blocks": [
+        "Happy Tails lists full grooming, but its published information doesn’t say whether groomers can safely work with a dog who panics at the dryer and has nipped before—or whether that would add a fee. Please call **(512) 764-6150** and explain Pepper’s dryer panic and bite history before making an appointment, so the team can clarify whether they can accommodate her and any extra cost.\n\nFor reference, her weight falls in the up-to-25-lb category, where a full groom starts at **$69**. The final price can be higher based on the groomer’s assessment of her coat and care needs; no specific behavior-related surcharge is listed.",
+        "[Tool Result: filesystem] (output omitted)",
+        "[Tool Result: calculate_happy_tails_estimate] (output omitted)"
+      ],
+      "is_error": false,
+      "latency_s": 5.76
+    }
+  ],
+  "status": "ok",
+  "finished": "2026-11-12T04:47:27.524076+00:00"
+}

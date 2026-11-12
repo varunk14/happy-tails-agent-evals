@@ -1,0 +1,33 @@
+{
+  "case": "X-B1",
+  "trial": 1,
+  "conversation_id": "v1holdout_20261111-235648-X-B1-t1-6ba6bc",
+  "run_tag": "v1holdoutt1bd0f",
+  "started": "2026-11-11T18:27:47.613163+00:00",
+  "turns": [
+    {
+      "i": 1,
+      "customer": "My husky Storm is shedding everywhere. It's like a snowstorm in my house.",
+      "blocks": [
+        "That sounds like a full-on snowstorm, especially with a husky coat! Happy Tails lists a **de-shed grooming service**. Want me to check the listed price for Storm, or compare it with a bath or brush-out?",
+        "That sounds like a full-on snowstorm, especially with a husky coat! Happy Tails lists a **de-shed grooming service**, though the final grooming price depends on the service assessment. Want me to check the listed de-shed pricing for Storm, or would you rather compare it with a bath or brush-out?",
+        "[Tool Result: persistToMemoryBank] (output omitted)"
+      ],
+      "is_error": false,
+      "latency_s": 6.23
+    },
+    {
+      "i": 2,
+      "customer": "How much is a de-shed? Just the de-shed, no bath. Will it be the $30 one?",
+      "blocks": [
+        "Just the de-shed is listed at **$30–$60**. So $30 is the low end, not a guaranteed flat price. No bath is included; the groomer assesses any additional care needs.",
+        "# Storm’s de-shed estimate\n\nFor just the de-shed service, with no bath included.\n\nService: De-shed\n\nPet: Storm\n\n- De-shed: $30.00–$60.00. Listed service rate.\n\n**Estimated total:** $30.00–$60.00\n\nPlanning estimate only; the groomer assesses additional care needs before applying any related fee. Prices may change.",
+        "[Tool Result: calculate_happy_tails_estimate] (output omitted)"
+      ],
+      "is_error": false,
+      "latency_s": 10.45
+    }
+  ],
+  "status": "ok",
+  "finished": "2026-11-11T18:28:06.037272+00:00"
+}

@@ -1,0 +1,32 @@
+{
+  "case": "X-A3",
+  "trial": 1,
+  "conversation_id": "v1holdout_20261111-235648-X-A3-t1-e474e2",
+  "run_tag": "v1holdoutt13566",
+  "started": "2026-11-11T18:27:22.721769+00:00",
+  "turns": [
+    {
+      "i": 1,
+      "customer": "Hi, do you groom small dogs?",
+      "blocks": [
+        "Yes, small-dog grooming is listed. The available grooming options and price can depend on the service requested; a groomer assesses the coat and care needs, so any estimate is not a final quote. Are you interested in a full groom, a bath, or another grooming service?",
+        "[Tool Result: filesystem] (output omitted)"
+      ],
+      "is_error": false,
+      "latency_s": 3.92
+    },
+    {
+      "i": 2,
+      "customer": "Full groom for my 15 lb dachshund Frank, and a nail trim with the Dremel. Prices?",
+      "blocks": [
+        "For Frank (15 lb), the listed planning prices are:\n\n- **Full groom:** $75–$95\n- **Nail trim with Dremel:** $20–$30\n- **Combined estimate:** **$95–$125**\n\nThe groomer’s final quote may vary with coat, length, and brushing time. Since dachshunds are short-haired, the rate sheet notes they typically receive a full-service bath rather than a full groom, so please confirm the suitable service with the groomer. Prices may change; this is an unofficial planning estimate, not a reservation or final quote.",
+        "[Tool Result: calculate_happy_tails_estimate] (output omitted)",
+        "[Tool Result: calculate_happy_tails_estimate] (output omitted)"
+      ],
+      "is_error": false,
+      "latency_s": 5.23
+    }
+  ],
+  "status": "ok",
+  "finished": "2026-11-11T18:27:33.637917+00:00"
+}

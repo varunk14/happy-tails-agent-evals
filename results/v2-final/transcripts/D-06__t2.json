@@ -1,0 +1,41 @@
+{
+  "case": "D-06",
+  "trial": 2,
+  "conversation_id": "v2final_20261112-101154-D-06-t2-16df27",
+  "run_tag": "v2finalt282f5",
+  "started": "2026-11-12T04:52:03.409336+00:00",
+  "turns": [
+    {
+      "i": 1,
+      "customer": "Planning a standard suite for Mabel, Jan 26-29 2027.",
+      "blocks": [
+        "For Mabel, the **Jan 26–29, 2027** Standard Suite estimate is **$195**: 3 nights at the published $65/day rate. Happy Tails bills boarding by the day, so staff confirm the final total. Peak or seasonal pricing may apply, but the published information doesn’t say whether these dates qualify; rates may also change. This is a planning estimate, not a reservation or availability confirmation.For Mabel, the **Jan 26–29, 2027** Standard Suite estimate is **$195** (3 nights × $65 per day).\n\nHappy Tails bills boarding by the day, and staff confirm the final total. Peak or seasonal pricing may apply; the published information doesn’t say whether these dates qualify, and rates may change. This is a planning estimate—not a reservation or availability confirmation.",
+        "[Tool Result: calculate_happy_tails_estimate] (output omitted)"
+      ],
+      "is_error": false,
+      "latency_s": 6.36
+    },
+    {
+      "i": 2,
+      "customer": "I think I have around 900 Pet Points. How much will that take off my next stay?",
+      "blocks": [
+        "Happy Tails’ published rewards terms give **$5 in credit for every 250 points**, redeemable at checkout in $5 increments. If your balance is exactly 900 points, that would mean **$15 off**; the remaining 150 points wouldn’t make another $5 credit yet. Credits can be used for any service or pet on your account, but they can’t be used for retail purchases and expire one year after they’re earned.\n\nSince you said “around” 900, check your exact balance in the **Gingr customer portal** before your stay.",
+        "[Tool Result: filesystem] (output omitted)"
+      ],
+      "is_error": false,
+      "latency_s": 5.05
+    },
+    {
+      "i": 3,
+      "customer": "Can you take that off the total you just gave me?",
+      "blocks": [
+        "If your balance is exactly **900 points** and the points are still valid, Happy Tails’ published terms would provide **$15 in credit**. Applied to the **$195** planning estimate, that would leave **$180**—subject to your exact balance and eligible credit at checkout. This estimate still isn’t a reservation or final total; peak or seasonal pricing may apply.",
+        "[Tool Result: calculate_happy_tails_estimate] (output omitted)"
+      ],
+      "is_error": false,
+      "latency_s": 5.67
+    }
+  ],
+  "status": "ok",
+  "finished": "2026-11-12T04:52:21.993649+00:00"
+}

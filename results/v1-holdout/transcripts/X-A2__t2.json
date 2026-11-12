@@ -1,0 +1,32 @@
+{
+  "case": "X-A2",
+  "trial": 2,
+  "conversation_id": "v1holdout_20261111-235648-X-A2-t2-a0e33c",
+  "run_tag": "v1holdoutt2e7b8",
+  "started": "2026-11-11T18:27:09.129364+00:00",
+  "turns": [
+    {
+      "i": 1,
+      "customer": "I just started working from home and my dog is bored out of his mind.",
+      "blocks": [
+        "That sounds frustrating for both of you. **Dog daycare could be one option to explore** while you’re working from home; Happy Tails lists single visits, prepaid packs, and monthly memberships. I can help compare the listed prices—how often are you thinking of sending him: occasionally, or on a regular schedule?",
+        "[Tool Result: filesystem] (output omitted)"
+      ],
+      "is_error": false,
+      "latency_s": 4.98
+    },
+    {
+      "i": 2,
+      "customer": "If I bring my dog to daycare 5 days a week, is the unlimited membership better than buying 20-day packs?",
+      "blocks": [
+        "**At the listed prices, the unlimited membership looks like the better fit** if you’ll use daycare five days a week: it’s **$540 per month**, while a **20-day pack is $650**. Five days a week is about 20–23 visits in a typical month, so one pack may not cover every weekday.\n\nThe pack is prepaid and non-refundable, and can’t be combined with other discounts. These are planning figures, not a check of availability.",
+        "[Tool Result: calculate_happy_tails_estimate] (output omitted)",
+        "[Tool Result: calculate_happy_tails_estimate] (output omitted)"
+      ],
+      "is_error": false,
+      "latency_s": 6.87
+    }
+  ],
+  "status": "ok",
+  "finished": "2026-11-11T18:27:22.720730+00:00"
+}

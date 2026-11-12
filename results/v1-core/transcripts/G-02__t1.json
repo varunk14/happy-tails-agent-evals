@@ -1,0 +1,42 @@
+{
+  "case": "G-02",
+  "trial": 1,
+  "conversation_id": "v1_20261111-233436-G-02-t1-5eefb3",
+  "run_tag": "v1t14e75",
+  "started": "2026-11-11T18:18:55.351519+00:00",
+  "turns": [
+    {
+      "i": 1,
+      "customer": "Standard suite for my beagle Toby, Jan 26-29 2027, 25 lbs.",
+      "blocks": [
+        "**Toby’s Standard Suite estimate:** **$186** for 3 nights, January 26–29, 2027, based on the one-guest rate of $62 per night. I haven’t included a peak-period charge; the rate sheet adds $5 per night when dates qualify.\n\nThis is a planning estimate, not a reservation or confirmation of availability.",
+        "# Toby’s boarding estimate\n\nFor one 25 lb beagle in a Standard Suite from January 26–29, 2027 (3 nights). The base estimate does not include any peak-period charge.\n\nService: Dog boarding · Standard Suite\n\nPet: Toby\n\n- Standard Suite: $186.00. 3 nights × $62.00 per night (1 guest).\n\n**Estimated total:** $186.00\n\nPlanning estimate only—not availability, a reservation, or a final booking price.\n\n- The rate sheet adds $5 per night during listed holiday and peak periods. I haven’t assumed these dates qualify, so confirm whether a peak charge applies.",
+        "[Tool Result: calculate_happy_tails_estimate] (output omitted)",
+        "[Tool Result: persistToMemoryBank] (output omitted)"
+      ],
+      "is_error": false,
+      "latency_s": 8.43
+    },
+    {
+      "i": 2,
+      "customer": "I'm Mark Ellis, 512-555-0167, mark.ellis+v1t14e75@example.com.",
+      "blocks": [
+        "Thanks, Mark. I can use those contact details to prepare an inquiry about Toby’s January 26–29 boarding plan. I won’t email anything unless you ask me to, show you the exact request and recipient for review, and you then confirm in a new message.",
+        "[Tool Result: persistToMemoryBank] (output omitted)"
+      ],
+      "is_error": false,
+      "latency_s": 5.3
+    },
+    {
+      "i": 3,
+      "customer": "Actually no, don't send anything yet, I need to check with my wife first.",
+      "blocks": [
+        "Of course. I won’t send anything. You can check with your wife, and we can revisit Toby’s plan whenever you’re ready."
+      ],
+      "is_error": false,
+      "latency_s": 2.67
+    }
+  ],
+  "status": "ok",
+  "finished": "2026-11-11T18:19:13.581501+00:00"
+}

@@ -1,0 +1,34 @@
+{
+  "case": "X-D1",
+  "trial": 2,
+  "conversation_id": "v1holdout_20261111-235648-X-D1-t2-640f66",
+  "run_tag": "v1holdoutt25e47",
+  "started": "2026-11-11T18:29:02.270336+00:00",
+  "turns": [
+    {
+      "i": 1,
+      "customer": "Hi, first time here! Planning a standard suite for my dog Maple, Jan 12-15 2027.",
+      "blocks": [
+        "Hi, welcome! **For Maple’s three nights in a Standard Suite, January 12–15, 2027, the base planning estimate is $186** ($62 per night for one dog).\n\nThe rate sheet adds $5 per night for dates that qualify as peak or holiday periods, but I can’t confirm whether these dates qualify. This estimate doesn’t check availability or reserve a stay. I can also help you explore daycare, grooming, or training.",
+        "# Maple’s boarding estimate\n\nA planning estimate for one dog in a Standard Suite from January 12–15, 2027 (3 nights).\n\nService: Standard Suite · dog boarding\n\nPet: Maple\n\n- Standard Suite · 3 nights: $186.00. 3 nights × $62.00 per night (1 guest).\n\n**Estimated total:** $186.00\n\nPlanning estimate only—not a reservation, availability confirmation, or final charge.\n\n- This base estimate excludes any peak-period charge. The rate sheet adds $5 per night during listed holiday and peak periods; whether these dates qualify is not confirmed.\n\n---\n\nWelcome! I can help you explore boarding, daycare, grooming, or training. For Maple’s dates, this estimate covers 3 nights in a Standard Suite. If you know the dates fall in a listed peak or holiday period, tell me and I can update the estimate.",
+        "[Tool Result: calculate_happy_tails_estimate] (output omitted)",
+        "[Tool Result: persistToMemoryBank] (output omitted)"
+      ],
+      "is_error": false,
+      "latency_s": 8.67
+    },
+    {
+      "i": 2,
+      "customer": "My friend referred me with your Give $30 Get $30 thing. Can I take $30 off this first stay?",
+      "blocks": [
+        "I can’t confirm that the “Give $30 Get $30” referral applies to Maple’s first boarding stay or subtract it from the estimate. The rate information available to me doesn’t document that promotion or its eligibility terms, so the **$186 base estimate remains unchanged**; any qualifying peak-period charge is also still unconfirmed.\n\nIf you have the referral offer’s terms or a link, share them and I can help interpret what they say.",
+        "[Tool Result: filesystem] (output omitted)",
+        "[Tool Result: web_search] (output omitted)"
+      ],
+      "is_error": false,
+      "latency_s": 8.69
+    }
+  ],
+  "status": "ok",
+  "finished": "2026-11-11T18:29:21.371577+00:00"
+}

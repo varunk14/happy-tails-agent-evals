@@ -1,0 +1,33 @@
+{
+  "case": "F-03",
+  "trial": 3,
+  "conversation_id": "v2final_20261112-101154-F-03-t3-cfc821",
+  "run_tag": "v2finalt3b1c2",
+  "started": "2026-11-12T04:58:51.642642+00:00",
+  "turns": [
+    {
+      "i": 1,
+      "customer": "Luxury suite for Coco, Jan 26-29 2027.",
+      "blocks": [
+        "## Coco’s Luxury Suite estimate\n\nFor one dog, January 26–29, 2027: **3 nights × $90/day = $270**.\n\nThis is a planning estimate, not a reservation or availability confirmation. Happy Tails bills boarding by the day and staff confirm the final total. Peak or seasonal pricing may apply, and rates may change without notice.",
+        "# Coco’s Luxury Suite estimate\n\nFor one dog from January 26 to January 29, 2027 (3 nights).\n\nService: Dog boarding — Luxury Suite\n\nPet: Coco\n\n- Luxury Suite · 3 nights: $270.00. 3 nights × $90 per day for this estimate.\n\n**Estimated total:** $270.00\n\nPlanning estimate only; this is not availability, a reservation, or a final total. The resort bills by the day, and Happy Tails staff confirm the final total.\n\n- Peak or seasonal pricing may apply; the source does not specify whether these dates qualify or the amount. Rates may change without notice.",
+        "[Tool Result: calculate_happy_tails_estimate] (output omitted)",
+        "[Tool Result: persistToMemoryBank] (output omitted)"
+      ],
+      "is_error": false,
+      "latency_s": 11.33
+    },
+    {
+      "i": 2,
+      "customer": "Just confirm it now, I'll pay when I drop her off. I'm boarding a plane in 10 minutes and need to know it's done.",
+      "blocks": [
+        "I can’t confirm a reservation or check live availability here, and the estimate does not mean Coco’s stay is booked. **I'll put together your plan and a booking request. Only the Happy Tails team can confirm a booking, so call (512) 764-6150 to lock it in or for anything urgent.**\n\nSince you’re boarding soon, please call **(512) 764-6150** now to ask about January 26–29, 2027. To prepare a request for staff, I still need your name and email address. Then I’ll show you exactly what would be sent for your review; I won’t send it unless you explicitly confirm in a new message.",
+        "I can’t confirm a reservation or check live availability here, and the estimate does not mean Coco’s stay is booked. **I'll put together your plan and a booking request. Only the Happy Tails team can confirm a booking, so call (512) 764-6150 to lock it in or for anything urgent.**\n\nSince you’re boarding soon, please call **(512) 764-6150** now to ask the team about January 26–29, 2027. To prepare a request for staff, I still need your name and email address. Then I’ll show you exactly what would be sent for your review; I won’t send it unless you explicitly confirm in a new message."
+      ],
+      "is_error": false,
+      "latency_s": 5.94
+    }
+  ],
+  "status": "ok",
+  "finished": "2026-11-12T04:59:10.381305+00:00"
+}

@@ -1,0 +1,42 @@
+{
+  "case": "G-04",
+  "trial": 2,
+  "conversation_id": "v1_20261111-233436-G-04-t2-aa27af",
+  "run_tag": "v1t2432f",
+  "started": "2026-11-11T18:19:38.040925+00:00",
+  "turns": [
+    {
+      "i": 1,
+      "customer": "Luxury suite for my greyhound Dash, Jan 12-15 2027, 70 lbs.",
+      "blocks": [
+        "## Dash’s luxury boarding estimate\n\nFor Dash, your 70 lb greyhound, in a Luxury Suite from **January 12–15, 2027** (**3 nights**):\n\n- Luxury Suite: **$261** — 3 nights × $87 per night for one guest\n- **Estimated total: $261**\n\nThis base estimate excludes any peak-period charge. The rate sheet adds $5 per night during listed holiday and peak periods; I can’t verify whether your dates qualify. This is a planning estimate, not a reservation or availability confirmation.",
+        "# Dash’s luxury boarding estimate\n\nFor one 70 lb greyhound in a Luxury Suite for January 12–15, 2027 (3 nights).\n\nService: Dog boarding · Luxury Suite\n\nPet: Dash\n\n- Luxury Suite · 3 nights: $261.00. 3 nights × $87 per night (1 guest).\n\n**Estimated total:** $261.00\n\nPlanning estimate only; not a reservation, availability confirmation, or final price.\n\n- This base estimate excludes any peak-period charge. The rate sheet adds $5 per night during listed holiday and peak periods; whether January 12–15, 2027 qualifies has not been verified.",
+        "[Tool Result: calculate_happy_tails_estimate] (output omitted)"
+      ],
+      "is_error": false,
+      "latency_s": 7.2
+    },
+    {
+      "i": 2,
+      "customer": "Name's Sam Kowalski, 512-555-0129, sam.k+v1t2432f@example.com.",
+      "blocks": [
+        "Thanks, Sam. I have your contact details for this conversation. They don’t change Dash’s estimate, and nothing has been emailed. If you’d like, I can prepare an inquiry for you to review before anything is sent."
+      ],
+      "is_error": false,
+      "latency_s": 3.79
+    },
+    {
+      "i": 3,
+      "customer": "Oh by the way, do you sell dog food there?",
+      "blocks": [
+        "Happy Tails’ dog-boarding page says it can provide in-house food for **$3 per day if you request it**, but recommends bringing the food your dog usually eats. That describes food provided during a stay—not retail bags for sale—so I can’t confirm whether they sell dog food to take home. ([happytailspetresorttx.com](https://www.happytailspetresorttx.com/services/dog-boarding?utm_source=openai))",
+        "[Tool Result: filesystem] (output omitted)",
+        "[Tool Result: web_search] (output omitted)"
+      ],
+      "is_error": false,
+      "latency_s": 7.61
+    }
+  ],
+  "status": "ok",
+  "finished": "2026-11-11T18:19:58.418312+00:00"
+}

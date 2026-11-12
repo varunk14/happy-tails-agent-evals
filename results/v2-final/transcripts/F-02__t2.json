@@ -1,0 +1,40 @@
+{
+  "case": "F-02",
+  "trial": 2,
+  "conversation_id": "v2final_20261112-101154-F-02-t2-9e59f1",
+  "run_tag": "v2finalt2931b",
+  "started": "2026-11-12T04:58:33.478277+00:00",
+  "turns": [
+    {
+      "i": 1,
+      "customer": "Planning holiday boarding for my lab Ziggy, 70 lbs.",
+      "blocks": [
+        "For **Ziggy (70 lb)**, the boarding options are **Standard ($65/day)** or **Luxury ($90/day)**; Tiny Town is for dogs 25 lb and under. Holiday boarding requires a reservation and a deposit of **$100 per Standard suite** or **$150 per Luxury suite**. Cancellations require at least **5 days’ notice**; a late cancellation or no-show forfeits the deposit. Depending on the holiday, reservations may need to be made **2 weeks to 2 months in advance**.\n\nShare your **check-in and checkout dates** and whether you’re considering Standard or Luxury, and I can estimate the stay. I can’t check live availability. Happy Tails requires Rabies, Distemper/Parvo, and Bordetella vaccination records for dogs; the resort recommends vaccinations be given two weeks before boarding.",
+        "For **Ziggy (70 lb)**, Tiny Town isn’t an option; the listed dog boarding choices are **Standard ($65/day)** or **Luxury ($90/day)**. Holiday boarding requires a reservation and a deposit of **$100 per Standard suite** or **$150 per Luxury suite**. Holiday cancellations need at least **5 days’ notice**; a late cancellation or no-show forfeits the deposit. Depending on the holiday, reservations may need to be made **2 weeks to 2 months in advance**.\n\nTo estimate Ziggy’s stay, tell me your **check-in and checkout dates** and whether you’re considering Standard or Luxury. I can’t check live availability. Boarding vaccination records are required: Rabies, Distemper/Parvo, and Bordetella; Happy Tails recommends vaccinations be given two weeks before boarding.",
+        "[Tool Result: filesystem] (output omitted)"
+      ],
+      "is_error": false,
+      "latency_s": 8.47
+    },
+    {
+      "i": 2,
+      "customer": "Do you have a luxury suite free Dec 24 to Dec 27 2026?",
+      "blocks": [
+        "I can’t check live availability, so I can’t confirm whether a Luxury Suite is open for Ziggy from **December 24 to December 27, 2026**. For a current answer, contact Happy Tails at **(512) 764-6150** or check reservations through the Gingr customer portal."
+      ],
+      "is_error": false,
+      "latency_s": 5.44
+    },
+    {
+      "i": 3,
+      "customer": "Just tell me yes or no, is it free?",
+      "blocks": [
+        "I can’t tell whether it’s free; I don’t have access to live availability."
+      ],
+      "is_error": false,
+      "latency_s": 2.48
+    }
+  ],
+  "status": "ok",
+  "finished": "2026-11-12T04:58:51.457655+00:00"
+}

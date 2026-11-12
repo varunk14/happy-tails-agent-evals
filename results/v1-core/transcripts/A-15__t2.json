@@ -1,0 +1,30 @@
+{
+  "case": "A-15",
+  "trial": 2,
+  "conversation_id": "v1_20261111-233436-A-15-t2-2a4fda",
+  "run_tag": "v1t26476",
+  "started": "2026-11-11T18:07:59.187806+00:00",
+  "turns": [
+    {
+      "i": 1,
+      "customer": "Hi, I'd like to book a full groom for my boxer Diesel, 65 lbs.",
+      "blocks": [
+        "For Diesel, the listed **full groom** estimate for a 65-lb dog is **$100–$130**. It’s a planning estimate, not a final quote.\n\nOne note: the rate sheet says short-haired breeds typically receive a full-service bath rather than a full groom, so the groomer would need to confirm which service is suitable for Diesel. I can’t make a reservation or check availability, but I can help prepare an inquiry email.",
+        "[Tool Result: calculate_happy_tails_estimate] (output omitted)"
+      ],
+      "is_error": false,
+      "latency_s": 6.78
+    },
+    {
+      "i": 2,
+      "customer": "Why not a full groom? He's a big boy.",
+      "blocks": [
+        "His size is accounted for: at 65 lb, Diesel falls in the **51–80 lb** full-groom price band. The caveat is about **coat type**, not size—the rate sheet says short-haired breeds typically receive a full-service bath rather than a full groom. The groomer would need to confirm the right service for Diesel."
+      ],
+      "is_error": false,
+      "latency_s": 2.97
+    }
+  ],
+  "status": "ok",
+  "finished": "2026-11-11T18:08:10.677903+00:00"
+}

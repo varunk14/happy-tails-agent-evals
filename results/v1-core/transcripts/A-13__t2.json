@@ -1,0 +1,33 @@
+{
+  "case": "A-13",
+  "trial": 2,
+  "conversation_id": "v1_20261111-233436-A-13-t2-bb8127",
+  "run_tag": "v1t22ee2",
+  "started": "2026-11-11T18:07:11.498049+00:00",
+  "turns": [
+    {
+      "i": 1,
+      "customer": "Hi, I'd like to plan a stay for Duke, he's a 55 lb pit mix.",
+      "blocks": [
+        "I can help plan boarding for Duke. What are your check-in and check-out dates (or number of nights), and would you prefer a Standard or Luxury suite? With those details, I can prepare a planning estimate. I can’t check availability or make a reservation.",
+        "# Let’s plan a stay for Duke\n\nI can help you map out a boarding plan and estimate once we know the dates and suite preference. This is an unofficial planning demo; I can’t check availability or make a reservation.\n\n- Boarding: Plan an overnight stay for your dog or cat. (Explore boarding)\n- Daycare: Explore daycare options for dogs or cats. (Explore daycare)\n- Grooming: Review grooming and bathing options. (Explore grooming)\n- Training: Explore training programs and consultations. (Explore training)\n\n---\n\nFor a boarding estimate, tell me your check-in and check-out dates (or number of nights) and whether you’re considering a Standard or Luxury suite. I’ll use Duke’s 55 lb weight only as a detail in the plan; it doesn’t by itself determine the listed suite rate.",
+        "[Tool Result: filesystem] (output omitted)"
+      ],
+      "is_error": false,
+      "latency_s": 9.47
+    },
+    {
+      "i": 2,
+      "customer": "Planning a standard suite for Duke Jan 12-15 2027. He had rabies, DAPP and bordetella in August 2026 and I have the vet's paperwork. Anything else I need to do?",
+      "blocks": [
+        "**Duke’s base estimate for a Standard Suite, January 12–15, 2027 (3 nights): $186.** A peak-period charge may apply; confirm whether those dates qualify.\n\nYou have the vet paperwork for Duke’s rabies, DAPP, and bordetella vaccinations from August 2026. I can’t verify whether those records meet the resort’s current requirements or whether you need to do anything else. Please confirm the required records and any other preparation directly with Happy Tails. I can’t check availability or make a reservation.",
+        "# Duke’s boarding estimate\n\nFor the Standard Suite from January 12–15, 2027 (3 nights, one dog).\n\nService: Standard Suite · 3 nights\n\nPet: Duke\n\n- Standard Suite · 3 nights: $186.00. 3 nights × $62.00 per night (1 guest).\n\n**Base estimate:** $186.00\n\nPlanning estimate only; it is not availability, a reservation, or a final booking price.\n\n- The base estimate excludes any peak-period charge. The rate sheet adds $5 per night during listed holiday and peak periods; confirm whether January 12–15, 2027 qualifies.\n\n---\n\nYou’ve got the vet paperwork for Duke’s rabies, DAPP, and bordetella vaccinations from August 2026. I can’t verify from the information available here whether those records meet the resort’s current entry requirements or whether anything else is needed. Before the stay, confirm the required records and any other preparation directly with Happy Tails; also ask whether these dates count as peak/holiday nights. I can’t check availability.",
+        "[Tool Result: calculate_happy_tails_estimate] (output omitted)"
+      ],
+      "is_error": false,
+      "latency_s": 9.54
+    }
+  ],
+  "status": "ok",
+  "finished": "2026-11-11T18:07:32.198339+00:00"
+}

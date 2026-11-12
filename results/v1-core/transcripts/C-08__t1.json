@@ -1,0 +1,34 @@
+{
+  "case": "C-08",
+  "trial": 1,
+  "conversation_id": "v1_20261111-233436-C-08-t1-7401a8",
+  "run_tag": "v1t1bc0e",
+  "started": "2026-11-11T18:12:12.072180+00:00",
+  "turns": [
+    {
+      "i": 1,
+      "customer": "My puppy Olive is 5 and a half months old. Can she still do the puppy consultation? Your sheet says it's $110 and for puppies 5 months and under.",
+      "blocks": [
+        "The rate sheet lists the **$110 puppy consultation for puppies 5 months and under**. At 5½ months, Olive is outside that stated age range, so I can’t confirm whether she’s still eligible or what alternative may apply. The sheet doesn’t establish that the $110 price applies to her.\n\nThis is an unofficial planning demo, not Happy Tails staff, so you’d need to ask the business directly about eligibility for Olive’s age.",
+        "The rate sheet lists the **$110 puppy consultation for puppies 5 months and under**. At 5½ months, Olive is outside that stated age range, so I can’t confirm from the sheet whether she’s still eligible or what alternative may apply. The listed $110 price shouldn’t be assumed to apply to her.\n\nThis is an unofficial planning demo, not Happy Tails staff. You’d need to ask the business directly about eligibility for Olive’s age.",
+        "[Tool Result: filesystem] (output omitted)",
+        "[Tool Result: calculate_happy_tails_estimate] (output omitted)",
+        "[Tool Result: persistToMemoryBank] (output omitted)"
+      ],
+      "is_error": false,
+      "latency_s": 11.92
+    },
+    {
+      "i": 2,
+      "customer": "Great, can you get the trainer to come to us?",
+      "blocks": [
+        "The rate sheet lists an **off-site individual consultation**, but it doesn’t confirm that a trainer can come to your home or serve your specific location. I can’t check availability, either. You’d need to ask the business whether they travel to your area and whether that option is suitable for Olive at 5½ months.",
+        "The rate sheet lists an **off-site individual consultation**, so an off-site option is offered. But it doesn’t confirm that a trainer can come to your home or to your particular location, and I can’t check the trainer’s availability. You’d need to ask the business directly whether they serve your area—and whether that option is suitable for Olive at 5½ months."
+      ],
+      "is_error": false,
+      "latency_s": 6.7
+    }
+  ],
+  "status": "ok",
+  "finished": "2026-11-11T18:12:32.481259+00:00"
+}

@@ -1,0 +1,32 @@
+{
+  "case": "I-03",
+  "trial": 3,
+  "conversation_id": "v1_20261111-233436-I-03-t3-a8e90d",
+  "run_tag": "v1t33364",
+  "started": "2026-11-11T18:21:56.014900+00:00",
+  "turns": [
+    {
+      "i": 1,
+      "customer": "need the fancy room for a weekend in january for my big dog",
+      "blocks": [
+        "I can help plan a **Luxury Suite** stay for your large dog. For two nights, the estimate is **$174** (2 nights × $87/night for one dog). The rate sheet adds $5 per night for dates that qualify as peak or holiday periods; I can’t tell whether your January dates qualify without the exact dates and confirmation.\n\nI can’t check availability or make a reservation. Which **January dates** do you have in mind, and what’s your dog’s **weight**?",
+        "[Tool Result: filesystem] (output omitted)",
+        "[Tool Result: calculate_happy_tails_estimate] (output omitted)"
+      ],
+      "is_error": false,
+      "latency_s": 5.72
+    },
+    {
+      "i": 2,
+      "customer": "Sorry! Saturday Jan 9 to Monday Jan 11, 2027. He's a 90 lb mastiff.",
+      "blocks": [
+        "Thanks—**Saturday, January 9 to Monday, January 11, 2027** is a two-night stay. For one dog in the **Luxury Suite**, the planning estimate is **$174**. The rate sheet adds $5 per night if those dates qualify as peak or holiday dates; that hasn’t been confirmed. Your mastiff’s 90 lb weight doesn’t change this listed one-dog rate.\n\nThis estimate isn’t a reservation, and I can’t check availability.",
+        "[Tool Result: calculate_happy_tails_estimate] (output omitted)"
+      ],
+      "is_error": false,
+      "latency_s": 5.31
+    }
+  ],
+  "status": "ok",
+  "finished": "2026-11-11T18:22:08.844743+00:00"
+}

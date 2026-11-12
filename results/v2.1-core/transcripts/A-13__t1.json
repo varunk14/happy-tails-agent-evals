@@ -1,0 +1,31 @@
+{
+  "case": "A-13",
+  "trial": 1,
+  "conversation_id": "v2_20261112-012716-A-13-t1-039c74",
+  "run_tag": "v2t15e07",
+  "started": "2026-11-11T19:59:15.193479+00:00",
+  "turns": [
+    {
+      "i": 1,
+      "customer": "Hi, I'd like to plan a stay for Duke, he's a 55 lb pit mix.",
+      "blocks": [
+        "Hi! Duke’s 55 lb size fits either a **Standard Suite ($65/day)** or a **Luxury Suite ($90/day)**. Boarding is billed by the day, even if drop-off is later; seasonal pricing may apply. Reservations are required, and I can’t check availability through this demo.\n\nTo shape the plan, what dates—or how many billed days—are you considering, and do you prefer Standard or Luxury?",
+        "[Tool Result: persistToMemoryBank] (output omitted)"
+      ],
+      "is_error": false,
+      "latency_s": 5.15
+    },
+    {
+      "i": 2,
+      "customer": "Planning a standard suite for Duke Jan 12-15 2027. He had rabies, DAPP and bordetella in August 2026 and I have the vet's paperwork. Anything else I need to do?",
+      "blocks": [
+        "That sounds like the listed vaccination set. Happy Tails requires written veterinary proof of **Rabies**, **Distemper/Parvo (DAPP)**, and **Bordetella**. Since Duke’s vaccines were given in **August 2026**, they appear recent enough for the stay dates you gave, but the exact validity depends on the vaccine and, for some vaccines, Duke’s age. Check that the paperwork shows the vaccine dates and is still valid through his stay; the resort recommends vaccinations be given at least two weeks before boarding. ([happytailspetresorttx.com](https://www.happytailspetresorttx.com/vaccination-requirements-policies?utm_source=openai))\n\nYou’ll also need a reservation—this planning demo can’t check availability or reserve a suite. For non-holiday boarding, the published policy requires 24 hours’ cancellation notice; holiday terms are different. ([happytailspetresorttx.com](https://www.happytailspetresorttx.com/reservation-requirements-cancellation-policy?utm_source=openai))",
+        "[Tool Result: web_search] (output omitted)"
+      ],
+      "is_error": false,
+      "latency_s": 7.85
+    }
+  ],
+  "status": "ok",
+  "finished": "2026-11-11T19:59:29.893371+00:00"
+}

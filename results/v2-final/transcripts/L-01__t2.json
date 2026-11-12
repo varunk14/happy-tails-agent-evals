@@ -1,0 +1,101 @@
+{
+  "case": "L-01",
+  "trial": 2,
+  "conversation_id": "v2final_20261112-101154-L-01-t2-14896c",
+  "run_tag": "v2finalt2b03c",
+  "started": "2026-11-12T05:04:24.323526+00:00",
+  "turns": [
+    {
+      "i": 1,
+      "customer": "Hi! Planning a stay for Oscar, he's a 30 lb corgi. Jan 26 to Jan 29, 2027.",
+      "blocks": [
+        "For **Oscar (30 lb corgi)**, the matching option is a **Luxury Suite**; Tiny Town is for dogs 25 lb and under. Happy Tails lists Luxury boarding at **$90 per day**.\n\n**Estimate for January 26–29, 2027**\n- Luxury Suite: 3 nights × $90 = **$270**\n\nThe resort bills boarding by the day, so staff confirm the final total. Peak or seasonal pricing may apply, but the published information doesn’t say whether these dates qualify or what any adjustment would be. This is a planning estimate—not a reservation or availability confirmation.",
+        "[Tool Result: filesystem] (output omitted)",
+        "[Tool Result: calculate_happy_tails_estimate] (output omitted)",
+        "[Tool Result: persistToMemoryBank] (output omitted)"
+      ],
+      "is_error": false,
+      "latency_s": 7.33
+    },
+    {
+      "i": 2,
+      "customer": "Standard suite please.",
+      "blocks": [
+        "For **Oscar**, a **Standard Suite** for **January 26–29, 2027** is estimated at **$195**: 3 nights × $65 per day. The resort bills boarding by the day, and staff confirm the final total. Peak or seasonal pricing may apply; the published information doesn’t say whether it applies to these dates.",
+        "[Tool Result: calculate_happy_tails_estimate] (output omitted)"
+      ],
+      "is_error": false,
+      "latency_s": 4.82
+    },
+    {
+      "i": 3,
+      "customer": "No extras for now. And definitely NOT the exit bath, he hates baths.",
+      "blocks": [
+        "Got it: **Oscar’s plan is a Standard Suite, January 26–29, 2027, with no extras and no exit bath.** The estimate remains **$195** for 3 nights."
+      ],
+      "is_error": false,
+      "latency_s": 2.26
+    },
+    {
+      "i": 4,
+      "customer": "What time do you open on weekdays?",
+      "blocks": [
+        "Happy Tails’ published weekday hours are **7:00 a.m. to 7:00 p.m., Monday through Friday**.",
+        "[Tool Result: filesystem] (output omitted)"
+      ],
+      "is_error": false,
+      "latency_s": 3.78
+    },
+    {
+      "i": 5,
+      "customer": "Actually can we make it Jan 26 to Jan 30?",
+      "blocks": [
+        "Updated Oscar’s plan to a **Standard Suite, January 26–30, 2027**, with **no extras and no exit bath**. The planning estimate is **$260** for 4 nights at $65 per day. Happy Tails bills boarding by the day, and staff confirm the final total; peak or seasonal pricing may apply. This isn’t a reservation or availability confirmation.",
+        "[Tool Result: calculate_happy_tails_estimate] (output omitted)"
+      ],
+      "is_error": false,
+      "latency_s": 3.86
+    },
+    {
+      "i": 6,
+      "customer": "And add one ball/tug session.",
+      "blocks": [
+        "Added **one ball/tug enrichment session** to Oscar’s plan.\n\n- Standard Suite: 4 nights × $65 = **$260**\n- Ball/tug enrichment: 1 session = **$25**\n- **Estimated total: $285**\n\nNo exit bath or other extras. Boarding is billed by the day; Happy Tails staff confirm the final total. Peak or seasonal pricing may apply. This is a planning estimate, not a reservation or availability confirmation.",
+        "[Tool Result: calculate_happy_tails_estimate] (output omitted)"
+      ],
+      "is_error": false,
+      "latency_s": 14.83
+    },
+    {
+      "i": 7,
+      "customer": "Does his bordetella need to be current?",
+      "blocks": [
+        "Yes. Happy Tails’ published boarding requirements call for written veterinary proof of a **Bordetella vaccination within the last 6–12 months**. They recommend giving vaccinations **2 weeks before boarding**. Check with Oscar’s veterinarian about his vaccine record and timing.",
+        "[Tool Result: Grep] (output omitted)"
+      ],
+      "is_error": false,
+      "latency_s": 5.4
+    },
+    {
+      "i": 8,
+      "customer": "He has a sensitive tummy so I'll bring his own food.",
+      "blocks": [
+        "That makes sense. I’ll note that Oscar will have his own food for the stay; no house-food add-on is included in the estimate."
+      ],
+      "is_error": false,
+      "latency_s": 2.79
+    },
+    {
+      "i": 9,
+      "customer": "Ok, remind me what's in the plan now and the total?",
+      "blocks": [
+        "**Oscar’s plan**\n- **Standard Suite:** January 26–30, 2027 (4 nights)\n- **One ball/tug enrichment session**\n- **No exit bath or other extras**\n- You’ll bring his own food\n\n**Estimated total: $285** ($260 for the suite + $25 for enrichment). Boarding is billed by the day, and Happy Tails staff confirm the final total. Peak or seasonal pricing may apply; this is a planning estimate, not a reservation or availability confirmation.",
+        "[Tool Result: calculate_happy_tails_estimate] (output omitted)"
+      ],
+      "is_error": false,
+      "latency_s": 4.51
+    }
+  ],
+  "status": "ok",
+  "finished": "2026-11-12T05:05:15.717079+00:00"
+}

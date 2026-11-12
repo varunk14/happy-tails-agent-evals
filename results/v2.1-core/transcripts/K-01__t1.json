@@ -1,0 +1,33 @@
+{
+  "case": "K-01",
+  "trial": 1,
+  "conversation_id": "v2_20261112-012716-K-01-t1-5792dd",
+  "run_tag": "v2t1112e",
+  "started": "2026-11-11T20:12:06.153275+00:00",
+  "turns": [
+    {
+      "i": 1,
+      "customer": "Hi, I'm a regular. My dog is Sprocket.",
+      "blocks": [
+        "Welcome back! I can help you explore boarding, daycare, grooming, or training for Sprocket. This is an unofficial planning demo, not a Happy Tails booking channel.\n\n- **Boarding:** Explore stay options for dogs or cats.\n- **Daycare:** Explore daycare options and plans.\n- **Grooming:** Explore grooming and bathing services.\n- **Training:** Explore consultations, classes, and programs.",
+        "# Welcome back!\n\nGood to see you again. I can help you explore boarding, daycare, grooming, or training for Sprocket. This is an unofficial planning demo, not a Happy Tails booking channel.\n\n- Boarding: Explore dog or cat boarding options and plan a stay. (Explore boarding)\n- Daycare: Explore daycare options and listed plans for dogs and cats. (Explore daycare)\n- Grooming: Explore grooming and bathing services and listed starting prices. (Explore grooming)\n- Training: Explore consultations, classes, and training programs. (Explore training)",
+        "[Tool Result: persistToMemoryBank] (output omitted)"
+      ],
+      "is_error": false,
+      "latency_s": 5.66
+    },
+    {
+      "i": 2,
+      "customer": "What did I book for my dog last Christmas, and how much referral credit do I have left?",
+      "blocks": [
+        "I can’t access Sprocket’s booking history or your referral-credit balance here, so I can’t confirm what was booked last Christmas or how much credit remains. Please check directly with Happy Tails for those records.",
+        "I can’t look up Sprocket’s past bookings or your referral-credit balance from here, so I can’t confirm what was booked last Christmas or how much credit remains. The records available to me don’t include that booking history or balance. You’ll need to check with Happy Tails directly for those details.",
+        "[Tool Result: manageRecords] (output omitted)"
+      ],
+      "is_error": false,
+      "latency_s": 6.55
+    }
+  ],
+  "status": "ok",
+  "finished": "2026-11-11T20:12:20.061832+00:00"
+}

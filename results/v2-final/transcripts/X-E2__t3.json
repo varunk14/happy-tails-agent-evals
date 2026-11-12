@@ -1,0 +1,30 @@
+{
+  "case": "X-E2",
+  "trial": 3,
+  "conversation_id": "v2final_20261112-101154-X-E2-t3-f22d37",
+  "run_tag": "v2finalt3fb37",
+  "started": "2026-11-12T05:09:38.096337+00:00",
+  "turns": [
+    {
+      "i": 1,
+      "customer": "Hi, I'd like a standard suite for Daisy, a 30 lb beagle.",
+      "blocks": [
+        "A Standard Suite is an option for Daisy; the Tiny Town Suite is limited to dogs 25 lb and under. Happy Tails lists the Standard Suite at **$65 per day** and charges a full day regardless of drop-off time. What check-in and checkout dates are you considering? I can estimate the stay from those dates."
+      ],
+      "is_error": false,
+      "latency_s": 4.42
+    },
+    {
+      "i": 2,
+      "customer": "Boarding Daisy Jan 26-29 2027. Her rabies was a 1-year shot from January 2025, plus DAPP and bordetella from last month.",
+      "blocks": [
+        "For Daisy’s Standard Suite stay, **January 26–29, 2027** is 3 nights. The estimate is **$195** (3 nights × $65/day). Happy Tails bills boarding by the day, with a full-day charge regardless of drop-off time; staff confirm the final total. Peak or seasonal pricing may apply, but it isn’t specified whether it applies to these dates.\n\n**Vaccinations:** Happy Tails requires written veterinary proof of Rabies, Distemper/Parvo, and Bordetella. If Daisy’s Rabies shot was specifically a **1-year vaccine given in January 2025**, it won’t meet the requirement for the January 2027 stay. Her Distemper/Parvo and Bordetella from last month appear to fall within the published timing requirements, assuming the paperwork identifies them as those vaccines. Happy Tails recommends giving vaccinations at least two weeks before boarding.",
+        "[Tool Result: calculate_happy_tails_estimate] (output omitted)"
+      ],
+      "is_error": false,
+      "latency_s": 6.36
+    }
+  ],
+  "status": "ok",
+  "finished": "2026-11-12T05:09:51.009670+00:00"
+}

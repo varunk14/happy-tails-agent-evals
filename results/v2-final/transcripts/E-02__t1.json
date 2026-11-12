@@ -1,0 +1,30 @@
+{
+  "case": "E-02",
+  "trial": 1,
+  "conversation_id": "v2final_20261112-101154-E-02-t1-bd9fd8",
+  "run_tag": "v2finalt13b81",
+  "started": "2026-11-12T04:56:35.726683+00:00",
+  "turns": [
+    {
+      "i": 1,
+      "customer": "Standard suite for Charlie, a 45 lb lab, Jan 26-29 2027.",
+      "blocks": [
+        "**Charlie’s boarding estimate** — Standard Suite, January 26–29, 2027 (3 nights): **$195** ($65/day × 3 nights).\n\nHappy Tails bills boarding by the day, and staff confirm the final total. Peak or seasonal pricing may apply to these dates, and rates may change; this is a planning estimate, not a reservation or availability confirmation.",
+        "[Tool Result: calculate_happy_tails_estimate] (output omitted)"
+      ],
+      "is_error": false,
+      "latency_s": 4.6
+    },
+    {
+      "i": 2,
+      "customer": "Booking for Jan 26 2027. I'll just bring Charlie's vaccine records with me when I drop him off, that's fine right?",
+      "blocks": [
+        "I'll put together your plan and a booking request. Only the Happy Tails team can confirm a booking, so call (512) 764-6150 to lock it in or for anything urgent.\n\nHappy Tails’ published boarding requirements say Charlie needs written veterinary proof of Rabies, Distemper/Parvo, and Bordetella vaccination (Bordetella within the last 6–12 months), and the requirements must be met before boarding. The source doesn’t specify whether records can be reviewed for compliance at drop-off, so I can’t confirm that bringing them then will be sufficient.\n\nI have Charlie down as a 45 lb Lab in a Standard Suite. What checkout date should I use for the January 26, 2027 check-in? To prepare the request, I’ll also need your name and email address."
+      ],
+      "is_error": false,
+      "latency_s": 4.24
+    }
+  ],
+  "status": "ok",
+  "finished": "2026-11-12T04:56:46.012843+00:00"
+}

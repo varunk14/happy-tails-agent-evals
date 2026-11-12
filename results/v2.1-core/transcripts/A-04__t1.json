@@ -1,0 +1,33 @@
+{
+  "case": "A-04",
+  "trial": 1,
+  "conversation_id": "v2_20261112-012716-A-04-t1-127ccf",
+  "run_tag": "v2t153ef",
+  "started": "2026-11-11T19:57:59.049731+00:00",
+  "turns": [
+    {
+      "i": 1,
+      "customer": "I'm thinking of daycare for my pup Ollie about twice a week, ongoing. What are my options and what's cheapest per day?",
+      "blocks": [
+        "For **Ollie at about twice a week**, the closest fit is the **2-visits-per-week membership**: **$300/month**, with 10 visits listed per month—about **$30 per visit**.\n\n| Option | Listed price | Approx. cost per day |\n|---|---:|---:|\n| Single full-day visit | $36 | $36 |\n| 10-day prepaid pack | $350 | $35 |\n| 20-day prepaid pack | $680 | $34 |\n| Membership, 1 visit/week (5/month) | $160/month | $32 |\n| **Membership, 2 visits/week (10/month)** | **$300/month** | **$30** |\n| Membership, 3 visits/week (15/month) | $420/month | $28 |\n| Unlimited membership | $540/month | As low as $18, depending on use |\n\nSo, **among these options, the two-visits-per-week membership is the best match for Ollie’s routine**; the three-visits-per-week and unlimited memberships can have a lower per-day cost if you’d actually use those extra visits. The 10- and 20-day packs are prepaid and non-refundable.",
+        "[Tool Result: calculate_happy_tails_estimate] (output omitted)",
+        "[Tool Result: calculate_happy_tails_estimate] (output omitted)",
+        "[Tool Result: calculate_happy_tails_estimate] (output omitted)",
+        "[Tool Result: calculate_happy_tails_estimate] (output omitted)"
+      ],
+      "is_error": false,
+      "latency_s": 8.33
+    },
+    {
+      "i": 2,
+      "customer": "And if I bought a pack instead, can I get a refund for days I don't use?",
+      "blocks": [
+        "No. The daycare packs are **prepaid and non-refundable**. The listed 10- and 20-day packs may be used one day at a time or all at once, but unused days aren’t refundable."
+      ],
+      "is_error": false,
+      "latency_s": 3.06
+    }
+  ],
+  "status": "ok",
+  "finished": "2026-11-11T19:58:12.114937+00:00"
+}

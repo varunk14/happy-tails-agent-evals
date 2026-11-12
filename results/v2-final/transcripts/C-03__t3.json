@@ -1,0 +1,32 @@
+{
+  "case": "C-03",
+  "trial": 3,
+  "conversation_id": "v2final_20261112-101154-C-03-t3-8975b6",
+  "run_tag": "v2finalt3cc6e",
+  "started": "2026-11-12T04:48:42.116141+00:00",
+  "turns": [
+    {
+      "i": 1,
+      "customer": "Hi, I'm going abroad for work in February.",
+      "blocks": [
+        "I hope the trip goes smoothly. If you’re looking for care while you’re away, I can help you plan boarding and estimate the cost. Are you traveling in **February 2027**, and would you be boarding a dog or a cat? If you know your dates, share those too; I can’t check live availability.",
+        "I hope the trip goes smoothly. If you’re looking for care while you’re away, I can help you plan **boarding** and estimate the cost. Are you traveling in **February 2027**, and would you be boarding a dog or a cat? If you know your dates, share those too; there’s no live availability check here.",
+        "[Tool Result: filesystem] (output omitted)"
+      ],
+      "is_error": false,
+      "latency_s": 21.16
+    },
+    {
+      "i": 2,
+      "customer": "I'll be away 12 nights in February. Do you have a cheaper rate for longer stays, like a 10-night package? Standard suite for my collie Skye.",
+      "blocks": [
+        "I don’t see a published 10-night package or long-stay discount for dog boarding. For **Skye** in a Standard Suite, **12 nights are estimated at $780** ($65 per day for 12 nights). Happy Tails bills boarding by the day, and staff confirm the final total. Peak or seasonal pricing may apply, but the published rates don’t specify whether your February dates qualify; staff can clarify that and whether any longer-stay offer is available.",
+        "[Tool Result: calculate_happy_tails_estimate] (output omitted)"
+      ],
+      "is_error": false,
+      "latency_s": 3.98
+    }
+  ],
+  "status": "ok",
+  "finished": "2026-11-12T04:49:08.822357+00:00"
+}

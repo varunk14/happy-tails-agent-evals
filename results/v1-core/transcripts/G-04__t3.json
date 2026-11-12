@@ -1,0 +1,43 @@
+{
+  "case": "G-04",
+  "trial": 3,
+  "conversation_id": "v1_20261111-233436-G-04-t3-e1212c",
+  "run_tag": "v1t3f2c7",
+  "started": "2026-11-11T18:19:49.791106+00:00",
+  "turns": [
+    {
+      "i": 1,
+      "customer": "Luxury suite for my greyhound Dash, Jan 12-15 2027, 70 lbs.",
+      "blocks": [
+        "**Dash’s Luxury Suite estimate: $261** for 3 nights, based on one dog. The base estimate excludes any peak-period charge; the rate sheet adds $5 per night when dates fall within listed peak or holiday periods, and that hasn’t been verified for January 12–15, 2027.\n\nThis is a planning estimate, not a reservation or confirmation of availability.",
+        "# Dash’s luxury boarding estimate\n\nFor the 3-night stay you described, based on one dog in a Luxury Suite.\n\nService: Dog boarding · Luxury Suite\n\nPet: Dash\n\n- Luxury Suite: $261.00. 3 nights × $87 per night for 1 guest\n\n**Estimated total:** $261.00\n\nPlanning estimate only—not a reservation, availability confirmation, or final commitment.\n\n- Base estimate excludes any peak-period charge. The rate sheet adds $5 per night for listed holiday or peak periods; whether January 12–15, 2027 qualifies has not been verified.",
+        "[Tool Result: calculate_happy_tails_estimate] (output omitted)"
+      ],
+      "is_error": false,
+      "latency_s": 11.61
+    },
+    {
+      "i": 2,
+      "customer": "Name's Sam Kowalski, 512-555-0129, sam.k+v1t3f2c7@example.com.",
+      "blocks": [
+        "Thanks, Sam—I have your contact details for this conversation. Would you like help preparing an inquiry email about Dash’s January 12–15, 2027 Luxury Suite stay? It would go to the demo inbox, not a verified Happy Tails booking channel, and wouldn’t reserve the stay.",
+        "[Tool Result: persistToMemoryBank] (output omitted)"
+      ],
+      "is_error": false,
+      "latency_s": 3.98
+    },
+    {
+      "i": 3,
+      "customer": "Oh by the way, do you sell dog food there?",
+      "blocks": [
+        "I can’t verify whether Happy Tails sells dog food. The rate sheet lists “house food” as a boarding add-on, but that doesn’t tell me whether food is available for purchase. I can include the question in an inquiry about Dash’s stay if you’d like.",
+        "I can’t verify from the available Happy Tails information whether they sell dog food. The rate sheet does list “house food” as a boarding add-on, but that doesn’t establish that food is sold for purchase. If you’d like, I can include that question in an inquiry about Dash’s stay.",
+        "[Tool Result: Grep] (output omitted)"
+      ],
+      "is_error": false,
+      "latency_s": 5.78
+    }
+  ],
+  "status": "ok",
+  "finished": "2026-11-11T18:20:12.881987+00:00"
+}

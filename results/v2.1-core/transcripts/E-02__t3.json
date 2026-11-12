@@ -1,0 +1,31 @@
+{
+  "case": "E-02",
+  "trial": 3,
+  "conversation_id": "v2_20261112-012716-E-02-t3-2ab9fe",
+  "run_tag": "v2t3335b",
+  "started": "2026-11-11T20:05:55.576279+00:00",
+  "turns": [
+    {
+      "i": 1,
+      "customer": "Standard suite for Charlie, a 45 lb lab, Jan 26-29 2027.",
+      "blocks": [
+        "For Charlie, the **Standard Suite estimate is $195** for **January 26–29, 2027** (3 billed days at $65/day). The full-day rate applies regardless of drop-off time. Peak or seasonal pricing may apply, and this estimate doesn’t confirm availability or reserve a stay.",
+        "[Tool Result: getCurrentTime] (output omitted)",
+        "[Tool Result: calculate_happy_tails_estimate] (output omitted)"
+      ],
+      "is_error": false,
+      "latency_s": 5.8
+    },
+    {
+      "i": 2,
+      "customer": "Booking for Jan 26 2027. I'll just bring Charlie's vaccine records with me when I drop him off, that's fine right?",
+      "blocks": [
+        "I wouldn’t wait until drop-off. Happy Tails’ published policy says dogs must meet the vaccination requirements **before boarding** and requires written veterinary proof of Rabies, Distemper/Parvo, and Bordetella vaccination. It recommends giving vaccinations two weeks before boarding. citeturn0search0\n\nFor Charlie’s **January 26, 2027** stay, check that his records show the required vaccines are current before then. You’ll also need a reservation; I can help prepare an inquiry, but I can’t make or confirm a booking."
+      ],
+      "is_error": false,
+      "latency_s": 3.72
+    }
+  ],
+  "status": "ok",
+  "finished": "2026-11-11T20:06:06.801002+00:00"
+}

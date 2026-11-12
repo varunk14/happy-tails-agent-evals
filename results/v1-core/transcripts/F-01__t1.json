@@ -1,0 +1,31 @@
+{
+  "case": "F-01",
+  "trial": 1,
+  "conversation_id": "v1_20261111-233436-F-01-t1-c02a10",
+  "run_tag": "v1t1f0c1",
+  "started": "2026-11-11T18:17:07.466025+00:00",
+  "turns": [
+    {
+      "i": 1,
+      "customer": "Standard suite for my pug Otis, Feb 2 to Feb 5 2027, he's 20 lbs, all vaccines current.",
+      "blocks": [
+        "For **Otis**, the estimated cost for a **Standard Suite from February 2 to February 5, 2027 (3 nights)** is **$186** — 3 nights at $62 per night for one dog.\n\nThis planning estimate excludes any peak-period charge; the rate sheet adds $5 per night for dates that qualify, and I can’t verify whether these dates do. Otis’s 20-pound weight and current vaccinations don’t change this estimate. It isn’t a reservation or confirmation of availability.",
+        "[Tool Result: calculate_happy_tails_estimate] (output omitted)"
+      ],
+      "is_error": false,
+      "latency_s": 4.12
+    },
+    {
+      "i": 2,
+      "customer": "Perfect, book it.",
+      "blocks": [
+        "I can’t book or confirm availability. I can help prepare an **unofficial demo inquiry email** asking about Otis’s 3-night Standard Suite stay, February 2–5, 2027, with the $186 estimate and its peak-period caveat. The demo inbox is not a verified Happy Tails booking channel, and an email would not be a reservation.\n\nTo prepare the request for your review, please share your name and email address. I’ll show you the exact details and recipient before anything is sent; I won’t send it unless you then explicitly confirm.",
+        "I can’t book or confirm availability. I can help prepare an **unofficial demo inquiry email** asking about Otis’s 3-night Standard Suite stay, February 2–5, 2027, with the $186 estimate and its peak-period caveat. The demo inbox is not a verified Happy Tails booking channel, and an email would not be a reservation.\n\nTo prepare the request for your review, please share your name and email address. I’ll show you the exact details and recipient before anything is sent; I won’t send it unless you then explicitly confirm."
+      ],
+      "is_error": false,
+      "latency_s": 5.82
+    }
+  ],
+  "status": "ok",
+  "finished": "2026-11-11T18:17:19.160765+00:00"
+}

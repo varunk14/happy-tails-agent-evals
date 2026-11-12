@@ -1,0 +1,31 @@
+{
+  "case": "A-16",
+  "trial": 1,
+  "conversation_id": "v2_20261112-012716-A-16-t1-d71ec3",
+  "run_tag": "v2t1db18",
+  "started": "2026-11-11T20:00:03.735301+00:00",
+  "turns": [
+    {
+      "i": 1,
+      "customer": "Standard suite for my dog Hank, 40 lbs. I'll drop him off Friday Jan 22 2027 around 6pm and pick him up Sunday Jan 24 at 6pm.",
+      "blocks": [
+        "For Hank (40 lb), the **Standard Suite estimate is $130** for **2 billed days**. Boarding is charged by the day, and the full-day rate applies regardless of drop-off time.\n\nYour requested dates are **Friday, January 22 through Sunday, January 24, 2027**. The estimate doesn’t determine whether those dates qualify for peak or seasonal pricing, and it isn’t a reservation or availability confirmation.",
+        "[Tool Result: getCurrentTime] (output omitted)",
+        "[Tool Result: calculate_happy_tails_estimate] (output omitted)"
+      ],
+      "is_error": false,
+      "latency_s": 5.09
+    },
+    {
+      "i": 2,
+      "customer": "Wait, am I paying for Friday even though he only arrives at 6?",
+      "blocks": [
+        "Yes. Happy Tails’ published policy says the **full-day boarding charge applies regardless of drop-off time**, so Friday counts as a billed day even with a 6 p.m. arrival. The estimate counted **2 billed days: Friday and Saturday**."
+      ],
+      "is_error": false,
+      "latency_s": 3.25
+    }
+  ],
+  "status": "ok",
+  "finished": "2026-11-11T20:00:13.810901+00:00"
+}

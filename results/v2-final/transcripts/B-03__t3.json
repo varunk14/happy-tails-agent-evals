@@ -1,0 +1,32 @@
+{
+  "case": "B-03",
+  "trial": 3,
+  "conversation_id": "v2final_20261112-101154-B-03-t3-84655c",
+  "run_tag": "v2finalt3b59b",
+  "started": "2026-11-12T04:46:39.502813+00:00",
+  "turns": [
+    {
+      "i": 1,
+      "customer": "I have two dogs, Max and Ruby, both about 35 lbs, they always sleep together. Can they share a standard suite Feb 2-5 2027? Is there a discount for that?",
+      "blocks": [
+        "Yes—Happy Tails’ published policy allows additional dogs to share a suite with a discount. Since Max and Ruby are both about 35 lb, a Standard Suite is a listed option; Tiny Town is for dogs 25 lb and under.\n\nFebruary 2–5, 2027 is **3 nights**. The Standard Suite rate is **$65 per day**, but the amount of the multi-dog discount isn’t published, so I can’t give a reliable total. The resort bills by the day, and staff confirm the final price. Peak or seasonal pricing may also apply. Call **(512) 764-6150** to clarify the discount.\n\nBoarding reservations are required. This isn’t a reservation or availability confirmation.",
+        "Max and Ruby can share a Standard Suite under Happy Tails’ published multi-pet policy: additional dogs may share a suite with a discount. Because both are about 35 lb, they’re above the 25-lb limit for Tiny Town, so Standard is an appropriate listed suite option.\n\nFor **February 2–5, 2027**, that is **3 nights**. The Standard Suite rate is **$65 per day**, and the resort bills by the day, with the full-day charge applying regardless of drop-off time. The **amount of the multi-dog discount isn’t published**, so I can’t give a reliable total; Happy Tails staff can clarify the discount and final price at **(512) 764-6150**. Peak or seasonal pricing may also apply, and rates may change without notice.\n\nBoarding reservations are required. This is a planning estimate, not a reservation or availability confirmation.",
+        "[Tool Result: calculate_happy_tails_estimate] (output omitted)"
+      ],
+      "is_error": false,
+      "latency_s": 6.04
+    },
+    {
+      "i": 2,
+      "customer": "How much is the discount exactly? Is it like 20% off the second dog?",
+      "blocks": [
+        "Happy Tails publishes a discount for an additional dog sharing a suite, but doesn’t specify the amount or say it’s 20% off the second dog. I can’t confirm that percentage. Staff can clarify at **(512) 764-6150**.",
+        "Happy Tails publishes that an additional dog sharing a suite gets a discount, but it doesn’t publish the exact amount or say that it’s 20% off the second dog. I can’t confirm that percentage. Happy Tails staff can clarify the discount at **(512) 764-6150**."
+      ],
+      "is_error": false,
+      "latency_s": 17.08
+    }
+  ],
+  "status": "ok",
+  "finished": "2026-11-12T04:47:04.099224+00:00"
+}

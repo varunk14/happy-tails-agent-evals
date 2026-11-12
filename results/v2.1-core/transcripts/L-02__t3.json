@@ -1,0 +1,85 @@
+{
+  "case": "L-02",
+  "trial": 3,
+  "conversation_id": "v2_20261112-012716-L-02-t3-eb6cc2",
+  "run_tag": "v2t32f14",
+  "started": "2026-11-11T20:13:16.081839+00:00",
+  "turns": [
+    {
+      "i": 1,
+      "customer": "Need a luxury suite for my malamute Atlas, 85 lbs, Feb 2 to Feb 5 2027.",
+      "blocks": [
+        "For Atlas, the **Luxury Suite estimate is $270** for **3 billed days** at $90 per day. Boarding is billed by day, not night, and the full-day rate applies regardless of drop-off time.\n\nYour dates, **February 2–5, 2027**, may be subject to peak or seasonal pricing, which isn’t included in this estimate. Rates may change, and I can’t check availability or reserve the suite.",
+        "[Tool Result: getCurrentTime] (output omitted)",
+        "[Tool Result: calculate_happy_tails_estimate] (output omitted)"
+      ],
+      "is_error": false,
+      "latency_s": 5.91
+    },
+    {
+      "i": 2,
+      "customer": "Hmm, make it Feb 1 to Feb 5.",
+      "blocks": [
+        "For Atlas, **February 1–5, 2027** comes to **4 billed days** in a Luxury Suite, for a planning estimate of **$360** at $90 per day. The full-day charge applies regardless of drop-off time. Peak or seasonal pricing may apply, and rates may change. I can’t check availability or reserve the suite.",
+        "[Tool Result: calculate_happy_tails_estimate] (output omitted)"
+      ],
+      "is_error": false,
+      "latency_s": 3.82
+    },
+    {
+      "i": 3,
+      "customer": "Add a full groom before pick up.",
+      "blocks": [
+        "## Atlas’s updated plan\n\n- **Luxury Suite, February 1–5, 2027:** 4 billed days × $90/day = **$360**\n- **Full groom before pickup:** **$105+** starting rate for the 81–99 lb size range. The final price may be higher after the groomer assesses Atlas’s coat and care needs.\n\n**Estimated total: $465+**\n\nThis is a planning estimate, not a reservation or availability confirmation. Peak or seasonal boarding rates may apply, and rates may change. The groomer will confirm the final grooming price and suitable service.",
+        "For Atlas, the updated plan is a Luxury Suite from **February 1–5, 2027** and a full groom before pickup. Boarding is billed by the day, so this is **4 billed days**. The grooming price is a starting rate; the groomer’s assessment may change the final price.\n\n---\n\n# Atlas’s boarding and grooming estimate\n\nPlanning estimate for the four-day Luxury Suite stay, plus a full groom before pickup.\n\nService: Dog boarding and full groom\n\nPet: Atlas\n\n- Luxury Suite · 4 days: $360.00. 4 full billed days × $90 per day; full-day charge applies regardless of drop-off time.\n- Full groom · XLarge–XXLarge (81–99 lb): $105.00. Listed starting rate; final price may be higher after the groomer assesses coat, length, brushing time, and extra-care needs.\n\n**Estimated total:** $465.00\n\nPlanning estimate only; it does not confirm availability, reserve boarding or grooming, or establish a final grooming price.\n\n- Peak or seasonal boarding pricing may apply; whether these dates qualify is undetermined. Rates may change without notice.\n- The website notes that short-haired breeds typically receive a full-service bath rather than a full groom; the groomer can confirm the suitable service.",
+        "[Tool Result: calculate_happy_tails_estimate] (output omitted)"
+      ],
+      "is_error": false,
+      "latency_s": 7.79
+    },
+    {
+      "i": 4,
+      "customer": "Actually switch to the standard suite to save money.",
+      "blocks": [
+        "For Atlas, switching to the **Standard Suite** brings the estimate for the **February 1–5, 2027** plan with a full groom before pickup to **$365+**:\n\n- **Standard Suite:** 4 billed days × $65/day = **$260**\n- **Full groom:** **$105+** starting rate for Atlas’s 85 lb size range; the final price depends on the groomer’s assessment.\n\nPeak or seasonal boarding pricing may apply, and rates may change. This is a planning estimate, not a reservation or availability confirmation.",
+        "# Atlas’s updated plan estimate\n\nSwitched the boarding plan to a Standard Suite for February 1–5, 2027, and kept the full groom before pickup.\n\nService: Dog boarding and full groom\n\nPet: Atlas\n\n- Standard Suite · 4 days: $260.00. 4 full billed days × $65 per day; full-day charge applies regardless of drop-off time.\n- Full groom · XLarge–XXLarge (81–99 lb): $105.00. Listed starting rate; final price may be higher after the groomer assesses coat, length, brushing time, and extra-care needs.\n\n**Estimated total:** $365.00\n\nPlanning estimate only; it does not confirm availability, reserve boarding or grooming, or establish a final grooming price.\n\n- Peak or seasonal boarding pricing may apply; whether these dates qualify is undetermined. Rates may change without notice.\n- The website notes that short-haired breeds typically receive a full-service bath rather than a full groom; the groomer can confirm the suitable service.",
+        "[Tool Result: calculate_happy_tails_estimate] (output omitted)"
+      ],
+      "is_error": false,
+      "latency_s": 7.81
+    },
+    {
+      "i": 5,
+      "customer": "And add 2 nature walks.",
+      "blocks": [
+        "Atlas’s updated **February 1–5, 2027** plan with a Standard Suite, two nature walks, and a full groom before pickup is **$415+**:\n\n- **Standard Suite:** 4 billed days × $65/day = **$260**\n- **Nature walks:** 2 sessions × $25 = **$50**\n- **Full groom:** **$105+** starting rate for the 81–99 lb size range; the final price depends on the groomer’s assessment.\n\nPeak or seasonal boarding pricing may apply, and rates may change. This is a planning estimate, not a reservation or availability confirmation.",
+        "# Atlas’s updated plan estimate\n\nPlan for February 1–5, 2027: Standard Suite, two nature walk sessions, and a full groom before pickup.\n\nService: Dog boarding, nature walks, and full groom\n\nPet: Atlas\n\n- Standard Suite · 4 days: $260.00. 4 full billed days × $65 per day; full-day charge applies regardless of drop-off time.\n- Nature walk enrichment sessions · 2: $50.00. 2 sessions × $25 per session.\n- Full groom · XLarge–XXLarge (81–99 lb): $105.00. Listed starting rate; final price may be higher after the groomer assesses coat, length, brushing time, and extra-care needs.\n\n**Estimated total:** $415.00\n\nPlanning estimate only; it does not confirm availability, reserve boarding or grooming, or establish a final grooming price.\n\n- Peak or seasonal boarding pricing may apply; whether these dates qualify is undetermined. Rates may change without notice.\n- The website notes that short-haired breeds typically receive a full-service bath rather than a full groom; the groomer can confirm the suitable service.",
+        "[Tool Result: calculate_happy_tails_estimate] (output omitted)"
+      ],
+      "is_error": false,
+      "latency_s": 7.49
+    },
+    {
+      "i": 6,
+      "customer": "You know what, go back to luxury but keep everything else.",
+      "blocks": [
+        "Atlas’s plan is back to a **Luxury Suite**, with the other services unchanged: **February 1–5, 2027**, two nature walks, and a full groom before pickup. The planning estimate is **$515+**:\n\n- **Luxury Suite:** 4 billed days × $90/day = **$360**\n- **Two nature walks:** 2 × $25 = **$50**\n- **Full groom:** **$105+** starting rate for the 81–99 lb size range; final price depends on the groomer’s assessment.\n\nPeak or seasonal boarding pricing may apply, and rates may change. This estimate does not confirm availability or reserve services.",
+        "# Atlas’s updated plan estimate\n\nPlan for February 1–5, 2027: Luxury Suite, two nature walk sessions, and a full groom before pickup.\n\nService: Dog boarding, nature walks, and full groom\n\nPet: Atlas\n\n- Luxury Suite · 4 days: $360.00. 4 full billed days × $90 per day; full-day charge applies regardless of drop-off time.\n- Nature walk enrichment sessions · 2: $50.00. 2 sessions × $25 per session.\n- Full groom · XLarge–XXLarge (81–99 lb): $105.00. Listed starting rate; final price may be higher after the groomer assesses coat, length, brushing time, and extra-care needs.\n\n**Estimated total:** $515.00\n\nPlanning estimate only; it does not confirm availability, reserve boarding or grooming, or establish a final grooming price.\n\n- Peak or seasonal boarding pricing may apply; whether these dates qualify is undetermined. Rates may change without notice.\n- The website notes that short-haired breeds typically receive a full-service bath rather than a full groom; the groomer can confirm the suitable service.",
+        "[Tool Result: calculate_happy_tails_estimate] (output omitted)"
+      ],
+      "is_error": false,
+      "latency_s": 6.72
+    },
+    {
+      "i": 7,
+      "customer": "What's my total, and is anything not included in it?",
+      "blocks": [
+        "**The estimate is $515+**: $360 for four Luxury Suite days, $50 for two nature walks, and a full groom starting at $105.\n\nThe **“+”** means the groom may cost more after the groomer assesses Atlas’s coat and care needs. Peak or seasonal boarding pricing may also apply and isn’t included because it hasn’t been determined for those dates. This is a planning estimate, not a final quote or reservation."
+      ],
+      "is_error": false,
+      "latency_s": 3.48
+    }
+  ],
+  "status": "ok",
+  "finished": "2026-11-11T20:14:00.808833+00:00"
+}

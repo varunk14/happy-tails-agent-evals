@@ -1,0 +1,41 @@
+{
+  "case": "C-01",
+  "trial": 2,
+  "conversation_id": "v1_20261111-233436-C-01-t2-cc5cd2",
+  "run_tag": "v1t2f538",
+  "started": "2026-11-11T18:10:26.312968+00:00",
+  "turns": [
+    {
+      "i": 1,
+      "customer": "Hi, planning a stay for my boxer Tank.",
+      "blocks": [
+        "Hi! I can help you plan a stay for Tank. Happy Tails lists dog boarding in **Standard** and **Luxury** suites. How many nights are you considering, and do you prefer either suite? I can also include any activities or add-ons you’re thinking about.\n\nThis is an unofficial planning demo; I can’t check availability or make a reservation.",
+        "Hi! I can help you plan a stay for Tank. Happy Tails Pet Resort lists **dog boarding** in Standard and Luxury suites. To estimate the stay, tell me how many nights you’re considering and which suite you prefer; I can also include any activities or add-ons you have in mind.\n\nThis is an unofficial planning demo, so I can’t check availability or make a reservation."
+      ],
+      "is_error": false,
+      "latency_s": 5.62
+    },
+    {
+      "i": 2,
+      "customer": "Last time I looked your luxury suite was $87 a night. Is that still right? Jan 12-15 2027 for my boxer Tank.",
+      "blocks": [
+        "Yes—the rate sheet lists the Luxury Suite at **$87 per night** for one dog. For Tank’s January 12–15, 2027 stay (3 nights), the base estimate is **$261**. Any applicable peak or holiday charge is not included; the rate sheet lists an additional $5 per qualifying night, and I can’t confirm whether those dates qualify.\n\nThis is a planning estimate, not a reservation or availability confirmation.",
+        "# Tank’s luxury boarding estimate\n\nFor one dog from January 12–15, 2027 (3 nights), using the Luxury Suite rate you asked about.\n\nService: Luxury Suite · 3 nights\n\nPet: Tank\n\n- Luxury Suite · 3 nights: $261.00. 3 nights × $87.00 per night (1 guest).\n\n**Estimated total:** $261.00\n\nPlanning estimate only—not a reservation or availability confirmation. The base estimate excludes any peak-period charge; the rate sheet adds $5 per night for listed holiday and peak periods, but these dates have not been confirmed as qualifying.\n\n- The calculated estimate uses the listed $87-per-night Luxury Suite rate for one dog.",
+        "[Tool Result: calculate_happy_tails_estimate] (output omitted)"
+      ],
+      "is_error": false,
+      "latency_s": 6.9
+    },
+    {
+      "i": 3,
+      "customer": "Ok, so what's the total for the luxury suite then?",
+      "blocks": [
+        "The base total for Tank’s 3-night Luxury Suite stay is **$261**, before any peak or holiday charge. If all three nights qualify, the listed $5-per-night charge would add $15, but I can’t confirm whether those dates qualify."
+      ],
+      "is_error": false,
+      "latency_s": 3.36
+    }
+  ],
+  "status": "ok",
+  "finished": "2026-11-11T18:10:43.914486+00:00"
+}

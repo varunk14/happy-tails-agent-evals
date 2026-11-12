@@ -1,0 +1,31 @@
+{
+  "case": "D-07",
+  "trial": 1,
+  "conversation_id": "v2_20261112-012716-D-07-t1-09562b",
+  "run_tag": "v2t16072",
+  "started": "2026-11-11T20:05:13.971026+00:00",
+  "turns": [
+    {
+      "i": 1,
+      "customer": "Two cats, Mochi and Miso. They do everything together. Can they share the extra large window condo Jan 12-15 2027?",
+      "blocks": [
+        "Yes—Happy Tails lists a 15% per-day discount for one additional cat sharing the same condo. For Mochi and Miso in one Extra Large Condo with Window from **January 12–15, 2027**, the planning estimate is **$296 for 4 billed days**.\n\nBoarding rates are charged by the day, regardless of drop-off time. Reservations are required, but I can’t check live availability or confirm the condo is open for those dates.",
+        "[Tool Result: calculate_happy_tails_estimate] (output omitted)"
+      ],
+      "is_error": false,
+      "latency_s": 4.84
+    },
+    {
+      "i": 2,
+      "customer": "What's the price for both?",
+      "blocks": [
+        "For **both cats sharing one Extra Large Condo with Window**, the estimate is **$296 total** for January 12–15, 2027 (4 billed days). That includes the 15% per-day discount for the second cat. Availability isn’t confirmed.",
+        "[Tool Result: calculate_happy_tails_estimate] (output omitted)"
+      ],
+      "is_error": false,
+      "latency_s": 3.82
+    }
+  ],
+  "status": "ok",
+  "finished": "2026-11-11T20:05:24.389059+00:00"
+}

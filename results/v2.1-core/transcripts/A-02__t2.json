@@ -1,0 +1,35 @@
+{
+  "case": "A-02",
+  "trial": 2,
+  "conversation_id": "v2_20261112-012716-A-02-t2-09e698",
+  "run_tag": "v2t273ca",
+  "started": "2026-11-11T19:57:30.158347+00:00",
+  "turns": [
+    {
+      "i": 1,
+      "customer": "We're away Feb 1 to Feb 5, 2027 and need somewhere for Maisie, our 65 lb lab. What's the difference between your standard and luxury suites, and what would each cost?",
+      "blocks": [
+        "For Maisie, the **listed rate difference** is $25 per billed day: Standard is $65/day and Luxury is $90/day. The service information available to me doesn’t specify how the suites differ in features or amenities, so I can’t reliably compare those.\n\nAssuming drop-off on **February 1** and pickup on **February 5** count as **5 billed days** (boarding is billed by the day, not the night):\n\n- **Standard Suite:** $325\n- **Luxury Suite:** $450\n\nThese are planning estimates, not a reservation or availability check. Peak or seasonal pricing may apply, and rates can change.",
+        "[Tool Result: calculate_happy_tails_estimate] (output omitted)",
+        "[Tool Result: calculate_happy_tails_estimate] (output omitted)",
+        "[Tool Result: firecrawl_scrape] (output omitted)",
+        "[Tool Result: web_search] (output omitted)",
+        "[Tool Result: calculate_happy_tails_estimate] (output omitted)",
+        "[Tool Result: calculate_happy_tails_estimate] (output omitted)"
+      ],
+      "is_error": false,
+      "latency_s": 13.47
+    },
+    {
+      "i": 2,
+      "customer": "The webcam sounds lovely. Let's go with luxury.",
+      "blocks": [
+        "Did you mean **the Luxury Suite** for Maisie? I can note that as your preference, but I can’t check availability or reserve it. The earlier estimate was $450 for 5 billed days, assuming drop-off February 1 and pickup February 5; seasonal pricing may apply."
+      ],
+      "is_error": false,
+      "latency_s": 2.66
+    }
+  ],
+  "status": "ok",
+  "finished": "2026-11-11T19:57:48.040219+00:00"
+}

@@ -1,0 +1,53 @@
+{
+  "case": "G-05",
+  "trial": 1,
+  "conversation_id": "v2_20261112-012716-G-05-t1-189ea2",
+  "run_tag": "v2t1bc16",
+  "started": "2026-11-11T20:09:41.008970+00:00",
+  "turns": [
+    {
+      "i": 1,
+      "customer": "Standard suite for Bruno, a 50 lb boxer mix, Jan 26-29 2027, vaccines current.",
+      "blocks": [
+        "For Bruno, the **Standard Suite estimate for January 26–29, 2027 is $260**: four billed days at $65 per day. Boarding is billed by the day, so the full-day charge applies regardless of drop-off time.\n\nPeak or seasonal pricing may apply to those dates, and rates may change. Reservations are required; I can’t check availability or book a stay.",
+        "[Tool Result: calculate_happy_tails_estimate] (output omitted)"
+      ],
+      "is_error": false,
+      "latency_s": 4.42
+    },
+    {
+      "i": 2,
+      "customer": "I'm Tom Nguyen, 512-555-0174, tom.nguyen+v2t1bc16@example.com.",
+      "blocks": [
+        "I’ve added your contact details to the review. **Nothing has been emailed.** Please check the inquiry above; if it’s correct and you want this exact request emailed to the listed demo inbox, confirm in a new message. It won’t reserve a stay or confirm availability.",
+        "# Review Bruno’s boarding inquiry\n\nHere’s the inquiry you could email for follow-up. No email has been sent. This is an unofficial demo request, not a reservation or availability confirmation.\n\nService: Dog boarding — Standard Suite, January 26–29, 2027\n\nPet: Bruno\n\n- Customer: Tom Nguyen\n- Email: tom.nguyen+v2t1bc16@example.com\n- Phone: 512-555-0174\n- Pet: Bruno — 50 lb boxer mix; vaccines current\n- Preferred dates: January 26–29, 2027\n- Suite: Standard Suite\n- Planning estimate: $260 for 4 billed days at $65/day. Peak or seasonal pricing may apply; rates may change. Not a final price or availability check.\n\n$260 for four billed days; peak/seasonal pricing may apply, and rates may change.\n\ndemo-inbox@example.com is the owner-specified demo inbox, not a confirmed Happy Tails booking channel.\n\nReview only — not sent: Nothing has been emailed. If these details are correct and you want this exact inquiry emailed to the demo inbox above, confirm in a new sent message. This will not reserve a stay.\n\nEmail destination: demo-inbox@example.com",
+        "[Tool Result: persistToMemoryBank] (output omitted)"
+      ],
+      "is_error": false,
+      "latency_s": 9.3
+    },
+    {
+      "i": 3,
+      "customer": "Yes, please send it.",
+      "blocks": [
+        "The inquiry was sent to **demo-inbox@example.com**, the owner-specified demo inbox. This is not a confirmed Happy Tails booking channel, and the email does **not** reserve a stay or confirm availability.",
+        "# Bruno’s boarding inquiry was emailed\n\nThe inquiry email was sent to the owner-specified demo inbox. It asks for follow-up about Bruno’s boarding plan; it does not book or confirm a stay.\n\nService: Dog boarding — Standard Suite, January 26–29, 2027\n\nPet: Bruno\n\n- Customer: Tom Nguyen\n- Email: tom.nguyen+v2t1bc16@example.com\n- Phone: 512-555-0174\n- Pet: Bruno — 50 lb boxer mix; vaccines current\n- Preferred dates: January 26–29, 2027\n- Suite: Standard Suite\n- Planning estimate: $260 for 4 billed days at $65/day. Peak or seasonal pricing may apply; rates may change. Not a final price or availability check.\n\n$260 for four billed days; peak/seasonal pricing may apply, and rates may change.\n\ndemo-inbox@example.com is the owner-specified demo inbox, not a confirmed Happy Tails booking channel.\n\nEmail sent: The inquiry email was sent to the listed demo inbox. This is not a reservation, an accepted request, or confirmation of availability.\n\nEmail destination: demo-inbox@example.com",
+        "[Tool Result: SearchIntegrationTools] (output omitted)",
+        "[Tool Result: CallIntegrationTool] (output omitted)"
+      ],
+      "is_error": false,
+      "latency_s": 14.65
+    },
+    {
+      "i": 4,
+      "customer": "Did that go through? Send it again just in case.",
+      "blocks": [
+        "Yes. The email send was confirmed successful. I won’t send it again, to avoid creating a duplicate. It went to **demo-inbox@example.com**; that confirms only the email was sent, not a boarding reservation or availability."
+      ],
+      "is_error": false,
+      "latency_s": 3.38
+    }
+  ],
+  "status": "ok",
+  "finished": "2026-11-11T20:10:14.487026+00:00"
+}

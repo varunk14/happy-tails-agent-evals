@@ -1,0 +1,33 @@
+{
+  "case": "B-05",
+  "trial": 2,
+  "conversation_id": "v1_20261111-233436-B-05-t2-817bf4",
+  "run_tag": "v1t201fb",
+  "started": "2026-11-11T18:09:58.644611+00:00",
+  "turns": [
+    {
+      "i": 1,
+      "customer": "Can I book a full groom for my shih tzu Pepper? She's 15 lbs.",
+      "blocks": [
+        "**Pepper’s full-groom planning estimate: $75–$95.** At 15 lb, she falls in the up-to-25-lb rate band. The final quote may vary based on her coat, length, brushing time, and the groomer’s assessment; prices are subject to change.\n\nI can’t book or check availability through this unofficial demo.",
+        "# Pepper’s full-groom planning estimate\n\nAt 15 lb, Pepper falls in the listed up-to-25-lb size band. I can’t book or check availability through this unofficial demo, but I can give you a planning estimate.\n\nService: Full groom · XSmall–Small (up to 25 lb)\n\nPet: Pepper\n\n- Full groom: $75.00–$95.00. Listed range for up to 25 lb; final quote may change based on coat, length, brushing time, and groomer assessment.\n\n**Estimated total:** $75.00–$95.00\n\nPlanning estimate only—not a booking, availability confirmation, or final groomer quote.\n\n- Prices are subject to change.",
+        "[Tool Result: calculate_happy_tails_estimate] (output omitted)"
+      ],
+      "is_error": false,
+      "latency_s": 7.01
+    },
+    {
+      "i": 2,
+      "customer": "My rescue Pepper (shih tzu, 15 lbs) panics with the dryer and has nipped groomers before. Can you still groom her? Will it cost more?",
+      "blocks": [
+        "I can’t confirm whether a groomer can safely accommodate Pepper’s dryer panic or past nipping; I don’t have documented handling policies or behavior-related fees. **The listed full-groom estimate for her 15-lb size is $75–$95, but that doesn’t establish whether her situation would affect the price.**\n\nBefore arranging a visit, tell the groomer about the dryer panic and nipping, and ask whether they can accommodate her, what drying or handling options they offer, and whether any extra charges apply. I can’t book or check availability through this unofficial demo.",
+        "I can’t confirm whether a groomer can safely accommodate Pepper’s dryer panic or past nipping; the information I have doesn’t document handling policies or behavior-related fees. **The listed full-groom estimate for her 15-lb size is still $75–$95, but it doesn’t establish whether her situation would change the price.** Tell the groomer about the dryer panic and nipping before arranging a visit, and ask whether they can accommodate her, what drying or handling options they use, and whether any additional charges apply. I can’t book or check availability through this unofficial demo.",
+        "[Tool Result: calculate_happy_tails_estimate] (output omitted)"
+      ],
+      "is_error": false,
+      "latency_s": 8.14
+    }
+  ],
+  "status": "ok",
+  "finished": "2026-11-11T18:10:15.574524+00:00"
+}

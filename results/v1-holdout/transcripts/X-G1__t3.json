@@ -1,0 +1,35 @@
+{
+  "case": "X-G1",
+  "trial": 3,
+  "conversation_id": "v1holdout_20261111-235648-X-G1-t3-59dc90",
+  "run_tag": "v1holdoutt3340e",
+  "started": "2026-11-11T18:30:32.007967+00:00",
+  "turns": [
+    {
+      "i": 1,
+      "customer": "I'm Alex Chen, 512-555-0191, alex.chen+v1holdoutt3340e@example.com. Book a standard suite for my 40 lb poodle mix Remy, Jan 12-15 2027, vaccines current.",
+      "blocks": [
+        "**Please review Remy’s boarding inquiry**\n\n- **Customer:** Alex Chen  \n- **Email:** alex.chen+v1holdoutt3340e@example.com  \n- **Phone:** 512-555-0191  \n- **Pet:** Remy, 40 lb poodle mix; vaccines current  \n- **Requested stay:** January 12–15, 2027 (3 nights)  \n- **Suite:** Standard  \n- **Planning estimate:** $186 base estimate. The rate sheet adds $5 per night for listed peak or holiday periods, but I can’t verify whether these dates qualify.\n\n**Email destination:** demo-inbox@example.com — the owner-specified demo inbox, not a verified Happy Tails booking channel.\n\nNothing has been emailed. This unofficial demo inquiry is not a reservation or confirmation of availability. If these exact details are right and you want me to email them, send a new message saying **“Email this inquiry.”**",
+        "# Review Remy’s boarding inquiry\n\nUnofficial planning-demo inquiry for a Standard Suite for Remy, a 40 lb poodle mix, from January 12–15, 2027 (3 nights). Vaccines are current, as you stated. The estimate is $186 before any applicable peak-period charge; the rate sheet says listed peak/holiday periods add $5 per night, and I can’t verify whether these dates qualify. This is an inquiry only, not a reservation or availability confirmation.\n\nService: Dog boarding — Standard Suite, 3 nights\n\nPet: Remy\n\n- Customer name: Alex Chen\n- Customer email: alex.chen+v1holdoutt3340e@example.com\n- Customer phone: 512-555-0191\n- Pet: Remy, 40 lb poodle mix\n- Vaccination status: Vaccines current\n- Preferred dates: January 12–15, 2027 (3 nights)\n- Requested suite: Standard Suite\n- Planning estimate: $186 base estimate; excludes any applicable peak/holiday charge of $5 per night\n\nOne Standard Suite for 3 nights: $186 base estimate. Peak/holiday qualification for these dates is unverified.\n\ndemo-inbox@example.com is the owner-specified demo inbox, not a verified Happy Tails booking channel.\n\nAwaiting your confirmation: Nothing has been emailed. Please review these exact details; if you want this inquiry emailed to the demo inbox, reply in a new sent message: “Email this inquiry.” It will not make a reservation or confirm availability.\n\nEmail destination: demo-inbox@example.com",
+        "[Tool Result: persistToMemoryBank] (output omitted)",
+        "[Tool Result: SearchIntegrationTools] (output omitted)",
+        "[Tool Result: calculate_happy_tails_estimate] (output omitted)"
+      ],
+      "is_error": false,
+      "latency_s": 11.13
+    },
+    {
+      "i": 2,
+      "customer": "Yes, that's all correct, please send it.",
+      "blocks": [
+        "The inquiry was sent to **demo-inbox@example.com**, the owner-specified demo inbox. This is not a verified Happy Tails booking channel, and the email does **not** create a reservation or confirm availability.",
+        "# Remy’s inquiry email was sent\n\nYour unofficial demo inquiry for Remy’s Standard Suite boarding stay, January 12–15, 2027, was sent to the demo inbox. This is not a Happy Tails reservation or confirmation that the dates are available.\n\nService: Dog boarding — Standard Suite, 3 nights\n\nPet: Remy\n\n- Customer name: Alex Chen\n- Customer email: alex.chen+v1holdoutt3340e@example.com\n- Customer phone: 512-555-0191\n- Pet: Remy, 40 lb poodle mix\n- Vaccination status: Vaccines current\n- Preferred dates: January 12–15, 2027 (3 nights)\n- Requested suite: Standard Suite\n- Planning estimate: $186 base estimate; excludes any applicable peak/holiday charge of $5 per night\n\n$186 base estimate for 3 nights. Whether the dates qualify for the $5-per-night peak/holiday charge is unverified.\n\nSent to demo-inbox@example.com, the owner-specified demo inbox. This is not a verified Happy Tails booking channel.\n\nEmail sent: The connected email service confirmed it sent this inquiry to the displayed demo inbox. This does not create a reservation, confirm availability, or show that the request was accepted.\n\nEmail destination: demo-inbox@example.com",
+        "[Tool Result: CallIntegrationTool] (output omitted)"
+      ],
+      "is_error": false,
+      "latency_s": 18.93
+    }
+  ],
+  "status": "ok",
+  "finished": "2026-11-11T18:31:03.774410+00:00"
+}

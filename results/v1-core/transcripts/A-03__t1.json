@@ -1,0 +1,36 @@
+{
+  "case": "A-03",
+  "trial": 1,
+  "conversation_id": "v1_20261111-233436-A-03-t1-3940c7",
+  "run_tag": "v1t1cf22",
+  "started": "2026-11-11T18:05:06.191428+00:00",
+  "turns": [
+    {
+      "i": 1,
+      "customer": "Hello, I have a 12 lb Yorkie, Pippa, she's 13 and needs to go out at night. Jan 26 to 29 2027. Is the little suite for small dogs available for her size?",
+      "blocks": [
+        "I can’t verify whether the “little suite” fits Pippa or is available for **January 26–29, 2027**. This unofficial demo can’t check live availability, and I don’t have confirmed details about the suite’s size limits or nighttime outings. The documented dog-boarding options are **Standard** and **Luxury**, but I can’t confirm which—if either—is the little suite.\n\nPlease check directly with Happy Tails about Pippa’s size, age, nighttime needs, and those dates. I can help compare the documented boarding options or draft a follow-up inquiry.",
+        "I can’t verify whether the “little suite” is the right fit for Pippa or available for **January 26–29, 2027**—this unofficial demo can’t check live availability, and the information I have doesn’t specify a suite size limit or nighttime-outing arrangements. Her **12 lb size, age (13), and need to go out at night** are details you provided, not a confirmed suitability assessment.\n\nThe documented dog-boarding choices I can speak to are **Standard** and **Luxury**; I can’t confirm whether either corresponds to the “little suite.” Please confirm with Happy Tails whether that suite accommodates Pippa and whether nighttime outings can be arranged. Would you like help comparing the documented boarding options or drafting a follow-up inquiry?",
+        "[Tool Result: filesystem] (output omitted)",
+        "[Tool Result: Grep] (output omitted)",
+        "[Tool Result: filesystem] (output omitted)",
+        "[Tool Result: SearchIntegrationTools] (output omitted)"
+      ],
+      "is_error": false,
+      "latency_s": 13.85
+    },
+    {
+      "i": 2,
+      "customer": "Please add a midnight potty walk every night of her stay.",
+      "blocks": [
+        "I’ve added **one midnight potty walk for each of the three nights** to Pippa’s plan. The rate-sheet estimate for the walks is **$24 total** ($8 each). This is for planning only—not a reservation or confirmation that the walks are available. Her suite choice is still unconfirmed.",
+        "I’ve added **one midnight potty walk on each of the three nights** to Pippa’s plan. The rate-sheet estimate for those three walks is **$24 total** ($8 each). This is just a planning estimate—not a reservation or confirmation that the walks can be provided. Her suite choice is still unconfirmed, and I can’t check availability.",
+        "[Tool Result: calculate_happy_tails_estimate] (output omitted)"
+      ],
+      "is_error": false,
+      "latency_s": 9.98
+    }
+  ],
+  "status": "ok",
+  "finished": "2026-11-11T18:05:31.775681+00:00"
+}

@@ -1,0 +1,35 @@
+{
+  "case": "D-01",
+  "trial": 3,
+  "conversation_id": "v1_20261111-233436-D-01-t3-cfbfcd",
+  "run_tag": "v1t3b9f9",
+  "started": "2026-11-11T18:12:36.433430+00:00",
+  "turns": [
+    {
+      "i": 1,
+      "customer": "Hi again! Planning another stay for Biscuit, Feb 2-5 2027, standard suite.",
+      "blocks": [
+        "## Biscuit’s boarding estimate\n\nFor one dog in a Standard Suite from **February 2–5, 2027** (3 nights):\n\n- Standard Suite: **$186** — 3 nights × $62 per night\n\nThis base estimate excludes any peak-period charge. The rate sheet adds **$5 per night** during listed holiday or peak periods, but whether these dates qualify is unconfirmed. This is a planning estimate only—not availability or a reservation.",
+        "# Biscuit’s boarding estimate\n\nFor one dog in a Standard Suite from February 2–5, 2027 (3 nights).\n\nService: Dog boarding · Standard Suite\n\nPet: Biscuit\n\n- Standard Suite · 3 nights: $186.00. 3 nights × $62 per night (1 guest).\n\n**Estimated total:** $186.00\n\nPlanning estimate only; this is not availability, a reservation, or a final confirmed price.\n\n- This base estimate excludes any peak-period charge. The rate sheet adds $5 per night during listed holiday and peak periods; whether these dates qualify is unconfirmed.",
+        "[Tool Result: calculate_happy_tails_estimate] (output omitted)"
+      ],
+      "is_error": false,
+      "latency_s": 7.79
+    },
+    {
+      "i": 2,
+      "customer": "We've boarded Biscuit with you loads of times. I saw the free night 'Stay & Play' deal, can I use that for our Feb 2-5 2027 stay? Standard suite.",
+      "blocks": [
+        "## Failed URLs\n- https://happytailspetresortcedarpark.com: retrieval failed or blocked\n- https://happytailspetresort.com: retrieval failed or blocked\n- https://www.happytailspetresort.com: retrieval failed or blocked\n- https://www.google.com/search?q=%22Happy+Tails+Pet+Resort%22+%22Cedar+Park%22+%22Stay+%26+Play%22+free+night: retrieval failed or blocked\n- https://www.google.com/search?q=site:happytailspetresortcedarpark.com+free+night: retrieval failed or blocked\n- https://www.google.com/search?q=site:happytailspetresort.com+free+night: retrieval failed or blockedI can’t verify the **Stay & Play** offer’s terms, so I can’t confirm whether your repeat stays or these dates qualify. The estimate for Biscuit’s **3-night Standard Suite stay, February 2–5, 2027, is $186 before any applicable peak-period charge**; the rate sheet I have doesn’t list this offer. If you share its terms or a screenshot, I can help check them against the stay.\n\nThis is an unofficial planning demo, not a Happy Tails booking channel.",
+        "I can’t confirm the **Stay & Play** deal from the information available here, so I can’t tell whether your repeat stays or these dates qualify. The estimate for Biscuit’s 3-night Standard Suite stay, **February 2–5, 2027**, remains **$186 before any applicable peak-period charge**; the rate sheet doesn’t include a Stay & Play discount. If you share the offer’s terms or a screenshot, I can help check them against this stay. This is an unofficial planning demo, not a Happy Tails booking channel.",
+        "[Tool Result: SearchIntegrationTools] (output omitted)",
+        "[Tool Result: Subagent] (output omitted)",
+        "[Tool Result: calculate_happy_tails_estimate] (output omitted)"
+      ],
+      "is_error": false,
+      "latency_s": 12.76
+    }
+  ],
+  "status": "ok",
+  "finished": "2026-11-11T18:12:58.754051+00:00"
+}

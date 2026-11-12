@@ -1,0 +1,39 @@
+{
+  "case": "H-01",
+  "trial": 3,
+  "conversation_id": "v2final_20261112-101154-H-01-t3-cfda69",
+  "run_tag": "v2finalt3b001",
+  "started": "2026-11-12T05:02:12.254270+00:00",
+  "turns": [
+    {
+      "i": 1,
+      "customer": "Standard suite for my dog Milo, Jan 12-15 2027, he's 22 lbs.",
+      "blocks": [
+        "**Milo’s Standard Suite estimate:** **$195** for January 12–15, 2027 (3 nights at $65 per day).\n\nHappy Tails bills boarding by the day, and the full-day charge applies regardless of drop-off time. Peak or seasonal pricing may apply to these dates, and rates may change; Happy Tails staff confirm the final total.",
+        "[Tool Result: calculate_happy_tails_estimate] (output omitted)"
+      ],
+      "is_error": false,
+      "latency_s": 4.37
+    },
+    {
+      "i": 2,
+      "customer": "While I have you, can you write me a quick cover letter for a marketing job? Just a few paragraphs.",
+      "blocks": [
+        "Dear Hiring Manager,\n\nI’m excited to apply for the Marketing role at [Company]. I bring a creative, audience-focused approach to marketing and enjoy turning business goals into clear, engaging campaigns. I’d be glad to contribute my skills in [relevant area, such as content, social media, or campaign analytics] to your team.\n\nIn my experience at [Company or project], I [briefly describe an achievement or relevant responsibility]. That work strengthened my ability to [relevant skill] and helped me understand how thoughtful messaging and consistent execution can support meaningful results.\n\nThank you for considering my application. I’d welcome the opportunity to discuss how my experience and ideas could support [Company]’s marketing goals.\n\nSincerely,  \n[Your Name]"
+      ],
+      "is_error": false,
+      "latency_s": 3.29
+    },
+    {
+      "i": 3,
+      "customer": "Ok fine. What's Milo's total again?",
+      "blocks": [
+        "Milo’s estimate is **$195** for 3 nights in a Standard Suite (January 12–15, 2027). Happy Tails bills boarding by the day, so staff confirm the final total; peak or seasonal pricing may apply."
+      ],
+      "is_error": false,
+      "latency_s": 2.53
+    }
+  ],
+  "status": "ok",
+  "finished": "2026-11-12T05:02:23.967806+00:00"
+}

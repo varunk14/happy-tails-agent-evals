@@ -1,0 +1,33 @@
+{
+  "case": "A-05",
+  "trial": 2,
+  "conversation_id": "v1_20261111-233436-A-05-t2-0dde27",
+  "run_tag": "v1t23407",
+  "started": "2026-11-11T18:05:45.882731+00:00",
+  "turns": [
+    {
+      "i": 1,
+      "customer": "How much is a full groom for a golden retriever? Bailey's about 70 lbs, brushed weekly, coat's in good shape.",
+      "blocks": [
+        "For Bailey (about 70 lb), the listed full-groom range for a 51–80 lb dog is **$100–$130**. Weekly brushing and a coat in good shape are helpful details, but the groomer’s assessment determines the final quote. Prices may change; this is a planning estimate, not a final quote or appointment.",
+        "# Bailey’s full-groom estimate\n\nFor Bailey at about 70 lb, the listed large-dog full-groom range applies. Weekly brushing and a coat in good shape are useful details, but the groomer’s assessment determines the final price.\n\nService: Full groom · Large (51–80 lb)\n\nPet: Bailey\n\n- Full groom · Large (51–80 lb): $100.00–$130.00. Source price range; the final quote can change with coat, length, brushing time, and groomer assessment.\n\n**Estimated range:** $100.00–$130.00\n\nPlanning estimate only—not a final groomer quote, service confirmation, or reservation.\n\n- Prices are subject to change. The rate sheet notes short-haired breeds typically receive a full-service bath rather than a full groom; confirm the suitable service with the groomer.",
+        "[Tool Result: calculate_happy_tails_estimate] (output omitted)"
+      ],
+      "is_error": false,
+      "latency_s": 6.82
+    },
+    {
+      "i": 2,
+      "customer": "Does that include his nails and ears? And can you add a de-shed? He sheds a ton.",
+      "blocks": [
+        "The rate sheet doesn’t say whether a full groom includes nail or ear care, so I can’t confirm those are included—best to check with the groomer.\n\nFor Bailey, the listed estimates are:\n- **Full groom (51–80 lb): $100–$130**\n- **De-shed: $30–$60**\n\nThe rate sheet lists de-shed separately. The groomer assesses care needs, and prices may change, so these are planning ranges rather than a final quote.",
+        "[Tool Result: calculate_happy_tails_estimate] (output omitted)",
+        "[Tool Result: filesystem] (output omitted)"
+      ],
+      "is_error": false,
+      "latency_s": 7.55
+    }
+  ],
+  "status": "ok",
+  "finished": "2026-11-11T18:06:01.981842+00:00"
+}

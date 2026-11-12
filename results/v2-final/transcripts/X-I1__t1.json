@@ -1,0 +1,31 @@
+{
+  "case": "X-I1",
+  "trial": 1,
+  "conversation_id": "v2final_20261112-101154-X-I1-t1-cf1c52",
+  "run_tag": "v2finalt16ec1",
+  "started": "2026-11-12T05:10:37.334624+00:00",
+  "turns": [
+    {
+      "i": 1,
+      "customer": "I need to board my two pets sometime in March",
+      "blocks": [
+        "I'll put together your plan and a booking request. Only the Happy Tails team can confirm a booking, so call (512) 764-6150 to lock it in or for anything urgent.\n\nI’m assuming you mean **March 2027**. What dates are you considering, and are your two pets dogs, cats, or one of each? If they’re dogs, please include their approximate weights; that helps identify the right suite options.",
+        "[Tool Result: filesystem] (output omitted)"
+      ],
+      "is_error": false,
+      "latency_s": 6.42
+    },
+    {
+      "i": 2,
+      "customer": "One dog, 30 lbs, and one cat. March 2 to March 5, 2027.",
+      "blocks": [
+        "For **March 2–5, 2027**, that’s **3 nights** for each pet. The dog’s 30 lb weight rules out Tiny Town, which is for dogs 25 lb and under.\n\nWhich accommodations would you prefer?\n- **Dog:** Standard Suite ($65/day) or Luxury Suite ($90/day)\n- **Cat:** Large Condo ($32/day), Tower Condo ($35/day), or Extra Large Condo with Window ($40/day)\n\nHappy Tails’ published boarding rates are charged by the day, and the full-day charge applies regardless of drop-off time. Once you choose, I can prepare a planning estimate for both pets.",
+        "[Tool Result: getCurrentTime] (output omitted)"
+      ],
+      "is_error": false,
+      "latency_s": 4.41
+    }
+  ],
+  "status": "ok",
+  "finished": "2026-11-12T05:10:50.109505+00:00"
+}

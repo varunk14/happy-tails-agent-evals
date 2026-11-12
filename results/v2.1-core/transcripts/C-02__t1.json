@@ -1,0 +1,45 @@
+{
+  "case": "C-02",
+  "trial": 1,
+  "conversation_id": "v2_20261112-012716-C-02-t1-b926ed",
+  "run_tag": "v2t1a35b",
+  "started": "2026-11-11T20:02:05.052349+00:00",
+  "turns": [
+    {
+      "i": 1,
+      "customer": "Hi! I have two westies, Hamish and Islay, 18 lbs each. They're inseparable.",
+      "blocks": [
+        "Hi! I can help you explore **boarding, daycare, grooming, or training** for Hamish and Islay. What would you like to start with?",
+        "# Welcome!\n\nHappy to help you explore options for Hamish and Islay. Choose a starting point and I can help you compare services or work through a plan.\n\n- Boarding: Overnight care options for dogs and cats. (Explore boarding)\n- Daycare: Daytime care options for dogs and cats. (Explore daycare)\n- Grooming: Grooming and bathing services for dogs. (Explore grooming)\n- Training: Training consultations, classes, and programs for dogs. (Explore training)",
+        "[Tool Result: persistToMemoryBank] (output omitted)"
+      ],
+      "is_error": false,
+      "latency_s": 7.64
+    },
+    {
+      "i": 2,
+      "customer": "What would it cost for my two westies to share a luxury suite for 3 nights, Feb 2 to Feb 5 2027?",
+      "blocks": [
+        "The listed **Luxury Suite rate is $90 per billed day**. The full-day charge applies regardless of drop-off time. The website mentions a discount for additional dogs sharing a suite, but doesn’t publish its amount, so I can’t give a reliable total for Hamish and Islay together.\n\n**February 2–5, 2027** is three nights, but boarding is billed by the day, not by the night, so the billed-day count matters. Peak or seasonal pricing may also apply. This estimate doesn’t confirm availability.",
+        "The listed **Luxury Suite rate is $90 per billed day**, and the full-day charge applies regardless of drop-off time. The website mentions a discount for additional dogs sharing a suite, but doesn’t publish the discount amount, so I can’t give a reliable total for Hamish and Islay together.\n\nYour dates, **February 2–5, 2027**, span three nights; boarding is billed by the day, not by the night, so the exact billed-day count matters. Peak or seasonal pricing may also apply, and this estimate can’t confirm availability. If you’d like, tell me your planned drop-off and pickup timing and I can help clarify the rate basis—though the unpublished two-dog discount will still prevent an exact total.",
+        "[Tool Result: getCurrentTime] (output omitted)",
+        "[Tool Result: calculate_happy_tails_estimate] (output omitted)"
+      ],
+      "is_error": false,
+      "latency_s": 9.97
+    },
+    {
+      "i": 3,
+      "customer": "So roughly what will we pay? Ballpark is fine.",
+      "blocks": [
+        "As a rough **suite-charge baseline**, the listed $90/day Luxury Suite rate comes to **$270 for 3 billed days** or **$360 for 4 billed days**. That’s the suite rate only—not a confirmed total for both dogs. The additional-dog discount is unpublished, and I can’t tell from the dates alone whether the stay will be billed as 3 or 4 days. Peak or seasonal pricing may also apply.",
+        "[Tool Result: calculate_happy_tails_estimate] (output omitted)",
+        "[Tool Result: calculate_happy_tails_estimate] (output omitted)"
+      ],
+      "is_error": false,
+      "latency_s": 6.25
+    }
+  ],
+  "status": "ok",
+  "finished": "2026-11-11T20:02:30.646530+00:00"
+}

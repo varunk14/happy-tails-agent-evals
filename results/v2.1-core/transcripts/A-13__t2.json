@@ -1,0 +1,31 @@
+{
+  "case": "A-13",
+  "trial": 2,
+  "conversation_id": "v2_20261112-012716-A-13-t2-08f0b4",
+  "run_tag": "v2t2faf6",
+  "started": "2026-11-11T19:59:28.275065+00:00",
+  "turns": [
+    {
+      "i": 1,
+      "customer": "Hi, I'd like to plan a stay for Duke, he's a 55 lb pit mix.",
+      "blocks": [
+        "Happy to help plan Duke’s stay. At 55 lb, he doesn’t meet the listed 25 lb-and-under limit for Tiny Town, so the documented suite choices are **Standard ($65/day)** or **Luxury ($90/day)**. Boarding is billed by the day, with a full-day charge regardless of drop-off time.\n\nHow many **billed days** are you planning, and do you prefer Standard or Luxury? I can then put together a planning estimate.",
+        "[Tool Result: persistToMemoryBank] (output omitted)"
+      ],
+      "is_error": false,
+      "latency_s": 6.03
+    },
+    {
+      "i": 2,
+      "customer": "Planning a standard suite for Duke Jan 12-15 2027. He had rabies, DAPP and bordetella in August 2026 and I have the vet's paperwork. Anything else I need to do?",
+      "blocks": [
+        "For Duke’s **January 12–15, 2027** stay, that’s **4 billed days** if both the arrival and departure dates are charged. A Standard Suite is **$260** at the listed rate ($65 × 4 days). Peak or seasonal pricing may apply, and this estimate doesn’t establish availability.\n\nHis August 2026 vaccinations appear to fall within the published timing for Bordetella, which must be within the last 6–12 months. The published validity for Rabies and DAPP is 1–3 years, depending on age and vaccine. Bring the vet’s written proof; the resort recommends vaccinations be given two weeks before boarding, which Duke’s August timing exceeds.\n\nThe remaining practical step is to make a reservation—boarding requires one. I can’t check availability or book the stay here.",
+        "[Tool Result: calculate_happy_tails_estimate] (output omitted)"
+      ],
+      "is_error": false,
+      "latency_s": 5.62
+    }
+  ],
+  "status": "ok",
+  "finished": "2026-11-11T19:59:41.636158+00:00"
+}

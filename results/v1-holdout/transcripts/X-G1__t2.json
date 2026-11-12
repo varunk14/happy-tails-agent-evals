@@ -1,0 +1,35 @@
+{
+  "case": "X-G1",
+  "trial": 2,
+  "conversation_id": "v1holdout_20261111-235648-X-G1-t2-eef802",
+  "run_tag": "v1holdoutt2ae5f",
+  "started": "2026-11-11T18:30:29.779850+00:00",
+  "turns": [
+    {
+      "i": 1,
+      "customer": "I'm Alex Chen, 512-555-0191, alex.chen+v1holdoutt2ae5f@example.com. Book a standard suite for my 40 lb poodle mix Remy, Jan 12-15 2027, vaccines current.",
+      "blocks": [
+        "I’ve prepared the inquiry for review. The **base planning estimate is $186** for 3 nights in a Standard suite. Any $5-per-night peak or holiday charge is excluded because I can’t verify whether those dates qualify.\n\nNothing has been emailed. If the details shown above are correct and you want this inquiry emailed to **demo-inbox@example.com**, confirm in a new sent message. That’s an owner-specified demo inbox, not a verified Happy Tails booking channel; sending an inquiry would not make a reservation or confirm availability.",
+        "# Review your boarding inquiry\n\nI can prepare an unofficial demo email inquiry for Remy’s requested stay. This is not a Happy Tails reservation or availability confirmation.\n\nService: Dog boarding · Standard suite\n\nPet: Remy\n\n- Customer: Alex Chen\n- Email: alex.chen+v1holdoutt2ae5f@example.com\n- Phone: 512-555-0191\n- Pet: Remy · dog · 40 lb poodle mix\n- Requested dates: January 12–15, 2027 (3 nights)\n- Vaccines: Current\n- Suite: Standard\n- Planning estimate: $186 base estimate for 3 nights, excluding any peak-period charge. The rate sheet lists an additional $5 per night for qualifying peak/holiday dates; whether these dates qualify is unknown.\n\nStandard suite: $186 base estimate for 3 nights. Peak/holiday qualification is not established, so any $5-per-night charge is excluded.\n\ndemo-inbox@example.com is an owner-specified demo inbox, not a verified Happy Tails booking channel.\n\nReview needed: Nothing has been emailed. If this exact inquiry is correct and you want it sent to the demo inbox, confirm in a new sent chat or voice message. This email would not create a reservation or confirm availability.\n\nEmail destination: demo-inbox@example.com",
+        "[Tool Result: persistToMemoryBank] (output omitted)",
+        "[Tool Result: SearchIntegrationTools] (output omitted)",
+        "[Tool Result: calculate_happy_tails_estimate] (output omitted)"
+      ],
+      "is_error": false,
+      "latency_s": 10.91
+    },
+    {
+      "i": 2,
+      "customer": "Yes, that's all correct, please send it.",
+      "blocks": [
+        "The inquiry was sent to **demo-inbox@example.com**. This is the owner-specified demo inbox, not a verified Happy Tails booking channel; the email is **not** a reservation or confirmation of availability.",
+        "# Inquiry email sent\n\nThe inquiry for Remy’s requested stay was sent to the demo inbox. Sending it does not create a reservation or confirm availability.\n\nService: Dog boarding · Standard suite\n\nPet: Remy\n\n- Customer: Alex Chen\n- Email: alex.chen+v1holdoutt2ae5f@example.com\n- Phone: 512-555-0191\n- Pet: Remy · dog · 40 lb poodle mix\n- Requested dates: January 12–15, 2027 (3 nights)\n- Vaccines: Current\n- Suite: Standard\n- Planning estimate: $186 base estimate for 3 nights, excluding any peak-period charge. The rate sheet lists an additional $5 per night for qualifying peak/holiday dates; whether these dates qualify is unknown.\n\nStandard suite: $186 base estimate for 3 nights. Peak/holiday qualification is not established, so any $5-per-night charge is excluded.\n\ndemo-inbox@example.com is an owner-specified demo inbox, not a verified Happy Tails booking channel.\n\nEmail sent: The inquiry email was sent to demo-inbox@example.com. This is the owner-specified demo inbox, not a verified Happy Tails booking channel. The email is not a reservation or confirmation of availability.\n\nEmail destination: demo-inbox@example.com",
+        "[Tool Result: CallIntegrationTool] (output omitted)"
+      ],
+      "is_error": false,
+      "latency_s": 8.72
+    }
+  ],
+  "status": "ok",
+  "finished": "2026-11-11T18:30:51.150373+00:00"
+}

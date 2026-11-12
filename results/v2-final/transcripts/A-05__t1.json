@@ -1,0 +1,38 @@
+{
+  "case": "A-05",
+  "trial": 1,
+  "conversation_id": "v2final_20261112-101154-A-05-t1-052063",
+  "run_tag": "v2finalt107b8",
+  "started": "2026-11-12T04:43:12.328999+00:00",
+  "turns": [
+    {
+      "i": 1,
+      "customer": "How much is a full groom for a golden retriever? Bailey's about 70 lbs, brushed weekly, coat's in good shape.",
+      "blocks": [
+        "**Bailey’s full groom starts at $90** for the 51–80 lb size range. Her coat condition is useful context, but the groomer will determine the final price based on her coat, length, and brushing needs. This is a planning estimate, not a final quote.",
+        "# Bailey’s full-groom estimate\n\nFor Bailey at about 70 lb, the listed Large (51–80 lb) full-groom rate applies. Her good coat condition is helpful context, but the groomer sets the final price after assessing her coat and brushing needs.\n\nService: Full groom · Large (51–80 lb)\n\nPet: Bailey\n\n- Full groom: $90.00. Starting rate; final price may be higher based on coat, length, brushing time, and groomer assessment.\n\n**Starting estimate:** $90.00\n\nPlanning estimate only, not a final groomer quote or reservation.\n\n- Prices may change.",
+        "[Tool Result: calculate_happy_tails_estimate] (output omitted)"
+      ],
+      "is_error": false,
+      "latency_s": 5.73
+    },
+    {
+      "i": 2,
+      "customer": "Does that include his nails and ears? And can you add a de-shed? He sheds a ton.",
+      "blocks": [
+        "Yes. Happy Tails’ full groom includes a bath, haircut, nail trim, and ear cleaning. A de-shed is an add-on, listed at **$30–$60**.\n\nFor Bailey, the full groom starts at **$90**, plus **$30–$60** for the de-shed. The groomer assesses her coat and brushing needs, so the final price may be higher. This is a planning estimate, not a final quote.",
+        "Yes. Happy Tails describes a full groom as including a bath, haircut, **nail trim, and ear cleaning**, so those are included in Bailey’s full-groom service. \n\nA **de-shed is an add-on** priced at **$30–$60**. Bailey’s 51–80 lb full groom starts at **$90**, so the listed services are a **$90+ full groom plus $30–$60 for de-shed**. Her coat and brushing needs are assessed by the groomer, and prices may change; this is a planning estimate, not a final quote.",
+        "[Tool Result: calculate_happy_tails_estimate] (output omitted)",
+        "[Tool Result: calculate_happy_tails_estimate] (output omitted)",
+        "[Tool Result: calculate_happy_tails_estimate] (output omitted)",
+        "[Tool Result: calculate_happy_tails_estimate] (output omitted)",
+        "[Tool Result: calculate_happy_tails_estimate] (output omitted)",
+        "[Tool Result: filesystem] (output omitted)"
+      ],
+      "is_error": false,
+      "latency_s": 9.35
+    }
+  ],
+  "status": "ok",
+  "finished": "2026-11-12T04:43:29.096007+00:00"
+}

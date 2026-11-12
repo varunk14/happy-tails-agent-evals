@@ -1,0 +1,30 @@
+{
+  "case": "A-16",
+  "trial": 1,
+  "conversation_id": "v2final_20261112-101154-A-16-t1-b17695",
+  "run_tag": "v2finalt1b669",
+  "started": "2026-11-12T04:45:36.117811+00:00",
+  "turns": [
+    {
+      "i": 1,
+      "customer": "Standard suite for my dog Hank, 40 lbs. I'll drop him off Friday Jan 22 2027 around 6pm and pick him up Sunday Jan 24 at 6pm.",
+      "blocks": [
+        "For Hank’s **Standard Suite**, January 22–24, 2027 is **2 nights**. The planning estimate is **$130** ($65 per day × 2 nights).\n\nHappy Tails bills boarding by the day, and staff confirm the final total. Peak or seasonal pricing may apply; the published information doesn’t say whether these dates qualify or what that price would be.",
+        "[Tool Result: calculate_happy_tails_estimate] (output omitted)"
+      ],
+      "is_error": false,
+      "latency_s": 4.07
+    },
+    {
+      "i": 2,
+      "customer": "Wait, am I paying for Friday even though he only arrives at 6?",
+      "blocks": [
+        "Yes. Happy Tails’ published policy says boarding is billed by the day, and the full-day charge applies regardless of drop-off time. The estimate counts the two nights between Friday, January 22 and Sunday, January 24; staff confirm the final total."
+      ],
+      "is_error": false,
+      "latency_s": 2.33
+    }
+  ],
+  "status": "ok",
+  "finished": "2026-11-12T04:45:44.125005+00:00"
+}

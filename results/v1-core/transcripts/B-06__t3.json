@@ -1,0 +1,31 @@
+{
+  "case": "B-06",
+  "trial": 3,
+  "conversation_id": "v1_20261111-233436-B-06-t3-3d5e21",
+  "run_tag": "v1t31df6",
+  "started": "2026-11-11T18:10:15.694021+00:00",
+  "turns": [
+    {
+      "i": 1,
+      "customer": "Need a standard suite for my old boy Winston, a 60 lb basset, Feb 2-5 2027.",
+      "blocks": [
+        "For Winston’s **Standard Suite**, February 2–5, 2027 is **3 nights**, for a planning estimate of **$186** ($62 per night for one dog). This excludes any peak-period charge; the rate sheet adds $5 per night on qualifying dates, and I can’t confirm whether these dates qualify. This estimate does not confirm availability or reserve a stay.",
+        "[Tool Result: calculate_happy_tails_estimate] (output omitted)"
+      ],
+      "is_error": false,
+      "latency_s": 4.61
+    },
+    {
+      "i": 2,
+      "customer": "My old boy Winston is on 4 meds, three times a day, some crushed into his food. What do you charge for that?",
+      "blocks": [
+        "I don’t have a verified medication-administration rate, so I can’t quote a charge for Winston’s four medications or whether crushed doses can be mixed into his food. That would need to be confirmed directly with the resort.",
+        "[Tool Result: Grep] (output omitted)"
+      ],
+      "is_error": false,
+      "latency_s": 4.39
+    }
+  ],
+  "status": "ok",
+  "finished": "2026-11-11T18:10:26.402734+00:00"
+}

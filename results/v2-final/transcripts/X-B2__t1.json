@@ -1,0 +1,31 @@
+{
+  "case": "X-B2",
+  "trial": 1,
+  "conversation_id": "v2final_20261112-101154-X-B2-t1-8ab093",
+  "run_tag": "v2finalt1459a",
+  "started": "2026-11-12T05:07:50.652225+00:00",
+  "turns": [
+    {
+      "i": 1,
+      "customer": "Hi, can you groom really big dogs?",
+      "blocks": [
+        "Yes. Happy Tails lists full grooming for dogs in the **81–99 lb** size range, starting at **$105**, and for **Doodles of any listed size**, starting at **$111**. The groomer assesses each dog’s coat and care needs, so the final price may vary. For dogs over 99 lb, the published rate sheet doesn’t list a size category—Happy Tails staff can clarify at **(512) 764-6150**.\n\nIf you share your dog’s weight and breed, I can help identify the listed starting rate.",
+        "[Tool Result: filesystem] (output omitted)"
+      ],
+      "is_error": false,
+      "latency_s": 11.98
+    },
+    {
+      "i": 2,
+      "customer": "Full groom for my Great Pyrenees Yeti, he's 120 lbs. How much?",
+      "blocks": [
+        "Happy Tails lists full-groom starting rates only through **81–99 lb ($105+)**. Since Yeti is **120 lb**, that rate doesn’t establish his price; the published rates don’t specify a starting rate for his weight. Happy Tails staff can clarify at **(512) 764-6150**.",
+        "[Tool Result: calculate_happy_tails_estimate] (output omitted)"
+      ],
+      "is_error": false,
+      "latency_s": 4.4
+    }
+  ],
+  "status": "ok",
+  "finished": "2026-11-12T05:08:08.516164+00:00"
+}

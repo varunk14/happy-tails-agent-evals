@@ -1,0 +1,31 @@
+{
+  "case": "X-D2",
+  "trial": 2,
+  "conversation_id": "v1holdout_20261111-235648-X-D2-t2-ef7092",
+  "run_tag": "v1holdoutt25ecc",
+  "started": "2026-11-11T18:29:21.374792+00:00",
+  "turns": [
+    {
+      "i": 1,
+      "customer": "Hi! Quick question about daycare deals.",
+      "blocks": [
+        "Hi! For **dog daycare**, the rate sheet lists single visits, prepaid 10- and 20-day packs, and monthly memberships for 1, 2, 3 days per week or unlimited use. The pack rates are non-refundable and can’t be combined with other discounts. I can help compare the listed prices—are you asking about dog daycare or cat daycare?",
+        "[Tool Result: filesystem] (output omitted)"
+      ],
+      "is_error": false,
+      "latency_s": 5.21
+    },
+    {
+      "i": 2,
+      "customer": "My older dog has come to you for years. We just adopted a second dog, Pickle. Can Pickle get the $99 unlimited daycare deal?",
+      "blocks": [
+        "The current rate sheet available to me lists **unlimited dog daycare at $540 per month**, with an effective rate as low as **$18 per day depending on use**—not $99. I can’t verify whether Pickle qualifies for a separate deal, or whether your older dog’s history affects eligibility. This is an unofficial planning demo, so the resort would need to confirm any promotion or eligibility.",
+        "[Tool Result: calculate_happy_tails_estimate] (output omitted)"
+      ],
+      "is_error": false,
+      "latency_s": 4.24
+    }
+  ],
+  "status": "ok",
+  "finished": "2026-11-11T18:29:32.548543+00:00"
+}

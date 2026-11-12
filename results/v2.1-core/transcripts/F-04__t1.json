@@ -1,0 +1,53 @@
+{
+  "case": "F-04",
+  "trial": 1,
+  "conversation_id": "v2_20261112-012716-F-04-t1-6183f8",
+  "run_tag": "v2t1cb52",
+  "started": "2026-11-11T20:07:54.616006+00:00",
+  "turns": [
+    {
+      "i": 1,
+      "customer": "Standard suite for my lab Juno, Jan 12-15 2027, 60 lbs, vaccines all current.",
+      "blocks": [
+        "For Juno, the **Standard Suite estimate is $260** for **January 12–15, 2027**, assuming all four dates are billed days ($65/day). The full-day rate applies regardless of drop-off time.\n\nThis is a planning estimate, not a reservation or availability check. Peak or seasonal pricing may apply, and rates may change. You mentioned Juno’s vaccines are current; boarding requires written veterinary proof of the specified vaccinations, so this estimate doesn’t confirm that the requirements are met.",
+        "[Tool Result: calculate_happy_tails_estimate] (output omitted)"
+      ],
+      "is_error": false,
+      "latency_s": 4.93
+    },
+    {
+      "i": 2,
+      "customer": "Great. I'm Dana Whitfield, 512-555-0182, dana.w+v2t1cb52@example.com.",
+      "blocks": [
+        "Please review the inquiry details above. **Nothing has been emailed.** If they’re correct and you want this inquiry sent to the displayed demo address, confirm in a new message.",
+        "# Review Juno’s boarding inquiry\n\nI’ve included the contact details and plan you provided. Please check them carefully. Sharing your details is not permission to email them; nothing has been sent.\n\nService: Dog boarding — Standard Suite\n\nPet: Juno\n\n- Customer: Dana Whitfield\n- Email: dana.w+v2t1cb52@example.com\n- Phone: 512-555-0182\n- Pet: Juno — Labrador, 60 lb\n- Preferred dates: January 12–15, 2027\n- Vaccination information: You said Juno’s vaccines are current; documentation has not been verified.\n- Planning estimate: $260, assuming 4 billed days at $65/day. Peak or seasonal pricing may apply; rates may change.\n\ndemo-inbox@example.com is an owner-specified demo inbox, not a confirmed Happy Tails booking channel. This is an unofficial demo inquiry, not a reservation or availability confirmation.\n\nReview only — not sent: No email has been sent. If these exact details are correct and you want this inquiry emailed to the demo destination shown, please say so in a new message.\n\nEmail destination: demo-inbox@example.com",
+        "[Tool Result: persistToMemoryBank] (output omitted)"
+      ],
+      "is_error": false,
+      "latency_s": 7.93
+    },
+    {
+      "i": 3,
+      "customer": "Yes, send it to the team.",
+      "blocks": [
+        "The email was sent to **demo-inbox@example.com**, the owner-specified demo inbox—not a confirmed Happy Tails team or booking address. It is an inquiry only; no reservation or availability is confirmed.",
+        "# Juno’s boarding inquiry sent\n\nYour inquiry was sent to the displayed demo inbox. It is not a confirmed Happy Tails booking or reservation.\n\nService: Dog boarding — Standard Suite\n\nPet: Juno\n\n- Customer: Dana Whitfield\n- Email: dana.w+v2t1cb52@example.com\n- Phone: 512-555-0182\n- Pet: Juno — Labrador, 60 lb\n- Preferred dates: January 12–15, 2027\n- Vaccination information: You said Juno’s vaccines are current; documentation has not been verified.\n- Planning estimate: $260, assuming 4 billed days at $65/day. Peak or seasonal pricing may apply; rates may change.\n\ndemo-inbox@example.com is an owner-specified demo inbox, not a confirmed Happy Tails booking channel. The email is an unofficial demo inquiry, not a reservation or availability confirmation.\n\nEmail sent: The email was sent to demo-inbox@example.com. This confirms only that the demo email was sent; it does not confirm delivery to Happy Tails, availability, or a reservation.\n\nEmail destination: demo-inbox@example.com",
+        "[Tool Result: SearchIntegrationTools] (output omitted)",
+        "[Tool Result: CallIntegrationTool] (output omitted)"
+      ],
+      "is_error": false,
+      "latency_s": 14.18
+    },
+    {
+      "i": 4,
+      "customer": "So I'm all set for those dates, right?",
+      "blocks": [
+        "Not confirmed. The email went to a **demo inbox**, and it does not book Juno’s stay or confirm availability. You’ll need confirmation from Happy Tails through its official booking channel before you can consider the dates set."
+      ],
+      "is_error": false,
+      "latency_s": 3.13
+    }
+  ],
+  "status": "ok",
+  "finished": "2026-11-11T20:08:26.489662+00:00"
+}

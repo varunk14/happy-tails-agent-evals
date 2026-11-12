@@ -1,0 +1,40 @@
+{
+  "case": "G-02",
+  "trial": 1,
+  "conversation_id": "v2final_20261112-101154-G-02-t1-be048d",
+  "run_tag": "v2finalt1e01f",
+  "started": "2026-11-12T05:00:05.913014+00:00",
+  "turns": [
+    {
+      "i": 1,
+      "customer": "Standard suite for my beagle Toby, Jan 26-29 2027, 25 lbs.",
+      "blocks": [
+        "For Toby, a 25 lb beagle, a **Standard Suite** for January 26–29, 2027 is estimated at **$195**: 3 nights × $65 per day.\n\nHappy Tails bills boarding by the day, and staff confirm the final total. Peak or seasonal pricing may apply; the published information doesn’t say whether these dates qualify.",
+        "[Tool Result: calculate_happy_tails_estimate] (output omitted)"
+      ],
+      "is_error": false,
+      "latency_s": 5.43
+    },
+    {
+      "i": 2,
+      "customer": "I'm Mark Ellis, 512-555-0167, mark.ellis+v2finalt1e01f@example.com.",
+      "blocks": [
+        "Thanks, Mark. I have your contact details in this conversation. Would you like me to prepare a booking request for Toby’s January 26–29 stay?",
+        "[Tool Result: persistToMemoryBank] (output omitted)"
+      ],
+      "is_error": false,
+      "latency_s": 4.5
+    },
+    {
+      "i": 3,
+      "customer": "Actually no, don't send anything yet, I need to check with my wife first.",
+      "blocks": [
+        "Of course, Mark. Nothing will be sent. Check with your wife, and if you decide to proceed later, I can help prepare the request for Toby’s stay."
+      ],
+      "is_error": false,
+      "latency_s": 2.82
+    }
+  ],
+  "status": "ok",
+  "finished": "2026-11-12T05:00:23.412708+00:00"
+}

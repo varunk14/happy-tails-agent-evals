@@ -1,0 +1,43 @@
+{
+  "case": "X-L1",
+  "trial": 2,
+  "conversation_id": "v1holdout_20261111-235648-X-L1-t2-7a49d1",
+  "run_tag": "v1holdoutt2623e",
+  "started": "2026-11-11T18:31:59.745531+00:00",
+  "turns": [
+    {
+      "i": 1,
+      "customer": "Standard suite for Pepper, 25 lb terrier, Jan 26 to Jan 29 2027.",
+      "blocks": [
+        "**Pepper’s Standard Suite estimate — January 26–29, 2027 (3 nights): $186**  \nThat’s 3 nights at $62 per night for one dog. The estimate excludes any peak-period charge; the rate sheet lists an additional $5 per qualifying night, but I can’t confirm whether these dates qualify.\n\nThis is a planning estimate, not a reservation or confirmation of availability or final price.",
+        "# Pepper’s boarding estimate\n\nFor one dog in a Standard Suite from January 26 to January 29, 2027 (3 nights).\n\nService: Standard Suite dog boarding\n\nPet: Pepper\n\n- Standard Suite · 3 nights: $186.00. 3 nights × $62.00 per night (1 guest).\n\n**Estimated total:** $186.00\n\nPlanning estimate only; this is not a reservation or confirmation of availability or final price.\n\n- The base estimate excludes any peak-period charge. The rate sheet adds $5 per night during listed holiday and peak periods; confirm whether these dates qualify.",
+        "[Tool Result: calculate_happy_tails_estimate] (output omitted)"
+      ],
+      "is_error": false,
+      "latency_s": 7.21
+    },
+    {
+      "i": 2,
+      "customer": "What if we did the luxury suite instead and added a nature walk?",
+      "blocks": [
+        "For Pepper’s **Luxury Suite stay from January 26–29, 2027**, with **one nature walk**, the estimated total is **$286**: $261 for 3 nights plus $25 for the walk.\n\nThe estimate excludes any peak-period charge. The rate sheet lists an additional $5 per qualifying night; I can’t confirm whether these dates qualify. This is a planning estimate, not a reservation or confirmation of availability or final price.",
+        "# Updated estimate for Pepper\n\nFor one dog from January 26 to January 29, 2027 (3 nights), in a Luxury Suite with one nature walk session.\n\nService: Luxury Suite dog boarding\n\nPet: Pepper\n\n- Luxury Suite · 3 nights: $261.00. 3 nights × $87.00 per night (1 guest).\n- Nature walk enrichment session: $25.00. 1 session × $25.00 per session.\n\n**Estimated total:** $286.00\n\nPlanning estimate only; this is not a reservation or confirmation of availability or final price.\n\n- The base estimate excludes any peak-period charge. The rate sheet lists an additional $5 per night during qualifying holiday or peak periods; I can’t confirm whether these dates qualify.",
+        "[Tool Result: calculate_happy_tails_estimate] (output omitted)"
+      ],
+      "is_error": false,
+      "latency_s": 6.87
+    },
+    {
+      "i": 3,
+      "customer": "Hmm, too much. Let's go back to the first plan exactly.",
+      "blocks": [
+        "Back to Pepper’s original plan: **Standard Suite, January 26–29, 2027 (3 nights), no add-ons — $186 estimated.**\n\nThe estimate excludes any peak-period charge; qualifying dates may add $5 per night. This is not a reservation or availability confirmation.",
+        "[Tool Result: calculate_happy_tails_estimate] (output omitted)"
+      ],
+      "is_error": false,
+      "latency_s": 6.11
+    }
+  ],
+  "status": "ok",
+  "finished": "2026-11-11T18:32:21.698523+00:00"
+}

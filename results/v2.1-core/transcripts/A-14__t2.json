@@ -1,0 +1,32 @@
+{
+  "case": "A-14",
+  "trial": 2,
+  "conversation_id": "v2_20261112-012716-A-14-t2-3143de",
+  "run_tag": "v2t2426b",
+  "started": "2026-11-11T19:59:41.638842+00:00",
+  "turns": [
+    {
+      "i": 1,
+      "customer": "Hey, planning a luxury suite for my dog Rosie, Jan 26-29 2027.",
+      "blocks": [
+        "For **Rosie**, a luxury-suite stay from **January 26–29, 2027** is **4 billed days**—boarding is charged by the day, not the night.\n\n- Luxury Suite: 4 days × $90/day = **$360**\n- **Planning estimate: $360**, before any applicable peak or seasonal pricing. Rates may change.\n\nThis unofficial estimate doesn’t check availability or reserve the stay. Happy Tails requires boarding reservations; I can help you prepare an inquiry, but I can’t confirm whether those dates are available.",
+        "[Tool Result: getCurrentTime] (output omitted)",
+        "[Tool Result: calculate_happy_tails_estimate] (output omitted)"
+      ],
+      "is_error": false,
+      "latency_s": 7.25
+    },
+    {
+      "i": 2,
+      "customer": "If I book a luxury suite for the end of January and my trip gets cancelled, how much notice do I need to give, and is there a fee?",
+      "blocks": [
+        "For the **January 26–29, 2027** luxury-suite dates you mentioned:\n\n- **If those dates are treated as non-holiday boarding:** give at least **24 hours’ notice before the first day of boarding**. With less notice—or a no-show—the published fee is **$35 per luxury suite**.\n- **If they fall under the holiday policy:** notice is **5 days before the first boarding day**. A luxury suite requires a **$150 deposit**, which is forfeited if you cancel too late or don’t show.\n\nThe policy doesn’t specify whether those particular dates count as a holiday, so I can’t tell which rule applies to them. ([happytailspetresorttx.com](https://www.happytailspetresorttx.com/reservation-requirements-cancellation-policy?utm_source=openai))",
+        "[Tool Result: web_search] (output omitted)"
+      ],
+      "is_error": false,
+      "latency_s": 6.8
+    }
+  ],
+  "status": "ok",
+  "finished": "2026-11-11T19:59:57.404422+00:00"
+}

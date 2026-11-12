@@ -1,0 +1,30 @@
+{
+  "case": "A-14",
+  "trial": 3,
+  "conversation_id": "v2_20261112-012716-A-14-t3-745eb0",
+  "run_tag": "v2t38500",
+  "started": "2026-11-11T19:59:41.667588+00:00",
+  "turns": [
+    {
+      "i": 1,
+      "customer": "Hey, planning a luxury suite for my dog Rosie, Jan 26-29 2027.",
+      "blocks": [
+        "I’ve got Rosie’s plan: **Luxury Suite, January 26–29, 2027**. Dog boarding is billed by the day, not by the night, and the full-day charge applies regardless of drop-off time. Should I estimate **4 billed days** for those dates, counting both January 26 and January 29?"
+      ],
+      "is_error": false,
+      "latency_s": 4.87
+    },
+    {
+      "i": 2,
+      "customer": "If I book a luxury suite for the end of January and my trip gets cancelled, how much notice do I need to give, and is there a fee?",
+      "blocks": [
+        "For **non-holiday dog boarding**, give at least **24 hours’ notice before the first day of boarding**. If you cancel with less notice—or don’t show—the listed fee for a **Luxury Suite is $35 per suite**. ([happytailspetresorttx.com](https://www.happytailspetresorttx.com/reservation-requirements-cancellation-policy?utm_source=openai))\n\nFor **holidays, including Spring Break**, the rule differs: a **$150 deposit per Luxury Suite** is required, and you need to cancel at least **5 days before boarding** to avoid forfeiting it. Whether your end-of-January dates count as a holiday period isn’t clear from the policy, so check that for your specific dates. ([happytailspetresorttx.com](https://www.happytailspetresorttx.com/reservation-requirements-cancellation-policy?utm_source=openai))",
+        "[Tool Result: web_search] (output omitted)"
+      ],
+      "is_error": false,
+      "latency_s": 5.74
+    }
+  ],
+  "status": "ok",
+  "finished": "2026-11-11T19:59:54.028447+00:00"
+}

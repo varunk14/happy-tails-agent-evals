@@ -1,0 +1,32 @@
+{
+  "case": "D-04",
+  "trial": 1,
+  "conversation_id": "v2_20261112-012716-D-04-t1-9e8c22",
+  "run_tag": "v2t19c2a",
+  "started": "2026-11-11T20:04:24.301785+00:00",
+  "turns": [
+    {
+      "i": 1,
+      "customer": "Hi, I want to plan a boarding stay for Gus, he's 50 lbs.",
+      "blocks": [
+        "Hi! I can help you plan Gus’s boarding stay. At **50 lb**, he’s above the 25-lb limit for Tiny Town, so the listed options are a **Standard Suite at $65/day** or a **Luxury Suite at $90/day**. Boarding is billed by the day, with a full-day charge regardless of drop-off time. Reservations are required, and peak or seasonal pricing may apply.\n\nWhat dates—or how many billed days—are you considering, and which suite should I use for an estimate? I can also include any add-ons you’re considering. This is an unofficial planning demo, not a reservation or availability check.",
+        "Hi! I can help you plan Gus’s boarding stay. At 50 lb, he is above the 25-lb limit for Tiny Town, so the listed choices are a **Standard Suite ($65/day)** or a **Luxury Suite ($90/day)**. Boarding is billed by the day, with a full-day charge regardless of drop-off time. Reservations are required, and peak or seasonal pricing may apply.\n\nTo estimate the stay, what dates (or how many billed days) are you considering, and which suite would you like to plan around? I can also include any boarding add-ons you’re considering. This is an unofficial planning demo, not a reservation or availability check."
+      ],
+      "is_error": false,
+      "latency_s": 4.92
+    },
+    {
+      "i": 2,
+      "customer": "I'm a daycare member (2 days a week) so I get 10% off boarding right? Luxury suite Feb 2-5 2027 for Gus, plus 2 brain games sessions.",
+      "blocks": [
+        "Your **2-days-per-week membership** lists a **10% discount on the Standard or Luxury boarding-suite base rate only**—not on add-ons, fees, taxes, or gratuities. The discount is subject to availability and blackout dates, and can’t be combined with other discounts. I can’t verify eligibility or availability for these dates, so I haven’t applied it to the estimate.\n\nFor **Gus’s Luxury Suite stay, February 2–5, 2027**, I’ve counted **4 billed days**:\n\n- Luxury Suite: **$360** (4 × $90/day)\n- Two brain games sessions: **$50** (2 × $25)\n- **Estimated total: $410 before any eligible membership discount**\n\nPeak or seasonal pricing may apply, and rates may change. This is a planning estimate—not a reservation or availability confirmation.",
+        "Yes. The **2-days-per-week membership** includes a **10% discount on the Standard or Luxury boarding-suite base rate only**. It does not discount add-ons, fees, taxes, or gratuities, and is subject to availability, blackout dates, and non-combinable terms. I haven’t applied it to this estimate because eligibility and availability for Gus’s stay haven’t been established; I also can’t check live availability.\n\nFor **February 2–5, 2027**, I’ve used **4 billed days** (the full-day rate applies regardless of drop-off time). The estimate below includes the Luxury Suite and two brain games sessions, before any eligible membership discount. Peak or seasonal pricing may apply.\n\n---\n\n# Gus’s boarding estimate\n\nLuxury Suite for 4 billed days, plus two brain games sessions. The 10% membership discount is not applied; eligibility and availability are unconfirmed.\n\nService: Dog boarding · Luxury Suite\n\nPet: Gus\n\n- Luxury Suite · 4 days: $360.00. 4 full billed days × $90.00 per day; full-day charge applies regardless of drop-off time.\n- Brain games enrichment session · 2: $50.00. 2 sessions × $25.00 per session.\n\n**Estimated total before any eligible membership discount:** $410.00\n\nPlanning estimate only—not a reservation, availability check, or final price. Peak or seasonal pricing may apply; rates may change without notice.\n\n- The published 10% membership discount applies only to the Standard or Luxury boarding-suite base rate, not add-ons, fees, taxes, or gratuities. It is subject to availability and blackout dates and cannot be combined with other discounts.",
+        "[Tool Result: calculate_happy_tails_estimate] (output omitted)"
+      ],
+      "is_error": false,
+      "latency_s": 9.18
+    }
+  ],
+  "status": "ok",
+  "finished": "2026-11-11T20:04:40.107632+00:00"
+}

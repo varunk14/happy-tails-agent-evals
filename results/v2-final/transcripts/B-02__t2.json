@@ -1,0 +1,54 @@
+{
+  "case": "B-02",
+  "trial": 2,
+  "conversation_id": "v2final_20261112-101154-B-02-t2-f73534",
+  "run_tag": "v2finalt2f091",
+  "started": "2026-11-12T04:46:08.093057+00:00",
+  "turns": [
+    {
+      "i": 1,
+      "customer": "Hi! I need boarding for Honey, she's a goldendoodle, about 50 lbs. Jan 26 to Jan 29, 2027, standard suite. And a full groom before I pick her up.",
+      "blocks": [
+        "**Honey’s estimate for Jan 26–29, 2027**\n\n- **Standard Suite boarding:** 3 nights × $65/day = **$195**\n- **Full groom (26–50 lb):** **from $74**\n- **Estimated total:** **from $269**\n\nThe resort bills boarding by the day; Happy Tails staff confirm the final boarding total. The groomer’s assessment may affect the final grooming price. Peak or seasonal pricing may also apply, but the published information doesn’t say whether it applies to these dates or what the amount would be. This is a planning estimate, not a reservation.",
+        "# Honey’s boarding and grooming estimate\n\nFor Jan 26–29, 2027, the stay is 3 nights in a Standard Suite. Her full groom is estimated separately using the published 26–50 lb size band.\n\nService: Dog boarding and full groom\n\nPet: Honey\n\n- Standard Suite, 3 nights: $195.00. 3 nights × $65 per day.\n- Full groom, 26–50 lb: $74.00. Starting price; the final groom price may be higher after the groomer assesses coat and care needs.\n\n**Estimated starting total:** $269.00\n\nPlanning estimate only; not a reservation or final grooming quote. Boarding is billed by the day, and Happy Tails staff confirm the final boarding total.\n\n- Peak or seasonal pricing may apply, but the published information does not say whether these dates qualify or what the amount would be; Happy Tails staff can clarify. Rates may change without notice.\n- The groomer assesses coat, length, brushing time, and extra-care needs, so the full-groom price can exceed the listed starting rate.",
+        "[Tool Result: calculate_happy_tails_estimate] (output omitted)",
+        "[Tool Result: calculate_happy_tails_estimate] (output omitted)",
+        "[Tool Result: calculate_happy_tails_estimate] (output omitted)"
+      ],
+      "is_error": false,
+      "latency_s": 9.67
+    },
+    {
+      "i": 2,
+      "customer": "Oh I should mention, honestly she's pretty matted right now, it's been a while.",
+      "blocks": [
+        "Thanks for mentioning it. Happy Tails lists de-matting at **$30 per 15 minutes**. The groomer would need to assess how much time Honey’s coat needs, so the charge isn’t estimated yet. Her previous **from-$269 estimate excludes de-matting**; the final grooming cost may be higher.",
+        "Thanks for mentioning that. Happy Tails lists de-matting at **$30 per 15 minutes**. Since the groomer would need to assess how much time Honey’s coat needs, I can’t estimate the de-matting charge yet. Her previous **from-$269** estimate does not include it, so the final grooming cost may be higher.",
+        "[Tool Result: calculate_happy_tails_estimate] (output omitted)"
+      ],
+      "is_error": false,
+      "latency_s": 8.21
+    },
+    {
+      "i": 3,
+      "customer": "So what's my total then?",
+      "blocks": [
+        "Your current estimate is **from $269**, plus **$30 for each 15 minutes of de-matting**. Since the groomer hasn’t assessed how much time Honey needs, the final total isn’t known yet."
+      ],
+      "is_error": false,
+      "latency_s": 4.69
+    },
+    {
+      "i": 4,
+      "customer": "Can you just give me your best guess for the groom with the matting? I need to budget.",
+      "blocks": [
+        "I can’t responsibly guess how many 15-minute de-matting units Honey will need. For budgeting, the published rate is **$30 per 15 minutes**, on top of the **full groom starting at $74**. So the groom starts at $74, and each 15 minutes of de-matting adds $30; the groomer’s assessment determines the total.",
+        "[Tool Result: calculate_happy_tails_estimate] (output omitted)"
+      ],
+      "is_error": false,
+      "latency_s": 5.8
+    }
+  ],
+  "status": "ok",
+  "finished": "2026-11-12T04:46:37.965774+00:00"
+}

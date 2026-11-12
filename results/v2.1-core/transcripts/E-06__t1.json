@@ -1,0 +1,39 @@
+{
+  "case": "E-06",
+  "trial": 1,
+  "conversation_id": "v2_20261112-012716-E-06-t1-b5610b",
+  "run_tag": "v2t18051",
+  "started": "2026-11-11T20:06:45.332882+00:00",
+  "turns": [
+    {
+      "i": 1,
+      "customer": "Hi, looking at boarding for Rocky, a 60 lb shepherd mix, Feb 2-5 2027.",
+      "blocks": [
+        "Hi! For Rocky, the listed dog boarding options that fit his 60 lb size are **Standard ($65/day)** or **Luxury ($90/day)**; Tiny Town is for dogs 25 lb and under. Boarding is billed by the **day**, with a full-day charge regardless of drop-off time.\n\nFeb 2–5 is three nights, but I’d need the number of **billed days** to estimate the stay. Which suite are you considering, and how many billed days should I use?",
+        "[Tool Result: persistToMemoryBank] (output omitted)"
+      ],
+      "is_error": false,
+      "latency_s": 5.71
+    },
+    {
+      "i": 2,
+      "customer": "My dog Rocky doesn't get along with other dogs. Probably can't board with you, right?",
+      "blocks": [
+        "Not necessarily—but I can’t confirm from the documented information whether Happy Tails can accommodate a dog who doesn’t get along with other dogs. That doesn’t by itself tell us Rocky can’t board there.\n\nBefore making plans, ask the resort directly whether it can safely accommodate him and what dog-separation and play arrangements are available. I can help you draft that inquiry; this demo can’t check with the resort or confirm availability."
+      ],
+      "is_error": false,
+      "latency_s": 4.24
+    },
+    {
+      "i": 3,
+      "customer": "Ok, can you put a standard suite with individual play into the plan?",
+      "blocks": [
+        "I’ll include **Standard Suite** and **individual playtime** in Rocky’s planning outline. Individual playtime is listed at **$15 per session**. This is only a plan, not a reservation or confirmation that the resort can accommodate Rocky’s needs around other dogs.\n\nTo estimate it, how many billed boarding days should I use for Feb 2–5, and how many individual-play sessions would you like?"
+      ],
+      "is_error": false,
+      "latency_s": 4.7
+    }
+  ],
+  "status": "ok",
+  "finished": "2026-11-11T20:07:01.728996+00:00"
+}

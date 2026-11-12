@@ -1,0 +1,30 @@
+{
+  "case": "D-03",
+  "trial": 2,
+  "conversation_id": "v2_20261112-012716-D-03-t2-759a37",
+  "run_tag": "v2t2bc09",
+  "started": "2026-11-11T20:04:19.848167+00:00",
+  "turns": [
+    {
+      "i": 1,
+      "customer": "We just adopted a dog, Nova. She's 1 and full of energy. Thinking about daycare.",
+      "blocks": [
+        "Congratulations on adopting Nova! Daycare could be worth exploring if you’re looking for a regular daytime option for her. Happy Tails lists single full-day visits, prepaid multi-day packs, and monthly memberships; which plan makes sense depends mainly on how often you’d like her to go.\n\nAbout how many days a week are you considering?",
+        "[Tool Result: persistToMemoryBank] (output omitted)"
+      ],
+      "is_error": false,
+      "latency_s": 5.41
+    },
+    {
+      "i": 2,
+      "customer": "If I sign up for the $99 unlimited daycare month for Nova, can I also buy a 10-day pack now at a discount too, and use it after the month ends?",
+      "blocks": [
+        "The current Happy Tails information lists **unlimited daycare at $540 per month**, not $99. A **10-day pack is $350**, prepaid and nonrefundable; packs also can’t be combined with other discounts. The published terms don’t say whether you can buy a pack during a membership and save it to use afterward, so I can’t confirm that timing. You’d need to verify it with the resort.\n\nSources: [daycare membership](https://www.happytailspetresorttx.com/membership) · [rates](https://www.happytailspetresorttx.com/rates)"
+      ],
+      "is_error": false,
+      "latency_s": 4.42
+    }
+  ],
+  "status": "ok",
+  "finished": "2026-11-11T20:04:31.387152+00:00"
+}

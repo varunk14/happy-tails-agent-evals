@@ -1,0 +1,31 @@
+{
+  "case": "B-06",
+  "trial": 1,
+  "conversation_id": "v1_20261111-233436-B-06-t1-cae925",
+  "run_tag": "v1t1a835",
+  "started": "2026-11-11T18:10:11.425470+00:00",
+  "turns": [
+    {
+      "i": 1,
+      "customer": "Need a standard suite for my old boy Winston, a 60 lb basset, Feb 2-5 2027.",
+      "blocks": [
+        "For Winston’s **Standard Suite**, the planning estimate is **$186 for 3 nights** (3 × $62/night). The rate sheet lists an additional **$5 per night** for qualifying holiday or peak dates; I can’t determine from the date alone whether February 2–5, 2027 qualifies.\n\nThis is only an estimate—not a reservation or availability confirmation.",
+        "[Tool Result: getCurrentTime] (output omitted)",
+        "[Tool Result: calculate_happy_tails_estimate] (output omitted)"
+      ],
+      "is_error": false,
+      "latency_s": 6.57
+    },
+    {
+      "i": 2,
+      "customer": "My old boy Winston is on 4 meds, three times a day, some crushed into his food. What do you charge for that?",
+      "blocks": [
+        "I don’t have a listed medication-administration fee, and I can’t confirm whether the resort can accommodate four medications three times daily, including crushing some into food. Please confirm both the care plan and any charge directly with Happy Tails before relying on the boarding estimate."
+      ],
+      "is_error": false,
+      "latency_s": 3.93
+    }
+  ],
+  "status": "ok",
+  "finished": "2026-11-11T18:10:23.682347+00:00"
+}

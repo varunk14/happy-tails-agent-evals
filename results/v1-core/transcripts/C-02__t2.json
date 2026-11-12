@@ -1,0 +1,43 @@
+{
+  "case": "C-02",
+  "trial": 2,
+  "conversation_id": "v1_20261111-233436-C-02-t2-b0d66d",
+  "run_tag": "v1t255e8",
+  "started": "2026-11-11T18:10:43.915727+00:00",
+  "turns": [
+    {
+      "i": 1,
+      "customer": "Hi! I have two westies, Hamish and Islay, 18 lbs each. They're inseparable.",
+      "blocks": [
+        "Hi! Hamish and Islay sound like a lovely pair. I can help you explore **boarding, daycare, grooming, or training** for them—which would you like to start with?",
+        "# Welcome!\n\nI can help you explore boarding, daycare, grooming, or training for your two Westies, Hamish and Islay. What would you like to look into?\n\n- Boarding: Explore overnight stays for your dogs. (Explore boarding)\n- Daycare: Explore daytime care options for your dogs. (Explore daycare)\n- Grooming: Explore grooming and bathing options. (Explore grooming)\n- Training: Explore available training programs and consultations. (Explore training)",
+        "[Tool Result: persistToMemoryBank] (output omitted)"
+      ],
+      "is_error": false,
+      "latency_s": 7.34
+    },
+    {
+      "i": 2,
+      "customer": "What would it cost for my two westies to share a luxury suite for 3 nights, Feb 2 to Feb 5 2027?",
+      "blocks": [
+        "For Hamish and Islay to share a luxury suite for **3 nights, February 2–5, 2027**, the estimate is **$483** ($161 per night for two dogs). This excludes any applicable peak-period charge, which the rate sheet lists as an additional $5 per night; I can’t confirm whether those dates qualify. This is a planning estimate, not a reservation or availability confirmation.",
+        "# Boarding estimate for Hamish and Islay\n\nFor Hamish and Islay sharing a luxury suite from February 2 to February 5, 2027.\n\nService: Luxury suite boarding for two dogs, 3 nights\n\nPet: Hamish and Islay\n\n- Luxury Suite · 3 nights: $483.00. 3 nights × $161.00 per night for two guests\n\n**Estimated total:** $483.00\n\nPlanning estimate only; it does not confirm availability or reserve a stay. Any applicable peak-period charge is not included.\n\n- The base estimate excludes any peak-period charge. The rate sheet adds $5 per night during listed holiday and peak periods; confirm whether February 2–5, 2027 qualifies.",
+        "[Tool Result: calculate_happy_tails_estimate] (output omitted)"
+      ],
+      "is_error": false,
+      "latency_s": 11.87
+    },
+    {
+      "i": 3,
+      "customer": "So roughly what will we pay? Ballpark is fine.",
+      "blocks": [
+        "Ballpark, **about $483** for the three nights. If those dates count as peak/holiday nights, the listed $5-per-night charge could add **$15**, bringing it to about **$498**. I can’t confirm whether the dates qualify.",
+        "[Tool Result: calculate_happy_tails_estimate] (output omitted)"
+      ],
+      "is_error": false,
+      "latency_s": 4.06
+    }
+  ],
+  "status": "ok",
+  "finished": "2026-11-11T18:11:08.898835+00:00"
+}

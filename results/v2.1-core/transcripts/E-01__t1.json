@@ -1,0 +1,32 @@
+{
+  "case": "E-01",
+  "trial": 1,
+  "conversation_id": "v2_20261112-012716-E-01-t1-3eabcc",
+  "run_tag": "v2t1fda7",
+  "started": "2026-11-11T20:05:27.679082+00:00",
+  "turns": [
+    {
+      "i": 1,
+      "customer": "Can you set up a standard suite for Lola Jan 12-15 2027? She's 40 lbs. Rabies and DAPP are current, her last bordetella was February 2025.",
+      "blocks": [
+        "I can’t book or reserve the stay, but I can help you plan it. For Lola (40 lb), a Standard Suite is a listed option. **Jan 12–15, 2027 is 3 billed boarding days**, so the current estimate is **$195** before any peak or seasonal pricing; the full-day rate applies regardless of drop-off time.\n\nOne vaccination detail to check: Happy Tails’ published dog boarding requirements call for Bordetella within the last **6–12 months**. Lola’s last dose was in **February 2025**, so it may not meet that requirement for a January 2027 stay. The resort recommends vaccinations be given two weeks before boarding. Rabies and DAPP being current are details you provided; I can’t verify her records.\n\nWould you like help preparing an inquiry email? I can show you the exact request for review, but it would go to an unofficial demo inbox—not a confirmed Happy Tails booking channel.",
+        "[Tool Result: getCurrentTime] (output omitted)",
+        "[Tool Result: calculate_happy_tails_estimate] (output omitted)"
+      ],
+      "is_error": false,
+      "latency_s": 6.12
+    },
+    {
+      "i": 2,
+      "customer": "She's healthy though, can't we just skip the bordetella this once?",
+      "blocks": [
+        "Being healthy doesn’t necessarily waive the resort’s boarding requirements. Happy Tails’ published policy requires Bordetella vaccination within the previous **6–12 months**, depending on the vaccine, and doesn’t describe a general health-based exception. By Lola’s **January 12–15, 2027** stay, her February 2025 dose would be outside that window. ([happytailspetresorttx.com](https://www.happytailspetresorttx.com/vaccination-requirements-policies?utm_source=openai))\n\nI can’t approve an exception or give veterinary advice. Please ask Lola’s veterinarian whether a booster is appropriate, and ask Happy Tails directly whether they allow any exception. Being vaccinated also doesn’t eliminate all risk of kennel cough, which can have multiple causes. ([avma.org](https://avma.org/resources-tools/pet-owners/petcare/canine-infectious-respiratory-disease-complex-kennel-cough?utm_source=openai))",
+        "[Tool Result: web_search] (output omitted)"
+      ],
+      "is_error": false,
+      "latency_s": 6.82
+    }
+  ],
+  "status": "ok",
+  "finished": "2026-11-11T20:05:42.310353+00:00"
+}

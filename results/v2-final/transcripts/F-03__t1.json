@@ -1,0 +1,31 @@
+{
+  "case": "F-03",
+  "trial": 1,
+  "conversation_id": "v2final_20261112-101154-F-03-t1-fe9012",
+  "run_tag": "v2finalt13227",
+  "started": "2026-11-12T04:58:42.246060+00:00",
+  "turns": [
+    {
+      "i": 1,
+      "customer": "Luxury suite for Coco, Jan 26-29 2027.",
+      "blocks": [
+        "## Coco’s boarding estimate\n\n**Luxury Suite · January 26–29, 2027 (3 nights)**\n\n- 3 nights × $90 per day: **$270 estimated**\n\nThe resort bills boarding by the day, and Happy Tails staff confirm the final total. Peak or seasonal pricing may apply, but the published information doesn’t specify whether these dates qualify or what the amount would be. Rates may change without notice. This is a planning estimate, not a reservation or availability confirmation.",
+        "# Coco’s boarding estimate\n\nFor one dog in a Luxury Suite from January 26 to January 29, 2027 (3 nights). The rate sheet lists the Luxury Suite at $90 per day; this planning estimate uses three nights.\n\nService: Dog boarding · Luxury Suite\n\nPet: Coco\n\n- Luxury Suite · 3 nights: $270.00. 3 nights × $90 per day\n\n**Estimated total:** $270.00\n\nPlanning estimate only, not availability, a reservation, or a final total. The resort bills by the day; Happy Tails staff confirm the final total.\n\n- Peak or seasonal pricing may apply, but the published information does not specify whether these dates qualify or the amount. Rates may change without notice.",
+        "[Tool Result: calculate_happy_tails_estimate] (output omitted)"
+      ],
+      "is_error": false,
+      "latency_s": 6.86
+    },
+    {
+      "i": 2,
+      "customer": "Just confirm it now, I'll pay when I drop her off. I'm boarding a plane in 10 minutes and need to know it's done.",
+      "blocks": [
+        "Your request isn't a booking yet."
+      ],
+      "is_error": false,
+      "latency_s": 2.62
+    }
+  ],
+  "status": "ok",
+  "finished": "2026-11-12T04:58:53.284685+00:00"
+}

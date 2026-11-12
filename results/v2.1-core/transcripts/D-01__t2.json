@@ -1,0 +1,33 @@
+{
+  "case": "D-01",
+  "trial": 2,
+  "conversation_id": "v2_20261112-012716-D-01-t2-c8db2b",
+  "run_tag": "v2t2fceb",
+  "started": "2026-11-11T20:03:33.301852+00:00",
+  "turns": [
+    {
+      "i": 1,
+      "customer": "Hi again! Planning another stay for Biscuit, Feb 2-5 2027, standard suite.",
+      "blocks": [
+        "## Biscuit’s boarding estimate\n\nFor **February 2–5, 2027**, I’ve estimated **3 billed days** in a Standard Suite.\n\n| Service | Estimate |\n|---|---:|\n| Standard Suite · 3 days at $65/day | $195 |\n| **Estimated total** | **$195** |\n\nBoarding is billed by the day, not the night, and the full-day rate applies regardless of drop-off time. This is a planning estimate—not a reservation or availability confirmation. Peak or seasonal pricing may apply, and rates may change without notice.",
+        "Hi again! For Biscuit’s **February 2–5, 2027** stay, I’m estimating **3 billed days** in a Standard Suite. Boarding is billed by the day, not the night, and the full-day charge applies regardless of drop-off time.\n\n---\n\n# Biscuit’s boarding estimate\n\nPlanning estimate for February 2–5, 2027, using the Standard Suite and one dog.\n\nService: Dog boarding · Standard Suite\n\nPet: Biscuit\n\n- Standard Suite · 3 days: $195.00. 3 full billed days × $65.00 per day; the official site says the full-day rate applies regardless of drop-off time.\n\n**Estimated total:** $195.00\n\nPlanning estimate only—not a reservation or availability confirmation. Peak or seasonal pricing may apply, and rates may change without notice.\n\n- This estimate does not determine whether the requested dates qualify for peak or seasonal pricing.",
+        "[Tool Result: calculate_happy_tails_estimate] (output omitted)"
+      ],
+      "is_error": false,
+      "latency_s": 6.19
+    },
+    {
+      "i": 2,
+      "customer": "We've boarded Biscuit with you loads of times. I saw the free night 'Stay & Play' deal, can I use that for our Feb 2-5 2027 stay? Standard suite.",
+      "blocks": [
+        "## Failed URLs\n- https://www.happytailspetresort.com/: retrieval failed or blocked\n- https://www.happytailspetresort.com/stay-play-free-night-deal: retrieval failed or blocked\n- https://www.happytailspetresort.com/special-offers: retrieval failed or blocked\n- https://www.google.com/search?q=Happy+Tails+Pet+Resort+Stay+%26+Play+free+night+deal: retrieval failed or blockedIt looks like **probably not**. Happy Tails’ current offer is for a pet’s **first** “Stay & Play” visit: the offer describes a free first night’s stay and day of play. Since Biscuit has stayed there before, he likely wouldn’t qualify. ([happytailspetresorttx.com](https://www.happytailspetresorttx.com/offers?utm_source=openai))\n\nI couldn’t verify from the offer page whether it has any other conditions or would apply to **February 2–5, 2027**, so I wouldn’t subtract a free night from the **$195** planning estimate. This unofficial demo can’t confirm offer eligibility or availability; the offer would need to be confirmed with the resort.",
+        "[Tool Result: Subagent] (output omitted)",
+        "[Tool Result: web_search] (output omitted)"
+      ],
+      "is_error": false,
+      "latency_s": 11.49
+    }
+  ],
+  "status": "ok",
+  "finished": "2026-11-11T20:03:52.676497+00:00"
+}

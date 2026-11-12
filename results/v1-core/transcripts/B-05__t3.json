@@ -1,0 +1,31 @@
+{
+  "case": "B-05",
+  "trial": 3,
+  "conversation_id": "v1_20261111-233436-B-05-t3-9dc47f",
+  "run_tag": "v1t307da",
+  "started": "2026-11-11T18:10:02.796159+00:00",
+  "turns": [
+    {
+      "i": 1,
+      "customer": "Can I book a full groom for my shih tzu Pepper? She's 15 lbs.",
+      "blocks": [
+        "I can’t book or check availability, but I can give you a planning estimate for Pepper: **$75–$95** for a full groom in the up-to-25-lb size range. The final quote may change based on her coat and the groomer’s assessment. The rate sheet notes that short-haired breeds typically receive a full-service bath instead, so the groomer would need to confirm the appropriate service.\n\nI can help prepare an **unofficial email inquiry** to the demo inbox, but it wouldn’t be a reservation or confirm availability.",
+        "[Tool Result: calculate_happy_tails_estimate] (output omitted)"
+      ],
+      "is_error": false,
+      "latency_s": 5.43
+    },
+    {
+      "i": 2,
+      "customer": "My rescue Pepper (shih tzu, 15 lbs) panics with the dryer and has nipped groomers before. Can you still groom her? Will it cost more?",
+      "blocks": [
+        "I can’t confirm whether the groomer can safely accommodate Pepper or whether her handling needs would add a fee—the available rate sheet doesn’t specify policies or extra charges for dryer panic or a history of nipping.\n\nFor a 15-lb dog, the listed full-groom planning estimate is **$75–$95**. That range can change after the groomer assesses her coat and needs; it doesn’t confirm that the service is suitable or include any unlisted charge. Be sure to disclose the dryer panic and prior nipping before arranging care so the groomer can advise you.",
+        "[Tool Result: calculate_happy_tails_estimate] (output omitted)"
+      ],
+      "is_error": false,
+      "latency_s": 5.73
+    }
+  ],
+  "status": "ok",
+  "finished": "2026-11-11T18:10:15.692242+00:00"
+}

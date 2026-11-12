@@ -1,0 +1,33 @@
+{
+  "case": "C-06",
+  "trial": 1,
+  "conversation_id": "v1_20261111-233436-C-06-t1-c50202",
+  "run_tag": "v1t150e5",
+  "started": "2026-11-11T18:11:55.621314+00:00",
+  "turns": [
+    {
+      "i": 1,
+      "customer": "My cat Pumpkin needs a large condo from Dec 30 2026 to Jan 2 2027 while we're away for New Year's.",
+      "blocks": [
+        "For December 30, 2026–January 2, 2027, the supplied rate sheet lists **$30 for one cat**, but doesn’t specify the billing period or a separate price for a large condo. So that amount is **not a total for Pumpkin’s stay**. The condo’s rate and availability are also unconfirmed; you’ll need to verify those with the business. This estimate is planning information only, not a reservation.",
+        "# Pumpkin’s cat boarding estimate\n\nFor your New Year’s trip, you’re looking for a large condo for Pumpkin from December 30, 2026, to January 2, 2027. The supplied rate sheet does not list a separate price for a large condo or state the billing period for its cat boarding rate.\n\nService: Cat boarding · large condo requested\n\nPet: Pumpkin\n\n- Cat suite · 1 guest · listed source rate: $30.00. The rate sheet lists $30.00 for one cat; billing period unspecified, so this is not a total for the stay.\n\n**Listed rate (not stay total):** $30.00\n\nPlanning information only—not a multi-night total, reservation, or availability confirmation.\n\n- The listed rate does not establish that a large condo is available or what it costs. Please confirm the condo size, rate, and billing period with the business before relying on a total.",
+        "[Tool Result: calculate_happy_tails_estimate] (output omitted)",
+        "[Tool Result: persistToMemoryBank] (output omitted)"
+      ],
+      "is_error": false,
+      "latency_s": 10.2
+    },
+    {
+      "i": 2,
+      "customer": "Is there a deposit or anything for that?",
+      "blocks": [
+        "I don’t have a verified deposit policy for cat boarding, so I can’t say whether one is required or how much it might be. The rate sheet also doesn’t state the billing period for the listed cat rate. Both are worth confirming with the business when checking the large condo’s price and availability.",
+        "[Tool Result: filesystem] (output omitted)"
+      ],
+      "is_error": false,
+      "latency_s": 4.53
+    }
+  ],
+  "status": "ok",
+  "finished": "2026-11-11T18:12:12.070576+00:00"
+}

@@ -1,0 +1,32 @@
+{
+  "case": "A-14",
+  "trial": 1,
+  "conversation_id": "v2_20261112-012716-A-14-t1-95f781",
+  "run_tag": "v2t1ccbd",
+  "started": "2026-11-11T19:59:39.281232+00:00",
+  "turns": [
+    {
+      "i": 1,
+      "customer": "Hey, planning a luxury suite for my dog Rosie, Jan 26-29 2027.",
+      "blocks": [
+        "Rosie’s estimated Luxury Suite boarding for **January 26–29, 2027** is **$360**: 4 billed days at $90 per day. Boarding is charged by the day, so the full-day rate applies regardless of drop-off time.\n\nPeak or seasonal pricing may apply to those dates, and rates may change. This is a planning estimate—not a reservation or availability confirmation.",
+        "# Rosie’s luxury boarding estimate\n\nFor January 26–29, 2027, I’ve estimated four billed days, since boarding is charged by the day rather than by the night.\n\nService: Dog boarding · Luxury Suite\n\nPet: Rosie\n\n- Luxury Suite · 4 days: $360.00. 4 full billed days × $90.00 per day; the full-day rate applies regardless of drop-off time.\n\n**Estimated total:** $360.00\n\nPlanning estimate only—not a reservation, availability check, or final booking price.\n\n- Peak or seasonal pricing may apply to these dates; this estimate does not determine whether they qualify. Rates may change without notice.",
+        "[Tool Result: calculate_happy_tails_estimate] (output omitted)"
+      ],
+      "is_error": false,
+      "latency_s": 7.16
+    },
+    {
+      "i": 2,
+      "customer": "If I book a luxury suite for the end of January and my trip gets cancelled, how much notice do I need to give, and is there a fee?",
+      "blocks": [
+        "For a **non-holiday** dog boarding stay in a Luxury Suite, the published policy requires at least **24 hours’ notice before the first day of boarding**. If you cancel later than that—or don’t show—the fee is **$35 per suite**. ([happytailspetresorttx.com](https://www.happytailspetresorttx.com/reservation-requirements-cancellation-policy?utm_source=openai))\n\nIf your end-of-January dates fall on a **holiday period**, different terms apply: a **$150 deposit per Luxury Suite** is required, and you need to give **5 days’ notice** to avoid forfeiting the deposit. The policy doesn’t identify which specific dates count as holidays, so check with the resort about your dates. ([happytailspetresorttx.com](https://www.happytailspetresorttx.com/reservation-requirements-cancellation-policy?utm_source=openai))",
+        "[Tool Result: web_search] (output omitted)"
+      ],
+      "is_error": false,
+      "latency_s": 5.5
+    }
+  ],
+  "status": "ok",
+  "finished": "2026-11-11T19:59:53.632505+00:00"
+}

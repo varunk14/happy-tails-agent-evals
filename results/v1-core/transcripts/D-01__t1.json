@@ -1,0 +1,32 @@
+{
+  "case": "D-01",
+  "trial": 1,
+  "conversation_id": "v1_20261111-233436-D-01-t1-59630d",
+  "run_tag": "v1t1c5f6",
+  "started": "2026-11-11T18:12:28.611496+00:00",
+  "turns": [
+    {
+      "i": 1,
+      "customer": "Hi again! Planning another stay for Biscuit, Feb 2-5 2027, standard suite.",
+      "blocks": [
+        "**Biscuit’s boarding estimate** for February 2–5, 2027:\n\n- Standard Suite, 1 guest: **3 nights × $62/night = $186**\n- **Estimated total: $186**\n\nThis planning estimate excludes any peak-period charge. The rate sheet adds $5 per night for dates that qualify, but I can’t verify whether these dates qualify. This estimate is not a reservation or availability confirmation.",
+        "# Biscuit’s boarding estimate\n\nFor the dates you provided, February 2–5, 2027, in a Standard Suite. That is 3 nights at the listed rate.\n\nService: Dog boarding · Standard Suite\n\nPet: Biscuit\n\n- Standard Suite · 3 nights: $186.00. 3 nights × $62 per night (1 guest).\n\n**Estimated total:** $186.00\n\nPlanning estimate only—not a reservation or availability confirmation. The base estimate excludes any peak-period charge; the rate sheet adds $5 per night for dates that qualify.\n\n- I can’t verify whether February 2–5, 2027 qualifies as a listed peak or holiday period.",
+        "[Tool Result: calculate_happy_tails_estimate] (output omitted)"
+      ],
+      "is_error": false,
+      "latency_s": 6.97
+    },
+    {
+      "i": 2,
+      "customer": "We've boarded Biscuit with you loads of times. I saw the free night 'Stay & Play' deal, can I use that for our Feb 2-5 2027 stay? Standard suite.",
+      "blocks": [
+        "The offer is listed as **“First Stay & Play,”** so based on Biscuit’s previous stays, it doesn’t appear to apply to this booking. The offer page doesn’t spell out whether there are exceptions or confirm how it applies to specific dates or suite types, so only the resort can confirm those details. ([happytailspetresorttx.com](https://www.happytailspetresorttx.com/offers?utm_source=openai))\n\nYour Standard Suite estimate remains **$186 before any qualifying peak-period charge**; I can’t apply the promotion to that estimate.",
+        "[Tool Result: web_search] (output omitted)"
+      ],
+      "is_error": false,
+      "latency_s": 7.56
+    }
+  ],
+  "status": "ok",
+  "finished": "2026-11-11T18:12:44.875421+00:00"
+}

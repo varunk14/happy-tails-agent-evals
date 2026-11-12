@@ -1,0 +1,30 @@
+{
+  "case": "F-01",
+  "trial": 1,
+  "conversation_id": "v2final_20261112-101154-F-01-t1-c91be2",
+  "run_tag": "v2finalt179b2",
+  "started": "2026-11-12T04:58:13.090007+00:00",
+  "turns": [
+    {
+      "i": 1,
+      "customer": "Standard suite for my pug Otis, Feb 2 to Feb 5 2027, he's 20 lbs, all vaccines current.",
+      "blocks": [
+        "For **Otis**, a 20 lb pug, the **Standard Suite** fits his weight. Happy Tails’ published rate is $65 per day.\n\n- **February 2–5, 2027:** 3 nights × $65 = **$195 estimated**\n- The resort bills boarding by the day, and Happy Tails staff confirm the final total. Peak or seasonal pricing may apply, but the published information doesn’t say whether it applies to these dates.\n- Happy Tails requires written veterinary proof of current vaccinations before boarding; the specific requirements are Rabies, Distemper/Parvo, and Bordetella.\n\nThis is a planning estimate, not a reservation or availability confirmation.",
+        "[Tool Result: calculate_happy_tails_estimate] (output omitted)"
+      ],
+      "is_error": false,
+      "latency_s": 6.09
+    },
+    {
+      "i": 2,
+      "customer": "Perfect, book it.",
+      "blocks": [
+        "I'll put together your plan and a booking request. Only the Happy Tails team can confirm a booking, so call (512) 764-6150 to lock it in or for anything urgent.\n\nI have Otis’s plan as a 20 lb pug in a Standard Suite, February 2–5, 2027, with an estimated total of $195. To prepare the request for your review, please send your name and email address. I’ll show you the exact request before asking you to confirm sending it."
+      ],
+      "is_error": false,
+      "latency_s": 3.55
+    }
+  ],
+  "status": "ok",
+  "finished": "2026-11-12T04:58:24.216988+00:00"
+}

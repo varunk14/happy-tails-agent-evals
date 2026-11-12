@@ -1,0 +1,31 @@
+{
+  "case": "A-15",
+  "trial": 1,
+  "conversation_id": "v1_20261111-233436-A-15-t1-ce20a9",
+  "run_tag": "v1t1d329",
+  "started": "2026-11-11T18:07:52.104040+00:00",
+  "turns": [
+    {
+      "i": 1,
+      "customer": "Hi, I'd like to book a full groom for my boxer Diesel, 65 lbs.",
+      "blocks": [
+        "For Diesel, the listed full-groom range for a 65 lb dog is **$100–$130**. This is a planning estimate, not a final quote or booking. The rate sheet notes that short-haired breeds typically receive a full-service bath instead, so the groomer should confirm which service is suitable.\n\nI can help prepare an inquiry, but this unofficial demo can’t book an appointment or check availability. To draft an email asking about a visit, share your preferred date(s), plus the customer name and email you’d like included.",
+        "# Planning estimate for Diesel\n\nFor Diesel, a 65 lb boxer, the listed large-dog full-groom range is $100–$130. The groomer’s assessment determines the final service and quote.\n\nService: Full groom · Large (51–80 lb)\n\nPet: Diesel\n\n- Full groom · Large (51–80 lb): $100.00–$130.00. Source price range; final quote can change with coat, length, brushing time, and groomer assessment.\n\n**Estimated total:** $100.00–$130.00\n\nPlanning estimate only—not a reservation or final groomer quote.\n\n- Prices are subject to change. Short-haired breeds typically receive a full-service bath rather than a full groom, so confirm the suitable service with the groomer.\n\n---\n\nI can help prepare an inquiry, but this unofficial demo cannot book an appointment or check availability. Would you like to share your preferred date(s) and the customer name and email to include in a request for follow-up?",
+        "[Tool Result: calculate_happy_tails_estimate] (output omitted)"
+      ],
+      "is_error": false,
+      "latency_s": 7.63
+    },
+    {
+      "i": 2,
+      "customer": "Why not a full groom? He's a big boy.",
+      "blocks": [
+        "It’s **not because of his size**. At 65 lb, Diesel falls in the large-dog pricing range. The caveat is about coat type: the rate sheet says short-haired breeds typically receive a full-service bath rather than a full groom. Since boxers are short-haired, the groomer may recommend a bath, but they’d need to confirm the appropriate service for Diesel and provide the final quote."
+      ],
+      "is_error": false,
+      "latency_s": 3.14
+    }
+  ],
+  "status": "ok",
+  "finished": "2026-11-11T18:08:04.638774+00:00"
+}

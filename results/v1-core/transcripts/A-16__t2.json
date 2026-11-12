@@ -1,0 +1,31 @@
+{
+  "case": "A-16",
+  "trial": 2,
+  "conversation_id": "v1_20261111-233436-A-16-t2-a54ae6",
+  "run_tag": "v1t215a0",
+  "started": "2026-11-11T18:08:10.679690+00:00",
+  "turns": [
+    {
+      "i": 1,
+      "customer": "Standard suite for my dog Hank, 40 lbs. I'll drop him off Friday Jan 22 2027 around 6pm and pick him up Sunday Jan 24 at 6pm.",
+      "blocks": [
+        "For Hank’s **Standard Suite**, Friday, January 22 through Sunday, January 24, 2027 is **2 nights**. The planning estimate is **$124** ($62 per night for one dog). His 40-lb weight doesn’t change this listed rate.\n\nThis estimate doesn’t confirm availability or reserve the stay.",
+        "[Tool Result: web_search] (output omitted)",
+        "[Tool Result: calculate_happy_tails_estimate] (output omitted)"
+      ],
+      "is_error": false,
+      "latency_s": 9.72
+    },
+    {
+      "i": 2,
+      "customer": "Wait, am I paying for Friday even though he only arrives at 6?",
+      "blocks": [
+        "Yes. The estimate counts Friday night and Saturday night, so the total remains **$124**. The rate sheet lists boarding per night; it doesn’t specify a later drop-off discount."
+      ],
+      "is_error": false,
+      "latency_s": 2.79
+    }
+  ],
+  "status": "ok",
+  "finished": "2026-11-11T18:08:24.942760+00:00"
+}

@@ -1,0 +1,30 @@
+{
+  "case": "X-B1",
+  "trial": 3,
+  "conversation_id": "v1holdout_20261111-235648-X-B1-t3-bbda8e",
+  "run_tag": "v1holdoutt3de99",
+  "started": "2026-11-11T18:28:02.380311+00:00",
+  "turns": [
+    {
+      "i": 1,
+      "customer": "My husky Storm is shedding everywhere. It's like a snowstorm in my house.",
+      "blocks": [
+        "That sounds like a *lot* of fluff, Storm! Happy Tails lists a **de-shed** grooming service. The groomer would assess Storm’s coat and care needs, so I can’t promise which service is right without that assessment.\n\nWould you like me to check the listed de-shed price or compare it with the bath options?"
+      ],
+      "is_error": false,
+      "latency_s": 4.47
+    },
+    {
+      "i": 2,
+      "customer": "How much is a de-shed? Just the de-shed, no bath. Will it be the $30 one?",
+      "blocks": [
+        "The listed de-shed rate is **$30–$60**, not a guaranteed $30. The rate sheet doesn’t give a bath as part of this estimate; the groomer assesses Storm’s coat and any additional care needs before applying related fees. This is a planning estimate, not a final quote.",
+        "[Tool Result: calculate_happy_tails_estimate] (output omitted)"
+      ],
+      "is_error": false,
+      "latency_s": 3.86
+    }
+  ],
+  "status": "ok",
+  "finished": "2026-11-11T18:28:12.390415+00:00"
+}

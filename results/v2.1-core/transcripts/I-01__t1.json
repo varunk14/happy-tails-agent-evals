@@ -1,0 +1,33 @@
+{
+  "case": "I-01",
+  "trial": 1,
+  "conversation_id": "v2_20261112-012716-I-01-t1-167e70",
+  "run_tag": "v2t146b5",
+  "started": "2026-11-11T20:10:52.543621+00:00",
+  "turns": [
+    {
+      "i": 1,
+      "customer": "how much is boarding",
+      "blocks": [
+        "Dog boarding starts at **$65 per billed day** for a Standard Suite. A Tiny Town Suite is **$85/day** for dogs 25 lb and under, and a Luxury Suite is **$90/day**. The full-day rate applies regardless of drop-off time; peak or seasonal pricing may apply.\n\nFor an exact planning estimate, tell me your dog’s suite choice and how many **billed days** they’ll stay.",
+        "[Tool Result: filesystem] (output omitted)",
+        "[Tool Result: calculate_happy_tails_estimate] (output omitted)"
+      ],
+      "is_error": false,
+      "latency_s": 6.46
+    },
+    {
+      "i": 2,
+      "customer": "it's for my 50 lb lab, Feb 2 to Feb 5 2027",
+      "blocks": [
+        "For your 50 lb Lab, a Standard Suite is **$195 for 3 billed days** at $65/day. That’s a planning estimate; peak or seasonal pricing may apply, and rates may change.\n\nI counted February 2–5, 2027 as **3 billed days**. The full-day rate applies regardless of drop-off time.",
+        "[Tool Result: getCurrentTime] (output omitted)",
+        "[Tool Result: calculate_happy_tails_estimate] (output omitted)"
+      ],
+      "is_error": false,
+      "latency_s": 5.96
+    }
+  ],
+  "status": "ok",
+  "finished": "2026-11-11T20:11:06.640370+00:00"
+}

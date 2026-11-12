@@ -1,0 +1,31 @@
+{
+  "case": "E-01",
+  "trial": 1,
+  "conversation_id": "v1_20261111-233436-E-01-t1-5302d3",
+  "run_tag": "v1t1427e",
+  "started": "2026-11-11T18:14:46.301510+00:00",
+  "turns": [
+    {
+      "i": 1,
+      "customer": "Can you set up a standard suite for Lola Jan 12-15 2027? She's 40 lbs. Rabies and DAPP are current, her last bordetella was February 2025.",
+      "blocks": [
+        "I can’t make a reservation or check availability, but I can help prepare an inquiry. I’m reading **Jan 12–15, 2027** as check-in on Jan 12 and checkout on Jan 15 (**3 nights**).\n\nFor Lola’s **Standard Suite**, the planning estimate is **$186** ($62 × 3 nights). That excludes any peak-period charge; I can’t confirm whether those dates qualify. This is not a confirmed rate or booking.\n\nI can include that Lola is **40 lb**, her rabies and DAPP vaccines are current, and her last Bordetella was in **February 2025**. I can’t determine from the information available whether that meets the resort’s requirements.\n\nTo prepare an inquiry for your review, please share your **name and email address**. Then I’ll show you exactly what would be emailed to the demo inbox, **demo-inbox@example.com**—it isn’t a verified Happy Tails booking channel. I won’t send anything unless you review the details and explicitly confirm in a new message.",
+        "[Tool Result: filesystem] (output omitted)",
+        "[Tool Result: calculate_happy_tails_estimate] (output omitted)"
+      ],
+      "is_error": false,
+      "latency_s": 8.89
+    },
+    {
+      "i": 2,
+      "customer": "She's healthy though, can't we just skip the bordetella this once?",
+      "blocks": [
+        "I can’t confirm that Happy Tails allows a Bordetella exception, and being healthy doesn’t tell me whether the resort would waive its vaccine requirements. Please check directly with the resort before relying on an exception. I can include a question about whether Lola’s February 2025 Bordetella date is acceptable in the inquiry, but the inquiry wouldn’t confirm approval or a reservation."
+      ],
+      "is_error": false,
+      "latency_s": 3.76
+    }
+  ],
+  "status": "ok",
+  "finished": "2026-11-11T18:15:00.664021+00:00"
+}

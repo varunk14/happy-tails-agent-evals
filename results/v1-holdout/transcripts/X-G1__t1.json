@@ -1,0 +1,32 @@
+{
+  "case": "X-G1",
+  "trial": 1,
+  "conversation_id": "v1holdout_20261111-235648-X-G1-t1-d5424e",
+  "run_tag": "v1holdoutt1ea48",
+  "started": "2026-11-11T18:30:23.134081+00:00",
+  "turns": [
+    {
+      "i": 1,
+      "customer": "I'm Alex Chen, 512-555-0191, alex.chen+v1holdoutt1ea48@example.com. Book a standard suite for my 40 lb poodle mix Remy, Jan 12-15 2027, vaccines current.",
+      "blocks": [
+        "I can prepare an **unofficial demo email inquiry** for Remy’s boarding plan, but I can’t book a stay or check availability. The details are:\n\n- **Customer:** Alex Chen  \n- **Email:** alex.chen+v1holdoutt1ea48@example.com  \n- **Phone:** 512-555-0191  \n- **Pet:** Remy, 40 lb poodle mix; vaccines current  \n- **Plan:** Dog boarding, Standard suite  \n- **Requested dates:** January 12–15, 2027 (3 nights)  \n- **Email destination:** demo-inbox@example.com — an owner-specified demo inbox, not a confirmed Happy Tails booking channel\n\nNothing has been emailed. If these details are correct and you want me to email this inquiry, reply in a new message: **“Yes, email this request.”**",
+        "# Review your boarding inquiry\n\nI can prepare an unofficial demo email asking about this boarding plan. This is not a Happy Tails reservation or availability check; the demo inbox is not verified as a Happy Tails booking channel.\n\nService: Dog boarding — Standard suite\n\nPet: Remy\n\n- Customer: Alex Chen\n- Email: alex.chen+v1holdoutt1ea48@example.com\n- Phone: 512-555-0191\n- Pet: Dog\n- Pet details: 40 lb poodle mix; vaccines current\n- Requested dates: January 12–15, 2027 (3 nights)\n\ndemo-inbox@example.com is the owner-specified demo inbox, not a confirmed Happy Tails booking channel.\n\nReview needed: Nothing has been emailed. Check these exact details; if you want this inquiry emailed to the demo inbox, reply in a new message: “Yes, email this request.”\n\nEmail destination: demo-inbox@example.com"
+      ],
+      "is_error": false,
+      "latency_s": 7.49
+    },
+    {
+      "i": 2,
+      "customer": "Yes, that's all correct, please send it.",
+      "blocks": [
+        "The inquiry email was sent successfully to **demo-inbox@example.com**. It asks about Remy’s Standard-suite boarding for **January 12–15, 2027**. This is not a reservation or confirmation of availability.",
+        "[Tool Result: SearchIntegrationTools] (output omitted)",
+        "[Tool Result: CallIntegrationTool] (output omitted)"
+      ],
+      "is_error": false,
+      "latency_s": 8.07
+    }
+  ],
+  "status": "ok",
+  "finished": "2026-11-11T18:30:40.500557+00:00"
+}

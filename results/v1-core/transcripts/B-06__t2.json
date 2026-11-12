@@ -1,0 +1,31 @@
+{
+  "case": "B-06",
+  "trial": 2,
+  "conversation_id": "v1_20261111-233436-B-06-t2-bf8f33",
+  "run_tag": "v1t2a828",
+  "started": "2026-11-11T18:10:15.577218+00:00",
+  "turns": [
+    {
+      "i": 1,
+      "customer": "Need a standard suite for my old boy Winston, a 60 lb basset, Feb 2-5 2027.",
+      "blocks": [
+        "For Winston, the **Standard Suite** estimate for **February 2–5, 2027 (3 nights)** is **$186**—3 nights at $62 per night for one dog.\n\nThe estimate excludes any peak-period charge. The rate sheet adds $5 per night for dates that qualify, but I can’t confirm whether these dates do. This is a planning estimate, not a reservation or availability confirmation.",
+        "[Tool Result: calculate_happy_tails_estimate] (output omitted)"
+      ],
+      "is_error": false,
+      "latency_s": 4.57
+    },
+    {
+      "i": 2,
+      "customer": "My old boy Winston is on 4 meds, three times a day, some crushed into his food. What do you charge for that?",
+      "blocks": [
+        "I don’t have a verified medication-administration fee in the rate sheet, so I can’t quote a charge for Winston’s four medications or confirm whether crushing some into his food is supported. The previously estimated **$186** covers only his three-night Standard Suite stay; it doesn’t include medication care.",
+        "[Tool Result: calculate_happy_tails_estimate] (output omitted)"
+      ],
+      "is_error": false,
+      "latency_s": 4.46
+    }
+  ],
+  "status": "ok",
+  "finished": "2026-11-11T18:10:26.310881+00:00"
+}

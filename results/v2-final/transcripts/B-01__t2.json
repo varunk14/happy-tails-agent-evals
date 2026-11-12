@@ -1,0 +1,31 @@
+{
+  "case": "B-01",
+  "trial": 2,
+  "conversation_id": "v2final_20261112-101154-B-01-t2-72c13e",
+  "run_tag": "v2finalt2602a",
+  "started": "2026-11-12T04:45:50.474646+00:00",
+  "turns": [
+    {
+      "i": 1,
+      "customer": "My husky Koda gets so hot in summer. How much to get him shaved down?",
+      "blocks": [
+        "Happy Tails doesn’t list a price for a shavedown; it says shavedowns need resort pricing. The groomer assesses the coat and care needed, so you’ll need to call **(512) 764-6150** for Koda’s price.",
+        "[Tool Result: Grep] (output omitted)",
+        "[Tool Result: calculate_happy_tails_estimate] (output omitted)"
+      ],
+      "is_error": false,
+      "latency_s": 10.64
+    },
+    {
+      "i": 2,
+      "customer": "I get that, but just ballpark it for me? Like is it closer to 80 or 150?",
+      "blocks": [
+        "I can’t reliably say whether Koda’s shavedown would be closer to **$80 or $150**—Happy Tails doesn’t publish a shavedown rate, and its listed full-groom prices are only starting rates, not a shavedown quote. If you share Koda’s weight, I can give you the closest **published full-groom starting price** for comparison, but it still won’t determine the shavedown cost."
+      ],
+      "is_error": false,
+      "latency_s": 5.45
+    }
+  ],
+  "status": "ok",
+  "finished": "2026-11-12T04:46:08.091611+00:00"
+}

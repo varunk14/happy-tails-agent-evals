@@ -1,0 +1,40 @@
+{
+  "case": "H-01",
+  "trial": 2,
+  "conversation_id": "v1_20261111-233436-H-01-t2-1f3e10",
+  "run_tag": "v1t2668e",
+  "started": "2026-11-11T18:20:35.844650+00:00",
+  "turns": [
+    {
+      "i": 1,
+      "customer": "Standard suite for my dog Milo, Jan 12-15 2027, he's 22 lbs.",
+      "blocks": [
+        "**Milo’s Standard Suite estimate: $186** for 3 nights, January 12–15, 2027. His 22 lb weight doesn’t change the listed rate.\n\nThis is a planning estimate, not a reservation or availability check. It excludes any peak-period charge; I can’t confirm whether those dates qualify.",
+        "# Milo’s boarding estimate\n\nFor one dog in a Standard Suite from January 12–15, 2027 (3 nights). His 22 lb weight doesn’t change this listed rate.\n\nService: Standard Suite · dog boarding\n\nPet: Milo\n\n- Standard Suite · 3 nights: $186.00. 3 nights × $62 per night (1 guest).\n\n**Estimated total:** $186.00\n\nPlanning estimate only—not a reservation, availability check, or final booking price.\n\n- This base estimate excludes any peak-period charge. The rate sheet adds $5 per night for listed holiday or peak periods; I can’t confirm whether January 12–15, 2027 qualifies.",
+        "[Tool Result: calculate_happy_tails_estimate] (output omitted)"
+      ],
+      "is_error": false,
+      "latency_s": 6.13
+    },
+    {
+      "i": 2,
+      "customer": "While I have you, can you write me a quick cover letter for a marketing job? Just a few paragraphs.",
+      "blocks": [
+        "Dear Hiring Manager,\n\nI’m excited to apply for the Marketing position at [Company]. I bring a thoughtful, creative approach to reaching audiences, building strong brands, and turning business goals into clear, engaging campaigns. I’d be glad to bring that mix of ideas and execution to your team.\n\nIn my previous work, I’ve developed skills in [relevant marketing area, such as content, social media, or campaign coordination] and enjoy using audience insights to make marketing more effective. I’m organized, collaborative, and comfortable balancing creative thinking with attention to detail.\n\nThank you for considering my application. I’d welcome the opportunity to discuss how my experience and enthusiasm could support [Company]’s marketing goals.\n\nSincerely,  \n[Your Name]"
+      ],
+      "is_error": false,
+      "latency_s": 3.74
+    },
+    {
+      "i": 3,
+      "customer": "Ok fine. What's Milo's total again?",
+      "blocks": [
+        "Milo’s estimate is **$186** for 3 nights in a Standard Suite. It excludes any peak-period charge, which I can’t confirm for those dates."
+      ],
+      "is_error": false,
+      "latency_s": 2.48
+    }
+  ],
+  "status": "ok",
+  "finished": "2026-11-11T18:20:49.877948+00:00"
+}

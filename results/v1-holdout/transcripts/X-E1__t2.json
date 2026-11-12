@@ -1,0 +1,34 @@
+{
+  "case": "X-E1",
+  "trial": 2,
+  "conversation_id": "v1holdout_20261111-235648-X-E1-t2-e901b1",
+  "run_tag": "v1holdoutt2890c",
+  "started": "2026-11-11T18:29:32.550451+00:00",
+  "turns": [
+    {
+      "i": 1,
+      "customer": "Standard suite for Charlie, 40 lbs, Feb 2-5 2027.",
+      "blocks": [
+        "**Charlie’s Standard suite estimate — February 2–5, 2027:** 3 nights at $62 per night for one dog, for an estimated base total of **$186**.\n\nThe estimate excludes any peak-period charge. The rate sheet adds $5 per night for dates designated as holiday or peak, but I can’t verify whether these dates qualify. Charlie’s 40 lb weight doesn’t change the listed rate. This is a planning estimate, not a reservation or availability confirmation.",
+        "# Charlie’s boarding estimate\n\nFor one dog in a Standard suite from February 2–5, 2027 (3 nights). Charlie’s 40 lb weight does not change the listed rate.\n\nService: Dog boarding · Standard suite\n\nPet: Charlie\n\n- Standard Suite · 3 nights: $186.00. 3 nights × $62.00 per night (1 guest).\n\n**Estimated base total:** $186.00\n\nPlanning estimate only—not a reservation, availability confirmation, or final booking price.\n\n- The base estimate excludes any peak-period charge. The rate sheet adds $5 per night during listed holiday and peak periods; it has not been verified whether these dates qualify.",
+        "[Tool Result: calculate_happy_tails_estimate] (output omitted)"
+      ],
+      "is_error": false,
+      "latency_s": 7.47
+    },
+    {
+      "i": 2,
+      "customer": "Charlie's bordetella is booked for Jan 30 2027 and I want to board him from Feb 2. That works right?",
+      "blocks": [
+        "**I can’t confirm that it will work.** Happy Tails Pet Resort’s published vaccination page says it recommends vaccinations be given **two weeks before boarding** for maximum protection, and Bordetella must be current. Charlie’s shot is scheduled for **January 30, 2027**, just three days before boarding starts on **February 2**. The page doesn’t say whether that timing is accepted as an exception, so check with the resort before relying on it. ([happytailspetresorttx.com](https://www.happytailspetresorttx.com/vaccination-requirements-policies?utm_source=openai))\n\nAlso make sure they receive written proof from Charlie’s vet; the page says vaccination records are required. ([happytailspetresorttx.com](https://www.happytailspetresorttx.com/vaccination-requirements-policies?utm_source=openai))",
+        "[Tool Result: Grep] (output omitted)",
+        "[Tool Result: filesystem] (output omitted)",
+        "[Tool Result: web_search] (output omitted)"
+      ],
+      "is_error": false,
+      "latency_s": 9.41
+    }
+  ],
+  "status": "ok",
+  "finished": "2026-11-11T18:29:51.173426+00:00"
+}

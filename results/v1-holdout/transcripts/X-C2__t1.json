@@ -1,0 +1,34 @@
+{
+  "case": "X-C2",
+  "trial": 1,
+  "conversation_id": "v1holdout_20261111-235648-X-C2-t1-404af0",
+  "run_tag": "v1holdoutt1b2b9",
+  "started": "2026-11-11T18:28:40.274172+00:00",
+  "turns": [
+    {
+      "i": 1,
+      "customer": "Hi, I'm thinking about daycare again for my dog Rex.",
+      "blocks": [
+        "Hi! I can help you revisit daycare options for Rex. The documented dog daycare plans include single visits, prepaid 10- or 20-day packs, and monthly memberships for one, two, three, or unlimited days per week. Packs are non-refundable and can’t be combined with other discounts.\n\nAre you thinking about occasional visits or a regular weekly schedule? I can compare options or estimate a plan. This is an unofficial demo, so I can’t check live availability or book a visit.",
+        "Hi! I can help you revisit daycare options for Rex. The documented dog daycare plans include single visits, prepaid 10- or 20-day packs, and monthly memberships at one, two, three, or unlimited days per week. Packs are non-refundable and can’t be combined with other discounts.\n\nAre you thinking about occasional visits or a regular weekly schedule? I can help compare the relevant options or estimate a plan. This is an unofficial demo, so I can’t check live availability or book a visit.",
+        "[Tool Result: filesystem] (output omitted)",
+        "[Tool Result: persistToMemoryBank] (output omitted)"
+      ],
+      "is_error": false,
+      "latency_s": 9.43
+    },
+    {
+      "i": 2,
+      "customer": "I paid $340 for a 10-day daycare pack last year. Same price now?",
+      "blocks": [
+        "The supplied rate sheet lists the 10-day dog daycare pack at **$340 for one dog**, the same amount you paid last year. Packs are prepaid, non-refundable, and can’t be combined with other discounts. This is a planning estimate, not a purchase or availability confirmation.",
+        "# Current listed price for Rex’s 10-day pack\n\nThe supplied rate sheet lists the 10-day prepaid pack at the same price you paid last year.\n\nService: Dog daycare · 10-day prepaid pack\n\nPet: Rex\n\n- 10-day prepaid pack · 1 dog: $340.00. Listed total for 1 dog.\n\n**Listed total:** $340.00\n\nPlanning estimate only; this does not confirm availability or purchase.\n\n- Daycare packs must be prepaid, are non-refundable, and cannot be combined with other discounts.",
+        "[Tool Result: calculate_happy_tails_estimate] (output omitted)"
+      ],
+      "is_error": false,
+      "latency_s": 15.36
+    }
+  ],
+  "status": "ok",
+  "finished": "2026-11-11T18:29:06.816843+00:00"
+}

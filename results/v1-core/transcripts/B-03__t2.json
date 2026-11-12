@@ -1,0 +1,32 @@
+{
+  "case": "B-03",
+  "trial": 2,
+  "conversation_id": "v1_20261111-233436-B-03-t2-eca861",
+  "run_tag": "v1t24614",
+  "started": "2026-11-11T18:09:13.391328+00:00",
+  "turns": [
+    {
+      "i": 1,
+      "customer": "I have two dogs, Max and Ruby, both about 35 lbs, they always sleep together. Can they share a standard suite Feb 2-5 2027? Is there a discount for that?",
+      "blocks": [
+        "## Max and Ruby’s boarding estimate\n\nThe listed two-guest rate for a Standard suite is **$342 for 3 nights** (February 2–5, 2027). Their weights don’t change this estimate.\n\nThe rate sheet supports a two-guest rate, but that doesn’t confirm the dogs can share a suite or that one is available. **No separate discount is established**; this estimate uses the listed rate for two guests. It also excludes any $5-per-night peak or holiday charge, which hasn’t been verified for those dates.\n\nThis is a planning estimate, not a reservation or availability confirmation.",
+        "# Planning estimate: Max and Ruby’s boarding\n\nFor 2 dogs sharing a Standard suite from February 2–5, 2027 (3 nights), the calculator uses the listed two-guest rate. Their weights do not change this estimate.\n\nService: Standard dog boarding · 2 guests · 3 nights\n\nPet: Max and Ruby\n\n- Standard Suite · 3 nights: $342.00. 3 nights × $114.00 per night for 2 guests.\n\n**Estimated total:** $342.00\n\nPlanning estimate only—not a reservation, availability confirmation, or final price. The listed base estimate excludes any peak-period charge; the rate sheet adds $5 per night for qualifying holiday or peak dates, and these dates have not been verified as qualifying.\n\n- The rate sheet provides a two-guest Standard rate, but that alone does not confirm that dogs may share a suite or that a suite is available. Confirm both with the business.\n- No separate discount is established by this estimate; it uses the listed rate for two guests.",
+        "[Tool Result: calculate_happy_tails_estimate] (output omitted)"
+      ],
+      "is_error": false,
+      "latency_s": 8.53
+    },
+    {
+      "i": 2,
+      "customer": "How much is the discount exactly? Is it like 20% off the second dog?",
+      "blocks": [
+        "No—the rate sheet doesn’t list a 20% discount for the second dog. It lists **$186 for one dog** and **$342 for two dogs** for three nights, but doesn’t describe the difference as a discount. So I can’t confirm an exact discount; the **$342** is the listed two-guest estimate, before any applicable peak-period charge.",
+        "[Tool Result: calculate_happy_tails_estimate] (output omitted)"
+      ],
+      "is_error": false,
+      "latency_s": 6.96
+    }
+  ],
+  "status": "ok",
+  "finished": "2026-11-11T18:09:30.557032+00:00"
+}

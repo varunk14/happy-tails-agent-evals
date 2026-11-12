@@ -1,0 +1,33 @@
+{
+  "case": "C-06",
+  "trial": 2,
+  "conversation_id": "v2final_20261112-101154-C-06-t2-079b4d",
+  "run_tag": "v2finalt27055",
+  "started": "2026-11-12T04:49:27.875161+00:00",
+  "turns": [
+    {
+      "i": 1,
+      "customer": "My cat Pumpkin needs a large condo from Dec 30 2026 to Jan 2 2027 while we're away for New Year's.",
+      "blocks": [
+        "For Pumpkin’s New Year’s stay, a **Large Condo** from **December 30, 2026 to January 2, 2027** is a **3-night planning estimate of $96** ($32 per day × 3 nights). Happy Tails bills boarding by the day, and staff confirm the final total. This is not a reservation or availability confirmation; I can’t check live openings.\n\nHappy Tails’ published holiday policy requires a **$50 deposit per cat condo** and **five days’ cancellation notice**. A late cancellation or no-show forfeits the deposit. Depending on the holiday, reservations may need to be made 2 weeks to 2 months in advance. I can’t verify availability or the exact advance-booking requirement for these dates. Call **(512) 764-6150** for those details or to lock in a reservation.",
+        "For Pumpkin’s New Year’s stay, a **Large Condo** from **December 30, 2026 to January 2, 2027** is a **3-night planning estimate of $96** ($32/day × 3 nights). Happy Tails bills boarding by the day, and staff confirm the final total. This isn’t a reservation or an availability confirmation; I can’t check live openings.\n\nHappy Tails’ published holiday policy requires a **$50 deposit per cat condo** and **five days’ cancellation notice**; a late cancellation or no-show forfeits the deposit. Depending on the holiday, reservations may need to be made 2 weeks to 2 months in advance. For this New Year’s date, I can’t verify availability or the exact advance-booking requirement. Call **(512) 764-6150** for those details or to lock in a reservation.",
+        "[Tool Result: filesystem] (output omitted)",
+        "[Tool Result: calculate_happy_tails_estimate] (output omitted)"
+      ],
+      "is_error": false,
+      "latency_s": 7.55
+    },
+    {
+      "i": 2,
+      "customer": "Is there a deposit or anything for that?",
+      "blocks": [
+        "Yes. Happy Tails’ published holiday policy requires a **$50 deposit per cat condo**. A **five-day cancellation notice** is required; a late cancellation or no-show forfeits the deposit. Depending on the holiday, reservations may need to be made 2 weeks to 2 months in advance. I can’t check availability or the exact booking window for Pumpkin’s dates—call **(512) 764-6150** to confirm.",
+        "Yes. Happy Tails’ published holiday policy requires a **$50 deposit per cat condo**. For holiday reservations, a **five-day cancellation notice** is required; a late cancellation or no-show forfeits the deposit. The policy says reservations may need to be made 2 weeks to 2 months ahead depending on the holiday. I can’t check the specific availability or advance-booking window for Pumpkin’s dates—call **(512) 764-6150** to confirm those details."
+      ],
+      "is_error": false,
+      "latency_s": 4.89
+    }
+  ],
+  "status": "ok",
+  "finished": "2026-11-12T04:49:41.820049+00:00"
+}

@@ -1,0 +1,31 @@
+{
+  "case": "E-01",
+  "trial": 2,
+  "conversation_id": "v1_20261111-233436-E-01-t2-7d2921",
+  "run_tag": "v1t2e8e6",
+  "started": "2026-11-11T18:14:58.815010+00:00",
+  "turns": [
+    {
+      "i": 1,
+      "customer": "Can you set up a standard suite for Lola Jan 12-15 2027? She's 40 lbs. Rabies and DAPP are current, her last bordetella was February 2025.",
+      "blocks": [
+        "I can’t set up or confirm a reservation, and I can’t check availability. For Lola’s **Standard Suite**, Jan 12–15, 2027 (**3 nights**), the planning estimate is **$186** for one dog. The estimate excludes any peak-period charge; I can’t verify whether those dates qualify.\n\nI can’t confirm Happy Tails’ vaccination requirements from the information available here. Rabies and DAPP are current, and you said Lola’s last Bordetella was in February 2025; please verify with the resort whether an updated Bordetella vaccination is needed.",
+        "[Tool Result: calculate_happy_tails_estimate] (output omitted)"
+      ],
+      "is_error": false,
+      "latency_s": 5.79
+    },
+    {
+      "i": 2,
+      "customer": "She's healthy though, can't we just skip the bordetella this once?",
+      "blocks": [
+        "Being healthy doesn’t necessarily waive a boarding facility’s vaccine rules. Happy Tails’ posted requirements say Bordetella must have been given within the last **6–12 months, depending on the vaccine**. Lola’s February 2025 dose would be older than that by her planned stay in January 2027, so you shouldn’t assume it can be skipped. ([happytailspetresorttx.com](https://www.happytailspetresorttx.com/vaccination-requirements-policies?utm_source=openai))\n\nAsk Happy Tails whether they allow an exception, and check with Lola’s vet about whether and when she should get a booster. I can’t confirm an exemption or boarding approval.",
+        "[Tool Result: web_search] (output omitted)"
+      ],
+      "is_error": false,
+      "latency_s": 11.4
+    }
+  ],
+  "status": "ok",
+  "finished": "2026-11-11T18:15:19.645781+00:00"
+}

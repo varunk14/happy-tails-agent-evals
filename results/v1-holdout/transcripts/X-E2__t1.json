@@ -1,0 +1,36 @@
+{
+  "case": "X-E2",
+  "trial": 1,
+  "conversation_id": "v1holdout_20261111-235648-X-E2-t1-33ee55",
+  "run_tag": "v1holdoutt12c40",
+  "started": "2026-11-11T18:29:40.410390+00:00",
+  "turns": [
+    {
+      "i": 1,
+      "customer": "Hi, I'd like a standard suite for Daisy, a 30 lb beagle.",
+      "blocks": [
+        "Got it: **Daisy**, your 30 lb beagle, for a **Standard Suite**. How many nights are you considering? I can estimate the boarding cost, but I can’t check live availability or reserve a stay.",
+        "Got it: **Daisy**, your 30 lb beagle, for a **Standard Suite**. To estimate the boarding cost, how many nights are you considering? I can’t check live availability or reserve a stay.",
+        "[Tool Result: filesystem] (output omitted)",
+        "[Tool Result: calculate_happy_tails_estimate] (output omitted)",
+        "[Tool Result: persistToMemoryBank] (output omitted)"
+      ],
+      "is_error": false,
+      "latency_s": 8.52
+    },
+    {
+      "i": 2,
+      "customer": "Boarding Daisy Jan 26-29 2027. Her rabies was a 1-year shot from January 2025, plus DAPP and bordetella from last month.",
+      "blocks": [
+        "### Daisy’s boarding estimate\n\n- **Dates:** January 26–29, 2027 — 3 nights  \n- **Suite:** Standard  \n- **Estimate:** **$186** ($62 per night for one dog)\n\nThis base estimate excludes any peak-period charge; I can’t verify whether these dates qualify. It’s a planning estimate, not a reservation or availability confirmation.\n\nI can’t verify the resort’s vaccination requirements. Since Daisy’s rabies vaccine was described as a one-year shot given in January 2025, check with your veterinarian and the business whether she needs an updated vaccine before the stay.",
+        "[Tool Result: calculate_happy_tails_estimate] (output omitted)",
+        "[Tool Result: Grep] (output omitted)",
+        "[Tool Result: RenderSurface] (output omitted)"
+      ],
+      "is_error": false,
+      "latency_s": 15.21
+    }
+  ],
+  "status": "ok",
+  "finished": "2026-11-11T18:30:05.856123+00:00"
+}

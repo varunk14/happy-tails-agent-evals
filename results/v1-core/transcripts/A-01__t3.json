@@ -1,0 +1,33 @@
+{
+  "case": "A-01",
+  "trial": 3,
+  "conversation_id": "v1_20261111-233436-A-01-t3-eceb70",
+  "run_tag": "v1t3f243",
+  "started": "2026-11-11T18:04:39.216171+00:00",
+  "turns": [
+    {
+      "i": 1,
+      "customer": "hi! need boarding for my beagle Rufus, Jan 12 to Jan 15 2027. he's 28 lbs. standard room is fine, how much?",
+      "blocks": [
+        "Rufus’s **3-night Standard Suite estimate** for January 12–15, 2027 is **$186** for one dog. His 28 lb weight doesn’t change the listed boarding rate.\n\nThe estimate excludes any peak-period charge. The rate sheet adds $5 per night for listed peak or holiday dates, but doesn’t confirm whether these dates qualify. This is a planning estimate—not a reservation or availability confirmation.",
+        "Hi! For Rufus’s **3-night** stay (January 12–15, 2027), the Standard Suite estimate is **$186** for one dog. His 28 lb weight doesn’t change this listed boarding rate.\n\nThis base estimate excludes any peak-period charge; the rate sheet adds $5 per night on listed peak/holiday dates, and I can’t determine from the rate sheet whether these dates qualify. This is a planning estimate, not a reservation or availability confirmation.",
+        "[Tool Result: calculate_happy_tails_estimate] (output omitted)"
+      ],
+      "is_error": false,
+      "latency_s": 6.22
+    },
+    {
+      "i": 2,
+      "customer": "cool. can you add 2 nature walks for him while he's there",
+      "blocks": [
+        "Updated estimate for Rufus’s 3-night Standard Suite stay:\n\n- Standard Suite: **$186** (3 nights × $62)\n- Two nature walks: **$50** (2 × $25)\n- **Estimated total: $236**\n\nThis excludes any peak-period charge of $5 per night if those dates qualify. It’s a planning estimate, not a reservation or availability confirmation.",
+        "# Updated estimate for Rufus\n\nThe estimate now includes the 3-night Standard Suite and two nature walks.\n\nService: Dog boarding · Standard Suite, 3 nights\n\nPet: Rufus\n\n- Standard Suite · 3 nights: $186.00. 3 nights × $62.00 per night (1 guest).\n- Nature walk enrichment session · 2: $50.00. 2 sessions × $25.00 per session.\n\n**Estimated total:** $236.00\n\nPlanning estimate only; this is not a reservation, availability confirmation, or final price.\n\n- Base estimate excludes any peak-period charge. The rate sheet adds $5 per night during listed holiday and peak periods; it does not confirm whether January 12–15, 2027 qualifies.",
+        "[Tool Result: calculate_happy_tails_estimate] (output omitted)"
+      ],
+      "is_error": false,
+      "latency_s": 7.62
+    }
+  ],
+  "status": "ok",
+  "finished": "2026-11-11T18:04:54.814963+00:00"
+}

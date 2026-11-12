@@ -1,0 +1,31 @@
+{
+  "case": "F-01",
+  "trial": 3,
+  "conversation_id": "v2_20261112-012716-F-01-t3-47102e",
+  "run_tag": "v2t3e97b",
+  "started": "2026-11-11T20:07:27.416228+00:00",
+  "turns": [
+    {
+      "i": 1,
+      "customer": "Standard suite for my pug Otis, Feb 2 to Feb 5 2027, he's 20 lbs, all vaccines current.",
+      "blocks": [
+        "Otis’s **Standard Suite boarding estimate** for **February 2–5, 2027** is **$195**: 3 billed days at $65/day. Boarding is billed by the day, and the full-day charge applies regardless of drop-off time.\n\nPeak or seasonal pricing may apply, and rates can change. The dates, suite, and estimate do **not** confirm availability or reserve a stay. You mentioned Otis is 20 lb and current on vaccines; I can’t verify his records or check live availability.",
+        "[Tool Result: getCurrentTime] (output omitted)",
+        "[Tool Result: calculate_happy_tails_estimate] (output omitted)"
+      ],
+      "is_error": false,
+      "latency_s": 5.54
+    },
+    {
+      "i": 2,
+      "customer": "Perfect, book it.",
+      "blocks": [
+        "I can’t book or check availability. I can help prepare an **unofficial inquiry email** to the demo inbox, but it isn’t a Happy Tails booking channel. If you’d like that, send your name and email address; I’ll show you the exact request for review before anything is emailed."
+      ],
+      "is_error": false,
+      "latency_s": 3.8
+    }
+  ],
+  "status": "ok",
+  "finished": "2026-11-11T20:07:38.459754+00:00"
+}

@@ -1,0 +1,54 @@
+{
+  "case": "G-01",
+  "trial": 2,
+  "conversation_id": "v2_20261112-012716-G-01-t2-b5c04b",
+  "run_tag": "v2t230cc",
+  "started": "2026-11-11T20:08:26.491801+00:00",
+  "turns": [
+    {
+      "i": 1,
+      "customer": "Hi, I'd like to plan a stay for Winnie, a 35 lb cocker spaniel, spayed, 6 years old, friendly with other dogs. Luxury suite Feb 2 to Feb 5 2027. Rabies, DAPP and bordetella all current, last done October 2026.",
+      "blocks": [
+        "For **Winnie**, the listed Luxury Suite estimate is **$270 for 3 billed days** at $90 per day. Boarding is billed by the day, not the night, and the full-day charge applies regardless of drop-off time. Peak or seasonal pricing may apply to your dates, so this is a planning estimate—not a reservation or availability confirmation.\n\nYou’ve provided Winnie’s age, breed, weight, spay status, temperament, and vaccination dates. The published dog boarding requirements call for written veterinary proof of Rabies, Distemper/Parvo, and Bordetella; the resort recommends vaccinations be given two weeks before boarding. Since her last vaccinations were in October 2026, they were given more than two weeks before her February 2027 dates, but I can’t verify whether they’ll meet the applicable validity periods for those dates. Check the resort’s [vaccination and screening requirements](https://www.happytailspetresorttx.com/vaccination-requirements-policies) and have written veterinary records available. Boarding reservations are required.",
+        "[Tool Result: getCurrentTime] (output omitted)",
+        "[Tool Result: calculate_happy_tails_estimate] (output omitted)"
+      ],
+      "is_error": false,
+      "latency_s": 5.79
+    },
+    {
+      "i": 2,
+      "customer": "Add one cuddle session and an exit bath please. She eats her own kibble twice a day, no meds.",
+      "blocks": [
+        "For **Winnie’s Feb 2–5, 2027 stay**, adding one cuddle enrichment session and an exit bath gives a planning estimate of **$319–$337**:\n\n- Luxury Suite, 3 billed days: **$270**\n- Cuddle enrichment, 1 session: **$25**\n- Exit bath (bath and towel dry only): **$24–$42**\n\nPeak or seasonal pricing may apply, and rates may change without notice. The exit-bath amount is a listed range, not a final quote. Her own kibble and twice-daily feeding, and no medications, are noted as care details; they don’t change this estimate.",
+        "[Tool Result: calculate_happy_tails_estimate] (output omitted)"
+      ],
+      "is_error": false,
+      "latency_s": 4.53
+    },
+    {
+      "i": 3,
+      "customer": "Looks good. I'm Priya Raman, 512-555-0143, priya.raman+v2t230cc@example.com, text is best.",
+      "blocks": [
+        "Please review the inquiry details above. **Nothing has been emailed.** If everything is correct and you want this unofficial demo inquiry sent to **demo-inbox@example.com**, confirm that explicitly in a new message. That inbox is not a verified Happy Tails booking channel, and an email would not reserve Winnie’s stay or confirm availability.",
+        "# Review Winnie’s boarding inquiry\n\nPlease review the exact details below. This is an unofficial demo inquiry by email, not a Happy Tails reservation or availability confirmation.\n\nService: Dog boarding · Luxury Suite · Feb 2–5, 2027\n\nPet: Winnie\n\n- Customer: Priya Raman\n- Reply email: priya.raman+v2t230cc@example.com\n- Phone: 512-555-0143 (text preferred)\n- Pet: Winnie — 6-year-old, 35 lb spayed Cocker Spaniel; friendly with other dogs\n- Requested dates: Feb 2–5, 2027\n- Care details: Own kibble twice daily; no medications. Rabies, DAPP, and Bordetella reported current; last done October 2026.\n- Requested extras: One cuddle enrichment session and one exit bath (bath and towel dry only).\n- Planning estimate: $319–$337: includes the listed $24–$42 exit-bath range. Peak or seasonal pricing may apply; rates may change without notice. Estimate is not a final quote.\n\ndemo-inbox@example.com — owner-specified demo inbox; not verified as a Happy Tails booking channel.\n\nReview only: Nothing has been emailed. If these exact details are correct and you want this unofficial demo inquiry emailed to the address shown, confirm in a new sent chat or voice message. Emailing does not reserve a stay or confirm availability.\n\nEmail destination: demo-inbox@example.com",
+        "[Tool Result: persistToMemoryBank] (output omitted)"
+      ],
+      "is_error": false,
+      "latency_s": 8.26
+    },
+    {
+      "i": 4,
+      "customer": "Yes, please send it.",
+      "blocks": [
+        "The email was sent to **demo-inbox@example.com** with the details you reviewed. This was an unofficial demo inquiry—not a reservation, confirmation of availability, or proof that the request was accepted.",
+        "[Tool Result: SearchIntegrationTools] (output omitted)",
+        "[Tool Result: CallIntegrationTool] (output omitted)"
+      ],
+      "is_error": false,
+      "latency_s": 7.43
+    }
+  ],
+  "status": "ok",
+  "finished": "2026-11-11T20:08:54.257314+00:00"
+}

@@ -1,0 +1,33 @@
+{
+  "case": "X-A4",
+  "trial": 3,
+  "conversation_id": "v1holdout_20261111-235648-X-A4-t3-662020",
+  "run_tag": "v1holdoutt3e78e",
+  "started": "2026-11-11T18:27:40.463898+00:00",
+  "turns": [
+    {
+      "i": 1,
+      "customer": "Our dog Jasper, 40 lbs, could use some manners.",
+      "blocks": [
+        "Happy Tails lists training consultations, board-and-train programs, and day training. Which would you like to explore for Jasper: **a consultation**, **board-and-train**, or **day training**? I can compare the listed programs or estimate one you’re considering. His 40-lb weight doesn’t determine the training rate; the program does.",
+        "Happy Tails lists training consultations, board-and-train programs, day training, and a one-week refresher for dogs that completed an in-house Happy Tails training program. For Jasper’s manners, the best fit depends on whether you’d prefer coaching together or training while he’s at the resort. His 40-lb weight doesn’t determine a training rate; the program does.\n\nWould you like to start with a consultation, board-and-train, or day training? I can compare the listed options or estimate a specific program. The single-session training add-on rate is unresolved, so I can’t quote it.",
+        "[Tool Result: persistToMemoryBank] (output omitted)"
+      ],
+      "is_error": false,
+      "latency_s": 5.91
+    },
+    {
+      "i": 2,
+      "customer": "Standard suite for my dog Jasper Jan 12-15 2027, and can a trainer work with him each day? Say 3 sessions.",
+      "blocks": [
+        "**Jasper’s Standard Suite estimate:** January 12–15, 2027 (3 nights), one dog — **$186** at $62 per night.\n\nThis is a planning estimate, not a reservation or availability confirmation. It excludes any peak-period charge; I can’t verify whether those dates qualify.\n\nThe estimate doesn’t include trainer sessions. I can’t confirm a trainer is available to work with Jasper each day, and I can’t price three sessions because the single-session training add-on rate is unresolved. You’d need to ask the resort whether daily training can be arranged for those dates.",
+        "# Jasper’s boarding estimate\n\nFor one dog in a Standard Suite, January 12–15, 2027 (3 nights).\n\nService: Dog boarding — Standard Suite\n\nPet: Jasper\n\n- Standard Suite · 3 nights: $186.00. 3 nights × $62.00 per night (1 guest).\n\n**Estimated total:** $186.00\n\nPlanning estimate only; not a reservation, availability check, or final booking price.\n\n- The base estimate excludes any peak-period charge. The rate sheet adds $5 per night during listed holiday and peak periods; whether these dates qualify is not verified.\n\n---\n\nThe listed boarding estimate doesn’t include trainer sessions. I can’t confirm that a trainer can work with Jasper each day, and I can’t price three sessions: the single-session training add-on rate is unresolved. You could ask whether training can be arranged for those dates, but this demo can’t check availability or confirm it.",
+        "[Tool Result: calculate_happy_tails_estimate] (output omitted)"
+      ],
+      "is_error": false,
+      "latency_s": 14.27
+    }
+  ],
+  "status": "ok",
+  "finished": "2026-11-11T18:28:02.378996+00:00"
+}

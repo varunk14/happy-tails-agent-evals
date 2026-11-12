@@ -1,0 +1,42 @@
+{
+  "case": "G-04",
+  "trial": 2,
+  "conversation_id": "v2_20261112-012716-G-04-t2-723de2",
+  "run_tag": "v2t2aa72",
+  "started": "2026-11-11T20:09:29.621565+00:00",
+  "turns": [
+    {
+      "i": 1,
+      "customer": "Luxury suite for my greyhound Dash, Jan 12-15 2027, 70 lbs.",
+      "blocks": [
+        "For Dash, the **Luxury Suite** estimate for **January 12–15, 2027** is **$270**: 3 billed days at $90 per day. Boarding is billed by the day, and the full-day rate applies regardless of drop-off time.\n\nDash’s 70 lb weight and greyhound breed don’t change the listed Luxury Suite rate. Peak or seasonal pricing may apply to those dates, and rates may change. This is a planning estimate only—not a reservation or availability confirmation.",
+        "[Tool Result: getCurrentTime] (output omitted)",
+        "[Tool Result: calculate_happy_tails_estimate] (output omitted)"
+      ],
+      "is_error": false,
+      "latency_s": 5.98
+    },
+    {
+      "i": 2,
+      "customer": "Name's Sam Kowalski, 512-555-0129, sam.k+v2t2aa72@example.com.",
+      "blocks": [
+        "I’ve prepared the review with your contact details and Dash’s boarding plan. **Nothing has been emailed.** If you want this exact inquiry sent to the demo inbox shown in the review, confirm in a new, sent message after reviewing it. It would be an inquiry only—not a reservation or availability confirmation.",
+        "# Review Dash’s boarding inquiry\n\nI’ve prepared a review of the details you provided. Nothing has been emailed. If you want this exact inquiry emailed, confirm in a new, sent chat or voice message after reviewing it.\n\nService: Dog boarding — Luxury Suite\n\nPet: Dash\n\n- Customer: Sam Kowalski\n- Email: sam.k+v2t2aa72@example.com\n- Phone: 512-555-0129\n- Pet: Dog\n- Breed: Greyhound\n- Weight: 70 lbs\n- Requested dates: January 12–15, 2027\n- Suite: Luxury Suite\n\nPlanning estimate: $270 for 3 billed days at $90/day. Peak or seasonal pricing may apply; this is not a final price or reservation.\n\ndemo-inbox@example.com is an owner-specified demo inbox and is not a confirmed Happy Tails booking channel.\n\nReview only — not sent: This is an unofficial demo inquiry, not a reservation or availability confirmation. No email has been sent.\n\nEmail destination: demo-inbox@example.com",
+        "[Tool Result: persistToMemoryBank] (output omitted)"
+      ],
+      "is_error": false,
+      "latency_s": 8.31
+    },
+    {
+      "i": 3,
+      "customer": "Oh by the way, do you sell dog food there?",
+      "blocks": [
+        "I can verify that Happy Tails lists house food as a dog-boarding add-on for **$3 per day**. I can’t verify whether they sell dog food to take home."
+      ],
+      "is_error": false,
+      "latency_s": 3.19
+    }
+  ],
+  "status": "ok",
+  "finished": "2026-11-11T20:09:48.815861+00:00"
+}

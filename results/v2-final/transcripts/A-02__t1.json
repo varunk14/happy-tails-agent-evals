@@ -1,0 +1,33 @@
+{
+  "case": "A-02",
+  "trial": 1,
+  "conversation_id": "v2final_20261112-101154-A-02-t1-7fee4f",
+  "run_tag": "v2finalt1c4b4",
+  "started": "2026-11-12T04:42:10.681487+00:00",
+  "turns": [
+    {
+      "i": 1,
+      "customer": "We're away Feb 1 to Feb 5, 2027 and need somewhere for Maisie, our 65 lb lab. What's the difference between your standard and luxury suites, and what would each cost?",
+      "blocks": [
+        "For Maisie’s stay from **February 1 to February 5, 2027**—4 nights—the estimates are **$260 for Standard** and **$360 for Luxury**, a $100 difference.\n\nHappy Tails describes Standard as a large indoor/outdoor suite with a raised bed, fresh bedding, patio access, potty walks, play as safety permits, and occasional photo updates. Luxury includes Standard features plus a larger room, a 24-hour webcam instead of photos, TV, extra play as safety permits, a ceiling fan, premium bed and bedding, a rug, and a toy. Suite assignments are based on weight; Maisie’s 65 lb fits the listed Standard and Luxury options.\n\nThese planning estimates use the published rates of $65/day for Standard and $90/day for Luxury over four nights. Boarding is billed by the day, and Happy Tails staff confirm the final total. Peak or seasonal pricing may apply, and rates may change; there’s no live availability check, so these estimates don’t confirm a suite is available.",
+        "For Maisie’s 4-night stay, **Standard is $260** and **Luxury is $360** at the published daily rates. Luxury is $100 more for the stay. Happy Tails assigns suites according to weight; the 65 lb weight fits the listed Standard and Luxury options.\n\n---\n\nBoth estimates use Feb 1–5, 2027 (4 nights), with one dog and no add-ons. Boarding is billed by the day; Happy Tails staff confirm the final total.\nPlanning estimates only. Peak or seasonal pricing may apply, but the source does not specify whether these dates qualify or the amount; rates may change without notice.\n| Suite | Published features | Estimate |\n| --- | --- | --- |\n| Standard | Large indoor/outdoor accommodation; raised bed and fresh bedding; patio access; morning and afternoon potty walks; group or individual play as safety permits; occasional photo updates. | $260 (4 nights × $65/day) |\n| Luxury | Includes Standard features, plus a larger room, live 24-hour webcam instead of photos, TV, extra play as safety permits, ceiling fan, premium bed/bedding, rug, and toy. | $360 (4 nights × $90/day) |\n\n---\n\nNo live availability check is connected, so these figures don’t confirm a suite is available or reserve one.",
+        "[Tool Result: filesystem] (output omitted)",
+        "[Tool Result: calculate_happy_tails_estimate] (output omitted)",
+        "[Tool Result: calculate_happy_tails_estimate] (output omitted)"
+      ],
+      "is_error": false,
+      "latency_s": 9.69
+    },
+    {
+      "i": 2,
+      "customer": "The webcam sounds lovely. Let's go with luxury.",
+      "blocks": [
+        "Luxury sounds like the better fit if you’d enjoy checking in through the live 24-hour webcam. For Maisie’s **February 1–5, 2027** stay, the planning estimate is **$360 for 4 nights**, before any applicable peak or seasonal pricing. Happy Tails bills boarding by the day and confirms the final total. This doesn’t check availability or reserve a suite."
+      ],
+      "is_error": false,
+      "latency_s": 2.83
+    }
+  ],
+  "status": "ok",
+  "finished": "2026-11-12T04:42:24.734845+00:00"
+}

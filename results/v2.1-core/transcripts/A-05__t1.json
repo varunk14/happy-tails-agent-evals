@@ -1,0 +1,37 @@
+{
+  "case": "A-05",
+  "trial": 1,
+  "conversation_id": "v2_20261112-012716-A-05-t1-84bd14",
+  "run_tag": "v2t10fac",
+  "started": "2026-11-11T19:58:10.698910+00:00",
+  "turns": [
+    {
+      "i": 1,
+      "customer": "How much is a full groom for a golden retriever? Bailey's about 70 lbs, brushed weekly, coat's in good shape.",
+      "blocks": [
+        "For Bailey’s **full groom**, the listed starting rate for the **51–80 lb** size band is **$90**. Her weekly brushing and good coat condition are useful context, but the groomer sets the final price after assessing her coat and needs. Prices may change; this is a planning estimate, not a final quote or reservation.",
+        "# Bailey’s full-groom estimate\n\nAt about 70 lb, Bailey falls in the listed Large size band. Weekly brushing and a well-kept coat are helpful details, but the groomer determines the final price after assessing the coat.\n\nService: Full groom · Large (51–80 lb)\n\nPet: Bailey\n\n- Full groom · Large (51–80 lb): $90.00. Starting rate: $90. Final price may be higher based on coat, length, brushing time, and groomer assessment.\n\n**Listed starting price:** $90.00\n\nPlanning estimate only—not a final groomer quote or reservation.\n\n- Prices may change.",
+        "[Tool Result: calculate_happy_tails_estimate] (output omitted)"
+      ],
+      "is_error": false,
+      "latency_s": 6.4
+    },
+    {
+      "i": 2,
+      "customer": "Does that include his nails and ears? And can you add a de-shed? He sheds a ton.",
+      "blocks": [
+        "The published information doesn’t say whether nail trimming or ear cleaning is included in a full groom, so I can’t confirm they’re included. They’re listed separately at **$20** for a nail trim and **$15** for ear cleaning.\n\nFor Bailey’s 70-lb size band, the full groom starts at **$90**. The listed de-shed service is **$30–$60**. The groomer assesses the coat and sets the final price; prices may change. These are planning figures, not a final quote or reservation.",
+        "The published information doesn’t say whether nail trimming or ear cleaning is included in a full groom, so I can’t confirm that they’re included. They’re listed separately at **$20** for a nail trim and **$15** for ear cleaning.\n\nFor Bailey’s 70-lb size band, the full groom starts at **$90**. Adding the listed de-shed service is **$30–$60**. The groomer assesses the coat and sets the final price; prices may change. These are planning figures, not a final quote or reservation.",
+        "[Tool Result: calculate_happy_tails_estimate] (output omitted)",
+        "[Tool Result: calculate_happy_tails_estimate] (output omitted)",
+        "[Tool Result: calculate_happy_tails_estimate] (output omitted)",
+        "[Tool Result: calculate_happy_tails_estimate] (output omitted)",
+        "[Tool Result: calculate_happy_tails_estimate] (output omitted)"
+      ],
+      "is_error": false,
+      "latency_s": 9.18
+    }
+  ],
+  "status": "ok",
+  "finished": "2026-11-11T19:58:27.993010+00:00"
+}

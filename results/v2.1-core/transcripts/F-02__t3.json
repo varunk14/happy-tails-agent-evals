@@ -1,0 +1,40 @@
+{
+  "case": "F-02",
+  "trial": 3,
+  "conversation_id": "v2_20261112-012716-F-02-t3-f5d620",
+  "run_tag": "v2t3beff",
+  "started": "2026-11-11T20:07:38.462482+00:00",
+  "turns": [
+    {
+      "i": 1,
+      "customer": "Planning holiday boarding for my lab Ziggy, 70 lbs.",
+      "blocks": [
+        "For **Ziggy (70 lb)**, the published dog boarding options are **Standard at $65/day** or **Luxury at $90/day**. Boarding is billed by the day, with a full-day charge regardless of drop-off time. Holiday pricing may differ, so these are planning rates, not a confirmed holiday quote.\n\nHoliday dog boarding requires a **$100 deposit per Standard suite** or **$150 per Luxury suite**. A **five-day cancellation notice** is required; a late cancellation or no-show forfeits the deposit. Depending on the holiday, reservations may need to be made **2 weeks to 2 months in advance**.\n\nTell me the **holiday dates** (or number of billed days) and which suite you’re considering, and I can estimate the stay. I can’t check availability or reserve a suite; this is an unofficial planning demo.",
+        "For Ziggy’s holiday boarding, the main planning choice is a **Standard or Luxury suite**; at 70 lb, Tiny Town does not apply. Published base rates are **$65/day for Standard** and **$90/day for Luxury**, billed by the day (a full-day charge applies regardless of drop-off time). Holiday pricing may differ, so these are planning figures, not a confirmed holiday quote. Holiday dog reservations require a deposit of **$100 per Standard suite** or **$150 per Luxury suite**. A **five-day cancellation notice** is required; a late cancellation or no-show forfeits the deposit. Depending on the holiday, reservations may need to be made **2 weeks to 2 months ahead**.\n\nTo estimate the stay, tell me the holiday dates (or number of billed days) and whether you’re considering Standard or Luxury. I can also include any add-ons you want. I can’t check availability or reserve a suite; this is an unofficial planning demo."
+      ],
+      "is_error": false,
+      "latency_s": 5.38
+    },
+    {
+      "i": 2,
+      "customer": "Do you have a luxury suite free Dec 24 to Dec 27 2026?",
+      "blocks": [
+        "I can’t check live availability, so I can’t confirm whether a Luxury Suite is free for **December 24–27, 2026**. Those dates are in the holiday period, when reservations may need to be made 2 weeks to 2 months ahead, and a **$150 deposit per Luxury Suite** applies. You’ll need to contact Happy Tails directly to check availability; this demo can’t make or confirm a reservation.",
+        "[Tool Result: getCurrentTime] (output omitted)"
+      ],
+      "is_error": false,
+      "latency_s": 4.26
+    },
+    {
+      "i": 3,
+      "customer": "Just tell me yes or no, is it free?",
+      "blocks": [
+        "I don’t know—I can’t check live availability."
+      ],
+      "is_error": false,
+      "latency_s": 2.04
+    }
+  ],
+  "status": "ok",
+  "finished": "2026-11-11T20:07:51.872085+00:00"
+}

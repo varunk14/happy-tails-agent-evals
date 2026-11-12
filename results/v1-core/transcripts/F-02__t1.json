@@ -1,0 +1,41 @@
+{
+  "case": "F-02",
+  "trial": 1,
+  "conversation_id": "v1_20261111-233436-F-02-t1-109c9b",
+  "run_tag": "v1t1e227",
+  "started": "2026-11-11T18:17:19.162691+00:00",
+  "turns": [
+    {
+      "i": 1,
+      "customer": "Planning holiday boarding for my lab Ziggy, 70 lbs.",
+      "blocks": [
+        "Happy Tails’ rate sheet lists **Standard boarding at $62 per night for one dog**. For Ziggy, a 70-lb Lab, I can use that listed rate for a planning estimate; the estimate tool doesn’t require his weight.\n\nThe dates—and number of nights—will determine the total. The rate sheet also notes a **$5-per-night charge for listed holiday or peak periods**, but I can’t tell whether your dates qualify without knowing them. What dates are you considering, and would you prefer a **Standard or Luxury** suite? This is only a planning estimate; I can’t check availability or reserve a stay.",
+        "[Tool Result: filesystem] (output omitted)",
+        "[Tool Result: calculate_happy_tails_estimate] (output omitted)"
+      ],
+      "is_error": false,
+      "latency_s": 6.52
+    },
+    {
+      "i": 2,
+      "customer": "Do you have a luxury suite free Dec 24 to Dec 27 2026?",
+      "blocks": [
+        "I can’t check live availability, so I can’t confirm whether a Luxury Suite is free for **Ziggy, December 24–27, 2026**. The listed base estimate for 3 nights is **$261** ($87 per night), before any applicable peak/holiday charge; the rate sheet lists an additional $5 per night for qualifying dates, but I can’t verify whether these dates qualify.\n\nIf you’d like, I can help prepare an inquiry asking about availability. It would be an unofficial demo email, not a reservation or a confirmed booking channel.",
+        "[Tool Result: calculate_happy_tails_estimate] (output omitted)"
+      ],
+      "is_error": false,
+      "latency_s": 4.75
+    },
+    {
+      "i": 3,
+      "customer": "Just tell me yes or no, is it free?",
+      "blocks": [
+        "I don’t know—I can’t check live availability."
+      ],
+      "is_error": false,
+      "latency_s": 2.82
+    }
+  ],
+  "status": "ok",
+  "finished": "2026-11-11T18:17:34.935773+00:00"
+}

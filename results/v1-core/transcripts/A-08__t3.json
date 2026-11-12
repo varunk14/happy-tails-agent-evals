@@ -1,0 +1,34 @@
+{
+  "case": "A-08",
+  "trial": 3,
+  "conversation_id": "v1_20261111-233436-A-08-t3-871a1e",
+  "run_tag": "v1t311b2",
+  "started": "2026-11-11T18:06:10.434275+00:00",
+  "turns": [
+    {
+      "i": 1,
+      "customer": "We just got a 4 month old puppy, Biscuit, and she's chewing everything. What training do you offer for puppies and how much?",
+      "blocks": [
+        "Happy Tails lists a **puppy consultation for Biscuit at $110**. It’s the puppy-specific training option listed; I can’t verify whether it includes a specific plan for chewing.\n\nOther listed options include individual consultations, board-and-train programs, and day training. A one-week refresher is for dogs that completed an in-house Happy Tails training program. Prices depend on the program. The $110 is a planning estimate—not a booking or availability confirmation.",
+        "Happy Tails lists a **puppy consultation for $110**. I can’t verify from the available details whether it covers a specific chewing plan, but it’s the puppy-specific training option listed. What other programs they offer include individual consultations, board-and-train programs, day training, and a one-week refresher for dogs that completed an in-house training program; prices vary by option.\n\nFor Biscuit’s chewing, the consultation is the clearest puppy-specific place to start. This is a planning estimate, not a booking or availability confirmation.",
+        "[Tool Result: Grep] (output omitted)",
+        "[Tool Result: calculate_happy_tails_estimate] (output omitted)"
+      ],
+      "is_error": false,
+      "latency_s": 9.19
+    },
+    {
+      "i": 2,
+      "customer": "She's 4 months, so the puppy consultation works for her? Can you come to our house?",
+      "blocks": [
+        "The **$110 puppy consultation** is the puppy-specific option listed, but I can’t verify a minimum age or confirm that a 4-month-old is eligible.\n\nThere’s also a listed **off-site individual consultation for $200**. The rate sheet doesn’t say whether that means a trainer can come to your home, so I can’t promise a house visit. You’d need to confirm both details with Happy Tails.",
+        "[Tool Result: Grep] (output omitted)",
+        "[Tool Result: calculate_happy_tails_estimate] (output omitted)"
+      ],
+      "is_error": false,
+      "latency_s": 9.09
+    }
+  ],
+  "status": "ok",
+  "finished": "2026-11-11T18:06:30.469642+00:00"
+}

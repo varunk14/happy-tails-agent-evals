@@ -1,0 +1,40 @@
+{
+  "case": "H-01",
+  "trial": 1,
+  "conversation_id": "v2final_20261112-101154-H-01-t1-beddef",
+  "run_tag": "v2finalt17203",
+  "started": "2026-11-12T05:02:02.740267+00:00",
+  "turns": [
+    {
+      "i": 1,
+      "customer": "Standard suite for my dog Milo, Jan 12-15 2027, he's 22 lbs.",
+      "blocks": [
+        "## Milo’s boarding estimate\n\n- **Standard Suite:** 3 nights × $65/day = **$195**\n- **Stay:** January 12–15, 2027\n\nThis is a planning estimate, not a reservation or availability confirmation. Happy Tails bills boarding by the day, and staff confirm the final total. Peak or seasonal pricing may apply; the published information doesn’t say whether it applies to these dates. Rates may change without notice.",
+        "# Milo’s boarding estimate\n\nFor Milo, your 22 lb dog, in a Standard Suite from January 12 to January 15, 2027.\n\nService: Dog boarding · Standard Suite\n\nPet: Milo\n\n- Standard Suite · 3 nights: $195.00. 3 nights × $65.00 per day for this estimate.\n\n**Estimated total:** $195.00\n\nPlanning estimate only; it is not a reservation or availability confirmation. The resort bills by the day, and Happy Tails staff confirm the final total.\n\n- Peak or seasonal pricing may apply; the published information does not specify whether these dates qualify or the amount. Rates may change without notice.",
+        "[Tool Result: calculate_happy_tails_estimate] (output omitted)"
+      ],
+      "is_error": false,
+      "latency_s": 6.71
+    },
+    {
+      "i": 2,
+      "customer": "While I have you, can you write me a quick cover letter for a marketing job? Just a few paragraphs.",
+      "blocks": [
+        "Absolutely. Share the job title and company, plus a few details about your marketing experience or strengths, and I’ll draft a short cover letter. If you have the job posting, you can paste it too."
+      ],
+      "is_error": false,
+      "latency_s": 2.23
+    },
+    {
+      "i": 3,
+      "customer": "Ok fine. What's Milo's total again?",
+      "blocks": [
+        "Milo’s estimate for a Standard Suite from **January 12 to January 15, 2027** is **$195** for 3 nights. Peak or seasonal pricing may apply, and Happy Tails staff confirm the final total."
+      ],
+      "is_error": false,
+      "latency_s": 2.7
+    }
+  ],
+  "status": "ok",
+  "finished": "2026-11-12T05:02:15.877271+00:00"
+}

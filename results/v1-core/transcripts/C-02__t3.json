@@ -1,0 +1,43 @@
+{
+  "case": "C-02",
+  "trial": 3,
+  "conversation_id": "v1_20261111-233436-C-02-t3-b5ff4b",
+  "run_tag": "v1t3e8b5",
+  "started": "2026-11-11T18:10:44.919277+00:00",
+  "turns": [
+    {
+      "i": 1,
+      "customer": "Hi! I have two westies, Hamish and Islay, 18 lbs each. They're inseparable.",
+      "blocks": [
+        "Hi! Hamish and Islay sound like a lovely pair. I can help you explore **boarding, daycare, grooming, or training** for them. Which would you like to start with?",
+        "Hi! Hamish and Islay sound like a lovely pair. I can help you explore **boarding, daycare, grooming, or training** for them. Which would you like to start with?",
+        "[Tool Result: persistToMemoryBank] (output omitted)"
+      ],
+      "is_error": false,
+      "latency_s": 5.54
+    },
+    {
+      "i": 2,
+      "customer": "What would it cost for my two westies to share a luxury suite for 3 nights, Feb 2 to Feb 5 2027?",
+      "blocks": [
+        "## Boarding estimate for Hamish and Islay\n\n**$483 total** for two dogs sharing a luxury suite for **3 nights** (February 2–5, 2027), based on **$161 per night for two guests**.\n\nThis is a planning estimate only—not a reservation or confirmation of availability.",
+        "# Boarding estimate for Hamish and Islay\n\nFor two 18 lb Westies sharing a luxury suite for the three nights you specified, February 2–5, 2027.\n\nService: Luxury suite · 3 nights · 2 dogs\n\nPet: Hamish and Islay\n\n- Luxury Suite · 3 nights: $483.00. 3 nights × $161.00 per night (2 guests).\n\n**Estimated total:** $483.00\n\nPlanning estimate only; this is not a reservation or confirmation of availability.",
+        "[Tool Result: calculate_happy_tails_estimate] (output omitted)"
+      ],
+      "is_error": false,
+      "latency_s": 11.09
+    },
+    {
+      "i": 3,
+      "customer": "So roughly what will we pay? Ballpark is fine.",
+      "blocks": [
+        "Ballpark: **about $483 total** for the three nights, based on the listed luxury-suite rate for two dogs. That’s a planning estimate, not a reservation or availability confirmation.",
+        "Ballpark: **about $483 total** for the three nights, based on the listed luxury-suite rate for two dogs. That’s a planning estimate, not a reservation or availability confirmation."
+      ],
+      "is_error": false,
+      "latency_s": 5.35
+    }
+  ],
+  "status": "ok",
+  "finished": "2026-11-11T18:11:08.621053+00:00"
+}

@@ -1,0 +1,42 @@
+{
+  "case": "G-02",
+  "trial": 2,
+  "conversation_id": "v2_20261112-012716-G-02-t2-11f319",
+  "run_tag": "v2t2716c",
+  "started": "2026-11-11T20:08:52.470715+00:00",
+  "turns": [
+    {
+      "i": 1,
+      "customer": "Standard suite for my beagle Toby, Jan 26-29 2027, 25 lbs.",
+      "blocks": [
+        "For Toby’s **Standard Suite** stay, **January 26–29, 2027**, the estimate is **$260**: 4 billed days at $65 per day. The full-day rate applies regardless of drop-off time.\n\nThis is a planning estimate, not a reservation or availability confirmation. Peak or seasonal pricing may apply, and rates may change.",
+        "[Tool Result: getCurrentTime] (output omitted)",
+        "[Tool Result: calculate_happy_tails_estimate] (output omitted)",
+        "[Tool Result: persistToMemoryBank] (output omitted)"
+      ],
+      "is_error": false,
+      "latency_s": 7.99
+    },
+    {
+      "i": 2,
+      "customer": "I'm Mark Ellis, 512-555-0167, mark.ellis+v2t2716c@example.com.",
+      "blocks": [
+        "Thanks, Mark. I have your contact details for this conversation. Would you like me to prepare an email inquiry about Toby’s January 26–29 stay? The only available destination is an **unofficial demo inbox**, not a verified Happy Tails booking channel; I’d show you the exact request to review before asking for your confirmation to email it.",
+        "[Tool Result: persistToMemoryBank] (output omitted)"
+      ],
+      "is_error": false,
+      "latency_s": 5.53
+    },
+    {
+      "i": 3,
+      "customer": "Actually no, don't send anything yet, I need to check with my wife first.",
+      "blocks": [
+        "Of course—I won’t prepare or send an email. Toby’s estimate remains **$260** for the four billed days, subject to possible seasonal pricing and availability."
+      ],
+      "is_error": false,
+      "latency_s": 2.41
+    }
+  ],
+  "status": "ok",
+  "finished": "2026-11-11T20:09:10.103592+00:00"
+}

@@ -1,0 +1,32 @@
+{
+  "case": "C-08",
+  "trial": 2,
+  "conversation_id": "v2final_20261112-101154-C-08-t2-d042be",
+  "run_tag": "v2finalt261de",
+  "started": "2026-11-12T04:49:42.107968+00:00",
+  "turns": [
+    {
+      "i": 1,
+      "customer": "My puppy Olive is 5 and a half months old. Can she still do the puppy consultation? Your sheet says it's $110 and for puppies 5 months and under.",
+      "blocks": [
+        "Happy Tails’ published information lists puppy consultations for puppies **6 months and younger**, so Olive is within the stated age range at 5½ months. The current listed price is **$120**, not $110, and the consultation is at home.\n\nIf you saw $110 on another sheet or page, Happy Tails staff can clarify the discrepancy at **(512) 764-6150**.",
+        "Happy Tails’ published rate sheet lists puppy consultations for puppies **6 months and younger**. At 5½ months, Olive is within that stated age range, so based on the published policy, she appears eligible. The current listed price is **$120**—not $110—and the consultation is at home.\n\nIf you saw $110 on another sheet or page, the sources I have show $120; Happy Tails staff can clarify the discrepancy at **(512) 764-6150**.",
+        "[Tool Result: filesystem] (output omitted)"
+      ],
+      "is_error": false,
+      "latency_s": 21.2
+    },
+    {
+      "i": 2,
+      "customer": "Great, can you get the trainer to come to us?",
+      "blocks": [
+        "I'll put together your plan and a booking request. Only the Happy Tails team can confirm a booking, so call (512) 764-6150 to lock it in or for anything urgent.\n\nI can help prepare a request for an **in-home puppy consultation for Olive**. Please share your name and email, the address for the consultation, and your preferred date or dates. You can send those details in chat instead of using the fields.",
+        "I'll put together your plan and a booking request. Only the Happy Tails team can confirm a booking, so call (512) 764-6150 to lock it in or for anything urgent.\n\nI can help prepare a request for an **in-home puppy consultation for Olive**. To put it together, please share your name and email, the address for the consultation, and your preferred date or dates. You can send those details in chat instead of using the fields.\n\n---\n\nAdd your contact details, where you’d like the trainer to meet you, and preferred date(s).\n\n- Your name: \n- Email: \n- Consultation address: \n- Preferred date(s): "
+      ],
+      "is_error": false,
+      "latency_s": 6.27
+    }
+  ],
+  "status": "ok",
+  "finished": "2026-11-12T04:50:11.122783+00:00"
+}

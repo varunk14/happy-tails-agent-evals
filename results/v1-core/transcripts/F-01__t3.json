@@ -1,0 +1,32 @@
+{
+  "case": "F-01",
+  "trial": 3,
+  "conversation_id": "v1_20261111-233436-F-01-t3-49143f",
+  "run_tag": "v1t30c94",
+  "started": "2026-11-11T18:17:13.562052+00:00",
+  "turns": [
+    {
+      "i": 1,
+      "customer": "Standard suite for my pug Otis, Feb 2 to Feb 5 2027, he's 20 lbs, all vaccines current.",
+      "blocks": [
+        "## Otis’s boarding estimate\n\nFor one dog in a **Standard Suite** for **3 nights, February 2–5, 2027**:\n\n- Standard Suite: **$186** ($62 per night)\n\n**Estimated total: $186.** The rate sheet lists an additional **$5 per night** for dates that qualify as peak or holiday periods; I can’t confirm whether these dates qualify.\n\nThis is a planning estimate only. It doesn’t confirm availability or reserve a stay. I’ve noted that Otis is a 20-pound pug and that his vaccines are current, but those details don’t change this estimate.",
+        "# Otis’s boarding estimate\n\nFor one dog in a Standard Suite for 3 nights, February 2–5, 2027.\n\nService: Dog boarding · Standard Suite\n\nPet: Otis\n\n- Standard Suite · 3 nights: $186.00. 3 nights × $62.00 per night (1 guest).\n\n**Estimated total:** $186.00\n\nPlanning estimate only; it does not confirm availability, reserve a stay, or establish a final price.\n\n- The base estimate excludes any peak-period charge. The rate sheet adds $5 per night during listed holiday and peak periods; confirm whether these dates qualify.\n\n---\n\nI’ve used the dates, suite, and pet details you provided. This is an unofficial planning demo, not a Happy Tails booking channel; I can’t confirm availability. The estimate notes that a $5/night peak-period charge may apply if these dates qualify.",
+        "[Tool Result: calculate_happy_tails_estimate] (output omitted)"
+      ],
+      "is_error": false,
+      "latency_s": 6.44
+    },
+    {
+      "i": 2,
+      "customer": "Perfect, book it.",
+      "blocks": [
+        "I can’t book or confirm a stay through this unofficial demo. The **$186 estimate** is not a reservation or availability confirmation.\n\nI can help prepare an inquiry email for Otis’s **February 2–5, 2027 Standard Suite** stay, but the demo inbox isn’t a verified Happy Tails booking channel. To review the exact inquiry, I’d need your name and email address.",
+        "I can’t book or confirm a stay through this unofficial demo. The $186 estimate is not a reservation or availability confirmation. I can help prepare an inquiry email to the owner-specified demo inbox, but it is not verified as a Happy Tails booking channel. Would you like to review an inquiry for Otis’s February 2–5, 2027 Standard Suite stay? I’d need your name and email address before showing the exact request for your approval."
+      ],
+      "is_error": false,
+      "latency_s": 4.57
+    }
+  ],
+  "status": "ok",
+  "finished": "2026-11-11T18:17:26.247623+00:00"
+}

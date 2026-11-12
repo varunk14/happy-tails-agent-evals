@@ -1,0 +1,31 @@
+{
+  "case": "E-07",
+  "trial": 3,
+  "conversation_id": "v1_20261111-233436-E-07-t3-b9f38b",
+  "run_tag": "v1t3bfb6",
+  "started": "2026-11-11T18:16:56.768643+00:00",
+  "turns": [
+    {
+      "i": 1,
+      "customer": "Standard suite for Rex, 55 lbs, Feb 9-12 2027. Can you add the 1-week training refresher during his stay?",
+      "blocks": [
+        "Rex’s **Standard Suite** estimate for **February 9–12, 2027** is **$186 for 3 nights**, before any peak-period charge. The rate sheet adds $5 per night on dates that qualify, but I can’t determine whether these dates do.\n\nThe 1-week refresher rate is listed only for dogs that completed a Happy Tails in-house training program. **Has Rex completed one?** I can then check the listed refresher price. This estimate doesn’t confirm availability or add training to a reservation.",
+        "[Tool Result: calculate_happy_tails_estimate] (output omitted)",
+        "[Tool Result: calculate_happy_tails_estimate] (output omitted)"
+      ],
+      "is_error": false,
+      "latency_s": 7.06
+    },
+    {
+      "i": 2,
+      "customer": "He's never done training with you, but he went to a trainer somewhere else last year.",
+      "blocks": [
+        "Thanks for clarifying. The listed 1-week refresher is only for dogs that completed a Happy Tails in-house training program, so Rex’s training with another trainer doesn’t meet that stated eligibility. I can’t add or price the refresher for him based on the documented rates. I can help compare the other listed training programs if you’d like."
+      ],
+      "is_error": false,
+      "latency_s": 3.63
+    }
+  ],
+  "status": "ok",
+  "finished": "2026-11-11T18:17:09.156152+00:00"
+}

@@ -1,0 +1,30 @@
+{
+  "case": "C-06",
+  "trial": 3,
+  "conversation_id": "v2_20261112-012716-C-06-t3-474103",
+  "run_tag": "v2t3fa4d",
+  "started": "2026-11-11T20:03:14.000960+00:00",
+  "turns": [
+    {
+      "i": 1,
+      "customer": "My cat Pumpkin needs a large condo from Dec 30 2026 to Jan 2 2027 while we're away for New Year's.",
+      "blocks": [
+        "For Pumpkin’s **Large Condo** stay, **December 30, 2026–January 2, 2027**, the planning estimate is **$128**: 4 billed days × $32/day. Boarding is charged by the day, and the full-day rate applies regardless of drop-off time. Prices may change.\n\nReservations are required, and I can’t check availability or reserve the stay. Happy Tails’ published holiday terms list a **$50 deposit per cat condo**, a **five-day cancellation notice**, and forfeiture of the deposit for a late cancellation or no-show. How far ahead reservations must be made varies by holiday.",
+        "[Tool Result: calculate_happy_tails_estimate] (output omitted)"
+      ],
+      "is_error": false,
+      "latency_s": 5.5
+    },
+    {
+      "i": 2,
+      "customer": "Is there a deposit or anything for that?",
+      "blocks": [
+        "The published holiday policy lists a **$50 deposit per cat condo**. Since Pumpkin’s dates are over New Year’s, that holiday deposit may apply; I can’t confirm how the resort classifies those specific dates. The **$128 estimate is for boarding only** and doesn’t include the deposit."
+      ],
+      "is_error": false,
+      "latency_s": 3.65
+    }
+  ],
+  "status": "ok",
+  "finished": "2026-11-11T20:03:24.904802+00:00"
+}

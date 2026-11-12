@@ -1,0 +1,33 @@
+{
+  "case": "A-14",
+  "trial": 3,
+  "conversation_id": "v1_20261111-233436-A-14-t3-485cdd",
+  "run_tag": "v1t3ce65",
+  "started": "2026-11-11T18:07:43.475802+00:00",
+  "turns": [
+    {
+      "i": 1,
+      "customer": "Hey, planning a luxury suite for my dog Rosie, Jan 26-29 2027.",
+      "blocks": [
+        "**Rosie’s luxury boarding estimate — January 26–29, 2027**\n\n- **Stay:** 3 nights, 1 dog\n- **Luxury suite:** $261 total ($87 per night)\n\nThis is a base planning estimate. The rate sheet adds $5 per night during listed peak or holiday periods, but I can’t confirm whether these dates qualify. This estimate doesn’t check availability or reserve a stay.",
+        "# Rosie’s luxury boarding estimate\n\nFor the three-night stay from January 26 to 29, 2027, for one dog.\n\nService: Luxury suite · 3 nights\n\nPet: Rosie\n\n- Luxury suite · 3 nights: $261.00. 3 nights × $87 per night (1 guest).\n\n**Estimated base total:** $261.00\n\nPlanning estimate only—not a reservation, availability check, or booking confirmation.\n\n- This base estimate excludes any peak-period charge. The rate sheet adds $5 per night during listed holiday and peak periods; whether these dates qualify is not confirmed.",
+        "[Tool Result: calculate_happy_tails_estimate] (output omitted)"
+      ],
+      "is_error": false,
+      "latency_s": 7.9
+    },
+    {
+      "i": 2,
+      "customer": "If I book a luxury suite for the end of January and my trip gets cancelled, how much notice do I need to give, and is there a fee?",
+      "blocks": [
+        "The published policy says to give **at least 24 hours’ notice before the first day of boarding**. If you cancel with less notice—or don’t show up—the listed fee for a luxury suite is **$35 per suite**. ([happytailspetresorttx.com](https://www.happytailspetresorttx.com/reservation-requirements-cancellation-policy?utm_source=openai))\n\nThat’s the published policy I found; I can’t confirm how it would apply to a specific booking.",
+        "[Tool Result: filesystem] (output omitted)",
+        "[Tool Result: web_search] (output omitted)"
+      ],
+      "is_error": false,
+      "latency_s": 7.97
+    }
+  ],
+  "status": "ok",
+  "finished": "2026-11-11T18:08:01.043406+00:00"
+}

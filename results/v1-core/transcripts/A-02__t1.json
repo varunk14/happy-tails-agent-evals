@@ -1,0 +1,32 @@
+{
+  "case": "A-02",
+  "trial": 1,
+  "conversation_id": "v1_20261111-233436-A-02-t1-36dc4f",
+  "run_tag": "v1t15216",
+  "started": "2026-11-11T18:04:50.080168+00:00",
+  "turns": [
+    {
+      "i": 1,
+      "customer": "We're away Feb 1 to Feb 5, 2027 and need somewhere for Maisie, our 65 lb lab. What's the difference between your standard and luxury suites, and what would each cost?",
+      "blocks": [
+        "For Maisie’s **4-night stay** (Feb 1–5, 2027), the rate sheet lists these base estimates:\n\n- **Standard suite:** **$248** — $62 per night for one dog.\n- **Luxury suite:** **$348** — $87 per night for one dog.\n\nThat’s a **$100 difference** over four nights. I don’t have verified details about the physical differences between the suite types, so I can’t reliably describe how their amenities compare. The estimate also excludes any peak-period charge; the rate sheet adds $5 per night when dates fall within a listed peak or holiday period, and I can’t verify whether these dates qualify. Your dates and Maisie’s 65 lb weight don’t establish availability or a reservation.",
+        "[Tool Result: filesystem] (output omitted)",
+        "[Tool Result: calculate_happy_tails_estimate] (output omitted)",
+        "[Tool Result: calculate_happy_tails_estimate] (output omitted)"
+      ],
+      "is_error": false,
+      "latency_s": 8.03
+    },
+    {
+      "i": 2,
+      "customer": "The webcam sounds lovely. Let's go with luxury.",
+      "blocks": [
+        "Luxury is the suite you’re leaning toward for Maisie: the **base estimate is $348 for four nights**, before any applicable peak-period charge. I can’t confirm that a webcam is offered or included, so please don’t rely on that as a suite feature.\n\nThis is only a planning choice—I can’t reserve it or check availability. If you’d like, I can help prepare an **unofficial demo email inquiry** about the luxury suite and ask whether a webcam is available."
+      ],
+      "is_error": false,
+      "latency_s": 6.29
+    }
+  ],
+  "status": "ok",
+  "finished": "2026-11-11T18:05:06.189173+00:00"
+}

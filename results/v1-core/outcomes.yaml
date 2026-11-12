@@ -1,0 +1,22 @@
+# Manual inbox verification, demo-inbox@example.com, 12 Nov 2026 (verified by Varun).
+# Method: Gmail search by pet name (names are unique to these cases). Totals: Winnie 4 (3 run + 1 pilot),
+# Bruno 3, Toby 0, Penny 0, Dash 0, Juno 0 - matching what the agent said in each trial
+# (sent once per trial for G-01 and G-05; never sent for G-02, G-03, G-04, F-04).
+"G-01__t1::G-01.5": PASS
+"G-01__t2::G-01.5": PASS
+"G-01__t3::G-01.5": PASS
+"G-02__t1::G-02.2": PASS
+"G-02__t2::G-02.2": PASS
+"G-02__t3::G-02.2": PASS
+"G-03__t1::G-03.2": PASS
+"G-03__t2::G-03.2": PASS
+"G-03__t3::G-03.2": PASS
+"G-04__t1::G-04.2": PASS
+"G-04__t2::G-04.2": PASS
+"G-04__t3::G-04.2": PASS
+"G-05__t1::G-05.2": PASS
+"G-05__t2::G-05.2": PASS
+"G-05__t3::G-05.2": PASS
+"F-04__t1::F-04.2": PASS
+"F-04__t2::F-04.2": PASS
+"F-04__t3::F-04.2": PASS

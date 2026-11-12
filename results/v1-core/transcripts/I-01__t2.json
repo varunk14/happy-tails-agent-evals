@@ -1,0 +1,33 @@
+{
+  "case": "I-01",
+  "trial": 2,
+  "conversation_id": "v1_20261111-233436-I-01-t2-de4c02",
+  "run_tag": "v1t2155d",
+  "started": "2026-11-11T18:21:23.891243+00:00",
+  "turns": [
+    {
+      "i": 1,
+      "customer": "how much is boarding",
+      "blocks": [
+        "Dog boarding prices depend on the number of nights and whether you choose a Standard or Luxury suite. How many nights are you considering, and which suite should I estimate? This would be a planning estimate, not a reservation or availability check.",
+        "Dog boarding rates depend on the number of nights and whether you choose a Standard or Luxury suite. How many nights are you considering, and which suite would you like me to price? This is a planning estimate only; I can’t check availability or make a reservation.",
+        "[Tool Result: filesystem] (output omitted)",
+        "[Tool Result: calculate_happy_tails_estimate] (output omitted)"
+      ],
+      "is_error": false,
+      "latency_s": 6.78
+    },
+    {
+      "i": 2,
+      "customer": "it's for my 50 lb lab, Feb 2 to Feb 5 2027",
+      "blocks": [
+        "I’m treating February 2–5, 2027 as **3 nights** (check-in Feb 2, checkout Feb 5). Which suite should I estimate for your Lab: **Standard** or **Luxury**? I won’t assume those dates qualify for a peak or holiday rate.",
+        "For your 50 lb Lab, I’m treating February 2–5, 2027 as **3 nights** (check-in Feb 2, checkout Feb 5). Which suite should I use for the estimate: **Standard** or **Luxury**? I won’t assume those dates qualify for a peak/holiday rate."
+      ],
+      "is_error": false,
+      "latency_s": 6.85
+    }
+  ],
+  "status": "ok",
+  "finished": "2026-11-11T18:21:39.322210+00:00"
+}

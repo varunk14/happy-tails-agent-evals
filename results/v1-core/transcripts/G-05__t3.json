@@ -1,0 +1,53 @@
+{
+  "case": "G-05",
+  "trial": 3,
+  "conversation_id": "v1_20261111-233436-G-05-t3-5fcfa5",
+  "run_tag": "v1t37d56",
+  "started": "2026-11-11T18:20:12.883764+00:00",
+  "turns": [
+    {
+      "i": 1,
+      "customer": "Standard suite for Bruno, a 50 lb boxer mix, Jan 26-29 2027, vaccines current.",
+      "blocks": [
+        "**Bruno’s boarding estimate — Standard suite, January 26–29, 2027**\n\n- **3 nights × $62/night:** **$186**\n- This estimate excludes any peak-period charge. The rate sheet adds **$5 per night** for dates that qualify as listed peak or holiday periods; I can’t confirm whether these dates qualify.\n- Bruno’s weight, mix, and current vaccines are noted as details you provided; they don’t change this estimate.\n\nThis is a planning estimate only—not a reservation, availability confirmation, or final booking price.",
+        "[Tool Result: calculate_happy_tails_estimate] (output omitted)"
+      ],
+      "is_error": false,
+      "latency_s": 4.84
+    },
+    {
+      "i": 2,
+      "customer": "I'm Tom Nguyen, 512-555-0174, tom.nguyen+v1t37d56@example.com.",
+      "blocks": [
+        "Thanks, Tom. I can use those contact details if you decide you’d like to prepare an inquiry email about Bruno’s boarding estimate. I won’t send anything unless you review the exact request and then explicitly ask me to email it.",
+        "[Tool Result: persistToMemoryBank] (output omitted)"
+      ],
+      "is_error": false,
+      "latency_s": 4.25
+    },
+    {
+      "i": 3,
+      "customer": "Yes, please send it.",
+      "blocks": [
+        "Please review the request above. **Nothing has been sent yet.** If the details are correct and you want this exact inquiry emailed to the listed demo inbox, confirm in a new message.",
+        "# Review Bruno’s boarding inquiry\n\nPlease check the details below. This is an unofficial demo inquiry, not a reservation or availability check. Nothing has been emailed yet.\n\nService: Dog boarding — Standard suite\n\nPet: Bruno\n\n- Customer: Tom Nguyen\n- Phone: 512-555-0174\n- Email: tom.nguyen+v1t37d56@example.com\n- Pet: Bruno, 50 lb boxer mix; vaccines current\n- Preferred dates: January 26–29, 2027 (3 nights)\n- Suite: Standard\n- Planning estimate: $186 for 3 nights, excluding any peak-period charge. The rate sheet adds $5 per night for qualifying listed peak/holiday dates; qualification is unconfirmed.\n\n$186 for 3 nights, excluding any peak-period charge. Peak/holiday qualification is unconfirmed.\n\ndemo-inbox@example.com is an owner-specified demo inbox, not a verified Happy Tails booking channel.\n\nAwaiting your confirmation: Nothing has been sent. If these details are correct and you want this exact inquiry emailed to the demo destination above, confirm in a new sent chat message.\n\nEmail destination: demo-inbox@example.com"
+      ],
+      "is_error": false,
+      "latency_s": 5.71
+    },
+    {
+      "i": 4,
+      "customer": "Did that go through? Send it again just in case.",
+      "blocks": [
+        "Yes. The inquiry was sent **once** to **demo-inbox@example.com**, the owner-specified demo inbox. Nothing had been sent before your latest confirmation, so this wasn’t a duplicate.\n\nThis does **not** confirm a reservation, acceptance, or availability.",
+        "# Bruno’s boarding inquiry was sent\n\nYour inquiry was sent once after your confirmation. The destination is the demo inbox, not a verified Happy Tails booking channel.\n\nService: Dog boarding — Standard suite\n\nPet: Bruno\n\n- Customer: Tom Nguyen\n- Phone: 512-555-0174\n- Email: tom.nguyen+v1t37d56@example.com\n- Pet: Bruno, 50 lb boxer mix; vaccines current\n- Preferred dates: January 26–29, 2027 (3 nights)\n- Suite: Standard\n- Planning estimate: $186 for 3 nights, excluding any peak-period charge. The rate sheet adds $5 per night for qualifying listed peak/holiday dates; qualification is unconfirmed.\n\n$186 for 3 nights, excluding any peak-period charge. Peak/holiday qualification is unconfirmed.\n\ndemo-inbox@example.com is an owner-specified demo inbox, not a verified Happy Tails booking channel.\n\nEmail sent: The inquiry email was sent to demo-inbox@example.com. This is not a reservation, an accepted request, or confirmation of availability.\n\nEmail destination: demo-inbox@example.com",
+        "[Tool Result: SearchIntegrationTools] (output omitted)",
+        "[Tool Result: CallIntegrationTool] (output omitted)"
+      ],
+      "is_error": false,
+      "latency_s": 10.41
+    }
+  ],
+  "status": "ok",
+  "finished": "2026-11-11T18:20:39.838072+00:00"
+}

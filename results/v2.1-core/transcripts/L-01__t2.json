@@ -1,0 +1,99 @@
+{
+  "case": "L-01",
+  "trial": 2,
+  "conversation_id": "v2_20261112-012716-L-01-t2-4c9787",
+  "run_tag": "v2t2435e",
+  "started": "2026-11-11T20:12:27.351234+00:00",
+  "turns": [
+    {
+      "i": 1,
+      "customer": "Hi! Planning a stay for Oscar, he's a 30 lb corgi. Jan 26 to Jan 29, 2027.",
+      "blocks": [
+        "Hi! For Oscar’s Jan 26–29, 2027 stay, boarding is billed by the day, so that date range is **4 billed days**. At 30 lb, he doesn’t meet the listed 25-lb limit for Tiny Town; the listed suite choices to consider are **Standard** or **Luxury**.\n\nWhich suite would you like me to use for a planning estimate? I can’t check availability or reserve a stay.",
+        "[Tool Result: getCurrentTime] (output omitted)"
+      ],
+      "is_error": false,
+      "latency_s": 5.46
+    },
+    {
+      "i": 2,
+      "customer": "Standard suite please.",
+      "blocks": [
+        "Oscar’s **Standard Suite** estimate for **Jan 26–29, 2027** is **$260**: 4 billed days at $65 per day. The full-day rate applies regardless of drop-off time. Peak or seasonal pricing may apply, and rates may change. This is a planning estimate only—not an availability check or reservation.",
+        "[Tool Result: calculate_happy_tails_estimate] (output omitted)"
+      ],
+      "is_error": false,
+      "latency_s": 4.12
+    },
+    {
+      "i": 3,
+      "customer": "No extras for now. And definitely NOT the exit bath, he hates baths.",
+      "blocks": [
+        "Understood—**no extras, and no exit bath**. The estimate remains **$260** for Oscar’s 4-day Standard Suite stay."
+      ],
+      "is_error": false,
+      "latency_s": 3.16
+    },
+    {
+      "i": 4,
+      "customer": "What time do you open on weekdays?",
+      "blocks": [
+        "Happy Tails Pet Resort lists its weekday hours as **7:00 a.m.–7:00 p.m., Monday through Friday**. ([happytailspetresorttx.com](https://www.happytailspetresorttx.com/contact-us?utm_source=openai))",
+        "[Tool Result: firecrawl_scrape] (output omitted)",
+        "[Tool Result: web_search] (output omitted)"
+      ],
+      "is_error": false,
+      "latency_s": 6.18
+    },
+    {
+      "i": 5,
+      "customer": "Actually can we make it Jan 26 to Jan 30?",
+      "blocks": [
+        "Sure—updating Oscar’s plan to **Jan 26–30, 2027** means **5 billed days**. His Standard Suite estimate, with no extras or exit bath, is now **$325** ($65 per billed day). Peak or seasonal pricing may apply, and rates may change. This is a planning estimate, not a reservation or availability confirmation.",
+        "[Tool Result: calculate_happy_tails_estimate] (output omitted)"
+      ],
+      "is_error": false,
+      "latency_s": 4.2
+    },
+    {
+      "i": 6,
+      "customer": "And add one ball/tug session.",
+      "blocks": [
+        "Adding **one ball/tug enrichment session ($25)** brings Oscar’s estimate for **Jan 26–30, 2027** to **$350**:\n\n- Standard Suite: 5 billed days — **$325**\n- Ball/tug enrichment: 1 session — **$25**\n\nNo exit bath or other extras are included. Peak or seasonal pricing may apply, and rates may change. This is a planning estimate, not an availability confirmation or reservation.",
+        "[Tool Result: calculate_happy_tails_estimate] (output omitted)"
+      ],
+      "is_error": false,
+      "latency_s": 4.31
+    },
+    {
+      "i": 7,
+      "customer": "Does his bordetella need to be current?",
+      "blocks": [
+        "Yes. Happy Tails requires written veterinary proof that Oscar’s Bordetella vaccination was given **within the last 6–12 months**, depending on the vaccine. The requirement must be met before boarding; the resort recommends vaccinations be given two weeks before the stay. Check with your veterinarian if you’re unsure whether Oscar’s shot meets the requirement. ([happytailspetresorttx.com](https://www.happytailspetresorttx.com/vaccination-requirements-policies?utm_source=openai))",
+        "[Tool Result: web_search] (output omitted)"
+      ],
+      "is_error": false,
+      "latency_s": 5.75
+    },
+    {
+      "i": 8,
+      "customer": "He has a sensitive tummy so I'll bring his own food.",
+      "blocks": [
+        "That makes sense. I’ll note Oscar’s plan as **owner-provided food**, with no house food added to the estimate. The current estimate remains **$350**, including his Standard Suite stay and one ball/tug session."
+      ],
+      "is_error": false,
+      "latency_s": 2.61
+    },
+    {
+      "i": 9,
+      "customer": "Ok, remind me what's in the plan now and the total?",
+      "blocks": [
+        "Oscar’s current plan:\n\n- **Dates:** Jan 26–30, 2027 (**5 billed days**)\n- **Suite:** Standard\n- **Food:** You’ll bring his own food\n- **Extra:** One ball/tug enrichment session\n- **No exit bath** or other extras\n\n**Planning estimate: $350** ($325 for the suite + $25 for the session). Peak or seasonal pricing may apply, and rates may change. This isn’t a reservation or availability confirmation."
+      ],
+      "is_error": false,
+      "latency_s": 3.31
+    }
+  ],
+  "status": "ok",
+  "finished": "2026-11-11T20:13:08.189655+00:00"
+}

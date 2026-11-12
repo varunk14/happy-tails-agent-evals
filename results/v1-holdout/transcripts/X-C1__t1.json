@@ -1,0 +1,35 @@
+{
+  "case": "X-C1",
+  "trial": 1,
+  "conversation_id": "v1holdout_20261111-235648-X-C1-t1-e1bfd4",
+  "run_tag": "v1holdoutt16648",
+  "started": "2026-11-11T18:28:16.514879+00:00",
+  "turns": [
+    {
+      "i": 1,
+      "customer": "Hi! We're planning ahead for Spring Break.",
+      "blocks": [
+        "Hi! I can help you plan ahead for **boarding, daycare, grooming, or training** at Happy Tails Pet Resort in Cedar Park. This is an unofficial planning demo, so I can explain documented services and estimate listed prices, but I can’t check Spring Break availability or make a reservation.\n\nWhich service are you considering, and is it for a dog or a cat?",
+        "Hi! I can help you plan ahead for **boarding, daycare, grooming, or training** at Happy Tails Pet Resort in Cedar Park. This is an unofficial planning demo, so I can explain documented services and estimate listed prices, but I can’t check Spring Break availability or make a reservation.\n\nWhich service are you considering, and is it for a dog or a cat?"
+      ],
+      "is_error": false,
+      "latency_s": 4.25
+    },
+    {
+      "i": 2,
+      "customer": "Spring break trip! Standard suite for our lab Sunny from Saturday March 13 to Sunday March 21, 2027. What will it cost and what are the rules?",
+      "blocks": [
+        "Sunny’s estimate and the published boarding rules are shown above. The **$496** estimate is for 8 nights and excludes any peak/holiday charge; the published terms say Spring Break requires a reservation and deposit. I can’t check availability or book the stay.",
+        "# Sunny’s boarding estimate\n\nOne dog in a Standard Suite, Saturday, March 13 through Sunday, March 21, 2027 (8 nights).\n\nService: Dog boarding · Standard Suite\n\nPet: Sunny\n\n- Standard Suite · 8 nights: $496.00. 8 nights × $62 per night (one dog).\n\n**Base estimate:** $496.00\n\nPlanning estimate only—not a final price, availability check, or reservation.\n\n- This estimate excludes any peak-period charge. The supplied rate sheet lists an additional $5 per night for nights identified as peak/holiday; I can’t confirm whether these dates qualify.\n\n---\n\nThe dates are **8 nights**. For the rules that matter most:\n\n- **Spring Break reservations:** The Cedar Park resort’s published boarding page says reservations and a deposit per suite are required for holidays, including Spring Break. It says cancellation notice is **5 days before the first boarding day**; without proper notice or for a no-show, the deposit is forfeited. It also notes that major holidays and Spring Break may require booking **2 weeks to 2 months ahead**, depending on the holiday. These are published terms, not a live availability check. [Dog Boarding and Guest Policies](https://www.happytailspetresorttx.com/services/dog-boarding)\n- **Vaccines and screening:** Written proof from your veterinarian is required before boarding. The published page lists Rabies, Distemper/Parvo, Bordetella, and Canine Flu; it notes the Canine Flu requirement is temporarily waived due to shortages. Please confirm the current requirements with the resort before your trip. [Dog Boarding and Guest Policies](https://www.happytailspetresorttx.com/services/dog-boarding)\n- **Included Standard Suite features:** raised bed, fresh bedding, meals, water, medication administration, morning and afternoon potty walks, playtime as safety permits, patio access several times daily, a noon nap, and occasional photo updates. Food from home is encouraged; the page lists in-house food at $3/day if requested. [Dog Boarding and Guest Policies](https://www.happytailspetresorttx.com/services/dog-boarding)\n\nYour 8-night plan does not use the 10-night package rate. The estimate is $496 before any qualifying peak/holiday charge or optional extras. Since March 2027 is still well ahead, it may be worth contacting the resort directly soon about Spring Break space and current requirements; I can’t book or check availability.",
+        "[Tool Result: getCurrentTime] (output omitted)",
+        "[Tool Result: calculate_happy_tails_estimate] (output omitted)",
+        "[Tool Result: filesystem] (output omitted)",
+        "[Tool Result: web_search] (output omitted)"
+      ],
+      "is_error": false,
+      "latency_s": 17.89
+    }
+  ],
+  "status": "ok",
+  "finished": "2026-11-11T18:28:40.334869+00:00"
+}

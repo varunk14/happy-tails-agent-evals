@@ -1,0 +1,32 @@
+{
+  "case": "A-05",
+  "trial": 2,
+  "conversation_id": "v2_20261112-012716-A-05-t2-ba9e56",
+  "run_tag": "v2t230be",
+  "started": "2026-11-11T19:58:12.116279+00:00",
+  "turns": [
+    {
+      "i": 1,
+      "customer": "How much is a full groom for a golden retriever? Bailey's about 70 lbs, brushed weekly, coat's in good shape.",
+      "blocks": [
+        "For Bailey’s 70 lb size, the full groom is **listed from $90**. That’s a starting price, not a final quote; the groomer assesses coat, length, brushing time, and any extra-care needs. The estimate tool also notes that short-haired breeds typically receive a full-service bath rather than a full groom.",
+        "[Tool Result: calculate_happy_tails_estimate] (output omitted)"
+      ],
+      "is_error": false,
+      "latency_s": 4.26
+    },
+    {
+      "i": 2,
+      "customer": "Does that include his nails and ears? And can you add a de-shed? He sheds a ton.",
+      "blocks": [
+        "I can’t confirm from the listed rates whether a full groom includes nail trimming or ear cleaning, so I wouldn’t assume they’re included. They’re listed separately at **$20 for a nail trim** and **$15 for ear cleaning**.\n\nA de-shed is listed at **$30–$60**. Bailey’s full groom is **from $90**; the exact combined price isn’t specified, so ask the groomer whether nails and ears are included and whether de-shedding would be added to the starting rate. Grooming prices may change, and the groomer assesses coat and care needs.",
+        "I can’t confirm from the listed rates whether a full groom includes nail trimming or ear cleaning, so I wouldn’t assume they’re included. They’re listed separately at **$20 for a nail trim** and **$15 for ear cleaning**.\n\nA de-shed is listed at **$30–$60**. Bailey’s full groom is **from $90**, so ask the groomer whether nails and ears are included and whether the de-shed would be an add-on to that starting rate; the exact combined price isn’t specified here. Grooming prices may change, and the groomer assesses coat and care needs.",
+        "[Tool Result: calculate_happy_tails_estimate] (output omitted)"
+      ],
+      "is_error": false,
+      "latency_s": 7.76
+    }
+  ],
+  "status": "ok",
+  "finished": "2026-11-11T19:58:25.842702+00:00"
+}

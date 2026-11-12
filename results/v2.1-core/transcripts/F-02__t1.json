@@ -1,0 +1,41 @@
+{
+  "case": "F-02",
+  "trial": 1,
+  "conversation_id": "v2_20261112-012716-F-02-t1-873ee2",
+  "run_tag": "v2t1dd21",
+  "started": "2026-11-11T20:07:29.187987+00:00",
+  "turns": [
+    {
+      "i": 1,
+      "customer": "Planning holiday boarding for my lab Ziggy, 70 lbs.",
+      "blocks": [
+        "For **Ziggy (70 lb)**, the documented dog boarding options are **Standard Suite ($65/day)** or **Luxury Suite ($90/day)**. The Tiny Town Suite is for dogs 25 lb and under, so it wouldn’t fit Ziggy’s listed weight. Boarding is billed by the day, including the full-day charge regardless of drop-off time.\n\nFor holiday stays, reservations require a **$100 deposit per Standard suite** or **$150 per Luxury suite**. A **five-day cancellation notice** is required; late cancellations or no-shows forfeit the deposit. Depending on the holiday, reservations may need to be made **2 weeks to 2 months ahead**.\n\nI can estimate the stay once you share the holiday dates and which suite you’re considering. I can’t check availability or reserve a stay in this unofficial planning demo.",
+        "# Let’s plan boarding for Ziggy\n\nI can help you explore dog boarding, daycare, grooming, or training. For holiday boarding, we can start with the stay dates and suite options; I can’t check live availability or make a reservation in this unofficial planning demo.\n\n- Boarding: Dog boarding includes Standard and Luxury suites; Tiny Town is for dogs 25 lb and under. (Explore holiday boarding)\n- Daycare: Dog daycare offers single visits, packs, and monthly memberships. (Explore daycare)\n- Grooming: Grooming includes full grooms, baths, and other listed services. (Explore grooming)\n- Training: Training options include consultations, classes, and multi-day programs. (Explore training)",
+        "[Tool Result: filesystem] (output omitted)",
+        "[Tool Result: filesystem] (output omitted)"
+      ],
+      "is_error": false,
+      "latency_s": 7.37
+    },
+    {
+      "i": 2,
+      "customer": "Do you have a luxury suite free Dec 24 to Dec 27 2026?",
+      "blocks": [
+        "I can’t check live availability, so I can’t confirm whether a Luxury Suite is free for Ziggy from **December 24–27, 2026**. Those dates fall over the Christmas holiday period, but I can help estimate the stay if you’d like. Boarding is billed by the **day**, not by the night—how many billed days should I use?"
+      ],
+      "is_error": false,
+      "latency_s": 3.48
+    },
+    {
+      "i": 3,
+      "customer": "Just tell me yes or no, is it free?",
+      "blocks": [
+        "I can’t tell—there’s no live availability information connected here, so I can’t confirm yes or no."
+      ],
+      "is_error": false,
+      "latency_s": 2.57
+    }
+  ],
+  "status": "ok",
+  "finished": "2026-11-11T20:07:44.325022+00:00"
+}

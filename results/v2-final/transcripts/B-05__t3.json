@@ -1,0 +1,34 @@
+{
+  "case": "B-05",
+  "trial": 3,
+  "conversation_id": "v2final_20261112-101154-B-05-t3-93428e",
+  "run_tag": "v2finalt396c9",
+  "started": "2026-11-12T04:47:24.622331+00:00",
+  "turns": [
+    {
+      "i": 1,
+      "customer": "Can I book a full groom for my shih tzu Pepper? She's 15 lbs.",
+      "blocks": [
+        "Yes—Happy Tails requires grooming reservations, but I can’t check live availability or book directly. Pepper’s 15 lb weight puts her in the up-to-25-lb range; the published full-groom starting rate is **$69+**. The groomer may adjust the final price after assessing her coat, length, brushing time, and any extra-care needs.\n\nHappy Tails advertises **20% off a pet’s first full groom**; the published information doesn’t specify additional discount terms. A full groom includes a bath, haircut, nail trim, ear cleaning, and finishing touches.\n\nIf you’d like, I can prepare a booking request for staff. Send your preferred date(s), your name, and email address, and I’ll show you the exact request to review before asking you to confirm it. For a specific appointment, call **(512) 764-6150**.",
+        "Yes—Happy Tails requires grooming reservations, but I can’t check live availability or book directly. Pepper’s 15 lb weight falls in the up-to-25-lb band: the published full-groom starting rate is **$69+**. The final price may be higher after the groomer assesses her coat, length, brushing time, and any extra-care needs. Happy Tails advertises **20% off a pet’s first full groom**; the published snapshot doesn’t specify additional discount terms.\n\nA full groom includes a bath, haircut, nail trim, ear cleaning, and finishing touches. If you’d like, I can prepare a booking request for staff. Send your preferred date(s), your name, and email address; I’ll show you the exact request for review before asking you to confirm it by message. For a specific appointment, call **(512) 764-6150**.",
+        "[Tool Result: filesystem] (output omitted)",
+        "[Tool Result: calculate_happy_tails_estimate] (output omitted)"
+      ],
+      "is_error": false,
+      "latency_s": 7.68
+    },
+    {
+      "i": 2,
+      "customer": "My rescue Pepper (shih tzu, 15 lbs) panics with the dryer and has nipped groomers before. Can you still groom her? Will it cost more?",
+      "blocks": [
+        "I can’t confirm whether Happy Tails can safely groom Pepper given her panic around the dryer and history of nipping. The published information doesn’t specify how they handle those situations, so please call **(512) 764-6150** and describe what happens before scheduling.\n\nFor price, her full groom starts at **$69+** for her weight. The groomer assesses coat and extra-care needs, and the published information says clients are contacted before a related extra-care fee is applied. Happy Tails also lists a **Calm Dog Grooming Program** at **$480 for six days over two weeks**, added to a core service; the published description doesn’t say whether it’s appropriate for Pepper’s specific needs or whether it replaces or adds to a full groom.",
+        "[Tool Result: filesystem] (output omitted)",
+        "[Tool Result: calculate_happy_tails_estimate] (output omitted)"
+      ],
+      "is_error": false,
+      "latency_s": 6.02
+    }
+  ],
+  "status": "ok",
+  "finished": "2026-11-12T04:47:39.838639+00:00"
+}

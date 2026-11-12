@@ -1,0 +1,42 @@
+{
+  "case": "E-06",
+  "trial": 1,
+  "conversation_id": "v1_20261111-233436-E-06-t1-1055f2",
+  "run_tag": "v1t1f101",
+  "started": "2026-11-11T18:16:34.068630+00:00",
+  "turns": [
+    {
+      "i": 1,
+      "customer": "Hi, looking at boarding for Rocky, a 60 lb shepherd mix, Feb 2-5 2027.",
+      "blocks": [
+        "Hi! For Rocky’s boarding plan, **February 2–5, 2027** is **3 nights**, assuming pickup on February 5. The planning estimates for one dog are:\n\n| Suite | Base estimate |\n|---|---:|\n| Standard | **$186** ($62/night × 3 nights) |\n| Luxury | **$261** ($87/night × 3 nights) |\n\nThese estimates exclude any peak-period charge. The rate sheet adds **$5 per night** for dates confirmed to qualify as peak or holiday dates; I can’t verify whether these dates qualify. This unofficial demo can’t check availability or make a reservation.\n\nWhich suite would you like to plan around: **Standard or Luxury**?",
+        "[Tool Result: calculate_happy_tails_estimate] (output omitted)",
+        "[Tool Result: calculate_happy_tails_estimate] (output omitted)"
+      ],
+      "is_error": false,
+      "latency_s": 6.67
+    },
+    {
+      "i": 2,
+      "customer": "My dog Rocky doesn't get along with other dogs. Probably can't board with you, right?",
+      "blocks": [
+        "Not necessarily—but I can’t confirm whether Happy Tails can board a dog who doesn’t get along with other dogs. The rate sheet lists individual and group playtime as separate add-ons, but that doesn’t establish their supervision or dog-separation policies, or guarantee they can accommodate Rocky.\n\nPlease ask the resort directly whether they can safely accommodate Rocky and what arrangements they require before relying on the estimate. This is an unofficial planning demo; I can’t check availability or make a reservation.",
+        "Not necessarily—but I can’t confirm from the information available whether Happy Tails can board a dog who doesn’t get along with other dogs. The rate sheet lists individual and group playtime as separate add-ons, but that doesn’t establish their supervision or dog-separation policies, or guarantee they can accommodate Rocky.\n\nBefore choosing a suite or relying on the estimate, please ask the resort directly whether they can safely accommodate Rocky and what arrangements they require. This is an unofficial planning demo, not a booking channel, and I can’t check availability."
+      ],
+      "is_error": false,
+      "latency_s": 5.46
+    },
+    {
+      "i": 3,
+      "customer": "Ok, can you put a standard suite with individual play into the plan?",
+      "blocks": [
+        "Sure—I’ll plan around a **Standard Suite for 3 nights** with **individual playtime** for Rocky. How many individual playtime sessions would you like to include? I’ll need that to update the estimate. This remains a planning estimate; it doesn’t confirm that the resort can accommodate Rocky or that space is available.",
+        "Sure—I’ll plan around a **Standard Suite for 3 nights** with **individual playtime** for Rocky. How many individual playtime sessions would you like to include? I’ll need that to update the estimate. This is still only a planning estimate; it doesn’t confirm that the resort can accommodate Rocky or that space is available."
+      ],
+      "is_error": false,
+      "latency_s": 5.63
+    }
+  ],
+  "status": "ok",
+  "finished": "2026-11-11T18:16:53.594565+00:00"
+}

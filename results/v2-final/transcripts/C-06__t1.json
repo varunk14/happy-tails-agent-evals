@@ -1,0 +1,32 @@
+{
+  "case": "C-06",
+  "trial": 1,
+  "conversation_id": "v2final_20261112-101154-C-06-t1-2c1363",
+  "run_tag": "v2finalt11195",
+  "started": "2026-11-12T04:49:27.615336+00:00",
+  "turns": [
+    {
+      "i": 1,
+      "customer": "My cat Pumpkin needs a large condo from Dec 30 2026 to Jan 2 2027 while we're away for New Year's.",
+      "blocks": [
+        "(no response)",
+        "For Pumpkin, a **Large Condo** from **December 30, 2026 to January 2, 2027** is a **3-night planning estimate of $96** ($32 per day × 3 nights). Happy Tails' published policy says boarding is billed by the day, with the full-day charge applying regardless of drop-off time. The resort bills by the day, and staff confirm the final total; prices may change without notice.\n\nReservations are required for boarding. Because this stay includes New Year's, holiday reservation terms may apply: cat holiday reservations require a $50 deposit per condo and five days' cancellation notice; late cancellation or no-show forfeits the deposit. Depending on the holiday, reservations may need to be made 2 weeks to 2 months in advance. I can't check live availability or reserve the condo. Would you like help prepare a booking request for Pumpkin?",
+        "[Tool Result: calculate_happy_tails_estimate] (output omitted)"
+      ],
+      "is_error": false,
+      "latency_s": 5.73
+    },
+    {
+      "i": 2,
+      "customer": "Is there a deposit or anything for that?",
+      "blocks": [
+        "Yes. Happy Tails’ published holiday policy requires a **$50 deposit per cat condo**. Cancellations need **at least five days’ notice**; a late cancellation or no-show forfeits the deposit. Boarding reservations are required. The deposit is separate from Pumpkin’s **$96 estimated boarding charge**; I can’t check availability for those dates.",
+        "[Tool Result: filesystem] (output omitted)"
+      ],
+      "is_error": false,
+      "latency_s": 5.34
+    }
+  ],
+  "status": "ok",
+  "finished": "2026-11-12T04:49:42.105847+00:00"
+}

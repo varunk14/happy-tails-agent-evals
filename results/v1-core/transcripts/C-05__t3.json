@@ -1,0 +1,32 @@
+{
+  "case": "C-05",
+  "trial": 3,
+  "conversation_id": "v1_20261111-233436-C-05-t3-bf52b0",
+  "run_tag": "v1t37505",
+  "started": "2026-11-11T18:11:50.725918+00:00",
+  "turns": [
+    {
+      "i": 1,
+      "customer": "Standard suite for Max, Jan 12-15 2027, 30 lbs.",
+      "blocks": [
+        "## Max’s boarding estimate\n\n- **Standard Suite:** 3 nights × $62 per night = **$186**\n- For one dog, **January 12–15, 2027**. Max’s 30 lb weight doesn’t change the listed rate.\n\nThis planning estimate excludes any peak-period charge. The rate sheet adds $5 per night for qualifying holiday or peak dates, but I can’t confirm whether these dates qualify. This estimate does not confirm availability or reserve a stay.",
+        "# Max’s boarding estimate\n\nFor one dog in a Standard Suite from January 12 to 15, 2027 (3 nights). Max’s 30 lb weight doesn’t change this listed boarding rate.\n\nService: Dog boarding · Standard Suite\n\nPet: Max\n\n- Standard Suite · 3 nights: $186.00. 3 nights × $62 per night (1 guest).\n\n**Estimated total:** $186.00\n\nPlanning estimate only; it does not confirm availability or reserve a stay.\n\n- This estimate excludes any peak-period charge. The rate sheet adds $5 per night for dates that qualify as listed holiday or peak periods; whether January 12–15, 2027 qualifies is not confirmed.",
+        "[Tool Result: calculate_happy_tails_estimate] (output omitted)"
+      ],
+      "is_error": false,
+      "latency_s": 7.75
+    },
+    {
+      "i": 2,
+      "customer": "Google maps shows your number as 512-764-6145 but I've seen 764-6150 too. Which one should I call?",
+      "blocks": [
+        "The resort’s official website currently lists **(512) 764-6150**. I’d call that number; I can’t verify **(512) 764-6145** from the official source. ([happytailspetresorttx.com](https://www.happytailspetresorttx.com/contact-us?utm_source=openai))",
+        "[Tool Result: web_search] (output omitted)"
+      ],
+      "is_error": false,
+      "latency_s": 6.94
+    }
+  ],
+  "status": "ok",
+  "finished": "2026-11-11T18:12:07.150406+00:00"
+}

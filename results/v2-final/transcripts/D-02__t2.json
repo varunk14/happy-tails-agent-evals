@@ -1,0 +1,42 @@
+{
+  "case": "D-02",
+  "trial": 2,
+  "conversation_id": "v2final_20261112-101154-D-02-t2-fb6387",
+  "run_tag": "v2finalt2bf2f",
+  "started": "2026-11-12T04:50:25.655162+00:00",
+  "turns": [
+    {
+      "i": 1,
+      "customer": "Hi, we just moved to Cedar Park and have never used a boarding place. Our pup Ziggy is 30 lbs.",
+      "blocks": [
+        "Welcome to Cedar Park! I can help you explore **boarding, daycare, grooming, or training** for Ziggy.\n\nI can help you plan a stay and estimate the cost. Happy Tails staff confirm every booking.\n\nIf you’re considering boarding, Ziggy’s 30 lb weight is above the Tiny Town limit of 25 lb. We can explore the other suite options and what a first stay involves."
+      ],
+      "is_error": false,
+      "latency_s": 4.45
+    },
+    {
+      "i": 2,
+      "customer": "We're new! Can we use the First Stay & Play offer for 3 nights in a luxury suite for our pup Ziggy, Jan 26 to 29 2027?",
+      "blocks": [
+        "Happy Tails’ published **First Stay & Play** offer is for new clients: one night at the **Standard room rate**, with play the following day for **$0**. A Luxury Suite is an upgrade, so the upgrade cost is paid by the customer; the offer does **not** make all three nights or the Luxury Suite free. It includes a **free group-play evaluation only**, not individual play. Participation may vary by resort, is subject to availability, and the offer can’t be combined with other discounts.\n\nFor Ziggy’s requested **January 26–29, 2027** stay, the regular Luxury Suite estimate is **$270** (3 nights × $90 per day). Boarding is billed by the day, and staff confirm the final total. Peak or seasonal pricing may apply. The offer terms don’t specify how the Luxury upgrade is priced within an offer stay, so I can’t calculate an offer-adjusted total. Happy Tails staff can clarify the upgrade pricing and participation at **(512) 764-6150**. I can also help prepare a booking request, but I can’t check availability for those dates.",
+        "Happy Tails’ published **First Stay & Play** offer is for new clients: one night at the **Standard room rate**, with play the following day for **$0**. A Luxury Suite is an upgrade, and the guest pays for the upgrade, so the offer does **not** make all three nights or the Luxury Suite free. It also includes a **free group-play evaluation only**, not individual play; participation may vary by resort, is subject to availability, and the offer cannot be combined with other discounts.\n\nFor Ziggy’s requested **January 26–29, 2027** stay, the regular Luxury Suite estimate is **$270** (3 nights × $90/day). Boarding is billed by the day; staff confirm the final total, and peak or seasonal pricing may apply. The offer’s terms specify the Standard rate for one night but don’t explain how the Luxury upgrade is priced within a First Stay & Play reservation, so I can’t calculate the offer-adjusted total. Happy Tails staff can clarify that and participation at **(512) 764-6150**. I can also help you prepare a booking request, but I can’t check availability for those dates.",
+        "[Tool Result: filesystem] (output omitted)",
+        "[Tool Result: calculate_happy_tails_estimate] (output omitted)"
+      ],
+      "is_error": false,
+      "latency_s": 7.62
+    },
+    {
+      "i": 3,
+      "customer": "Ok so if we do 3 nights in a standard room with the offer, what do we pay?",
+      "blocks": [
+        "For **3 nights in a Standard Suite**, the boarding estimate is **$195** (3 × $65 per day). The offer’s free play is for the day after a qualifying night, so it doesn’t reduce the boarding charge. The offer is for new clients and is subject to resort participation and availability; Happy Tails staff confirm the final total, and peak or seasonal pricing may apply.",
+        "[Tool Result: calculate_happy_tails_estimate] (output omitted)"
+      ],
+      "is_error": false,
+      "latency_s": 4.71
+    }
+  ],
+  "status": "ok",
+  "finished": "2026-11-12T04:50:43.931404+00:00"
+}

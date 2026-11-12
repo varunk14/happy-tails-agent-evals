@@ -1,0 +1,35 @@
+{
+  "case": "X-C1",
+  "trial": 1,
+  "conversation_id": "v2final_20261112-101154-X-C1-t1-37566e",
+  "run_tag": "v2finalt14a9d",
+  "started": "2026-11-12T05:08:08.518068+00:00",
+  "turns": [
+    {
+      "i": 1,
+      "customer": "Hi! We're planning ahead for Spring Break.",
+      "blocks": [
+        "Hi! For Spring Break, Happy Tails requires an advance deposit for boarding: **$100 per Standard dog suite, $150 per Luxury dog suite, or $50 per cat condo**. A **five-day cancellation notice** is required; late cancellations or no-shows forfeit the deposit. Depending on the holiday, reservations may need to be made **2 weeks to 2 months ahead**.\n\nI can help compare boarding, daycare, grooming, and training, or estimate a boarding stay if you share your pet’s species, dates, and—if it’s a dog—the suite type. I can’t check live availability; for a specific Spring Break reservation, Happy Tails staff can clarify at **(512) 764-6150**.",
+        "Hi! Spring Break reservations require an advance deposit: **$100 per Standard dog suite, $150 per Luxury dog suite, or $50 per cat condo**. The holiday policy requires **five days’ cancellation notice**; a late cancellation or no-show forfeits the deposit. Depending on the holiday, reservations may need to be made **2 weeks to 2 months ahead**. Happy Tails requires reservations for boarding.\n\nI can help compare boarding, daycare, grooming, and training, or estimate a stay if you share your pet’s species, preferred dates, and—for a dog—the suite type. I can’t check live availability; Happy Tails staff can clarify a specific Spring Break reservation at **(512) 764-6150**.",
+        "[Tool Result: filesystem] (output omitted)"
+      ],
+      "is_error": false,
+      "latency_s": 6.16
+    },
+    {
+      "i": 2,
+      "customer": "Spring break trip! Standard suite for our lab Sunny from Saturday March 13 to Sunday March 21, 2027. What will it cost and what are the rules?",
+      "blocks": [
+        "## Sunny’s Spring Break boarding estimate\n\n**Standard Suite · March 13–21, 2027 · 8 nights: $520**  \nThat’s 8 nights × the listed $65 daily rate. Happy Tails bills boarding by the day, and staff confirm the final total. Peak or seasonal pricing may apply, but the published information doesn’t say whether these dates qualify or what any adjustment would be; rates may change without notice.\n\n**Spring Break rules**\n- **Deposit:** $100 per Standard dog suite.\n- **Cancellation:** Give at least five days’ notice. A late cancellation or no-show forfeits the deposit.\n- **Advance booking:** Depending on the holiday, reservations may need to be made 2 weeks to 2 months ahead. Boarding reservations are required.\n- **Vaccinations:** Dogs need written veterinary proof of Rabies, Distemper/Parvo, and Bordetella. Bordetella must be within the last 6–12 months; Rabies and Distemper/Parvo are valid for 1–3 years depending on age and vaccine. Happy Tails recommends vaccinations be given two weeks before boarding.\n\nThis is a planning estimate, not a reservation or availability confirmation. For a specific reservation or to ask whether seasonal pricing applies, call Happy Tails at **(512) 764-6150**.",
+        "# Sunny’s Spring Break boarding estimate\n\nFor one dog in a Standard Suite, Saturday, March 13 through Sunday, March 21, 2027: 8 nights. The estimate uses the listed daily rate multiplied by the nights; Happy Tails bills boarding by the day, and staff confirm the final total.\n\nService: Dog boarding · Standard Suite\n\nPet: Sunny\n\n- Standard Suite · 8 nights: $520.00. 8 nights × $65.00 per day for this estimate.\n\n**Estimated total:** $520.00\n\nPlanning estimate only—not a reservation or availability confirmation. Happy Tails staff confirm the final total.\n\n- Peak or seasonal pricing may apply; the published information does not say whether these dates qualify or what any adjustment would be. Rates may change without notice.\n- For Spring Break holiday boarding, the published deposit is $100 per Standard dog suite. Five days’ cancellation notice is required; a late cancellation or no-show forfeits the deposit. Depending on the holiday, reservations may need to be made 2 weeks to 2 months ahead. Boarding reservations are required.\n- Dogs need written veterinary proof of Rabies (1–3 years depending on age/vaccine), Distemper/Parvo (1–3 years), and Bordetella within the last 6–12 months. Happy Tails recommends giving vaccinations 2 weeks before boarding.\n\n---\n\nSpring Break is a holiday period, so the holiday deposit and cancellation terms apply. The estimate does not establish availability; for a specific reservation or to clarify whether seasonal pricing applies to these dates, call Happy Tails at **(512) 764-6150**.",
+        "[Tool Result: getCurrentTime] (output omitted)",
+        "[Tool Result: calculate_happy_tails_estimate] (output omitted)",
+        "[Tool Result: persistToMemoryBank] (output omitted)"
+      ],
+      "is_error": false,
+      "latency_s": 10.09
+    }
+  ],
+  "status": "ok",
+  "finished": "2026-11-12T05:08:26.278038+00:00"
+}

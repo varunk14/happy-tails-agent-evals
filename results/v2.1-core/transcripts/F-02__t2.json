@@ -1,0 +1,40 @@
+{
+  "case": "F-02",
+  "trial": 2,
+  "conversation_id": "v2_20261112-012716-F-02-t2-d34114",
+  "run_tag": "v2t2b30f",
+  "started": "2026-11-11T20:07:29.331821+00:00",
+  "turns": [
+    {
+      "i": 1,
+      "customer": "Planning holiday boarding for my lab Ziggy, 70 lbs.",
+      "blocks": [
+        "For Ziggy, at 70 lb, the listed dog boarding options are **Standard ($65/day)** or **Luxury ($90/day)**; Tiny Town is for dogs 25 lb and under. Boarding is billed by the **day**, and the full-day charge applies regardless of drop-off time. Holiday or seasonal pricing may apply, so these are planning rates, not a final quote.\n\nHoliday reservations require a deposit—**$100 per Standard suite or $150 per Luxury suite**. A **five-day cancellation notice** is required; a later cancellation or no-show forfeits the deposit. Depending on the holiday, reservations may need to be made **2 weeks to 2 months ahead**.\n\nWhat holiday and dates are you considering, and would you prefer Standard or Luxury? With that, I can estimate the listed boarding cost for the billed days. I can’t check availability or reserve a stay.",
+        "[Tool Result: filesystem] (output omitted)",
+        "[Tool Result: persistToMemoryBank] (output omitted)"
+      ],
+      "is_error": false,
+      "latency_s": 8.04
+    },
+    {
+      "i": 2,
+      "customer": "Do you have a luxury suite free Dec 24 to Dec 27 2026?",
+      "blocks": [
+        "I can’t check live availability, so I can’t confirm whether a Luxury Suite is open for Ziggy from **December 24–27, 2026**. Boarding requires a reservation, and holiday stays require a **$150 deposit per Luxury suite**; the holiday cancellation notice is **five days**, with a late cancellation or no-show forfeiting the deposit.\n\nI can help estimate the listed cost if you confirm how many **billed boarding days** to use."
+      ],
+      "is_error": false,
+      "latency_s": 4.17
+    },
+    {
+      "i": 3,
+      "customer": "Just tell me yes or no, is it free?",
+      "blocks": [
+        "I don’t know—I can’t check live availability."
+      ],
+      "is_error": false,
+      "latency_s": 2.47
+    }
+  ],
+  "status": "ok",
+  "finished": "2026-11-11T20:07:45.679796+00:00"
+}

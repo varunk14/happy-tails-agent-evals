@@ -1,0 +1,35 @@
+{
+  "case": "A-08",
+  "trial": 1,
+  "conversation_id": "v1_20261111-233436-A-08-t1-21f930",
+  "run_tag": "v1t11207",
+  "started": "2026-11-11T18:06:01.984013+00:00",
+  "turns": [
+    {
+      "i": 1,
+      "customer": "We just got a 4 month old puppy, Biscuit, and she's chewing everything. What training do you offer for puppies and how much?",
+      "blocks": [
+        "Happy Tails lists a **puppy consultation for $110**. The rate sheet doesn’t specify what it covers or whether it addresses chewing specifically, so I can’t promise a particular outcome for Biscuit. This is an unofficial planning demo, not a booking channel, and I can’t check availability.",
+        "For Biscuit, Happy Tails’ listed puppy-specific option is a **puppy consultation**, priced at **$110**. The rate sheet doesn’t describe what the consultation covers or whether it specifically addresses chewing, so I can’t promise a particular training outcome. This is an unofficial planning demo, not Happy Tails staff, and I can’t check availability or book.",
+        "[Tool Result: filesystem] (output omitted)",
+        "[Tool Result: calculate_happy_tails_estimate] (output omitted)",
+        "[Tool Result: persistToMemoryBank] (output omitted)"
+      ],
+      "is_error": false,
+      "latency_s": 8.85
+    },
+    {
+      "i": 2,
+      "customer": "She's 4 months, so the puppy consultation works for her? Can you come to our house?",
+      "blocks": [
+        "The rate sheet lists a **$110 puppy consultation**, but it doesn’t specify an age range, so I can’t confirm whether 4 months meets a particular eligibility rule. It also lists an **off-site individual consultation**, but doesn’t say whether that includes puppy consultations or a visit to your home. You’d need to confirm those details with the business. This is an unofficial planning demo, not a booking channel.",
+        "Happy Tails lists a **puppy consultation** at **$110**, but the rate sheet doesn’t state an age range, so I can’t verify that 4 months meets any specific eligibility rule. It also lists an **off-site individual consultation**, but doesn’t say whether that option applies to the puppy consultation or whether it includes a visit to your home. Those details would need confirmation from the business. This is an unofficial planning demo, not a booking channel.",
+        "[Tool Result: Grep] (output omitted)"
+      ],
+      "is_error": false,
+      "latency_s": 9.58
+    }
+  ],
+  "status": "ok",
+  "finished": "2026-11-11T18:06:22.241172+00:00"
+}

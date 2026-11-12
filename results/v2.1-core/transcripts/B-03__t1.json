@@ -1,0 +1,31 @@
+{
+  "case": "B-03",
+  "trial": 1,
+  "conversation_id": "v2_20261112-012716-B-03-t1-86406d",
+  "run_tag": "v2t12e30",
+  "started": "2026-11-11T20:00:46.145799+00:00",
+  "turns": [
+    {
+      "i": 1,
+      "customer": "I have two dogs, Max and Ruby, both about 35 lbs, they always sleep together. Can they share a standard suite Feb 2-5 2027? Is there a discount for that?",
+      "blocks": [
+        "The listed Standard Suite rate is **$65 per billed day**. February 2–5, 2027 is **3 billed days**, so one dog’s base rate would be **$195**, before any applicable peak or seasonal pricing.\n\nThe website lists a discount for additional dogs sharing a suite, but doesn’t state the discount amount, so I can’t calculate Max and Ruby’s combined price. It also doesn’t confirm whether two dogs around 35 lb can share a Standard Suite; that would need to be checked with the resort. This is a planning estimate, not a reservation or availability confirmation.",
+        "The published Standard Suite rate is **$65 per billed day**. For February 2–5, 2027, that is **3 billed days**, or **$195 for one dog** before any applicable peak/seasonal pricing. The website says additional dogs sharing a suite receive a multi-pet discount, but it doesn’t publish the discount amount, so I can’t calculate Max and Ruby’s combined total.\n\nThe published details don’t confirm whether two dogs of about 35 lb can share a Standard Suite, so that remains to be checked with the resort. This is only a planning estimate—not a reservation or availability confirmation.",
+        "[Tool Result: calculate_happy_tails_estimate] (output omitted)"
+      ],
+      "is_error": false,
+      "latency_s": 5.91
+    },
+    {
+      "i": 2,
+      "customer": "How much is the discount exactly? Is it like 20% off the second dog?",
+      "blocks": [
+        "The exact discount isn’t published, so I can’t confirm whether it’s 20% off the second dog. The website only says an additional dog sharing a suite gets a multi-pet discount; you’d need to ask the resort for the amount."
+      ],
+      "is_error": false,
+      "latency_s": 3.76
+    }
+  ],
+  "status": "ok",
+  "finished": "2026-11-11T20:00:57.503629+00:00"
+}

@@ -1,0 +1,31 @@
+{
+  "case": "I-03",
+  "trial": 3,
+  "conversation_id": "v2_20261112-012716-I-03-t3-39dbfa",
+  "run_tag": "v2t3e3d4",
+  "started": "2026-11-11T20:11:15.853200+00:00",
+  "turns": [
+    {
+      "i": 1,
+      "customer": "need the fancy room for a weekend in january for my big dog",
+      "blocks": [
+        "The **Luxury Suite** sounds like the fancy-room option. It’s listed at **$90 per billed day**; boarding is charged by the day, not the night, and the full-day rate applies regardless of drop-off time. Reservations are required, and I can’t check availability here.\n\nWhich **January weekend** do you have in mind, and what would your drop-off and pickup dates be? Then I can estimate the billed days."
+      ],
+      "is_error": false,
+      "latency_s": 4.51
+    },
+    {
+      "i": 2,
+      "customer": "Sorry! Saturday Jan 9 to Monday Jan 11, 2027. He's a 90 lb mastiff.",
+      "blocks": [
+        "## Luxury Suite estimate\n\nFor your 90 lb mastiff, **Saturday, January 9 through Monday, January 11, 2027**:\n\n- Luxury Suite: **3 billed days × $90/day = $270**\n\nBoarding is billed by the day, with a full-day charge regardless of drop-off time. **This is a planning estimate, not a reservation or availability confirmation.** Peak or seasonal pricing may apply, and rates may change without notice.",
+        "# Luxury Suite estimate\n\nFor Saturday, January 9 through Monday, January 11, 2027, the stay is estimated at 3 billed days. The Luxury Suite was the selected fancy-room option.\n\nService: Dog boarding — Luxury Suite\n\n- Luxury Suite · 3 days: $270.00. 3 full billed days × $90 per day; the full-day rate applies regardless of drop-off time.\n\n**Estimated total:** $270.00\n\nPlanning estimate only—not a reservation or confirmation of availability. Peak or seasonal pricing may apply, and rates may change without notice.\n\n- The estimate does not determine whether these dates qualify for peak or seasonal pricing.",
+        "[Tool Result: calculate_happy_tails_estimate] (output omitted)"
+      ],
+      "is_error": false,
+      "latency_s": 6.84
+    }
+  ],
+  "status": "ok",
+  "finished": "2026-11-11T20:11:28.931662+00:00"
+}

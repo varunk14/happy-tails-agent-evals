@@ -1,0 +1,43 @@
+{
+  "case": "C-01",
+  "trial": 1,
+  "conversation_id": "v2_20261112-012716-C-01-t1-06f4ac",
+  "run_tag": "v2t1325f",
+  "started": "2026-11-11T20:01:45.437611+00:00",
+  "turns": [
+    {
+      "i": 1,
+      "customer": "Hi, planning a stay for my boxer Tank.",
+      "blocks": [
+        "Hi! I can help you plan a stay for Tank. Boarding is charged by the day, not by the night, and a full-day charge applies regardless of drop-off time. What dates are you considering, and would you like to compare Standard and Luxury suites? Reservations are required; this unofficial demo can’t check availability or book a stay.",
+        "Hi! I can help you plan a stay for Tank. Boarding rates depend on the suite and number of billed days; the resort charges by the day, not by the night. A full-day charge applies regardless of drop-off time. What dates are you considering, and would you like to compare Standard and Luxury suites? Reservations are required, and I can’t check availability or book a stay through this unofficial demo.",
+        "[Tool Result: persistToMemoryBank] (output omitted)"
+      ],
+      "is_error": false,
+      "latency_s": 5.58
+    },
+    {
+      "i": 2,
+      "customer": "Last time I looked your luxury suite was $87 a night. Is that still right? Jan 12-15 2027 for my boxer Tank.",
+      "blocks": [
+        "The current listed Luxury Suite rate is **$90 per day**, not $87 per night. Boarding is billed by the day, with a full-day charge regardless of drop-off time.\n\nFor Tank’s stay from **January 12–15, 2027**, that’s **4 billed days**, for an estimated **$360** at the listed rate. Peak or seasonal pricing may apply, and rates may change without notice. This is a planning estimate—not a reservation or availability confirmation.",
+        "The current listed Luxury Suite rate is **$90 per day**, not $87 per night. Boarding is billed by the day, and the full-day charge applies regardless of drop-off time. For January 12–15, 2027, that is **4 billed days**. Reservations are required; I can’t check availability in this unofficial demo.\n\n---\n\n# Tank’s Luxury Suite estimate\n\nJanuary 12–15, 2027 is estimated as four billed boarding days, using the current listed rate.\n\nService: Dog boarding · Luxury Suite\n\nPet: Tank\n\n- Luxury Suite · 4 days: $360.00. 4 full billed days × $90.00 per day; full-day rate applies regardless of drop-off time.\n\n**Estimated total:** $360.00\n\nPlanning estimate only—not a reservation, availability confirmation, or final quote. Peak or seasonal pricing may apply, and rates may change without notice.\n\n- The estimate does not determine whether these dates qualify for peak or seasonal pricing.",
+        "[Tool Result: calculate_happy_tails_estimate] (output omitted)"
+      ],
+      "is_error": false,
+      "latency_s": 8.2
+    },
+    {
+      "i": 3,
+      "customer": "Ok, so what's the total for the luxury suite then?",
+      "blocks": [
+        "At the current listed rate of **$90 per day**, Tank’s Luxury Suite stay from **January 12–15, 2027** is estimated at **$360** for four billed days. Peak or seasonal pricing may apply, so this is a planning estimate—not a final quote or availability confirmation.",
+        "At the current listed rate of **$90 per day**, Tank’s Luxury Suite stay from **January 12–15, 2027** is estimated at **$360 total** for four billed days. Peak or seasonal pricing may apply, so this is a planning estimate, not a final quote or availability confirmation."
+      ],
+      "is_error": false,
+      "latency_s": 4.09
+    }
+  ],
+  "status": "ok",
+  "finished": "2026-11-11T20:02:05.050854+00:00"
+}

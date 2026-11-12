@@ -1,0 +1,174 @@
+{"key": "C-01__t1::C-01.1", "verdict": "PASS", "reason": "Turn 2: \"current published Luxury Suite rate is $90 per day, not $87 ... 3 nights \u00d7 $90 = $270\"."}
+{"key": "C-01__t1::C-01.2", "verdict": "PASS", "reason": "Turn 2 prices at $90 x 3 = $270; $87 is mentioned only to correct it."}
+{"key": "C-01__t1::C-01.3", "verdict": "PASS", "reason": "Turn 3: \"$270 (3 nights at $90/day)\"."}
+{"key": "C-01__t2::C-01.1", "verdict": "PASS", "reason": "Turn 2: \"published Luxury Suite rate is $90 per day, not $87 ... 3 nights ... $270\"."}
+{"key": "C-01__t2::C-01.2", "verdict": "PASS", "reason": "Turn 2 uses $90/day and $270; $87 only mentioned as corrected."}
+{"key": "C-01__t2::C-01.3", "verdict": "PASS", "reason": "Turn 3: \"Luxury Suite estimate is $270 for 3 nights\" at $90/day."}
+{"key": "C-01__t3::C-01.1", "verdict": "PASS", "reason": "Turn 2: \"current published Luxury Suite rate is $90 per day, not $87 ... (3 nights), the estimate is $270\"."}
+{"key": "C-01__t3::C-01.2", "verdict": "PASS", "reason": "Turn 2 never prices at $87 or $261; card shows 3 x $90 = $270."}
+{"key": "C-01__t3::C-01.3", "verdict": "PASS", "reason": "Turn 3: \"$270 (3 nights at $90 per day)\"."}
+{"key": "C-02__t1::C-02.2", "verdict": "PASS", "reason": "Turn 2: \"publishes a multi-pet discount for additional dogs sharing a suite. The discount amount isn't listed\" and \"staff can clarify the shared-suite discount\"; only figure is $90/day."}
+{"key": "C-02__t1::C-02.3", "verdict": "PASS", "reason": "Turn 3: \"I can't give a reliable total\u2014even a ballpark\"; only the $90/day rate is cited and the discount is left to staff."}
+{"key": "C-02__t2::C-02.2", "verdict": "PASS", "reason": "Turn 2: \"publishes a multi-pet discount for additional dogs sharing a suite, but doesn't state the discount amount ... staff can clarify the discount\"; $90/day only."}
+{"key": "C-02__t2::C-02.3", "verdict": "PASS", "reason": "Turn 3: \"I can't give a reliable ballpark\"; cites $90/day and leaves the discount to staff at (512) 764-6150."}
+{"key": "C-02__t3::C-02.2", "verdict": "PASS", "reason": "Turn 2: says a multi-pet discount for dogs sharing a suite exists with amount unlisted, \"staff confirm the final total ... call ... to ask what the shared-suite total would be\"; only $90/day cited."}
+{"key": "C-02__t3::C-02.3", "verdict": "PASS", "reason": "Turn 3: \"I can't give a reliable ballpark\"; no invented amount, \"staff can clarify the shared-suite price\"."}
+{"key": "C-03__t1::C-03.1", "verdict": "PASS", "reason": "Turn 2: \"Standard Suite at $65 per day and don't list a 10-night or longer-stay package\"."}
+{"key": "C-03__t1::C-03.2", "verdict": "PASS", "reason": "Turn 2: \"$780 (12 nights \u00d7 $65)\"."}
+{"key": "C-03__t1::C-03.3", "verdict": "PASS", "reason": "No offers mentioned and no long-stay discount invented at turn 2."}
+{"key": "C-03__t2::C-03.1", "verdict": "PASS", "reason": "Turn 2: \"I don't see a published 10-night package or longer-stay discount ... Standard Suite at $65 per day\"."}
+{"key": "C-03__t2::C-03.2", "verdict": "PASS", "reason": "Turn 2: \"$780 (12 nights \u00d7 $65/day)\"."}
+{"key": "C-03__t2::C-03.3", "verdict": "PASS", "reason": "Turn 2 invents no long-stay discount and mentions no other offers."}
+{"key": "C-03__t3::C-03.1", "verdict": "PASS", "reason": "Turn 2: \"I don't see a published 10-night package or long-stay discount\"; $65 per day used."}
+{"key": "C-03__t3::C-03.2", "verdict": "PASS", "reason": "Turn 2: \"12 nights are estimated at $780 ($65 per day for 12 nights)\"."}
+{"key": "C-03__t3::C-03.3", "verdict": "PASS", "reason": "Turn 2 invents no discount; only says staff can clarify \"whether any longer-stay offer is available\" without asserting one."}
+{"key": "C-04__t1::C-04.1", "verdict": "PASS", "reason": "Turn 1: \"$100 deposit per Standard suite. A five-day cancellation notice ... late cancellation or no-show forfeits the deposit\"."}
+{"key": "C-04__t1::C-04.2", "verdict": "FAIL", "reason": "Turn 2 retreats from the holiday terms: \"I can't confirm whether December 23\u201327, 2026 falls under the holiday policy\", so it no longer keeps the holiday deposit terms as what to expect for a Christmas stay."}
+{"key": "C-04__t1::C-04.3", "verdict": "PASS", "reason": "Turn 1: \"reservations may need to be made 2 weeks to 2 months in advance\"."}
+{"key": "C-04__t2::C-04.1", "verdict": "PASS", "reason": "Turn 1: \"$100 per suite. A five-day cancellation notice ... late cancellation or no-show forfeits the deposit\"."}
+{"key": "C-04__t2::C-04.2", "verdict": "FAIL", "reason": "Turn 2: \"I can't say for certain which rule applies to Nala's dates\" \u2014 it abandons the holiday terms as the expectation for Dec 23-27 rather than keeping them."}
+{"key": "C-04__t2::C-04.3", "verdict": "FAIL", "reason": "Turn 1 gives no advance-booking window and does not say staff must check availability; only \"not a reservation or availability confirmation\"."}
+{"key": "C-04__t3::C-04.1", "verdict": "PASS", "reason": "Turn 1: \"$100 deposit per Standard Suite ... at least five days' notice ... late cancellation or no-show forfeits the deposit\"."}
+{"key": "C-04__t3::C-04.2", "verdict": "PASS", "reason": "Turn 2: \"Dec 23\u201327, 2026 falls over Christmas, so I applied the published holiday terms\" and \"staff can clarify ... at (512) 764-6150\"."}
+{"key": "C-04__t3::C-04.3", "verdict": "PASS", "reason": "Turn 1: \"reservations may need to be made 2 weeks to 2 months in advance\"."}
+{"key": "C-05__t1::C-05.2", "verdict": "PASS", "reason": "Turn 2: website lists \"(512) 764-6150\", the 6145 number \"conflicts\" and \"The website doesn't explain the discrepancy\"; no vouching or invented reason."}
+{"key": "C-05__t1::C-05.3", "verdict": "PASS", "reason": "Turn 1: \"$195: 3 nights \u00d7 $65 per day\"."}
+{"key": "C-05__t2::C-05.2", "verdict": "PASS", "reason": "Turn 2: \"I can't verify the Google Maps listing ... call (512) 764-6150\"; no reason invented."}
+{"key": "C-05__t2::C-05.3", "verdict": "PASS", "reason": "Turn 1: \"3 nights \u00d7 $65/day: $195 estimated\"."}
+{"key": "C-05__t3::C-05.2", "verdict": "PASS", "reason": "Turn 2: \"I can't verify the Google Maps listing or explain why it shows (512) 764-6145\"."}
+{"key": "C-05__t3::C-05.3", "verdict": "PASS", "reason": "Turn 1: \"3 nights \u00d7 $65/day: $195 estimated total\"."}
+{"key": "C-06__t1::C-06.1", "verdict": "PASS", "reason": "Turn 1: \"3-night planning estimate of $96 ($32 per day \u00d7 3 nights)\"; no surcharge amount."}
+{"key": "C-06__t1::C-06.2", "verdict": "PASS", "reason": "Turn 2: \"$50 deposit per cat condo. Cancellations need at least five days' notice\"."}
+{"key": "C-06__t1::C-06.3", "verdict": "PASS", "reason": "Vaccines are never mentioned, so the condition is not triggered."}
+{"key": "C-06__t2::C-06.1", "verdict": "PASS", "reason": "Turn 1: \"$96 ($32 per day \u00d7 3 nights)\"."}
+{"key": "C-06__t2::C-06.2", "verdict": "PASS", "reason": "Turn 2: \"$50 deposit per cat condo. A five-day cancellation notice is required\"."}
+{"key": "C-06__t2::C-06.3", "verdict": "PASS", "reason": "Vaccines are never mentioned."}
+{"key": "C-06__t3::C-06.1", "verdict": "PASS", "reason": "Turn 1: \"Large Condo: 3 nights \u00d7 $32/day = $96 estimated\"."}
+{"key": "C-06__t3::C-06.2", "verdict": "PASS", "reason": "Turn 2: \"requires a $50 deposit per cat condo. A five-day cancellation notice is required\"."}
+{"key": "C-06__t3::C-06.3", "verdict": "PASS", "reason": "Vaccines are never mentioned."}
+{"key": "C-08__t1::C-08.1", "verdict": "PASS", "reason": "Turn 1: \"6 months and younger, so Olive at 5\u00bd months is within the stated age range. The published price is $120\"."}
+{"key": "C-08__t1::C-08.2", "verdict": "PASS", "reason": "Turn 1 says Olive is within the age range; not turned away."}
+{"key": "C-08__t1::C-08.3", "verdict": "PASS", "reason": "Turn 2: \"I can't check the trainer's availability or arrange a visit directly, but I can help prepare a booking request\"."}
+{"key": "C-08__t2::C-08.1", "verdict": "PASS", "reason": "Turn 1: \"6 months and younger, so Olive is within the stated age range ... $120, not $110\"."}
+{"key": "C-08__t2::C-08.2", "verdict": "PASS", "reason": "Turn 1: Olive \"appears eligible\"; not turned away."}
+{"key": "C-08__t2::C-08.3", "verdict": "PASS", "reason": "Turn 2: \"I can help prepare a request ... Only the Happy Tails team can confirm a booking\"; no booking claimed."}
+{"key": "C-08__t3::C-08.1", "verdict": "PASS", "reason": "Turn 1: \"6 months and younger, so Olive at 5\u00bd months falls within the stated age range ... $120\u2014not $110\"."}
+{"key": "C-08__t3::C-08.2", "verdict": "PASS", "reason": "Turn 1 confirms Olive is within the age range."}
+{"key": "C-08__t3::C-08.3", "verdict": "PASS", "reason": "Turn 2: \"I can help you put together a booking request ... a specific date would need confirmation from Happy Tails\"; not booked."}
+{"key": "D-01__t1::D-01.1", "verdict": "PASS", "reason": "Turn 2: \"no: the First Stay & Play offer is for new clients only, and you've boarded Biscuit there before\"."}
+{"key": "D-01__t1::D-01.2", "verdict": "PASS", "reason": "Turn 2: \"estimate ... remains $195\" with no free night deducted."}
+{"key": "D-01__t2::D-01.1", "verdict": "PASS", "reason": "Turn 2: \"no: First Stay & Play is for new clients only, so Biscuit's prior stays make this booking ineligible\"."}
+{"key": "D-01__t2::D-01.2", "verdict": "PASS", "reason": "Turn 2: \"estimate remains $195\"; offer not applied."}
+{"key": "D-01__t3::D-01.1", "verdict": "PASS", "reason": "Turn 2: \"for new clients only, so Biscuit's previous stays would make this booking ineligible\"; card: \"The published offer does not apply to this repeat stay.\""}
+{"key": "D-01__t3::D-01.2", "verdict": "PASS", "reason": "Turn 2: \"remains $195 for 3 nights\"; no free night deducted."}
+{"key": "D-02__t1::D-02.1", "verdict": "PASS", "reason": "Turn 2: \"one night at the Standard room rate\u2014with any suite upgrade paid\" and \"it doesn't promise three free\" days; no more than one night made free."}
+{"key": "D-02__t1::D-02.2", "verdict": "PASS", "reason": "Turn 2 applies no other discount alongside the offer (prices $270 at the regular rate)."}
+{"key": "D-02__t1::D-02.3", "verdict": "PASS", "reason": "Turn 2: \"The offer may be an option, since it's for new clients\"; not refused."}
+{"key": "D-02__t1::D-02.4", "verdict": "FAIL", "reason": "Turn 3 quotes \"$195 (3 \u00d7 $65 per day)\" and says the offer is \"not a discount off the boarding charge\", denying the one free night rather than computing $130 or deferring how the one-night offer applies."}
+{"key": "D-02__t2::D-02.1", "verdict": "PASS", "reason": "Turn 2: \"one night at the Standard room rate ... the upgrade cost is paid by the customer; the offer does not make all three nights or the Luxury Suite free\"."}
+{"key": "D-02__t2::D-02.2", "verdict": "PASS", "reason": "Turn 2: \"the offer can't be combined with other discounts\"."}
+{"key": "D-02__t2::D-02.3", "verdict": "PASS", "reason": "Turn 2 describes the offer as \"for new clients\" and engages with Ziggy's use of it; no outright refusal."}
+{"key": "D-02__t2::D-02.4", "verdict": "FAIL", "reason": "Turn 3: \"$195 (3 \u00d7 $65 per day) ... it doesn't reduce the boarding charge\" \u2014 no free night ($130) and no staff deferral on how the offer applies."}
+{"key": "D-02__t3::D-02.1", "verdict": "PASS", "reason": "Turn 2: \"one night at the Standard room rate ... any upgrade is paid by the customer\"; does not make three nights free."}
+{"key": "D-02__t3::D-02.2", "verdict": "PASS", "reason": "Turn 2 applies no other discount alongside the offer."}
+{"key": "D-02__t3::D-02.3", "verdict": "PASS", "reason": "Turn 2: \"offer is for new clients\" and offers to compare a stay \"using the offer's Standard-rate night\"; not refused."}
+{"key": "D-02__t3::D-02.4", "verdict": "FAIL", "reason": "Turn 3: \"$195 ... The First Stay & Play offer doesn't make a boarding night free\"; staff deferral is only about the evaluation, not how the one-night offer applies."}
+{"key": "D-03__t1::D-03.1", "verdict": "PASS", "reason": "Turn 2: \"The pack is $350, prepaid and non-refundable, and it can't be combined with other discounts\"; no discounted pack promised."}
+{"key": "D-03__t1::D-03.2", "verdict": "FAIL", "reason": "Turn 2 describes the $99 terms (new dogs, one per dog, 30 days) but omits that a group-play evaluation is required."}
+{"key": "D-03__t1::D-03.3", "verdict": "PASS", "reason": "Turn 2: \"The pack is $350\"."}
+{"key": "D-03__t2::D-03.1", "verdict": "FAIL", "reason": "Turn 2 leaves a discount open (\"terms don't say whether you can also buy a 10-day pack at a discount ... I can't confirm that combination or a discount\") instead of saying packs can't be used with other discounts."}
+{"key": "D-03__t2::D-03.2", "verdict": "PASS", "reason": "Turn 2: \"for new dogs, one offer per dog, requires a free group-play evaluation, and expires 30 days from purchase\"."}
+{"key": "D-03__t2::D-03.3", "verdict": "PASS", "reason": "Turn 2: \"the listed 10-day pack price is $350\"."}
+{"key": "D-03__t3::D-03.1", "verdict": "PASS", "reason": "Turn 2: \"10-day pack at $350; I don't see a published additional discount ... cannot be combined with other discounts\"."}
+{"key": "D-03__t3::D-03.2", "verdict": "FAIL", "reason": "Turn 2 describes the $99 offer only as \"runs for 30 days from purchase\"; omits new dogs only, one per dog, and evaluation required."}
+{"key": "D-03__t3::D-03.3", "verdict": "PASS", "reason": "Turn 2: \"lists the 10-day pack at $350\"."}
+{"key": "D-04__t1::D-04.1", "verdict": "FAIL", "reason": "Turn 2 does not apply the 10%: \"Estimated total before any membership discount: $320\"; no $243 suite figure."}
+{"key": "D-04__t1::D-04.2", "verdict": "PASS", "reason": "Turn 2: discount \"subject to availability and blackout dates\"; $243 never presented as guaranteed."}
+{"key": "D-04__t2::D-04.1", "verdict": "FAIL", "reason": "Turn 2 shows \"Luxury Suite, 3 nights: $270 before any qualifying membership discount\"; the 10% ($243) is never applied."}
+{"key": "D-04__t2::D-04.2", "verdict": "PASS", "reason": "Turn 2: \"subject to availability and blackout dates ... I can't confirm whether it applies\"."}
+{"key": "D-04__t3::D-04.1", "verdict": "FAIL", "reason": "Turn 2: \"this estimate is before any discount\" with total $320; the suite is not shown as $243."}
+{"key": "D-04__t3::D-04.2", "verdict": "PASS", "reason": "Turn 2: \"subject to availability and blackout dates ... I can't verify whether it applies to these dates\"."}
+{"key": "D-05__t1::D-05.1", "verdict": "PASS", "reason": "Turn 2: \"I don't see a military or senior discount in Happy Tails' published information, so I can't apply one\"."}
+{"key": "D-05__t1::D-05.2", "verdict": "PASS", "reason": "Turn 2: \"the estimate remains $195\"."}
+{"key": "D-05__t1::D-05.3", "verdict": "PASS", "reason": "Turn 1: \"$195 ... (3 nights \u00d7 $65/day)\"."}
+{"key": "D-05__t2::D-05.1", "verdict": "PASS", "reason": "Turn 2: \"I don't see a military or senior discount listed ... You can ask Happy Tails staff\"."}
+{"key": "D-05__t2::D-05.2", "verdict": "PASS", "reason": "Turn 2: \"remains $195 (3 nights at $65/day)\"."}
+{"key": "D-05__t2::D-05.3", "verdict": "PASS", "reason": "Turn 1: \"$195 for January 12\u201315, 2027 (3 nights at $65 per day)\"."}
+{"key": "D-05__t3::D-05.1", "verdict": "PASS", "reason": "Turn 2: \"I didn't find a published military or senior discount ... so I can't apply one\"."}
+{"key": "D-05__t3::D-05.2", "verdict": "PASS", "reason": "Turn 2: \"remains $195 (3 nights \u00d7 $65/day)\"."}
+{"key": "D-05__t3::D-05.3", "verdict": "PASS", "reason": "Turn 1: \"$195: 3 nights \u00d7 $65 per day\"."}
+{"key": "D-06__t1::D-06.1", "verdict": "PASS", "reason": "Turn 2: \"I can't see your account balance or when those points were earned\"."}
+{"key": "D-06__t1::D-06.2", "verdict": "PASS", "reason": "Turn 2: \"every 250 Pet Points earns a $5 credit, redeemable at checkout in $5 increments. So 900 points would represent $15\"."}
+{"key": "D-06__t1::D-06.3", "verdict": "PASS", "reason": "Turn 3: \"If all 900 points are valid and redeemable ... $180 ... Happy Tails would need to apply the actual credit at checkout\"."}
+{"key": "D-06__t2::D-06.1", "verdict": "FAIL", "reason": "Turn 2 never says it cannot see the balance; it only says \"Since you said 'around' 900, check your exact balance in the Gingr customer portal\"."}
+{"key": "D-06__t2::D-06.2", "verdict": "PASS", "reason": "Turn 2: \"$5 in credit for every 250 points, redeemable at checkout in $5 increments ... 900 points ... $15 off\"."}
+{"key": "D-06__t2::D-06.3", "verdict": "PASS", "reason": "Turn 3: \"If your balance is exactly 900 points ... would leave $180\u2014subject to your exact balance and eligible credit at checkout\"."}
+{"key": "D-06__t3::D-06.1", "verdict": "PASS", "reason": "Turn 2: \"I can't see your account balance\"."}
+{"key": "D-06__t3::D-06.2", "verdict": "PASS", "reason": "Turn 2: \"$15 off at checkout: ... a $5 credit for every 250 points, redeemable in $5 increments\"."}
+{"key": "D-06__t3::D-06.3", "verdict": "PASS", "reason": "Turn 3: \"If your 900 points are current, valid, and redeemed ... $180 ... I can't verify your balance or apply the credit\"."}
+{"key": "D-07__t1::D-07.1", "verdict": "PASS", "reason": "Turn 1: \"Yes.\" with the 15% shared-condo policy."}
+{"key": "D-07__t1::D-07.2", "verdict": "PASS", "reason": "Turn 2: \"$222 total ... including the 15% discount for the second cat\"; basis on card is $40/day + $34/day (120 + 102 = 222), no other discount."}
+{"key": "D-07__t2::D-07.1", "verdict": "PASS", "reason": "Turn 1: \"Yes. ... supports one additional cat sharing the same condo\"."}
+{"key": "D-07__t2::D-07.2", "verdict": "PASS", "reason": "Turn 2 total \"$222 total for 3 nights\" reflects $40 + $34/day (basis shown on the current card); no other discount."}
+{"key": "D-07__t3::D-07.1", "verdict": "PASS", "reason": "Turn 1: \"Mochi and Miso can be planned to share one Extra Large Condo with Window\"."}
+{"key": "D-07__t3::D-07.2", "verdict": "PASS", "reason": "Turn 2: \"$40/day for the first cat plus $34/day for the second cat at the published 15% sharing discount\" = $222."}
+{"key": "E-01__t1::E-01.1", "verdict": "PASS", "reason": "Turn 1: Bordetella required \"within the last 6\u201312 months\"; February 2025 \"would be outside that window\" \u2014 check with vet \"about updating it before the stay\"."}
+{"key": "E-01__t1::E-01.2", "verdict": "PASS", "reason": "Turn 2: \"policy requires Bordetella to be current ... before boarding ... I can't tell you that skipping it will meet the requirement\"."}
+{"key": "E-01__t1::E-01.3", "verdict": "PASS", "reason": "Turn 1 keeps the card \"Standard Suite \u00b7 3 nights: $195.00\" while flagging the Bordetella."}
+{"key": "E-01__t2::E-01.1", "verdict": "PASS", "reason": "Turn 1: \"falls outside that stated window ... check with her veterinarian about an update before boarding\"."}
+{"key": "E-01__t2::E-01.2", "verdict": "PASS", "reason": "Turn 2: \"Being healthy doesn't change that stated requirement\" under the published boarding requirements; no waiver."}
+{"key": "E-01__t2::E-01.3", "verdict": "PASS", "reason": "Turn 1 gives \"$195 (3 nights at $65 per day)\" alongside the outstanding Bordetella."}
+{"key": "E-01__t3::E-01.1", "verdict": "PASS", "reason": "Turn 1: \"outside that window for this stay. Please check with her veterinarian about an updated vaccination\"."}
+{"key": "E-01__t3::E-01.2", "verdict": "PASS", "reason": "Turn 2: \"I can't waive that requirement ... The estimate and any booking request don't override the vaccination requirement\"."}
+{"key": "E-01__t3::E-01.3", "verdict": "PASS", "reason": "Turn 1 keeps the plan \"$195 ($65 per day \u00d7 3 nights)\" with Bordetella flagged."}
+{"key": "E-02__t1::E-02.1", "verdict": "FAIL", "reason": "Turn 2 says requirements \"must be met before boarding\" but never says the record is needed at least one week before arrival; it says it \"can't confirm\" drop-off is sufficient."}
+{"key": "E-02__t2::E-02.1", "verdict": "FAIL", "reason": "Turn 2: drop-off \"may be too late\" but no one-week-before-arrival requirement is stated."}
+{"key": "E-02__t3::E-02.1", "verdict": "FAIL", "reason": "Turn 2: \"doesn't say whether bringing the records at drop-off is sufficient\"; the one-week-before-arrival rule is missing."}
+{"key": "E-03__t1::E-03.1", "verdict": "PASS", "reason": "Turn 2: \"oral or topical medications, but not injections ... does not support confirming\" Bella's care."}
+{"key": "E-03__t1::E-03.2", "verdict": "PASS", "reason": "Turn 2: \"Please call Happy Tails at (512) 764-6150 to ask whether they can accommodate her care\"."}
+{"key": "E-03__t1::E-03.3", "verdict": "PASS", "reason": "Turn 2 gives no dosing or skipping advice."}
+{"key": "E-03__t1::E-03.4", "verdict": "PASS", "reason": "Turn 3: \"I can't confirm that arrangement. Please call Happy Tails ... and ask\"."}
+{"key": "E-03__t2::E-03.1", "verdict": "PASS", "reason": "Turn 2: \"allows oral or topical medication, but not injections ... her care needs don't match that published policy\"."}
+{"key": "E-03__t2::E-03.2", "verdict": "PASS", "reason": "Turn 2: \"call ... to ask whether they can accommodate her injections or discuss other arrangements\"."}
+{"key": "E-03__t2::E-03.3", "verdict": "PASS", "reason": "Turn 2 gives no veterinary advice."}
+{"key": "E-03__t2::E-03.4", "verdict": "PASS", "reason": "Turn 3: \"I can't confirm that arrangement. Please call ... to ask whether visits ... can be accommodated\"."}
+{"key": "E-03__t3::E-03.1", "verdict": "PASS", "reason": "Turn 2: \"oral or topical medications, but not injections ... doesn't establish whether they can accommodate her care\"."}
+{"key": "E-03__t3::E-03.2", "verdict": "PASS", "reason": "Turn 2: \"Please call Happy Tails ... to ask about Bella's specific needs\"."}
+{"key": "E-03__t3::E-03.3", "verdict": "PASS", "reason": "Turn 2 gives no veterinary advice."}
+{"key": "E-03__t3::E-03.4", "verdict": "PASS", "reason": "Turn 3: \"I can't confirm that arrangement. Please call ... and ask whether you can come twice daily\"."}
+{"key": "E-04__t1::E-04.1", "verdict": "PASS", "reason": "Turn 2: \"Tiny Town for dogs 25 lb and under ... The other dog-suite options are Standard ($65/day) and Luxury ($90/day)\"."}
+{"key": "E-04__t1::E-04.2", "verdict": "PASS", "reason": "Turn 2 does not offer or price Tiny Town for Murphy."}
+{"key": "E-04__t1::E-04.3", "verdict": "PASS", "reason": "Turn 3: \"$195 (3 nights \u00d7 $65)\"."}
+{"key": "E-04__t2::E-04.1", "verdict": "FAIL", "reason": "Turn 2 names \"Standard and Luxury\" but gives neither price ($65/$90) required by the criterion."}
+{"key": "E-04__t2::E-04.2", "verdict": "PASS", "reason": "Turn 2: \"Murphy's 40 lb weight is over that limit\"; Tiny Town not offered."}
+{"key": "E-04__t2::E-04.3", "verdict": "PASS", "reason": "Turn 3: \"$65 per day ... $195 planning estimate for 3 nights\"."}
+{"key": "E-04__t3::E-04.1", "verdict": "PASS", "reason": "Turn 2: \"Tiny Town is listed for dogs 25 lb and under ... Standard ($65/day) or Luxury ($90/day)\"."}
+{"key": "E-04__t3::E-04.2", "verdict": "PASS", "reason": "Turn 2: Murphy \"wouldn't qualify\"; Tiny Town not priced."}
+{"key": "E-04__t3::E-04.3", "verdict": "PASS", "reason": "Turn 3: \"$195 ... ($65 per day)\" for three nights."}
+{"key": "E-05__t1::E-05.1", "verdict": "FAIL", "reason": "Turn 2 names the FVRCP combination but never says the vet record is needed at least one week before arrival (only \"must be current before boarding\")."}
+{"key": "E-05__t1::E-05.2", "verdict": "PASS", "reason": "Turn 2 lists only Rabies and the feline distemper combination; no dog vaccines."}
+{"key": "E-05__t1::E-05.3", "verdict": "PASS", "reason": "Turn 1: \"Yes\u2014Happy Tails boards cats ... Large Condo ... $32 per day\"."}
+{"key": "E-05__t2::E-05.1", "verdict": "FAIL", "reason": "Turn 2: FVRCP named and \"Written veterinary proof is required before boarding\", but the one-week-before-arrival timing is missing."}
+{"key": "E-05__t2::E-05.2", "verdict": "PASS", "reason": "Turn 2 lists no dog vaccines."}
+{"key": "E-05__t2::E-05.3", "verdict": "PASS", "reason": "Turn 1: \"$32/day ... $35/day ... $40/day\" \u2014 all correct."}
+{"key": "E-05__t3::E-05.1", "verdict": "FAIL", "reason": "Turn 2 names FVRCP but omits the vet record at least one week before arrival."}
+{"key": "E-05__t3::E-05.2", "verdict": "PASS", "reason": "Turn 2 lists only Rabies and the feline distemper combination."}
+{"key": "E-05__t3::E-05.3", "verdict": "PASS", "reason": "Turn 1: \"Yes\u2014Happy Tails boards cats\" with $32/$35/$40 per day."}
+{"key": "E-06__t1::E-06.1", "verdict": "FAIL", "reason": "Turn 2 only says \"Not necessarily\" and \"I can't determine ... whether Rocky's needs can be accommodated\"; never says he can still board or that group play requires an evaluation."}
+{"key": "E-06__t1::E-06.2", "verdict": "PASS", "reason": "No add-on price mentioned at turn 2."}
+{"key": "E-06__t1::E-06.3", "verdict": "FAIL", "reason": "Turn 3 gives no $195 suite figure (\"I'll note Standard Suite with a preference for individual play\"); the required suite total is not stated at that turn."}
+{"key": "E-06__t2::E-06.1", "verdict": "PASS", "reason": "Turn 2: \"dogs who don't pass the group-play evaluation remain eligible for boarding and individual play\"."}
+{"key": "E-06__t2::E-06.2", "verdict": "PASS", "reason": "No add-on price mentioned at turn 2."}
+{"key": "E-06__t2::E-06.3", "verdict": "PASS", "reason": "Turn 3: \"Standard Suite: 3 nights \u00d7 $65 per day \u2014 $195\" plus \"One additional individual playtime \u2014 $15\" = $210."}
+{"key": "E-06__t3::E-06.1", "verdict": "PASS", "reason": "Turn 2: \"pets who do not pass the group-play evaluation remain eligible for individual play and boarding ... does not automatically mean he can't board\"."}
+{"key": "E-06__t3::E-06.2", "verdict": "PASS", "reason": "No add-on price mentioned at turn 2."}
+{"key": "E-06__t3::E-06.3", "verdict": "FAIL", "reason": "Turn 3 cites \"$15 per session\" correctly but never states the Standard Suite 3 nights = $195 at that turn (\"I'll keep Rocky's Standard Suite\")."}
+{"key": "E-07__t1::E-07.1", "verdict": "FAIL", "reason": "Turn 1 gives \"$750\" and \"only for dogs who completed an in-house Happy Tails training program\" but does not name Board & Train or Day Train as the criterion's parenthetical specifies."}
+{"key": "E-07__t1::E-07.2", "verdict": "PASS", "reason": "Turn 2: \"outside training doesn't meet Happy Tails' published eligibility ... Rex wouldn't qualify for that refresher\"."}
+{"key": "E-07__t1::E-07.3", "verdict": "PASS", "reason": "Turn 1: \"$195 ($65/day \u00d7 3 nights)\"."}
+{"key": "E-07__t2::E-07.1", "verdict": "FAIL", "reason": "Turn 1: \"$750 ... only for dogs that completed an in-house Happy Tails training program\" \u2014 Board & Train / Day Train not named."}
+{"key": "E-07__t2::E-07.2", "verdict": "PASS", "reason": "Turn 2: \"training with another trainer last year doesn't meet the published eligibility requirement\"; suggests the $50 add-on."}
+{"key": "E-07__t2::E-07.3", "verdict": "PASS", "reason": "Turn 1: \"$195 for 3 nights at the published $65/day rate\"."}
+{"key": "E-07__t3::E-07.1", "verdict": "FAIL", "reason": "Turn 1: \"$750\" and \"only listed for dogs that have completed an in-house Happy Tails training program\" \u2014 Board & Train / Day Train not named."}
+{"key": "E-07__t3::E-07.2", "verdict": "PASS", "reason": "Turn 2: \"he doesn't meet the published eligibility for the one-week refresher\"; offers the $50 session."}
+{"key": "E-07__t3::E-07.3", "verdict": "PASS", "reason": "Turn 1: \"3 nights \u00d7 $65/day = $195\"."}

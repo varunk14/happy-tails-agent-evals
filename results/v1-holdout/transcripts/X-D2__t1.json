@@ -1,0 +1,34 @@
+{
+  "case": "X-D2",
+  "trial": 1,
+  "conversation_id": "v1holdout_20261111-235648-X-D2-t1-e1631a",
+  "run_tag": "v1holdoutt1b03a",
+  "started": "2026-11-11T18:29:13.583100+00:00",
+  "turns": [
+    {
+      "i": 1,
+      "customer": "Hi! Quick question about daycare deals.",
+      "blocks": [
+        "Hi! For **dog daycare**, the listed prepaid deals are **$340 for a 10-day pack** or **$650 for a 20-day pack** for one dog. Packs are non-refundable and can’t be combined with other discounts. citeturn0search0\n\nI can also compare those with single visits or monthly memberships.",
+        "[Tool Result: filesystem] (output omitted)",
+        "[Tool Result: calculate_happy_tails_estimate] (output omitted)",
+        "[Tool Result: calculate_happy_tails_estimate] (output omitted)"
+      ],
+      "is_error": false,
+      "latency_s": 7.51
+    },
+    {
+      "i": 2,
+      "customer": "My older dog has come to you for years. We just adopted a second dog, Pickle. Can Pickle get the $99 unlimited daycare deal?",
+      "blocks": [
+        "I can’t confirm that Pickle qualifies for a **$99 unlimited daycare deal**. The rate sheet available to me lists unlimited daycare at **$540 per month for one dog** (with an effective rate as low as $18 per day depending on use), and doesn’t give a two-dog rate or eligibility terms for a $99 offer. Your older dog’s history doesn’t confirm Pickle’s eligibility.",
+        "[Tool Result: calculate_happy_tails_estimate] (output omitted)",
+        "[Tool Result: calculate_happy_tails_estimate] (output omitted)"
+      ],
+      "is_error": false,
+      "latency_s": 6.42
+    }
+  ],
+  "status": "ok",
+  "finished": "2026-11-11T18:29:29.284725+00:00"
+}

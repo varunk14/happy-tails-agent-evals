@@ -1,0 +1,7 @@
+# g1 criteria notes (judge 2)
+
+- **A-05.3**: the wording "Gives the starting price rather than refusing" mixes two tests. One is not refusing. The other is giving the correct starting price ($90+). I read it literally, so a wrong band ($100-$130) FAILs. If the intent is only "doesn't refuse", these become PASS, and the price error is already caught by A-05.1.
+- **B-02.5**: "chat total and card total agree" cannot be graded when no card text was captured at or near turn 3 (B-02 t2), and it is unclear when the agent gives no single total (B-02 t3). I graded "no disagreement observed" as PASS. Suggested reading: N/A or PASS when there is no card, and verify with the visual checks (as AM-1 does).
+- **A-01.4 / A-10.4 / A-02.5 / B-02.6 under AM-1**: "itemised plan or estimate" is unclear for a one-line estimate, or for a combined total covering two services (A-10 t2: "$210–$228, including one exit bath"). I accepted single-item estimates as itemised. I failed the A-10 t2 combined total. Suggest the amendment say how much itemisation is needed.
+- **A-13.2**: "Treats Duke as eligible" versus an agent that keeps planning but says it "can't verify" whether the vaccines qualify. I graded PASS because nothing was blocked. A stricter reading could fail it.
+- **B-04.4**: "(a deposit, $150 for a luxury suite, and 5 days' notice) or that staff confirm". B-04 t1 gave the deposit and 5 days but no $150, plus "confirm with them". It PASSes through the "or staff confirm" branch. The criterion could say whether the $150 is required.

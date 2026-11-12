@@ -1,0 +1,45 @@
+{
+  "case": "D-06",
+  "trial": 2,
+  "conversation_id": "v2_20261112-012716-D-06-t2-eee63c",
+  "run_tag": "v2t2deef",
+  "started": "2026-11-11T20:05:00.782557+00:00",
+  "turns": [
+    {
+      "i": 1,
+      "customer": "Planning a standard suite for Mabel, Jan 26-29 2027.",
+      "blocks": [
+        "For **Mabel**, a Standard Suite for **January 26–29, 2027** is estimated at **$260**: 4 billed days at $65/day. Boarding is billed by the day, not the night, and the full-day charge applies regardless of drop-off time.\n\nPeak or seasonal pricing may apply to those dates, and rates may change. This is a planning estimate only—not a reservation or confirmation of availability.",
+        "[Tool Result: getCurrentTime] (output omitted)",
+        "[Tool Result: calculate_happy_tails_estimate] (output omitted)"
+      ],
+      "is_error": false,
+      "latency_s": 5.7
+    },
+    {
+      "i": 2,
+      "customer": "I think I have around 900 Pet Points. How much will that take off my next stay?",
+      "blocks": [
+        "I only emit page content verbatim; ask the calling agent to summarise after fetch.If your account balance is **about 900 points**, that’s enough for **three $5 credits, or $15 off**. Happy Tails says credits are redeemed in $5 increments at checkout; they’re valid for one year from when earned and can’t be used for retail purchases. You can check your exact balance in the customer portal and ask the Host to apply the credits at checkout. ([happytailspetresorttx.com](https://www.happytailspetresorttx.com/loyalty-rewards?utm_source=openai))",
+        "[Tool Result: SearchIntegrationTools] (output omitted)",
+        "[Tool Result: Subagent] (output omitted)",
+        "[Tool Result: Grep] (output omitted)",
+        "[Tool Result: web_search] (output omitted)"
+      ],
+      "is_error": false,
+      "latency_s": 12.78
+    },
+    {
+      "i": 3,
+      "customer": "Can you take that off the total you just gave me?",
+      "blocks": [
+        "Yes. The estimate was **$260**. If your balance is **900 eligible points**, that corresponds to **$15 in credits** (250 points per $5 credit, redeemable in $5 increments), so the adjusted planning estimate would be **$245**. ([happytailspetresorttx.com](https://www.happytailspetresorttx.com/loyalty-rewards?utm_source=openai))\n\nThe credits are applied at checkout, so this isn’t a confirmed discount or reservation; you can verify your balance and ask the Host to apply them.",
+        "[Tool Result: web_search] (output omitted)"
+      ],
+      "is_error": false,
+      "latency_s": 6.7
+    }
+  ],
+  "status": "ok",
+  "finished": "2026-11-11T20:05:27.677332+00:00"
+}

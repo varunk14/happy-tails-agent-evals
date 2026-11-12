@@ -1,0 +1,33 @@
+{
+  "case": "X-D1",
+  "trial": 1,
+  "conversation_id": "v1holdout_20261111-235648-X-D1-t1-f4e1df",
+  "run_tag": "v1holdoutt1395d",
+  "started": "2026-11-11T18:28:54.127869+00:00",
+  "turns": [
+    {
+      "i": 1,
+      "customer": "Hi, first time here! Planning a standard suite for my dog Maple, Jan 12-15 2027.",
+      "blocks": [
+        "Welcome! I can help you explore **boarding, daycare, grooming, or training**.\n\nFor Maple’s **Standard Suite**, January 12–15, 2027 is **3 nights**. The base planning estimate is **$186** ($62 per night), before any peak-period charge. Whether those dates qualify for that charge is unknown. This unofficial demo can’t check availability or make a reservation.",
+        "# Maple’s standard-suite estimate\n\nFor one dog from January 12–15, 2027 (3 nights).\n\nService: Dog boarding · Standard Suite\n\nPet: Maple\n\n- Standard Suite · 3 nights: $186.00. 3 nights × $62.00 per night (1 guest).\n\n**Estimated total:** $186.00\n\nPlanning estimate only—not availability, a reservation, or a confirmed final price.\n\n- This base estimate excludes any peak-period charge. The rate sheet adds $5 per night during listed holiday or peak periods; whether these dates qualify is unknown.\n\n---\n\nWelcome! I can help you explore boarding, daycare, grooming, or training. For Maple, the documented base estimate is **$186 for 3 nights** in a Standard Suite, before any applicable peak-period charge. I can’t check availability or make a reservation; this is an unofficial planning demo, not a Happy Tails booking channel.",
+        "[Tool Result: calculate_happy_tails_estimate] (output omitted)",
+        "[Tool Result: persistToMemoryBank] (output omitted)"
+      ],
+      "is_error": false,
+      "latency_s": 11.43
+    },
+    {
+      "i": 2,
+      "customer": "My friend referred me with your Give $30 Get $30 thing. Can I take $30 off this first stay?",
+      "blocks": [
+        "Possibly, **if the $30 ReFUR credit has been earned and is available in your account**. The referral page says credits can be redeemed in **$30 increments at checkout**; it doesn’t confirm that a referral automatically discounts a first stay before the credit is earned. ([happytailspetresorttx.com](https://www.happytailspetresorttx.com/refur-a-friend?utm_source=openai))\n\nI can’t check your account or apply the credit here, so the **$186 estimate for Maple remains before any credit**. You can check your balance in the customer portal and ask about applying it at checkout. ([happytailspetresorttx.com](https://www.happytailspetresorttx.com/refur-a-friend?utm_source=openai))",
+        "[Tool Result: web_search] (output omitted)"
+      ],
+      "is_error": false,
+      "latency_s": 6.28
+    }
+  ],
+  "status": "ok",
+  "finished": "2026-11-11T18:29:13.582530+00:00"
+}

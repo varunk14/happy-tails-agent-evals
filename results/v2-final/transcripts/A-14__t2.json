@@ -1,0 +1,32 @@
+{
+  "case": "A-14",
+  "trial": 2,
+  "conversation_id": "v2final_20261112-101154-A-14-t2-915700",
+  "run_tag": "v2finalt2e4eb",
+  "started": "2026-11-12T04:45:07.549827+00:00",
+  "turns": [
+    {
+      "i": 1,
+      "customer": "Hey, planning a luxury suite for my dog Rosie, Jan 26-29 2027.",
+      "blocks": [
+        "## Rosie’s luxury boarding estimate\n\nFor January 26–29, 2027, the estimate is **$270**: 3 nights × $90 per day for the Luxury Suite.\n\nHappy Tails bills boarding by the day, and staff confirm the final total. Peak or seasonal pricing may apply, but the published information doesn’t say whether it applies to these dates or what the amount would be. Rates may change without notice. This is a planning estimate—not availability or a reservation.",
+        "# Rosie’s luxury boarding estimate\n\nFor Rosie’s planned stay from January 26 to January 29, 2027.\n\nService: Dog boarding · Luxury Suite\n\nPet: Rosie\n\n- Luxury Suite · 3 nights: $270.00. 3 nights × $90 per day for this estimate.\n\n**Estimated total:** $270.00\n\nPlanning estimate only; it is not availability, a reservation, or a final total.\n\n- Happy Tails bills boarding by the day; staff confirm the final total. Peak or seasonal pricing may apply, but the published information does not say whether these dates qualify or what the amount would be. Rates may change without notice.\n\n---\n\nHappy Tails lists the Luxury Suite at $90 per day. The estimate uses 3 nights (January 26–29, 2027).",
+        "[Tool Result: calculate_happy_tails_estimate] (output omitted)"
+      ],
+      "is_error": false,
+      "latency_s": 6.14
+    },
+    {
+      "i": 2,
+      "customer": "If I book a luxury suite for the end of January and my trip gets cancelled, how much notice do I need to give, and is there a fee?",
+      "blocks": [
+        "For Happy Tails’ **non-holiday dog boarding**, you need to give **at least 24 hours’ notice** to cancel. The published late-cancellation or no-show fee for a **Luxury Suite is $35**.\n\nHoliday cancellations have different terms: **5 days’ notice** is required, and a late cancellation or no-show forfeits the deposit. Happy Tails lists end-of-January dates generally, but whether a specific date falls under holiday terms isn’t specified here.",
+        "[Tool Result: filesystem] (output omitted)"
+      ],
+      "is_error": false,
+      "latency_s": 3.82
+    }
+  ],
+  "status": "ok",
+  "finished": "2026-11-12T04:45:19.055451+00:00"
+}

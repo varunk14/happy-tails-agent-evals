@@ -1,0 +1,30 @@
+{
+  "case": "C-06",
+  "trial": 2,
+  "conversation_id": "v2_20261112-012716-C-06-t2-96bad1",
+  "run_tag": "v2t2073f",
+  "started": "2026-11-11T20:03:11.322741+00:00",
+  "turns": [
+    {
+      "i": 1,
+      "customer": "My cat Pumpkin needs a large condo from Dec 30 2026 to Jan 2 2027 while we're away for New Year's.",
+      "blocks": [
+        "For **Pumpkin**, the Large Condo estimate is **$128 for 4 billed days** at $32 per day. Cat boarding is billed by the day, with a full-day charge regardless of drop-off time, so this estimate counts December 30, 31, January 1, and January 2.\n\nBecause this is for New Year’s, holiday terms may apply: cat reservations require a **$50-per-condo deposit**, cancellations require **5 days’ notice**, and a late cancellation or no-show forfeits the deposit. Holiday reservation lead time can vary from 2 weeks to 2 months. I can’t check availability or make a reservation; this is a planning estimate only.",
+        "[Tool Result: calculate_happy_tails_estimate] (output omitted)"
+      ],
+      "is_error": false,
+      "latency_s": 4.5
+    },
+    {
+      "i": 2,
+      "customer": "Is there a deposit or anything for that?",
+      "blocks": [
+        "Yes. For holiday cat boarding, the published policy requires a **$50 deposit per condo**. The policy says the deposit is forfeited for a late cancellation or no-show, and requires **5 days’ cancellation notice**. The **$128 estimate doesn’t include the deposit**; I can’t confirm whether it is applied toward the boarding total."
+      ],
+      "is_error": false,
+      "latency_s": 3.23
+    }
+  ],
+  "status": "ok",
+  "finished": "2026-11-11T20:03:20.794186+00:00"
+}

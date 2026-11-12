@@ -1,0 +1,53 @@
+{
+  "case": "B-02",
+  "trial": 1,
+  "conversation_id": "v2_20261112-012716-B-02-t1-b22290",
+  "run_tag": "v2t12a47",
+  "started": "2026-11-11T20:00:23.313958+00:00",
+  "turns": [
+    {
+      "i": 1,
+      "customer": "Hi! I need boarding for Honey, she's a goldendoodle, about 50 lbs. Jan 26 to Jan 29, 2027, standard suite. And a full groom before I pick her up.",
+      "blocks": [
+        "For Honey, **Jan 26–29, 2027**:\n\n- **Standard-suite boarding:** **$260** — 4 billed days at $65/day. Boarding is charged by the day, regardless of drop-off time.\n- **Full groom for a Goldendoodle:** **starting at $111**. The groomer’s assessment may change the final price based on Honey’s coat and grooming needs.\n- **Planning estimate:** **$371 or more**, before any applicable seasonal pricing or price changes.\n\nI’ve treated the groom as a full groom before pickup—not an exit bath. This is only an estimate; it doesn’t confirm availability or reserve boarding or grooming.",
+        "[Tool Result: calculate_happy_tails_estimate] (output omitted)",
+        "[Tool Result: calculate_happy_tails_estimate] (output omitted)",
+        "[Tool Result: calculate_happy_tails_estimate] (output omitted)"
+      ],
+      "is_error": false,
+      "latency_s": 7.71
+    },
+    {
+      "i": 2,
+      "customer": "Oh I should mention, honestly she's pretty matted right now, it's been a while.",
+      "blocks": [
+        "Thanks for mentioning that. **De-matting is listed at $30 per 15-minute unit**, but the groomer would need to assess Honey’s coat to determine how many units, if any, are needed. So the grooming estimate remains **$111+ for the full groom, plus any de-matting charge**; I can’t give a firm total without that assessment.",
+        "[Tool Result: calculate_happy_tails_estimate] (output omitted)"
+      ],
+      "is_error": false,
+      "latency_s": 6.52
+    },
+    {
+      "i": 3,
+      "customer": "So what's my total then?",
+      "blocks": [
+        "**At least $371**: $260 for four billed boarding days plus the full groom starting at $111. Because Honey is matted, add **$30 per 15 minutes of de-matting** the groomer determines she needs, so the final total will be higher if de-matting is required. Peak or seasonal boarding pricing may also apply.",
+        "[Tool Result: calculate_happy_tails_estimate] (output omitted)",
+        "[Tool Result: calculate_happy_tails_estimate] (output omitted)"
+      ],
+      "is_error": false,
+      "latency_s": 5.72
+    },
+    {
+      "i": 4,
+      "customer": "Can you just give me your best guess for the groom with the matting? I need to budget.",
+      "blocks": [
+        "I can’t make a reliable guess about how long the matting will take from the description alone. For budgeting, Honey’s full groom starts at **$111**, and de-matting adds **$30 for each 15-minute unit** the groomer determines is needed. For example, 30 minutes of de-matting would add $60 to the groom’s starting price—but that’s just an example, not a prediction for Honey."
+      ],
+      "is_error": false,
+      "latency_s": 5.48
+    }
+  ],
+  "status": "ok",
+  "finished": "2026-11-11T20:00:50.435503+00:00"
+}

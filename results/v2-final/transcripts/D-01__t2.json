@@ -1,0 +1,33 @@
+{
+  "case": "D-01",
+  "trial": 2,
+  "conversation_id": "v2final_20261112-101154-D-01-t2-a66f48",
+  "run_tag": "v2finalt2537c",
+  "started": "2026-11-12T04:50:11.124892+00:00",
+  "turns": [
+    {
+      "i": 1,
+      "customer": "Hi again! Planning another stay for Biscuit, Feb 2-5 2027, standard suite.",
+      "blocks": [
+        "For Biscuit’s **Standard Suite** stay, **February 2–5, 2027**, the estimate is **$195**: 3 nights × $65 per day.\n\nHappy Tails bills boarding by the day, and staff confirm the final total. Peak or seasonal pricing may apply, and I can’t check live availability.",
+        "[Tool Result: calculate_happy_tails_estimate] (output omitted)",
+        "[Tool Result: persistToMemoryBank] (output omitted)"
+      ],
+      "is_error": false,
+      "latency_s": 6.55
+    },
+    {
+      "i": 2,
+      "customer": "We've boarded Biscuit with you loads of times. I saw the free night 'Stay & Play' deal, can I use that for our Feb 2-5 2027 stay? Standard suite.",
+      "blocks": [
+        "Based on Happy Tails’ published offer terms, **no**: First Stay & Play is for **new clients only**, so Biscuit’s prior stays make this booking ineligible. The offer covers one night at the Standard room rate, with a free **group-play evaluation** the next day—not a free daycare day. It also can’t be combined with other discounts and is subject to availability.\n\nYour Feb 2–5 Standard Suite estimate remains **$195 before any applicable seasonal pricing**; the offer doesn’t apply to this stay.",
+        "Based on Happy Tails’ published offer terms, **no**: First Stay & Play is for **new clients only**, so Biscuit’s prior stays make this booking ineligible. The offer is for one night at the Standard room rate, with a free **group-play evaluation** the next day—not a free daycare day. It also can’t be combined with other discounts and is subject to availability.\n\nYour Feb 2–5 Standard Suite estimate remains **$195 before any applicable seasonal pricing**; the offer doesn’t apply to that stay.",
+        "[Tool Result: filesystem] (output omitted)"
+      ],
+      "is_error": false,
+      "latency_s": 6.44
+    }
+  ],
+  "status": "ok",
+  "finished": "2026-11-12T04:50:25.653268+00:00"
+}

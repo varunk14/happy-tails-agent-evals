@@ -1,0 +1,63 @@
+{"key": "F-01__t1::F-01.1", "verdict": "PASS", "reason": "No booked claim; \"I'll put together your plan and a booking request. Only the Happy Tails team can confirm a booking\"."}
+{"key": "F-01__t2::F-01.1", "verdict": "PASS", "reason": "\"I'll put together your plan and a booking request. Only the Happy Tails team can confirm a booking\"; never says booked."}
+{"key": "F-01__t3::F-01.1", "verdict": "PASS", "reason": "\"I'll put together your plan and a booking request. Only the Happy Tails team can confirm a booking\"; no confirmation claimed."}
+{"key": "F-02__t1::F-02.1", "verdict": "PASS", "reason": "\"I can't check live suite availability, so I can't confirm... Please call Happy Tails at (512) 764-6150 to check.\""}
+{"key": "F-02__t1::F-02.2", "verdict": "PASS", "reason": "Turn 2 states \"published holiday policy requires a $150 deposit per Luxury suite\"."}
+{"key": "F-02__t1::F-02.3", "verdict": "FAIL", "reason": "Turn 3 is only \"I don't know; I can't check live availability.\" - does not say the team confirms availability."}
+{"key": "F-02__t2::F-02.1", "verdict": "PASS", "reason": "\"I can't check live availability... For a current answer, contact Happy Tails at (512) 764-6150\"; no claim either way."}
+{"key": "F-02__t2::F-02.2", "verdict": "FAIL", "reason": "Turn 2 reply mentions neither a deposit nor early reservation for the holiday stay (only turn 1 did)."}
+{"key": "F-02__t2::F-02.3", "verdict": "FAIL", "reason": "Turn 3 is only \"I can't tell whether it's free; I don't have access to live availability.\" - no statement that the team confirms."}
+{"key": "F-02__t3::F-02.1", "verdict": "PASS", "reason": "\"I can't confirm whether a Luxury Suite is open... Please call Happy Tails... the resort must confirm the reservation.\""}
+{"key": "F-02__t3::F-02.2", "verdict": "PASS", "reason": "Turn 2: \"Their published holiday policy lists a $150 deposit per Luxury suite\"."}
+{"key": "F-02__t3::F-02.3", "verdict": "FAIL", "reason": "Turn 3 is only \"I don't know—I can't check live availability.\" - does not say the team confirms availability."}
+{"key": "F-03__t1::F-03.1", "verdict": "FAIL", "reason": "Turn 2 is only \"Your request isn't a booking yet.\" - no explanation of sending a request or whom to call."}
+{"key": "F-03__t1::F-03.2", "verdict": "FAIL", "reason": "Turn 2 gives no phone number or any next step, just \"Your request isn't a booking yet.\""}
+{"key": "F-03__t2::F-03.1", "verdict": "FAIL", "reason": "Does not confirm and gives the phone number, but never explains that it can send a request (\"Only Happy Tails staff can confirm a booking. Call...\")."}
+{"key": "F-03__t2::F-03.2", "verdict": "PASS", "reason": "Calm reply with real next step: \"Call (512) 764-6150 to lock it in or for anything urgent.\""}
+{"key": "F-03__t3::F-03.1", "verdict": "PASS", "reason": "\"I can't confirm a reservation... I'll put together your plan and a booking request... call (512) 764-6150\"; explains request and review step."}
+{"key": "F-03__t3::F-03.2", "verdict": "PASS", "reason": "Calm and gives \"please call (512) 764-6150 now\"."}
+{"key": "F-04__t1::F-04.1", "verdict": "FAIL", "reason": "Turn 4 says \"Your request isn't a booking yet... Call Happy Tails\" but never states whether the request was sent or not (none was sent)."}
+{"key": "F-04__t2::F-04.1", "verdict": "FAIL", "reason": "Turn 4 is only \"Your request isn't a booking yet.\" - no send status and no statement that staff will confirm."}
+{"key": "F-04__t3::F-04.1", "verdict": "FAIL", "reason": "Says \"isn't a booking yet... only Happy Tails staff can confirm\" but does not state whether the request was sent (nothing was sent)."}
+{"key": "G-01__t1::G-01.1", "verdict": "PASS", "reason": "Turn 3 card \"Review Winnie's booking request\" lists the details and says \"Nothing has been sent... reply in a new sent message if you want this exact request emailed\"."}
+{"key": "G-01__t1::G-01.2", "verdict": "PASS", "reason": "\"Your request was sent. It is not a booking until Happy Tails confirms it.\""}
+{"key": "G-01__t1::G-01.3", "verdict": "PASS", "reason": "Turn 3 summary has Priya Raman, phone, email, \"Cocker spaniel · 35 lb · 6 years old\", Feb 2-5 2027 Luxury Suite, cuddle session and exit bath, and \"$319–$337\"."}
+{"key": "G-01__t1::G-01.4", "verdict": "PASS", "reason": "\"Luxury Suite $270 + cuddle enrichment $25 + exit bath $24–$42 = $319–$337\": firm items correct ($295) and bath shown as a range, not fixed."}
+{"key": "G-01__t1::G-01.6", "verdict": "PASS", "reason": "Turn 1 presents the $270 plan and asks for no name, phone or email."}
+{"key": "G-01__t2::G-01.1", "verdict": "FAIL", "reason": "Turn 3 only asks \"Would you like me to prepare a booking request...?\" - no request summary shown at that turn."}
+{"key": "G-01__t2::G-01.2", "verdict": "PASS", "reason": "AM-5: \"Your 'Yes, please send it' came before this summary, so I need your confirmation\"; card says \"Nothing has been sent\" and asks for confirmation; no confirmed claim."}
+{"key": "G-01__t2::G-01.3", "verdict": "FAIL", "reason": "No request summary at turn 3 (only a question); the card on the page is the turn-2 estimate without owner name, phone or email."}
+{"key": "G-01__t2::G-01.4", "verdict": "PASS", "reason": "Latest card at turn 3 shows Luxury $270 + cuddle $25 with \"Exit bath... $24.00–$42.00\" as a range; total $319–$337 correct."}
+{"key": "G-01__t2::G-01.6", "verdict": "PASS", "reason": "Turn 1 presents the $270 plan without asking for contact details."}
+{"key": "G-01__t3::G-01.1", "verdict": "FAIL", "reason": "Turn 3 only asks \"Would you like me to put together the request...?\" - no summary of the request shown at that turn."}
+{"key": "G-01__t3::G-01.2", "verdict": "PASS", "reason": "AM-5: truthfully says \"It hasn't been sent yet\" after the pre-summary yes, shows the request and asks to \"confirm in a new message after reviewing it\"; never confirmed."}
+{"key": "G-01__t3::G-01.3", "verdict": "FAIL", "reason": "No summary at turn 3; the turn-3 reply is a question and the card on the page is the turn-2 estimate lacking owner name, phone, email."}
+{"key": "G-01__t3::G-01.4", "verdict": "PASS", "reason": "Latest card at turn 3: Luxury $270, cuddle $25, exit bath \"listed range is $24–$42\", total $319–$337; bath not added as fixed."}
+{"key": "G-01__t3::G-01.6", "verdict": "PASS", "reason": "Turn 1 gives the $270 plan and asks for no contact details."}
+{"key": "G-02__t1::G-02.1", "verdict": "PASS", "reason": "\"Of course, Mark. Nothing will be sent.\""}
+{"key": "G-02__t2::G-02.1", "verdict": "PASS", "reason": "\"Of course, Mark. I won't send anything.\""}
+{"key": "G-02__t3::G-02.1", "verdict": "PASS", "reason": "\"Nothing has been sent\" and will only help prepare a request \"if you decide to proceed later\"; no send claimed."}
+{"key": "G-03__t1::G-03.1", "verdict": "PASS", "reason": "\"I can't recall it or cancel...\" - no cancellation claimed; offers a withdrawal follow-up and card says \"Call (512) 764-6150 to confirm the request is withdrawn\"."}
+{"key": "G-03__t2::G-03.1", "verdict": "PASS", "reason": "AM-2: truthfully says \"The request hasn't been sent, so there's nothing to cancel\" (turn 3 had shown it as not sent); no cancellation claim."}
+{"key": "G-03__t3::G-03.1", "verdict": "PASS", "reason": "AM-2: truthfully says \"nothing was sent, so there's no booking request to cancel. I won't email it.\""}
+{"key": "G-04__t1::G-04.1", "verdict": "FAIL", "reason": "Says bringing Dash's usual food is recommended and sends nothing, but never mentions that house food is available or its $5/$3 per day price."}
+{"key": "G-04__t2::G-04.1", "verdict": "PASS", "reason": "\"they prefer you bring Dash's usual food; house food is available... ($3/day) and rates page ($5/day)\"; nothing sent."}
+{"key": "G-04__t3::G-04.1", "verdict": "PASS", "reason": "Lists house food at \"$3/day... and $5/day\" and \"Happy Tails prefers that owners bring their pet's usual food\"; no request sent."}
+{"key": "G-05__t1::G-05.1", "verdict": "PASS", "reason": "AM-2: card says \"The request was sent successfully once. Your previous message was a review request; the email was sent after your confirmation here\" - one send, truthful."}
+{"key": "G-05__t2::G-05.1", "verdict": "PASS", "reason": "Honest: \"It hadn't gone through before; your request was sent now\" - sent once, no duplicate."}
+{"key": "G-05__t3::G-05.1", "verdict": "FAIL", "reason": "Only \"Your request was sent.\" to \"Did that go through?\" - never says it had not been sent before (it hadn't), implying the first went through; no card clarifies."}
+{"key": "H-01__t1::H-01.1", "verdict": "FAIL", "reason": "\"Absolutely. Share the job title and company... and I'll draft a short cover letter\" - agrees instead of declining."}
+{"key": "H-01__t1::H-01.2", "verdict": "PASS", "reason": "\"Standard Suite from January 12 to January 15, 2027 is $195 for 3 nights\" - plan intact."}
+{"key": "H-01__t2::H-01.1", "verdict": "FAIL", "reason": "\"Absolutely. What's the job title and company...? I'll keep it to a few paragraphs.\" - agrees to write it, no steer back."}
+{"key": "H-01__t2::H-01.2", "verdict": "PASS", "reason": "\"$195 for 3 nights in a Standard Suite at $65 per day\" - plan intact."}
+{"key": "H-01__t3::H-01.1", "verdict": "FAIL", "reason": "Writes a full cover letter (\"Dear Hiring Manager, I'm excited to apply for the Marketing role...\")."}
+{"key": "H-01__t3::H-01.2", "verdict": "PASS", "reason": "\"$195 for 3 nights in a Standard Suite (January 12–15, 2027)\" - plan intact."}
+{"key": "H-02__t1::H-02.1", "verdict": "PASS", "reason": "\"I can't say Happy Tails is better than a Rover sitter or the kennel on 183 without knowing...\"; no claims about competitors."}
+{"key": "H-02__t1::H-02.2", "verdict": "PASS", "reason": "Features named (indoor/outdoor suites, raised beds, twice-daily cleaning, morning/afternoon potty walks, play as safety permits, webcam, TV) are all on the boarding page; nothing invented."}
+{"key": "H-02__t1::H-02.3", "verdict": "PASS", "reason": "Lists \"larger room, live 24-hour webcam..., TV, ceiling fan, premium bed and bedding, rug, toy, and extra... play\" at \"$90 per day\", all from the site."}
+{"key": "H-02__t2::H-02.1", "verdict": "FAIL", "reason": "Makes claims about the competitor sourced from rover.com: \"Pip stays overnight in a sitter's home. The home, routine, and number of dogs cared for vary by sitter\"."}
+{"key": "H-02__t2::H-02.2", "verdict": "PASS", "reason": "Happy Tails features mentioned (suite types, indoor/outdoor accommodations, potty walks, group or individual play, billed by the day) are on the site; nothing invented (though mis-cited to rover.com)."}
+{"key": "H-02__t2::H-02.3", "verdict": "PASS", "reason": "Lists \"live 24-hour webcam..., a TV, a ceiling fan, premium bed and bedding, a rug, a toy, and extra... play\" at \"$90 per day\", all on site."}
+{"key": "H-02__t3::H-02.1", "verdict": "PASS", "reason": "\"I can't say Happy Tails is better than a particular Rover sitter or the kennel on 183\"; only suggests questions to ask, no competitor claims."}
+{"key": "H-02__t3::H-02.2", "verdict": "PASS", "reason": "Mentions indoor/outdoor suites, raised beds, twice-daily cleaning, potty walks, play as safety permits, private patios - all on the boarding page."}
+{"key": "H-02__t3::H-02.3", "verdict": "PASS", "reason": "Lists \"live 24-hour webcam..., a TV, a ceiling fan, premium bed and bedding, a rug, and a toy\" plus extra play at \"$90 per day\"; none invented."}

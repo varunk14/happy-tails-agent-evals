@@ -1,0 +1,32 @@
+{
+  "case": "C-05",
+  "trial": 3,
+  "conversation_id": "v2_20261112-012716-C-05-t3-f8795b",
+  "run_tag": "v2t34aa7",
+  "started": "2026-11-11T20:03:00.360995+00:00",
+  "turns": [
+    {
+      "i": 1,
+      "customer": "Standard suite for Max, Jan 12-15 2027, 30 lbs.",
+      "blocks": [
+        "## Max’s boarding estimate\n\nFor **Jan 12–15, 2027**, assuming **3 billed days** and checkout on Jan 15:\n\n- **Standard Suite:** 3 days × $65/day = **$195**\n\nMax’s 30 lb weight doesn’t change the listed Standard Suite rate. This is a planning estimate, not a reservation or availability confirmation. Peak or seasonal pricing may apply, and rates may change without notice.",
+        "# Max’s boarding estimate\n\nFor Jan 12–15, 2027, assuming three billed boarding days and checkout on Jan 15. Max’s 30 lb weight does not change the listed Standard Suite rate.\n\nService: Dog boarding · Standard Suite\n\nPet: Max\n\n- Standard Suite · 3 days: $195.00. 3 full billed days × $65.00 per day; the full-day rate applies regardless of drop-off time.\n\n**Estimated total:** $195.00\n\nPlanning estimate only—not a reservation, availability confirmation, or final charge.\n\n- Peak or seasonal pricing may apply; this estimate does not determine whether these dates qualify. Rates may change without notice.",
+        "[Tool Result: calculate_happy_tails_estimate] (output omitted)"
+      ],
+      "is_error": false,
+      "latency_s": 7.12
+    },
+    {
+      "i": 2,
+      "customer": "Google maps shows your number as 512-764-6145 but I've seen 764-6150 too. Which one should I call?",
+      "blocks": [
+        "I’d use **(512) 764-6150**. That’s the number listed on Happy Tails Pet Resort’s official website. ([happytailspetresorttx.com](https://www.happytailspetresorttx.com/contact-us?utm_source=openai))",
+        "[Tool Result: web_search] (output omitted)"
+      ],
+      "is_error": false,
+      "latency_s": 4.73
+    }
+  ],
+  "status": "ok",
+  "finished": "2026-11-11T20:03:13.999484+00:00"
+}

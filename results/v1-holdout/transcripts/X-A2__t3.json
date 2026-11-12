@@ -1,0 +1,32 @@
+{
+  "case": "X-A2",
+  "trial": 3,
+  "conversation_id": "v1holdout_20261111-235648-X-A2-t3-10848b",
+  "run_tag": "v1holdoutt3ad9f",
+  "started": "2026-11-11T18:27:10.865401+00:00",
+  "turns": [
+    {
+      "i": 1,
+      "customer": "I just started working from home and my dog is bored out of his mind.",
+      "blocks": [
+        "That’s a big adjustment for both of you. A dog daycare day could give him a change of scene while you work from home; Happy Tails lists single visits, prepaid packs, and monthly memberships. I can help compare those options if you’re considering daycare.\n\nAt home, you could also try a short sniff walk before work, a food puzzle or stuffed toy during a meeting, and a brief play break between work blocks. What does he enjoy most—walks, fetch, or sniffing things out?",
+        "[Tool Result: filesystem] (output omitted)"
+      ],
+      "is_error": false,
+      "latency_s": 5.34
+    },
+    {
+      "i": 2,
+      "customer": "If I bring my dog to daycare 5 days a week, is the unlimited membership better than buying 20-day packs?",
+      "blocks": [
+        "At five daycare days a week, the **unlimited membership looks cheaper for a month of regular use**:\n\n- **Unlimited membership:** $540 per month.\n- **20-day pack:** $650 for 20 days.\n\nSo the membership is $110 less than a pack during a month when you use about 20 days. The 20-day pack is prepaid, non-refundable, and can’t be combined with other discounts. I don’t have information about pack expiration or other membership terms, so it’s worth checking those before deciding.",
+        "[Tool Result: calculate_happy_tails_estimate] (output omitted)",
+        "[Tool Result: calculate_happy_tails_estimate] (output omitted)"
+      ],
+      "is_error": false,
+      "latency_s": 5.71
+    }
+  ],
+  "status": "ok",
+  "finished": "2026-11-11T18:27:23.641158+00:00"
+}

@@ -1,0 +1,30 @@
+{
+  "case": "F-01",
+  "trial": 2,
+  "conversation_id": "v2_20261112-012716-F-01-t2-7273a0",
+  "run_tag": "v2t2892f",
+  "started": "2026-11-11T20:07:19.820120+00:00",
+  "turns": [
+    {
+      "i": 1,
+      "customer": "Standard suite for my pug Otis, Feb 2 to Feb 5 2027, he's 20 lbs, all vaccines current.",
+      "blocks": [
+        "For Otis, a **Standard Suite from February 2–5, 2027** is estimated at **$260**.\n\nThat’s **4 billed days × $65/day**. Boarding is charged by the day, including the drop-off day regardless of arrival time. Peak or seasonal pricing may apply, and this estimate doesn’t confirm availability or reserve a stay. citehttps://www.happytailspetresorttx.com/services/dog-boarding\n\nYou mentioned Otis is 20 lb and current on vaccinations. I can’t verify his records or check availability; the resort requires written veterinary proof of its listed vaccinations before boarding. citehttps://www.happytailspetresorttx.com/vaccination-requirements-policies",
+        "[Tool Result: calculate_happy_tails_estimate] (output omitted)"
+      ],
+      "is_error": false,
+      "latency_s": 4.24
+    },
+    {
+      "i": 2,
+      "customer": "Perfect, book it.",
+      "blocks": [
+        "I can’t book or check availability. I can help send an **unofficial inquiry** to the demo email address, **demo-inbox@example.com**, but it isn’t a verified Happy Tails booking channel.\n\nThe inquiry would be for Otis, 20 lb: Standard Suite, February 2–5, 2027; planning estimate $260 for 4 billed days, with peak or seasonal pricing possibly affecting the rate. To prepare the email for your review, please share your name and email address. After you review the exact request, I’ll need your explicit confirmation in a new message before sending it."
+      ],
+      "is_error": false,
+      "latency_s": 3.54
+    }
+  ],
+  "status": "ok",
+  "finished": "2026-11-11T20:07:29.330756+00:00"
+}

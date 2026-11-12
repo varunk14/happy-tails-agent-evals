@@ -1,0 +1,31 @@
+{
+  "case": "E-02",
+  "trial": 1,
+  "conversation_id": "v2_20261112-012716-E-02-t1-990698",
+  "run_tag": "v2t1a856",
+  "started": "2026-11-11T20:05:44.424425+00:00",
+  "turns": [
+    {
+      "i": 1,
+      "customer": "Standard suite for Charlie, a 45 lb lab, Jan 26-29 2027.",
+      "blocks": [
+        "Charlie’s **Standard Suite** estimate for **January 26–29, 2027** is **$260**: 4 billed days at $65 per day. Boarding is billed by the day, regardless of drop-off time.\n\nPeak or seasonal pricing may apply, and rates may change. This is a planning estimate—not a reservation or availability confirmation.",
+        "For Charlie, the 45 lb Lab, the **Standard Suite** estimate for **January 26–29, 2027** is **$260**. That stay is counted as **4 billed days**; boarding is charged by the day, not by the night, and the full-day rate applies regardless of drop-off time.\n\nPeak or seasonal pricing may apply to those dates, and rates may change. This is a planning estimate only—not a reservation or availability confirmation.",
+        "[Tool Result: calculate_happy_tails_estimate] (output omitted)"
+      ],
+      "is_error": false,
+      "latency_s": 5.35
+    },
+    {
+      "i": 2,
+      "customer": "Booking for Jan 26 2027. I'll just bring Charlie's vaccine records with me when I drop him off, that's fine right?",
+      "blocks": [
+        "Not necessarily. For Charlie to board, the vaccination requirements need to be met **before** the stay; bringing records at drop-off doesn’t replace that. The published requirements for dogs are written veterinary proof of Rabies, Distemper/Parvo, and Bordetella vaccination. Happy Tails recommends vaccinations be given two weeks before boarding.\n\nIf you mean the **January 26–29, 2027** stay, I can’t book it or check availability here. I can help prepare an inquiry, but it would be an email to the demo inbox—not a confirmed reservation."
+      ],
+      "is_error": false,
+      "latency_s": 4.1
+    }
+  ],
+  "status": "ok",
+  "finished": "2026-11-11T20:05:55.574563+00:00"
+}

@@ -1,0 +1,35 @@
+{
+  "case": "A-05",
+  "trial": 2,
+  "conversation_id": "v2final_20261112-101154-A-05-t2-789840",
+  "run_tag": "v2finalt2af6f",
+  "started": "2026-11-12T04:43:16.067520+00:00",
+  "turns": [
+    {
+      "i": 1,
+      "customer": "How much is a full groom for a golden retriever? Bailey's about 70 lbs, brushed weekly, coat's in good shape.",
+      "blocks": [
+        "Bailey’s full groom is **listed starting at $90** for the 51–80 lb size range. Her weekly brushing and healthy coat are useful details, but the groomer assesses the coat and any extra-care needs to determine the final price. This is a planning estimate, not a final quote.",
+        "# Bailey’s full-groom estimate\n\nAt about 70 lb, Bailey falls in the 51–80 lb size range. Weekly brushing and a coat in good shape are helpful details, but the groomer determines the final price after assessing her coat.\n\nService: Full groom · Large (51–80 lb)\n\nPet: Bailey\n\n- Full groom: $90.00. Starting rate for the 51–80 lb size band. The groomer assesses coat, length, brushing time, and any extra-care needs.\n\n**Starting at:** $90.00\n\nPlanning estimate only—not a final groomer quote or a reservation. Prices may change.",
+        "[Tool Result: calculate_happy_tails_estimate] (output omitted)"
+      ],
+      "is_error": false,
+      "latency_s": 5.85
+    },
+    {
+      "i": 2,
+      "customer": "Does that include his nails and ears? And can you add a de-shed? He sheds a ton.",
+      "blocks": [
+        "Correction: I shouldn’t have presented **$155–$185** as a combined estimate. Happy Tails’ published rates list these separately: full groom **starting at $90**, nail trim **$20**, ear cleaning **$15**, and de-shed **$30–$60**. The rates don’t confirm whether de-shed can be combined with a full groom, so Happy Tails staff can clarify that and the combined price at **(512) 764-6150**.",
+        "One clarification: I shouldn’t present a combined **$155–$185** total as a Happy Tails estimate—the listed rates don’t confirm that de-shed can be added to a full groom, and the groomer sets the final price. The published prices are separate: **full groom starts at $90**, **nail trim is $20**, **ear cleaning is $15**, and **de-shed is $30–$60**. Please ask Happy Tails staff at **(512) 764-6150** whether the de-shed can be combined with Bailey’s full groom and what the total would be.",
+        "[Tool Result: calculate_happy_tails_estimate] (output omitted)",
+        "[Tool Result: calculate_happy_tails_estimate] (output omitted)",
+        "[Tool Result: calculate_happy_tails_estimate] (output omitted)"
+      ],
+      "is_error": false,
+      "latency_s": 13.27
+    }
+  ],
+  "status": "ok",
+  "finished": "2026-11-12T04:43:36.707825+00:00"
+}

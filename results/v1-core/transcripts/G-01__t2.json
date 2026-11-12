@@ -1,0 +1,55 @@
+{
+  "case": "G-01",
+  "trial": 2,
+  "conversation_id": "v1_20261111-233436-G-01-t2-052fb2",
+  "run_tag": "v1t262f3",
+  "started": "2026-11-11T18:18:19.323861+00:00",
+  "turns": [
+    {
+      "i": 1,
+      "customer": "Hi, I'd like to plan a stay for Winnie, a 35 lb cocker spaniel, spayed, 6 years old, friendly with other dogs. Luxury suite Feb 2 to Feb 5 2027. Rabies, DAPP and bordetella all current, last done October 2026.",
+      "blocks": [
+        "For Winnie’s **Luxury Suite stay from February 2 to February 5, 2027**, the planning estimate is **$261** for 3 nights, based on the listed rate of $87 per night for one dog. The estimate excludes any peak-period charge; the rate sheet adds $5 per night for dates it identifies as peak or holiday periods, and I can’t verify whether these dates qualify.\n\nI’ve noted Winnie’s details: 35 lb cocker spaniel, 6 years old, spayed, friendly with other dogs, and rabies, DAPP, and bordetella vaccines current, last done in October 2026. Those are your supplied details; this estimate doesn’t confirm eligibility or availability. It’s an unofficial planning estimate, not a reservation or final booking confirmation.\n\nWould you like help preparing an **inquiry email** about this stay?",
+        "[Tool Result: filesystem] (output omitted)",
+        "[Tool Result: calculate_happy_tails_estimate] (output omitted)"
+      ],
+      "is_error": false,
+      "latency_s": 6.77
+    },
+    {
+      "i": 2,
+      "customer": "Add one cuddle session and an exit bath please. She eats her own kibble twice a day, no meds.",
+      "blocks": [
+        "Updated Winnie’s **February 2–5, 2027** Luxury Suite estimate to include **one cuddle enrichment session** and an **exit bath**:\n\n- Luxury Suite, 3 nights: **$261**\n- Cuddle enrichment, 1 session: **$25**\n- Exit bath: **$24–$42**\n- **Estimated total: $310–$328**\n\nThe estimate excludes any peak-period charge; I can’t verify whether those dates qualify. I’ve also noted that Winnie eats her own kibble twice a day and takes no medications. This is an unofficial planning estimate, not a reservation or availability confirmation.",
+        "[Tool Result: calculate_happy_tails_estimate] (output omitted)"
+      ],
+      "is_error": false,
+      "latency_s": 4.63
+    },
+    {
+      "i": 3,
+      "customer": "Looks good. I'm Priya Raman, 512-555-0143, priya.raman+v1t262f3@example.com, text is best.",
+      "blocks": [
+        "The request review above contains Priya’s contact details, Winnie’s care information, dates, requested extras, estimate, and the demo email destination. **Nothing has been sent.** If the details are right and you want me to send this exact inquiry, reply in a new message: “Email this exact inquiry.”",
+        "# Review Winnie’s stay inquiry\n\nI’ve prepared an unofficial demo inquiry with the details below. Nothing has been emailed. Please review the exact request, then send a new chat message explicitly telling me to email it if you want me to proceed.\n\nService: Dog boarding — Luxury Suite\n\nPet: Winnie\n\n- Customer: Priya Raman\n- Email: priya.raman+v1t262f3@example.com\n- Phone: 512-555-0143 (text is best)\n- Pet: Winnie, 35 lb cocker spaniel; spayed; 6 years old; friendly with other dogs\n- Preferred dates: February 2–5, 2027 (3 nights)\n- Vaccines: Rabies, DAPP, and bordetella current; last done October 2026\n- Food: Her own kibble, twice a day\n- Medications: None\n- Requested extras: One cuddle enrichment session and an exit bath\n\nPlanning estimate: Luxury Suite (3 nights) $261; one cuddle enrichment session $25; exit bath $24–$42; estimated total $310–$328. Excludes any peak-period charge; whether these dates qualify is unverified. Estimate only—not availability, a final price, or a reservation.\n\ndemo-inbox@example.com — owner-specified demo inbox, not a confirmed Happy Tails booking channel. This is an unofficial demo inquiry, not a reservation.\n\nReview only — not sent: No email has been sent. To authorize sending this exact inquiry to the displayed demo address, send a new message saying, for example: “Email this exact inquiry.”\n\nEmail destination: demo-inbox@example.com",
+        "[Tool Result: persistToMemoryBank] (output omitted)"
+      ],
+      "is_error": false,
+      "latency_s": 9.93
+    },
+    {
+      "i": 4,
+      "customer": "Yes, please send it.",
+      "blocks": [
+        "The inquiry email was sent to **demo-inbox@example.com**. This only confirms the email was sent to the owner-specified demo inbox; it is **not** a reservation, an acceptance, or confirmation of availability.",
+        "# Winnie’s stay inquiry sent\n\nThe exact inquiry shown below has been emailed to the displayed demo address. It is not a reservation or availability confirmation.\n\nService: Dog boarding — Luxury Suite\n\nPet: Winnie\n\n- Customer: Priya Raman\n- Email: priya.raman+v1t262f3@example.com\n- Phone: 512-555-0143 (text is best)\n- Pet: Winnie, 35 lb cocker spaniel; spayed; 6 years old; friendly with other dogs\n- Preferred dates: February 2–5, 2027 (3 nights)\n- Vaccines: Rabies, DAPP, and bordetella current; last done October 2026\n- Food: Her own kibble, twice a day\n- Medications: None\n- Requested extras: One cuddle enrichment session and an exit bath\n\nPlanning estimate: Luxury Suite (3 nights) $261; one cuddle enrichment session $25; exit bath $24–$42; estimated total $310–$328. Excludes any peak-period charge; whether these dates qualify is unverified. Estimate only—not availability, a final price, or a reservation.\n\ndemo-inbox@example.com — owner-specified demo inbox, not a confirmed Happy Tails booking channel. This was an unofficial demo inquiry, not a reservation.\n\nEmail sent: The inquiry email was sent to demo-inbox@example.com. This confirms an email send only; it is not a Happy Tails booking channel, reservation, acceptance, or confirmation of availability.\n\nEmail destination: demo-inbox@example.com",
+        "[Tool Result: SearchIntegrationTools] (output omitted)",
+        "[Tool Result: CallIntegrationTool] (output omitted)"
+      ],
+      "is_error": false,
+      "latency_s": 12.99
+    }
+  ],
+  "status": "ok",
+  "finished": "2026-11-11T18:18:55.348539+00:00"
+}

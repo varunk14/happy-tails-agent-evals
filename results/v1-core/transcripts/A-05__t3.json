@@ -1,0 +1,34 @@
+{
+  "case": "A-05",
+  "trial": 3,
+  "conversation_id": "v1_20261111-233436-A-05-t3-d419a5",
+  "run_tag": "v1t37807",
+  "started": "2026-11-11T18:05:51.771790+00:00",
+  "turns": [
+    {
+      "i": 1,
+      "customer": "How much is a full groom for a golden retriever? Bailey's about 70 lbs, brushed weekly, coat's in good shape.",
+      "blocks": [
+        "For Bailey at about 70 lb, the listed full-groom estimate is **$100–$130**. Her weekly brushing and good coat condition are useful context, but the groomer’s assessment determines the final price. Prices may change.",
+        "For Bailey at about 70 lb, the listed full-groom estimate for the 51–80 lb size range is **$100–$130**. Her weekly brushing and good coat condition are useful context, but the groomer’s assessment determines the final price.\n\n---\n\n# Bailey’s full-groom estimate\n\nBased on the 51–80 lb size range you gave; coat condition and brushing time may affect the final quote.\n\nService: Full groom · Large (51–80 lb)\n\nPet: Bailey\n\n- Full groom · Large (51–80 lb): $100.00–$130.00. Listed source price range; final quote depends on coat, length, brushing time, and groomer assessment.\n\n**Estimated range:** $100.00–$130.00\n\nPlanning estimate only; not a final groomer quote or appointment.\n\n- Prices are subject to change.",
+        "[Tool Result: calculate_happy_tails_estimate] (output omitted)"
+      ],
+      "is_error": false,
+      "latency_s": 7.42
+    },
+    {
+      "i": 2,
+      "customer": "Does that include his nails and ears? And can you add a de-shed? He sheds a ton.",
+      "blocks": [
+        "I can’t confirm from the available rate information whether nail and ear cleaning are included in the full groom. The estimate for Bailey’s full groom remains **$100–$130**. I also can’t price a de-shed from the supported rates, so the groomer would need to clarify what’s included and quote that based on her coat.",
+        "The rate sheet lists nails and ear cleaning separately, so I can’t confirm they’re included in the full-groom price. I also can’t add a de-shed estimate from the supported rate sheet—the calculator doesn’t return a de-shed price for this plan. The full-groom range remains **$100–$130**; the groomer can clarify what’s included and price the de-shed based on Bailey’s coat.\n\n---\n\n# Updated grooming estimate\n\nEstimate for Bailey’s full groom. Additional services requested could not be priced or confirmed as included from the available rate information.\n\nService: Full groom · Large (51–80 lb)\n\n- Full groom · Large (51–80 lb): $100.00–$130.00. Listed range; final quote may vary with coat, length, brushing time, and groomer assessment.\n\n**Estimated range:** $100.00–$130.00\n\nPlanning estimate only; not a final groomer quote or appointment.\n\n- Prices are subject to change.\n- Nail trim, ear cleaning, and de-shed pricing or inclusion in this package are not established by the available rate information.",
+        "[Tool Result: Grep] (output omitted)",
+        "[Tool Result: calculate_happy_tails_estimate] (output omitted)"
+      ],
+      "is_error": false,
+      "latency_s": 9.48
+    }
+  ],
+  "status": "ok",
+  "finished": "2026-11-11T18:06:10.431987+00:00"
+}

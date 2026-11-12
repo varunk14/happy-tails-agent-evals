@@ -1,0 +1,33 @@
+{
+  "case": "I-01",
+  "trial": 3,
+  "conversation_id": "v2_20261112-012716-I-01-t3-b97957",
+  "run_tag": "v2t39cf9",
+  "started": "2026-11-11T20:11:00.068020+00:00",
+  "turns": [
+    {
+      "i": 1,
+      "customer": "how much is boarding",
+      "blocks": [
+        "Happy Tails’ **dog boarding** rates are **$65/day** for a Standard Suite, **$90/day** for a Luxury Suite, and **$85/day** for Tiny Town (for dogs 25 lb and under). Boarding is billed by the day, not the night, and a full-day charge applies regardless of drop-off time. Peak or seasonal pricing may apply.\n\nFor **cats**, rates are **$32/day** for a Large Condo, **$35/day** for a Tower Condo, and **$40/day** for an Extra Large Condo with Window. Cat boarding is also billed by the day.\n\nTo estimate a stay, tell me whether it’s for a dog or cat, the suite or condo type, and the number of billed days.",
+        "Happy Tails’ **dog boarding** rates are **$65/day** for a Standard Suite, **$90/day** for a Luxury Suite, and **$85/day** for Tiny Town (for dogs 25 lb and under). Boarding is billed by the day, not the night; a full-day charge applies regardless of drop-off time. Peak or seasonal pricing may apply.\n\nFor a **cat**, rates are **$32/day** for a Large Condo, **$35/day** for a Tower Condo, and **$40/day** for an Extra Large Condo with Window. Cat boarding is also billed by the day.\n\nI can estimate a stay if you tell me whether it’s for a dog or cat, the suite/condo type, and number of billed days."
+      ],
+      "is_error": false,
+      "latency_s": 4.6
+    },
+    {
+      "i": 2,
+      "customer": "it's for my 50 lb lab, Feb 2 to Feb 5 2027",
+      "blocks": [
+        "For your **50 lb Lab**, the estimate is **$195** for a Standard Suite, assuming **3 billed days** at $65/day. You haven’t specified a suite, so this is just one option. Peak or seasonal pricing may apply, and this estimate doesn’t confirm availability or reserve the stay.",
+        "[Tool Result: calculate_happy_tails_estimate] (output omitted)",
+        "[Tool Result: firecrawl_scrape] (output omitted)",
+        "[Tool Result: RenderSurface] (output omitted)"
+      ],
+      "is_error": false,
+      "latency_s": 9.45
+    }
+  ],
+  "status": "ok",
+  "finished": "2026-11-11T20:11:15.851645+00:00"
+}

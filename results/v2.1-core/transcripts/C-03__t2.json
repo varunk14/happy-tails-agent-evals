@@ -1,0 +1,30 @@
+{
+  "case": "C-03",
+  "trial": 2,
+  "conversation_id": "v2_20261112-012716-C-03-t2-723fd0",
+  "run_tag": "v2t20129",
+  "started": "2026-11-11T20:02:27.329110+00:00",
+  "turns": [
+    {
+      "i": 1,
+      "customer": "Hi, I'm going abroad for work in February.",
+      "blocks": [
+        "I can help you plan boarding while you’re away. Is your pet a dog or cat, and what dates in February 2027 will you be gone? Boarding requires a reservation, but I can help you understand the options and estimate the cost—not check availability or book a stay."
+      ],
+      "is_error": false,
+      "latency_s": 3.45
+    },
+    {
+      "i": 2,
+      "customer": "I'll be away 12 nights in February. Do you have a cheaper rate for longer stays, like a 10-night package? Standard suite for my collie Skye.",
+      "blocks": [
+        "I don’t see a 10-night package or a longer-stay discount listed for dog boarding. A Standard Suite is **$65 per billed day**; boarding is charged by the day, not by the night, and a full-day charge applies regardless of drop-off time. citeturn0search0\n\nTo estimate Skye’s stay, I’ll need the **check-in and check-out dates** so I can count the billed days. A “12-night” stay alone doesn’t tell me the exact number of billed days.",
+        "[Tool Result: persistToMemoryBank] (output omitted)"
+      ],
+      "is_error": false,
+      "latency_s": 6.73
+    }
+  ],
+  "status": "ok",
+  "finished": "2026-11-11T20:02:39.201703+00:00"
+}

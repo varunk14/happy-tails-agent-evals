@@ -1,0 +1,42 @@
+{
+  "case": "A-12",
+  "trial": 2,
+  "conversation_id": "v2_20261112-012716-A-12-t2-d33352",
+  "run_tag": "v2t29ac2",
+  "started": "2026-11-11T19:58:52.578441+00:00",
+  "turns": [
+    {
+      "i": 1,
+      "customer": "Planning Coco's first stay, standard suite Jan 26-29 2027. She's 20 lbs.",
+      "blocks": [
+        "For Coco’s **January 26–29, 2027** stay, a Standard Suite estimate is **$260 for 4 billed days** at the listed rate of $65 per day. Boarding is billed by the day, not the night, and the full-day charge applies regardless of drop-off time.\n\nCoco’s 20 lb weight is within Tiny Town’s stated 25 lb limit, but I’ve used your selected Standard Suite. Peak or seasonal pricing may apply, and rates may change without notice. This is a planning estimate only—I can’t check availability or reserve the stay.",
+        "For Coco’s **January 26–29, 2027** stay, a Standard Suite is **$260 for 4 billed days** at the listed rate of $65 per day. Boarding is billed by the day, not the night, and a full-day charge applies regardless of drop-off time. Coco’s 20 lb weight is within Tiny Town’s stated 25 lb limit, but you selected Standard Suite, so this estimate uses that choice.\n\nPeak or seasonal pricing may apply to those dates, and rates may change without notice. This is a planning estimate only; I can’t check availability or reserve the stay.",
+        "[Tool Result: calculate_happy_tails_estimate] (output omitted)"
+      ],
+      "is_error": false,
+      "latency_s": 10.31
+    },
+    {
+      "i": 2,
+      "customer": "First time boarding Coco. What should I bring? Can she eat her own food?",
+      "blocks": [
+        "Yes. Happy Tails encourages bringing Coco’s **regular food** to avoid a sudden diet change. Label it and portion it by meal as a practical tip; the website doesn’t specify packaging requirements. If you forget, their in-house dog food is available at the owner’s request for **$3 per day**. ([happytailspetresorttx.com](https://www.happytailspetresorttx.com/services/dog-boarding?utm_source=openai))\n\nFor her stay, the official guidance says:\n\n- **Bedding is provided.**\n- You may bring **one hard chew toy** at least **2½ inches** in diameter. No rawhides, destructible toys, or rope toys.\n- Bring written veterinary proof of Coco’s required vaccinations: Rabies, Distemper/Parvo, and Bordetella. The required timing depends on the vaccine; the resort recommends vaccinations be given two weeks before boarding. ([happytailspetresorttx.com](https://www.happytailspetresorttx.com/services/dog-boarding?utm_source=openai))\n\nThat’s the documented packing guidance I found.",
+        "[Tool Result: web_search] (output omitted)"
+      ],
+      "is_error": false,
+      "latency_s": 5.64
+    },
+    {
+      "i": 3,
+      "customer": "Oh, and she had fleas a few weeks ago. Is that a problem?",
+      "blocks": [
+        "I couldn’t confirm a published boarding rule specifically about fleas, so I can’t say whether Coco would be cleared to stay. Since she had fleas a few weeks ago, contact Happy Tails before her stay and tell them whether she still has any signs of fleas and what treatment she received; ask what they require. Their site lists **(512) 764-6150** as the phone number. ([happytailspetresorttx.com](https://www.happytailspetresorttx.com/contact-us?utm_source=openai))",
+        "[Tool Result: web_search] (output omitted)"
+      ],
+      "is_error": false,
+      "latency_s": 4.96
+    }
+  ],
+  "status": "ok",
+  "finished": "2026-11-11T19:59:15.191291+00:00"
+}

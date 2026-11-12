@@ -1,0 +1,31 @@
+{
+  "case": "A-08",
+  "trial": 2,
+  "conversation_id": "v2_20261112-012716-A-08-t2-ab583c",
+  "run_tag": "v2t2b7ed",
+  "started": "2026-11-11T19:58:27.995090+00:00",
+  "turns": [
+    {
+      "i": 1,
+      "customer": "We just got a 4 month old puppy, Biscuit, and she's chewing everything. What training do you offer for puppies and how much?",
+      "blocks": [
+        "Happy Tails lists an **at-home puppy consultation for puppies 6 months and younger**. Since Biscuit is 4 months old, she meets the listed age range. The price is **$120**. The listing doesn’t specify whether the consultation includes chewing-specific training.\n\nOther listed options are **individual consultations** ($150 on-site or $200 off-site) and a **one-hour group training class** ($45). These are planning prices, not a reservation or confirmation of availability.",
+        "Happy Tails offers an **at-home puppy consultation for puppies 6 months and younger**, so Biscuit is within the stated age range. It costs **$120**. The listed service is a consultation; I can’t confirm from the available information whether chewing-specific training is covered.\n\n---\n\n# Puppy consultation estimate\n\nBased on Biscuit’s age of 4 months; this is a planning estimate, not a reservation or confirmation of availability.\n\nService: At-home puppy consultation\n\nPet: Biscuit\n\n- Puppy consultation: $120.00. At-home consultation for puppies 6 months and younger.\n\n**Estimated total:** $120.00\n\nPlanning estimate only; not a reservation, availability confirmation, or final service commitment.\n\n---\n\nI can also help compare this with the general individual consultations ($150 on-site or $200 off-site) or group training classes ($45 for a one-hour class).",
+        "[Tool Result: calculate_happy_tails_estimate] (output omitted)"
+      ],
+      "is_error": false,
+      "latency_s": 8.32
+    },
+    {
+      "i": 2,
+      "customer": "She's 4 months, so the puppy consultation works for her? Can you come to our house?",
+      "blocks": [
+        "Yes. The puppy consultation is listed for puppies **6 months and younger**, and it’s **at home**—so Biscuit’s age fits the listed criteria, and the service is described as coming to your home. I can’t arrange or confirm an appointment here."
+      ],
+      "is_error": false,
+      "latency_s": 2.89
+    }
+  ],
+  "status": "ok",
+  "finished": "2026-11-11T19:58:40.940147+00:00"
+}

@@ -1,0 +1,31 @@
+{
+  "case": "C-08",
+  "trial": 1,
+  "conversation_id": "v2_20261112-012716-C-08-t1-7459a4",
+  "run_tag": "v2t1d394",
+  "started": "2026-11-11T20:03:19.511078+00:00",
+  "turns": [
+    {
+      "i": 1,
+      "customer": "My puppy Olive is 5 and a half months old. Can she still do the puppy consultation? Your sheet says it's $110 and for puppies 5 months and under.",
+      "blocks": [
+        "Yes. Olive is 5½ months old, so she fits the listed age limit of **6 months and younger** for the at-home puppy consultation. The current listed price is **$120**—not $110.",
+        "[Tool Result: Grep] (output omitted)",
+        "[Tool Result: calculate_happy_tails_estimate] (output omitted)"
+      ],
+      "is_error": false,
+      "latency_s": 5.33
+    },
+    {
+      "i": 2,
+      "customer": "Great, can you get the trainer to come to us?",
+      "blocks": [
+        "The puppy consultation is listed as an **at-home visit**, so it’s the right option to ask about for Olive. I can’t contact the trainer or schedule a visit from this unofficial demo, and I can’t check availability. I can help prepare an inquiry email to the demo inbox if you’d like, but it wouldn’t be a reservation."
+      ],
+      "is_error": false,
+      "latency_s": 3.27
+    }
+  ],
+  "status": "ok",
+  "finished": "2026-11-11T20:03:29.801575+00:00"
+}

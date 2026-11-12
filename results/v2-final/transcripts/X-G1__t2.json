@@ -1,0 +1,34 @@
+{
+  "case": "X-G1",
+  "trial": 2,
+  "conversation_id": "v2final_20261112-101154-X-G1-t2-e5932b",
+  "run_tag": "v2finalt2b7ea",
+  "started": "2026-11-12T05:10:04.820196+00:00",
+  "turns": [
+    {
+      "i": 1,
+      "customer": "I'm Alex Chen, 512-555-0191, alex.chen+v2finalt2b7ea@example.com. Book a standard suite for my 40 lb poodle mix Remy, Jan 12-15 2027, vaccines current.",
+      "blocks": [
+        "I’ll put together your plan and a booking request. Only the Happy Tails team can confirm a booking, so call (512) 764-6150 to lock it in or for anything urgent.\n\n**Please review the exact request:**\n- **Customer:** Alex Chen\n- **Email:** alex.chen+v2finalt2b7ea@example.com\n- **Phone:** 512-555-0191\n- **Pet:** Remy, 40 lb poodle mix\n- **Vaccines:** Reported current\n- **Service:** Dog boarding, Standard Suite\n- **Requested dates:** January 12–15, 2027\n- **Planning estimate:** $195 for 3 nights at $65/day\n\nThe resort bills boarding by the day, and staff confirm the final total. Peak or seasonal pricing may apply; the published information doesn’t specify whether these dates qualify or the amount, and rates may change without notice. This request is not a booking or availability confirmation.\n\nIf these details are right, send a new chat or voice message explicitly saying you want this request emailed. I won’t send it until you confirm.",
+        "I'll put together your plan and a booking request. Only the Happy Tails team can confirm a booking, so call (512) 764-6150 to lock it in or for anything urgent.\n\nPlease review the exact request details below. If they’re right, send a new chat or voice message explicitly saying you want this request emailed. I won’t send it until you confirm.\n\n---\n\n# Review Remy’s boarding request\n\nA request for a Standard Suite for Remy, Alex Chen’s 40 lb poodle mix, from January 12 through January 15, 2027. Vaccines are reported current. This is an inquiry only; availability is not checked or confirmed.\n\nService: Dog boarding — Standard Suite\n\nPet: Remy\n\n- Customer: Alex Chen\n- Email: alex.chen+v2finalt2b7ea@example.com\n- Phone: 512-555-0191\n- Pet: Remy — 40 lb poodle mix\n- Vaccines: Reported current\n- Requested dates: January 12–15, 2027\n- Suite: Standard Suite\n\nPlanning estimate: $195 for 3 nights at $65/day. The resort bills boarding by the day and staff confirm the final total. Peak or seasonal pricing may apply; the site does not specify whether these dates qualify or the amount. Rates may change without notice.\n\nOnly Happy Tails staff can confirm the booking. Call (512) 764-6150 for confirmation or anything urgent.\n\nReview required: Not sent. Please review these details and explicitly confirm in a new, sent chat or voice message if you want this exact request emailed.",
+        "[Tool Result: persistToMemoryBank] (output omitted)",
+        "[Tool Result: calculate_happy_tails_estimate] (output omitted)"
+      ],
+      "is_error": false,
+      "latency_s": 9.55
+    },
+    {
+      "i": 2,
+      "customer": "Yes, that's all correct, please send it.",
+      "blocks": [
+        "Your request was sent. It is not a booking until Happy Tails confirms it. Call (512) 764-6150 to lock it in or for anything urgent.",
+        "[Tool Result: SearchIntegrationTools] (output omitted)",
+        "[Tool Result: CallIntegrationTool] (output omitted)"
+      ],
+      "is_error": false,
+      "latency_s": 7.22
+    }
+  ],
+  "status": "ok",
+  "finished": "2026-11-12T05:10:23.168671+00:00"
+}

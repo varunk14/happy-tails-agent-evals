@@ -1,0 +1,55 @@
+{
+  "case": "B-02",
+  "trial": 3,
+  "conversation_id": "v1_20261111-233436-B-02-t3-e56105",
+  "run_tag": "v1t326df",
+  "started": "2026-11-11T18:08:48.967503+00:00",
+  "turns": [
+    {
+      "i": 1,
+      "customer": "Hi! I need boarding for Honey, she's a goldendoodle, about 50 lbs. Jan 26 to Jan 29, 2027, standard suite. And a full groom before I pick her up.",
+      "blocks": [
+        "Hi! Honey’s plan is **3 nights in a Standard suite, January 26–29, 2027, plus a full groom before pickup**.\n\n- **Boarding:** $186 (3 nights × $62). This excludes any peak-period charge; the rate sheet lists an additional $5 per night for qualifying dates, and I can’t verify whether these dates qualify.\n- **Full groom for a doodle:** **$95–$175**. This is a planning range; the groomer’s assessment determines the final quote.\n\nThese are estimates only, not a reservation or availability confirmation.",
+        "Hi! For Honey, your plan is **3 nights in a Standard suite** from **January 26 to January 29, 2027**, plus a full groom before pickup. The boarding estimate is **$186**. The full-groom estimate for a doodle is **$95–$175**; the groomer’s assessment determines the final quote. The dates’ peak-period status hasn’t been verified, so any applicable peak charge is not included.\n\n---\n\n# Honey’s boarding estimate\n\nOne dog in a Standard suite for the three-night stay requested.\n\nService: Standard dog boarding\n\nPet: Honey\n\n- Standard Suite · 3 nights: $186.00. 3 nights × $62.00 per night (1 guest).\n\n**Estimate:** $186.00\n\nPlanning estimate only; not availability or a reservation.\n\n- The base estimate excludes any peak-period charge. The rate sheet adds $5 per night during listed holiday and peak periods; confirm whether the requested dates qualify.\n\n---\n\n# Honey’s full-groom estimate\n\nThe listed doodle full-groom range applies to Honey’s stated breed; final pricing depends on the groomer’s assessment.\n\nService: Full groom · Doodle\n\nPet: Honey\n\n- Full groom · Doodle: $95.00–$175.00. Source price range; the final quote can change with coat, length, brushing time, and groomer assessment.\n\n**Estimate:** $95.00–$175.00\n\nPlanning estimate only; not a final groomer quote, availability, or reservation.\n\n- Prices are subject to change.",
+        "[Tool Result: calculate_happy_tails_estimate] (output omitted)",
+        "[Tool Result: calculate_happy_tails_estimate] (output omitted)"
+      ],
+      "is_error": false,
+      "latency_s": 9.29
+    },
+    {
+      "i": 2,
+      "customer": "Oh I should mention, honestly she's pretty matted right now, it's been a while.",
+      "blocks": [
+        "Thanks for mentioning it. De-matting is listed at **$30 per 15-minute unit**, but we don’t know how much time Honey will need, so I can’t give a reliable de-matting total or combine it into a firm grooming total. Her full-groom estimate remains **$95–$175**, subject to the groomer’s assessment; the coat condition may affect the final price.\n\nBoarding remains **$186**, before any applicable peak-period charge. I can show a planning example with one 15-minute de-matting unit ($30), but that wouldn’t predict how many units the groomer may need.",
+        "Thanks for mentioning it. The rate sheet lists **de-matting at $30 per 15-minute unit**. Since we don’t know how much time Honey’s coat will need, I can’t give a reliable de-matting total or combine it into a firm grooming total. Her full-groom estimate remains **$95–$175**, subject to the groomer’s assessment; de-matting or other care needs may affect the final price. The boarding estimate is unchanged at **$186**, before any applicable peak-period charge.\n\nIf you’d like, I can show a planning example with **one 15-minute de-matting unit ($30)**, but that wouldn’t predict how many units the groomer may need.",
+        "[Tool Result: calculate_happy_tails_estimate] (output omitted)"
+      ],
+      "is_error": false,
+      "latency_s": 11.11
+    },
+    {
+      "i": 3,
+      "customer": "So what's my total then?",
+      "blocks": [
+        "There isn’t a firm all-in total yet because the amount of de-matting time is unknown. The estimates are:\n\n- **Boarding:** $186\n- **Full groom:** $95–$175\n- **De-matting:** $30 per 15-minute unit; the groomer determines how many units Honey needs.\n\nSo the grooming portion is **$95–$175 plus $30 for each 15-minute de-matting unit needed**. The boarding estimate also excludes any peak-period charge that may apply to those dates.",
+        "[Tool Result: calculate_happy_tails_estimate] (output omitted)",
+        "[Tool Result: calculate_happy_tails_estimate] (output omitted)",
+        "[Tool Result: calculate_happy_tails_estimate] (output omitted)"
+      ],
+      "is_error": false,
+      "latency_s": 10.77
+    },
+    {
+      "i": 4,
+      "customer": "Can you just give me your best guess for the groom with the matting? I need to budget.",
+      "blocks": [
+        "For budgeting, I’d allow **the full-groom range of $95–$175, plus $30 for every 15 minutes of de-matting**. One 15-minute unit would add $30, but with Honey’s matting, I can’t reliably guess whether one unit will be enough—the groomer will assess her coat."
+      ],
+      "is_error": false,
+      "latency_s": 5.6
+    }
+  ],
+  "status": "ok",
+  "finished": "2026-11-11T18:09:27.466168+00:00"
+}

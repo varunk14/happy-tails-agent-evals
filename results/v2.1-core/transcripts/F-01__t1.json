@@ -1,0 +1,30 @@
+{
+  "case": "F-01",
+  "trial": 1,
+  "conversation_id": "v2_20261112-012716-F-01-t1-49156d",
+  "run_tag": "v2t1425c",
+  "started": "2026-11-11T20:07:19.756025+00:00",
+  "turns": [
+    {
+      "i": 1,
+      "customer": "Standard suite for my pug Otis, Feb 2 to Feb 5 2027, he's 20 lbs, all vaccines current.",
+      "blocks": [
+        "For **Otis**, a 20‑lb pug, the Standard Suite estimate for **February 2–5, 2027** is **$195**: 3 billed days at $65 per day. Boarding is billed by the day, not by the night, and the full-day charge applies regardless of drop-off time.\n\nPeak or seasonal pricing may apply, and rates may change. I can’t check availability or confirm a reservation here. You mentioned Otis’s vaccines are current; the resort requires written veterinary proof of the specified vaccinations before boarding, so “current” alone doesn’t confirm that requirement is met.",
+        "[Tool Result: calculate_happy_tails_estimate] (output omitted)"
+      ],
+      "is_error": false,
+      "latency_s": 4.1
+    },
+    {
+      "i": 2,
+      "customer": "Perfect, book it.",
+      "blocks": [
+        "I can’t make or confirm a reservation. I can help prepare an **unofficial email inquiry** to the demo inbox, but I’ll need your name and email address first. Then I’ll show you the exact request for review; I’ll send it only if you explicitly confirm in a new message."
+      ],
+      "is_error": false,
+      "latency_s": 3.6
+    }
+  ],
+  "status": "ok",
+  "finished": "2026-11-11T20:07:29.187413+00:00"
+}

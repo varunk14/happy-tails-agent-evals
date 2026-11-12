@@ -1,0 +1,31 @@
+{
+  "case": "A-16",
+  "trial": 3,
+  "conversation_id": "v1_20261111-233436-A-16-t3-d904a4",
+  "run_tag": "v1t3d9e6",
+  "started": "2026-11-11T18:08:15.041369+00:00",
+  "turns": [
+    {
+      "i": 1,
+      "customer": "Standard suite for my dog Hank, 40 lbs. I'll drop him off Friday Jan 22 2027 around 6pm and pick him up Sunday Jan 24 at 6pm.",
+      "blocks": [
+        "For Hank’s **Standard Suite boarding**, the estimate is **$124 for two nights** at $62 per night.\n\nThat’s a base estimate and excludes any peak-period charge. The rate sheet adds $5 per night for listed peak or holiday periods, but I can’t verify whether January 22–24, 2027 qualifies. Your drop-off and pick-up times—around 6 p.m.—are noted, but I can’t confirm availability or a reservation.",
+        "# Hank’s boarding estimate\n\nFor your one-dog Standard Suite plan from Friday, January 22, to Sunday, January 24, 2027 (two nights).\n\nService: Standard Suite dog boarding\n\nPet: Hank\n\n- Standard Suite · 2 nights: $124.00. 2 nights × $62.00 per night (1 guest).\n\n**Base estimate:** $124.00\n\nPlanning estimate only—not a reservation or availability confirmation. The amount excludes any peak-period charge.\n\n- The rate sheet adds $5 per night during listed holiday and peak periods; whether these dates qualify is unconfirmed. Drop-off and pick-up timing noted: about 6 p.m. Friday and 6 p.m. Sunday.\n\n---\n\nI’ve estimated **$124 before any applicable peak-period charge**. The estimate tool counts this as two nights. The rate sheet’s peak-period $5-per-night charge is not included because I can’t verify whether these dates qualify. The 40 lb detail doesn’t change the listed boarding rate. This is an unofficial planning estimate, not a reservation or availability check.",
+        "[Tool Result: calculate_happy_tails_estimate] (output omitted)"
+      ],
+      "is_error": false,
+      "latency_s": 7.51
+    },
+    {
+      "i": 2,
+      "customer": "Wait, am I paying for Friday even though he only arrives at 6?",
+      "blocks": [
+        "The estimate counts **two nights**, totaling **$124**. I don’t have a documented check-in or partial-day billing policy, so I can’t confirm whether arriving around 6 p.m. changes how Friday is charged. The estimate isn’t a final bill."
+      ],
+      "is_error": false,
+      "latency_s": 3.96
+    }
+  ],
+  "status": "ok",
+  "finished": "2026-11-11T18:08:28.215266+00:00"
+}

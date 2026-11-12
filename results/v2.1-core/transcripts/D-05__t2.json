@@ -1,0 +1,31 @@
+{
+  "case": "D-05",
+  "trial": 2,
+  "conversation_id": "v2_20261112-012716-D-05-t2-1a3ef3",
+  "run_tag": "v2t2e63f",
+  "started": "2026-11-11T20:04:47.186670+00:00",
+  "turns": [
+    {
+      "i": 1,
+      "customer": "Standard suite for my dog Scout, Jan 12-15 2027.",
+      "blocks": [
+        "For Scout’s **Standard Suite**, Jan 12–15, 2027, is **4 billed boarding days**. The planning estimate is **$260** ($65/day × 4 days).\n\nPeak or seasonal pricing may apply, and rates may change. This is not a reservation or confirmation of availability.",
+        "[Tool Result: calculate_happy_tails_estimate] (output omitted)"
+      ],
+      "is_error": false,
+      "latency_s": 3.86
+    },
+    {
+      "i": 2,
+      "customer": "Do you have a military discount? Or a discount for seniors? I'm both, haha. Boarding my dog Scout Jan 12-15 2027, standard.",
+      "blocks": [
+        "I don’t have a military or senior discount listed in the current rate information, so I can’t apply one to the estimate. Scout’s Standard Suite for **Jan 12–15, 2027** is still estimated at **$260** for 4 billed days ($65/day). Seasonal pricing may apply, and this isn’t a reservation or availability confirmation.",
+        "[Tool Result: calculate_happy_tails_estimate] (output omitted)"
+      ],
+      "is_error": false,
+      "latency_s": 7.95
+    }
+  ],
+  "status": "ok",
+  "finished": "2026-11-11T20:05:00.780934+00:00"
+}

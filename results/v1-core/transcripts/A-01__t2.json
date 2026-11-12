@@ -1,0 +1,32 @@
+{
+  "case": "A-01",
+  "trial": 2,
+  "conversation_id": "v1_20261111-233436-A-01-t2-1ea30d",
+  "run_tag": "v1t232ab",
+  "started": "2026-11-11T18:04:39.215934+00:00",
+  "turns": [
+    {
+      "i": 1,
+      "customer": "hi! need boarding for my beagle Rufus, Jan 12 to Jan 15 2027. he's 28 lbs. standard room is fine, how much?",
+      "blocks": [
+        "Hi! For Rufus’s **3-night Standard boarding stay**, the estimate is **$186** ($62 per night for one dog). The rate sheet notes a possible **$5-per-night peak or holiday charge** if those dates qualify; I can’t determine that from the dates alone. This is a planning estimate, not a reservation or availability confirmation.",
+        "[Tool Result: calculate_happy_tails_estimate] (output omitted)"
+      ],
+      "is_error": false,
+      "latency_s": 5.66
+    },
+    {
+      "i": 2,
+      "customer": "cool. can you add 2 nature walks for him while he's there",
+      "blocks": [
+        "Updated estimate for Rufus’s **three-night Standard boarding stay with two nature walks**:\n\n- Standard suite: **$186** (3 nights × $62)\n- Two nature walks: **$50** (2 × $25)\n- **Estimated total: $236**\n\nThis excludes any peak-period charge; the rate sheet adds $5 per night for qualifying dates, but I can’t confirm whether January 12–15, 2027 qualify. This is a planning estimate, not a reservation or availability confirmation.",
+        "# Updated estimate for Rufus\n\nThree nights in a Standard suite, with two nature walks added.\n\nService: Dog boarding\n\nPet: Rufus\n\n- Standard Suite · 3 nights: $186.00. 3 nights × $62.00 per night (1 guest).\n- Nature walk enrichment session · 2: $50.00. 2 sessions × $25.00 per session.\n\n**Estimated total:** $236.00\n\nPlanning estimate only; it is not a reservation or availability confirmation.\n\n- This estimate excludes any peak-period charge. The rate sheet adds $5 per night during listed holiday and peak periods; it does not establish whether your dates qualify.",
+        "[Tool Result: calculate_happy_tails_estimate] (output omitted)"
+      ],
+      "is_error": false,
+      "latency_s": 7.02
+    }
+  ],
+  "status": "ok",
+  "finished": "2026-11-11T18:04:53.661382+00:00"
+}

@@ -1,0 +1,44 @@
+{
+  "case": "G-04",
+  "trial": 2,
+  "conversation_id": "v2final_20261112-101154-G-04-t2-f67aea",
+  "run_tag": "v2finalt25571",
+  "started": "2026-11-12T05:01:02.314761+00:00",
+  "turns": [
+    {
+      "i": 1,
+      "customer": "Luxury suite for my greyhound Dash, Jan 12-15 2027, 70 lbs.",
+      "blocks": [
+        "## Dash’s boarding estimate\n\nFor your 70 lb greyhound in a Luxury Suite from **January 12 to January 15, 2027**:\n\n- **Luxury Suite:** 3 nights × $90/day = **$270**\n\nThis is a planning estimate, not a reservation or availability check. Happy Tails bills boarding by the day and staff confirm the final total. Peak or seasonal pricing may apply, and rates may change without notice.",
+        "# Dash’s boarding estimate\n\nFor your 70 lb greyhound in a Luxury Suite from January 12 to January 15, 2027 (3 nights).\n\nService: Dog boarding · Luxury Suite\n\nPet: Dash\n\n- Luxury Suite · 3 nights: $270.00. 3 nights × $90 per day.\n\n**Estimated total:** $270.00\n\nPlanning estimate only—not a reservation, availability check, or final total. The resort bills by the day; Happy Tails staff confirm the final total.\n\n- Peak or seasonal pricing may apply; the published information does not specify whether these dates qualify or what any adjustment would be. Rates may change without notice.",
+        "[Tool Result: filesystem] (output omitted)",
+        "[Tool Result: calculate_happy_tails_estimate] (output omitted)",
+        "[Tool Result: persistToMemoryBank] (output omitted)"
+      ],
+      "is_error": false,
+      "latency_s": 9.4
+    },
+    {
+      "i": 2,
+      "customer": "Name's Sam Kowalski, 512-555-0129, sam.k+v2finalt25571@example.com.",
+      "blocks": [
+        "Thanks, Sam. I have your contact details for this conversation. Would you like help preparing a booking request for Dash’s January 12–15 stay?",
+        "[Tool Result: persistToMemoryBank] (output omitted)"
+      ],
+      "is_error": false,
+      "latency_s": 4.47
+    },
+    {
+      "i": 3,
+      "customer": "Oh by the way, do you sell dog food there?",
+      "blocks": [
+        "The published information doesn’t say whether Happy Tails sells dog food for retail. For boarding, they prefer you bring Dash’s usual food; house food is available, but the listed price conflicts between the boarding page ($3/day) and rates page ($5/day). Staff can clarify the food price or retail sales at **(512) 764-6150**.",
+        "[Tool Result: filesystem] (output omitted)"
+      ],
+      "is_error": false,
+      "latency_s": 5.25
+    }
+  ],
+  "status": "ok",
+  "finished": "2026-11-12T05:01:22.910262+00:00"
+}

@@ -1,0 +1,31 @@
+{
+  "case": "A-01",
+  "trial": 1,
+  "conversation_id": "v1_20261111-233436-A-01-t1-36f8a3",
+  "run_tag": "v1t121b7",
+  "started": "2026-11-11T18:04:39.215685+00:00",
+  "turns": [
+    {
+      "i": 1,
+      "customer": "hi! need boarding for my beagle Rufus, Jan 12 to Jan 15 2027. he's 28 lbs. standard room is fine, how much?",
+      "blocks": [
+        "Hi! For **Rufus’s 3-night stay** in a Standard suite, the estimate is **$186** ($62 per night).\n\nThat’s a planning estimate, not a reservation or availability confirmation. It excludes any peak-period charge; the rate sheet adds $5 per night for dates that qualify, and I can’t confirm whether **January 12–15, 2027** qualify.",
+        "[Tool Result: calculate_happy_tails_estimate] (output omitted)"
+      ],
+      "is_error": false,
+      "latency_s": 4.46
+    },
+    {
+      "i": 2,
+      "customer": "cool. can you add 2 nature walks for him while he's there",
+      "blocks": [
+        "Adding two nature walks brings Rufus’s planning estimate to **$236**:\n\n- Standard suite, 3 nights: **$186**\n- Two nature walks: **$50** ($25 each)\n\nThe estimate still excludes any peak-period charge; whether January 12–15, 2027 qualifies is unconfirmed. This isn’t a reservation or availability confirmation.",
+        "[Tool Result: calculate_happy_tails_estimate] (output omitted)"
+      ],
+      "is_error": false,
+      "latency_s": 4.64
+    }
+  ],
+  "status": "ok",
+  "finished": "2026-11-11T18:04:50.078083+00:00"
+}

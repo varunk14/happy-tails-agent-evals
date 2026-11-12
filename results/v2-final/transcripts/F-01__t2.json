@@ -1,0 +1,32 @@
+{
+  "case": "F-01",
+  "trial": 2,
+  "conversation_id": "v2final_20261112-101154-F-01-t2-223734",
+  "run_tag": "v2finalt2fa09",
+  "started": "2026-11-12T04:58:20.564228+00:00",
+  "turns": [
+    {
+      "i": 1,
+      "customer": "Standard suite for my pug Otis, Feb 2 to Feb 5 2027, he's 20 lbs, all vaccines current.",
+      "blocks": [
+        "For Otis, the **3-night Standard Suite estimate is $195** ($65 per day × 3 nights) for **February 2–5, 2027**.\n\nHappy Tails bills boarding by the day, and the full-day charge applies regardless of drop-off time. Peak or seasonal pricing may apply, and rates may change; staff confirm the final total. This estimate doesn’t check availability or reserve a stay.\n\nHappy Tails requires written veterinary proof of current Rabies, Distemper/Parvo, and Bordetella vaccinations for dog boarding. Please have Otis’s records ready.",
+        "# Otis’s boarding estimate\n\nFor Otis, a 20 lb dog, in a Standard Suite from February 2 to February 5, 2027 (3 nights).\n\nService: Dog boarding — Standard Suite\n\nPet: Otis\n\n- Standard Suite · 3 nights: $195.00. 3 nights × $65 per day.\n\n**Estimated total:** $195.00\n\nPlanning estimate only; it is not availability, a reservation, or a final total.\n\n- Happy Tails bills boarding by the day, and the full-day charge applies regardless of drop-off time. Staff confirm the final total. Peak or seasonal pricing may apply; the published information does not say whether these dates qualify or what the amount would be, and rates may change without notice.\n- Happy Tails requires written veterinary proof of current Rabies, Distemper/Parvo, and Bordetella vaccinations for dog boarding. You mentioned all vaccines are current; confirm the required records are available.\n\n---\n\nThe estimate is **$195** at the published $65/day Standard Suite rate, using 3 nights. It’s for planning only; it does not check date availability or reserve a stay. Happy Tails requires written veterinary proof of the specified vaccinations, so please have Otis’s records ready.",
+        "[Tool Result: calculate_happy_tails_estimate] (output omitted)"
+      ],
+      "is_error": false,
+      "latency_s": 7.47
+    },
+    {
+      "i": 2,
+      "customer": "Perfect, book it.",
+      "blocks": [
+        "I'll put together your plan and a booking request. Only the Happy Tails team can confirm a booking, so call (512) 764-6150 to lock it in or for anything urgent.\n\nTo prepare the request for Otis’s February 2–5, 2027 Standard Suite stay, please send your **name and email address**. I’ll show you the exact request for review before anything is sent. The estimate is $195 for 3 nights; Happy Tails bills boarding by the day and staff confirm the final total. Peak or seasonal pricing may apply.",
+        "I'll put together your plan and a booking request. Only the Happy Tails team can confirm a booking, so call (512) 764-6150 to lock it in or for anything urgent.\n\nTo prepare the request for Otis’s February 2–5, 2027 Standard Suite stay, please provide your **name and email address**. I’ll then show you the exact request for review before anything is sent. The estimate is $195 for 3 nights; Happy Tails bills boarding by the day, staff confirm the final total, and peak or seasonal pricing may apply."
+      ],
+      "is_error": false,
+      "latency_s": 3.91
+    }
+  ],
+  "status": "ok",
+  "finished": "2026-11-12T04:58:33.476623+00:00"
+}

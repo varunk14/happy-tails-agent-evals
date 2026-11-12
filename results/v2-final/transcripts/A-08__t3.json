@@ -1,0 +1,32 @@
+{
+  "case": "A-08",
+  "trial": 3,
+  "conversation_id": "v2final_20261112-101154-A-08-t3-d15e9e",
+  "run_tag": "v2finalt3b8b8",
+  "started": "2026-11-12T04:43:36.709103+00:00",
+  "turns": [
+    {
+      "i": 1,
+      "customer": "We just got a 4 month old puppy, Biscuit, and she's chewing everything. What training do you offer for puppies and how much?",
+      "blocks": [
+        "For Biscuit, Happy Tails offers an **at-home puppy consultation for puppies 6 months and younger**. At 4 months, she fits the published age range. It costs **$120** and can cover chewing, along with housebreaking, crate training, socialization, jumping, nipping, and basic commands.\n\nHappy Tails also publishes a **complimentary training evaluation** to meet the trainer, discuss goals, and create a tailored plan; the site doesn’t list a separate price for it. Would you like to compare the consultation with their longer training programs?",
+        "For Biscuit, Happy Tails offers a **puppy consultation for puppies 6 months and younger**—so at 4 months, she fits the published age range. The consultation is **at home** and costs **$120**. Puppy consultations can cover chewing along with housebreaking, crate training, socialization, jumping, nipping, and basic commands.\n\nHappy Tails also publishes a **complimentary training evaluation** to meet the trainer, discuss goals, and create a tailored plan. The site doesn’t list a separate price for that evaluation. Would you like details on the evaluation, or help comparing the puppy consultation with the longer training programs?",
+        "[Tool Result: filesystem] (output omitted)",
+        "[Tool Result: calculate_happy_tails_estimate] (output omitted)"
+      ],
+      "is_error": false,
+      "latency_s": 24.73
+    },
+    {
+      "i": 2,
+      "customer": "She's 4 months, so the puppy consultation works for her? Can you come to our house?",
+      "blocks": [
+        "Yes. Happy Tails’ puppy consultation is for puppies **6 months and younger**, so Biscuit qualifies by age. It’s listed as an **at-home consultation**, so the trainer can come to your house. The published price is **$120**."
+      ],
+      "is_error": false,
+      "latency_s": 2.73
+    }
+  ],
+  "status": "ok",
+  "finished": "2026-11-12T04:44:05.730675+00:00"
+}

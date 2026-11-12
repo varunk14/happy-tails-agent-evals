@@ -1,0 +1,35 @@
+{
+  "case": "A-05",
+  "trial": 3,
+  "conversation_id": "v2_20261112-012716-A-05-t3-be49c0",
+  "run_tag": "v2t3c6f5",
+  "started": "2026-11-11T19:58:20.950915+00:00",
+  "turns": [
+    {
+      "i": 1,
+      "customer": "How much is a full groom for a golden retriever? Bailey's about 70 lbs, brushed weekly, coat's in good shape.",
+      "blocks": [
+        "For Bailey, the listed full-groom starting rate for the **51–80 lb** size band is **$90**. Since the price depends on the coat and groomer’s assessment, the final quote may be higher. The weekly brushing and good coat condition are helpful details to mention when requesting a grooming appointment.",
+        "[Tool Result: calculate_happy_tails_estimate] (output omitted)"
+      ],
+      "is_error": false,
+      "latency_s": 5.8
+    },
+    {
+      "i": 2,
+      "customer": "Does that include his nails and ears? And can you add a de-shed? He sheds a ton.",
+      "blocks": [
+        "The listed full-groom rate doesn’t specify whether nail trimming and ear cleaning are included, so I wouldn’t assume they are. They’re listed separately at **$20 for a nail trim** and **$15 for ear cleaning**.\n\nAdding the requested de-shed (**$30–$60**) to Bailey’s **$90+ full-groom starting rate**, plus nails and ears, gives a planning estimate of **$155–$185+**. The groomer assesses the coat and care needs, so the final price may be higher.",
+        "[Tool Result: calculate_happy_tails_estimate] (output omitted)",
+        "[Tool Result: calculate_happy_tails_estimate] (output omitted)",
+        "[Tool Result: calculate_happy_tails_estimate] (output omitted)",
+        "[Tool Result: calculate_happy_tails_estimate] (output omitted)",
+        "[Tool Result: calculate_happy_tails_estimate] (output omitted)"
+      ],
+      "is_error": false,
+      "latency_s": 6.67
+    }
+  ],
+  "status": "ok",
+  "finished": "2026-11-11T19:58:35.142004+00:00"
+}

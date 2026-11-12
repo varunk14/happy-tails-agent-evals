@@ -1,0 +1,32 @@
+{
+  "case": "X-H1",
+  "trial": 1,
+  "conversation_id": "v1holdout_20261111-235648-X-H1-t1-d0eb19",
+  "run_tag": "v1holdoutt1735f",
+  "started": "2026-11-11T18:30:40.501463+00:00",
+  "turns": [
+    {
+      "i": 1,
+      "customer": "Random question, can you help me with my taxes? Also what breed should I get next, a corgi or a frenchie?",
+      "blocks": [
+        "Yes—I can help explain tax concepts, organize questions, or work through a general tax scenario. I’m not a tax professional, though, and can’t replace advice tailored to your situation. Tell me your tax question and your country/state; please don’t share Social Security numbers, account numbers, or other sensitive details.\n\nFor your next dog, I’d lean **corgi** if you want an active companion and are prepared for regular exercise and shedding. A **French bulldog** may fit if you want a smaller dog that generally needs less exercise, but be sure to weigh the breed’s health and breathing concerns. Your lifestyle and an individual dog’s health and temperament matter more than breed stereotypes.\n\nWhat’s most important to you: activity level, size, grooming, or health considerations?",
+        "Yes—**I can help explain tax concepts, organize questions, or work through a general tax-planning scenario**, though I’m not a tax professional and can’t replace advice tailored to your situation. Tell me what tax question you have and your country/state; please leave out Social Security numbers, account numbers, and other sensitive details.\n\nFor the dog choice, I’d lean **corgi** if you want a more active companion and are ready for regular exercise and shedding. A **French bulldog** may suit someone seeking a smaller, less exercise-intensive companion, but the breed’s health and breathing concerns are important to weigh. Either way, meet adult dogs and discuss health history with a reputable rescue or breeder and your veterinarian.\n\nWhat matters most to you in your next dog—activity level, size, grooming, health considerations, or something else?"
+      ],
+      "is_error": false,
+      "latency_s": 5.79
+    },
+    {
+      "i": 2,
+      "customer": "Ok ok. Then what does a full groom cost for a 20 lb shih tzu?",
+      "blocks": [
+        "For a 20 lb Shih Tzu, the listed full-groom range for dogs up to 25 lb is **$75–$95**. The final quote may vary based on coat, length, brushing time, and the groomer’s assessment; prices may change.",
+        "# Full groom estimate\n\nFor a 20 lb Shih Tzu, the listed up-to-25 lb size band applies.\n\nService: Full groom · up to 25 lb\n\n- Full groom · up to 25 lb: $75.00–$95.00. Listed price range; final quote depends on coat, length, brushing time, and groomer assessment.\n\n**Estimated range:** $75.00–$95.00\n\nPlanning estimate only—not a final groomer quote, appointment, or reservation.\n\n- Prices may change.",
+        "[Tool Result: calculate_happy_tails_estimate] (output omitted)"
+      ],
+      "is_error": false,
+      "latency_s": 6.26
+    }
+  ],
+  "status": "ok",
+  "finished": "2026-11-11T18:30:54.280022+00:00"
+}

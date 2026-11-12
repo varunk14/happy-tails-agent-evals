@@ -1,0 +1,31 @@
+{
+  "case": "A-01",
+  "trial": 3,
+  "conversation_id": "v2_20261112-012716-A-01-t3-8a4490",
+  "run_tag": "v2t3acea",
+  "started": "2026-11-11T19:57:18.911546+00:00",
+  "turns": [
+    {
+      "i": 1,
+      "customer": "hi! need boarding for my beagle Rufus, Jan 12 to Jan 15 2027. he's 28 lbs. standard room is fine, how much?",
+      "blocks": [
+        "Hi! Rufus’s estimate for a Standard Suite from January 12–15, 2027 is **$260**: 4 billed days at $65 per day. Boarding is billed by the day, not the night, and the full-day rate applies regardless of drop-off time.\n\nPeak or seasonal pricing may apply to those dates, and rates may change. This is a planning estimate—not a reservation or availability confirmation.",
+        "[Tool Result: calculate_happy_tails_estimate] (output omitted)"
+      ],
+      "is_error": false,
+      "latency_s": 4.01
+    },
+    {
+      "i": 2,
+      "customer": "cool. can you add 2 nature walks for him while he's there",
+      "blocks": [
+        "With 2 nature walks added, Rufus’s updated planning estimate is **$310**:\n\n- Standard Suite, 4 billed days: **$260**\n- 2 nature walk sessions: **$50**\n\nPeak or seasonal pricing may apply, and rates may change. This is an estimate only—not a reservation or availability confirmation.",
+        "[Tool Result: calculate_happy_tails_estimate] (output omitted)"
+      ],
+      "is_error": false,
+      "latency_s": 3.9
+    }
+  ],
+  "status": "ok",
+  "finished": "2026-11-11T19:57:28.611415+00:00"
+}

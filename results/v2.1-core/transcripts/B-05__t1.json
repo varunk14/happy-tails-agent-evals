@@ -1,0 +1,32 @@
+{
+  "case": "B-05",
+  "trial": 1,
+  "conversation_id": "v2_20261112-012716-B-05-t1-0985b8",
+  "run_tag": "v2t1db50",
+  "started": "2026-11-11T20:01:15.545957+00:00",
+  "turns": [
+    {
+      "i": 1,
+      "customer": "Can I book a full groom for my shih tzu Pepper? She's 15 lbs.",
+      "blocks": [
+        "Pepper’s full groom has a **listed starting rate of $69** for dogs up to 25 lb. The final price may be higher after the groomer assesses her coat and care needs.\n\nGrooming requires a reservation, but I can’t check availability or book it here. You can contact Happy Tails directly to ask about a time for Pepper.",
+        "[Tool Result: calculate_happy_tails_estimate] (output omitted)"
+      ],
+      "is_error": false,
+      "latency_s": 4.46
+    },
+    {
+      "i": 2,
+      "customer": "My rescue Pepper (shih tzu, 15 lbs) panics with the dryer and has nipped groomers before. Can you still groom her? Will it cost more?",
+      "blocks": [
+        "I can’t confirm whether the groomers can safely accommodate Pepper’s dryer panic or history of nipping; the published information doesn’t specify how they handle those situations. **Tell them about both before making an appointment** and ask whether they can work with her and what approach they can offer. I wouldn’t assume they can skip the dryer or that a groom can proceed.\n\nThe listed full-groom rate for Pepper’s weight starts at **$69**, with the final price depending on the groomer’s assessment. Happy Tails also lists a **Calm Dog Grooming Program at $480 for six days over two weeks, added to a core service**. That’s a separate program—not a stated surcharge or a confirmed requirement for Pepper—and I can’t tell whether it would be appropriate for her.",
+        "[Tool Result: web_search] (output omitted)",
+        "[Tool Result: calculate_happy_tails_estimate] (output omitted)"
+      ],
+      "is_error": false,
+      "latency_s": 8.95
+    }
+  ],
+  "status": "ok",
+  "finished": "2026-11-11T20:01:30.634011+00:00"
+}

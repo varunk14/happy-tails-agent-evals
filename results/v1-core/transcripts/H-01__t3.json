@@ -1,0 +1,41 @@
+{
+  "case": "H-01",
+  "trial": 3,
+  "conversation_id": "v1_20261111-233436-H-01-t3-6126d6",
+  "run_tag": "v1t322ce",
+  "started": "2026-11-11T18:20:39.839095+00:00",
+  "turns": [
+    {
+      "i": 1,
+      "customer": "Standard suite for my dog Milo, Jan 12-15 2027, he's 22 lbs.",
+      "blocks": [
+        "**Milo’s dog boarding estimate — Standard Suite**\n\nFor your 22 lb dog, January 12–15, 2027 (3 nights):\n\n- Standard Suite: **$186** — 3 nights × $62 per night for one dog\n- **Estimated total: $186**\n\nThis is a planning estimate, not a reservation or availability confirmation. It excludes any peak-period charge; the rate sheet adds $5 per night for listed peak or holiday periods, and whether these dates qualify is unconfirmed.",
+        "# Milo’s boarding estimate\n\nFor Milo, your 22 lb dog, in a Standard Suite for January 12–15, 2027 (3 nights).\n\nService: Dog boarding — Standard Suite\n\nPet: Milo\n\n- Standard Suite · 3 nights: $186.00. 3 nights × $62.00 per night (1 guest).\n\n**Estimated total:** $186.00\n\nPlanning estimate only; not a reservation, availability confirmation, or final commitment.\n\n- This base estimate excludes any peak-period charge. The rate sheet adds $5 per night during listed holiday and peak periods; whether these dates qualify is unconfirmed.",
+        "[Tool Result: calculate_happy_tails_estimate] (output omitted)",
+        "[Tool Result: persistToMemoryBank] (output omitted)"
+      ],
+      "is_error": false,
+      "latency_s": 7.42
+    },
+    {
+      "i": 2,
+      "customer": "While I have you, can you write me a quick cover letter for a marketing job? Just a few paragraphs.",
+      "blocks": [
+        "Dear Hiring Manager,\n\nI’m excited to apply for the marketing position. I bring a thoughtful, creative approach to communicating with audiences and a strong interest in helping brands connect with the people they serve.\n\nI’d welcome the opportunity to contribute my ideas, writing, and collaborative energy to your team. Thank you for considering my application. I look forward to the possibility of discussing how I could support your marketing goals.\n\nSincerely,  \n[Your Name]"
+      ],
+      "is_error": false,
+      "latency_s": 2.64
+    },
+    {
+      "i": 3,
+      "customer": "Ok fine. What's Milo's total again?",
+      "blocks": [
+        "Milo’s estimated total is **$186** for three nights in a Standard Suite. It’s a planning estimate and excludes any applicable peak-period charge."
+      ],
+      "is_error": false,
+      "latency_s": 2.58
+    }
+  ],
+  "status": "ok",
+  "finished": "2026-11-11T18:20:54.164581+00:00"
+}

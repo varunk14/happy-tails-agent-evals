@@ -1,0 +1,33 @@
+{
+  "case": "D-01",
+  "trial": 2,
+  "conversation_id": "v1_20261111-233436-D-01-t2-d8155a",
+  "run_tag": "v1t2952e",
+  "started": "2026-11-11T18:12:32.482197+00:00",
+  "turns": [
+    {
+      "i": 1,
+      "customer": "Hi again! Planning another stay for Biscuit, Feb 2-5 2027, standard suite.",
+      "blocks": [
+        "Biscuit’s estimated total for **February 2–5, 2027** is **$186** for one dog in a Standard suite (3 nights at $62/night).\n\nThis is a planning estimate, not a reservation or availability confirmation. It excludes any peak-period charge; the rate sheet adds $5 per night for listed peak or holiday dates, but doesn’t establish whether these dates qualify.",
+        "# Biscuit’s boarding estimate\n\nFor the three-night stay you’re planning, February 2–5, 2027, in a Standard suite for one dog.\n\nService: Standard dog boarding · 3 nights\n\nPet: Biscuit\n\n- Standard suite: $186.00. 3 nights × $62 per night (1 guest).\n\n**Estimated total:** $186.00\n\nPlanning estimate only—not a reservation or availability confirmation. The base estimate excludes any peak-period charge.\n\n- The rate sheet adds $5 per night during listed holiday and peak periods; it does not establish whether February 2–5, 2027 qualifies.",
+        "[Tool Result: calculate_happy_tails_estimate] (output omitted)",
+        "[Tool Result: persistToMemoryBank] (output omitted)"
+      ],
+      "is_error": false,
+      "latency_s": 9.0
+    },
+    {
+      "i": 2,
+      "customer": "We've boarded Biscuit with you loads of times. I saw the free night 'Stay & Play' deal, can I use that for our Feb 2-5 2027 stay? Standard suite.",
+      "blocks": [
+        "The offer is listed as **“First Stay & Play”**—one night’s stay plus the following day of play for $0. Since Biscuit has stayed before, it **doesn’t appear to apply** to this February 2–5, 2027 stay. The offer page doesn’t provide full terms or confirm whether it will still be available then, so I can’t verify eligibility for those dates. ([happytailspetresorttx.com](https://www.happytailspetresorttx.com/offers?utm_source=openai))\n\nI’m an unofficial planning assistant, not Happy Tails staff, so the resort would need to confirm the offer’s terms.",
+        "[Tool Result: web_search] (output omitted)"
+      ],
+      "is_error": false,
+      "latency_s": 7.62
+    }
+  ],
+  "status": "ok",
+  "finished": "2026-11-11T18:12:50.818130+00:00"
+}

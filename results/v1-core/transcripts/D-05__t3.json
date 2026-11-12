@@ -1,0 +1,32 @@
+{
+  "case": "D-05",
+  "trial": 3,
+  "conversation_id": "v1_20261111-233436-D-05-t3-2c1da3",
+  "run_tag": "v1t3cb01",
+  "started": "2026-11-11T18:14:02.035566+00:00",
+  "turns": [
+    {
+      "i": 1,
+      "customer": "Standard suite for my dog Scout, Jan 12-15 2027.",
+      "blocks": [
+        "For Scout’s **Standard Suite** stay, January 12–15, 2027, the estimate is **$186** for three nights at $62 per night.\n\nThis excludes any peak-period charge; the rate sheet adds $5 per night for qualifying dates, but I can’t confirm whether these dates qualify. This is a planning estimate, not a reservation or availability confirmation.",
+        "# Scout’s boarding estimate\n\nFor one dog in a Standard Suite for three nights, January 12–15, 2027.\n\nService: Standard Suite boarding\n\nPet: Scout\n\n- Standard Suite · 3 nights: $186.00. 3 nights × $62.00 per night (1 guest).\n\n**Estimated total:** $186.00\n\nPlanning estimate only—not a reservation, availability confirmation, or final price.\n\n- The estimate excludes any peak-period charge. The rate sheet adds $5 per night during listed holiday and peak periods; it does not establish whether these dates qualify.",
+        "[Tool Result: calculate_happy_tails_estimate] (output omitted)"
+      ],
+      "is_error": false,
+      "latency_s": 6.99
+    },
+    {
+      "i": 2,
+      "customer": "Do you have a military discount? Or a discount for seniors? I'm both, haha. Boarding my dog Scout Jan 12-15 2027, standard.",
+      "blocks": [
+        "I don’t have verified information showing whether Happy Tails offers military or senior discounts, so I can’t apply one to Scout’s estimate. The listed Standard Suite rate is **$186 for three nights**, before any qualifying peak-period charge. You could ask the resort directly whether either discount applies; I can’t confirm availability or a reservation here.",
+        "I don’t have verified information showing whether Happy Tails offers military or senior discounts, so I can’t apply one to Scout’s estimate. The listed Standard Suite rate is **$186 for three nights** (Jan 12–15, 2027), before any qualifying peak-period charge. You could ask the resort directly whether either discount applies; I can’t confirm availability or a reservation here."
+      ],
+      "is_error": false,
+      "latency_s": 4.91
+    }
+  ],
+  "status": "ok",
+  "finished": "2026-11-11T18:14:15.618824+00:00"
+}

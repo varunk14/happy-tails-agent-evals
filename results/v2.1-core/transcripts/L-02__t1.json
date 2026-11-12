@@ -1,0 +1,80 @@
+{
+  "case": "L-02",
+  "trial": 1,
+  "conversation_id": "v2_20261112-012716-L-02-t1-85b115",
+  "run_tag": "v2t1a3d8",
+  "started": "2026-11-11T20:13:06.871938+00:00",
+  "turns": [
+    {
+      "i": 1,
+      "customer": "Need a luxury suite for my malamute Atlas, 85 lbs, Feb 2 to Feb 5 2027.",
+      "blocks": [
+        "For Atlas, a **Luxury Suite** from **February 2–5, 2027** is estimated at **$270**: 3 billed days × $90/day. The full-day rate applies regardless of drop-off time.\n\nThis is a planning estimate, not a reservation or availability check. Peak or seasonal pricing may apply, and rates may change.",
+        "[Tool Result: calculate_happy_tails_estimate] (output omitted)"
+      ],
+      "is_error": false,
+      "latency_s": 4.97
+    },
+    {
+      "i": 2,
+      "customer": "Hmm, make it Feb 1 to Feb 5.",
+      "blocks": [
+        "For Atlas, the revised **February 1–5, 2027** Luxury Suite estimate is **$360**: 4 billed days at $90/day. The full-day rate applies regardless of drop-off time.\n\nThis is a planning estimate, not a reservation or availability check. Peak or seasonal pricing may apply, and rates may change.",
+        "[Tool Result: calculate_happy_tails_estimate] (output omitted)"
+      ],
+      "is_error": false,
+      "latency_s": 3.71
+    },
+    {
+      "i": 3,
+      "customer": "Add a full groom before pick up.",
+      "blocks": [
+        "Adding a full groom for Atlas (85 lb) brings the **planning estimate to $465+**:\n\n- Luxury Suite, February 1–5: **$360** for 4 billed days\n- Full groom for the 81–99 lb size range: **starting at $105**\n\nThe groomer’s final price may be higher based on Atlas’s coat and grooming needs. This is not a reservation or availability check; boarding and grooming reservations are required.",
+        "[Tool Result: calculate_happy_tails_estimate] (output omitted)"
+      ],
+      "is_error": false,
+      "latency_s": 4.89
+    },
+    {
+      "i": 4,
+      "customer": "Actually switch to the standard suite to save money.",
+      "blocks": [
+        "Atlas’s **Standard Suite** estimate for February 1–5 is **$260** for 4 billed days at $65/day. The full groom remains **$105+**, so the combined plan starts at **$365+**. The groomer determines the final grooming price based on Atlas’s coat and needs.\n\nPeak or seasonal boarding pricing may apply. These are planning estimates, not a reservation or availability confirmation.",
+        "[Tool Result: calculate_happy_tails_estimate] (output omitted)"
+      ],
+      "is_error": false,
+      "latency_s": 5.0
+    },
+    {
+      "i": 5,
+      "customer": "And add 2 nature walks.",
+      "blocks": [
+        "Atlas’s revised plan for **February 1–5, 2027**:\n\n- **Standard Suite:** $260 for 4 billed days\n- **2 nature walks:** $50\n- **Boarding subtotal:** **$310**\n- **Full groom:** **$105+**\n\nThe combined estimate starts at **$415+**. The groomer’s final price may be higher based on Atlas’s coat and needs. Peak or seasonal boarding pricing may apply; this is not a reservation or availability confirmation.",
+        "[Tool Result: calculate_happy_tails_estimate] (output omitted)"
+      ],
+      "is_error": false,
+      "latency_s": 4.8
+    },
+    {
+      "i": 6,
+      "customer": "You know what, go back to luxury but keep everything else.",
+      "blocks": [
+        "Atlas’s plan is back to a **Luxury Suite**, with the two nature walks and full groom kept:\n\n- **Luxury Suite:** $360 for 4 billed days\n- **2 nature walks:** $50\n- **Boarding subtotal:** **$410**\n- **Full groom:** **$105+**\n- **Combined estimate:** **$515+**\n\nThe groomer’s final price may be higher based on Atlas’s coat and needs. Peak or seasonal boarding pricing may apply. This is a planning estimate, not a reservation or availability confirmation.",
+        "[Tool Result: calculate_happy_tails_estimate] (output omitted)"
+      ],
+      "is_error": false,
+      "latency_s": 4.29
+    },
+    {
+      "i": 7,
+      "customer": "What's my total, and is anything not included in it?",
+      "blocks": [
+        "The current estimated total is **$515+**:\n\n- **$410** for Atlas’s Luxury Suite (4 billed days) and 2 nature walks\n- **$105+** for a full groom\n\nThe **“+”** is because $105 is a starting grooming price; the groomer may charge more based on Atlas’s coat and needs. Peak or seasonal boarding pricing may also apply, and rates may change. No other add-ons are included. This is an estimate, not a reservation or availability confirmation."
+      ],
+      "is_error": false,
+      "latency_s": 3.39
+    }
+  ],
+  "status": "ok",
+  "finished": "2026-11-11T20:13:39.627424+00:00"
+}

@@ -1,0 +1,31 @@
+{
+  "case": "I-01",
+  "trial": 2,
+  "conversation_id": "v2_20261112-012716-I-01-t2-aa4d1f",
+  "run_tag": "v2t2207e",
+  "started": "2026-11-11T20:10:56.984085+00:00",
+  "turns": [
+    {
+      "i": 1,
+      "customer": "how much is boarding",
+      "blocks": [
+        "**Dog boarding:** Standard Suite $65/day; Luxury Suite $90/day; Tiny Town Suite $85/day for dogs 25 lb and under.\n\n**Cat boarding:** Large Condo $32/day; Tower Condo $35/day; Extra Large Condo with Window $40/day.\n\nBoarding is billed by the day, with a full-day charge regardless of drop-off time. Tell me the pet type, suite or condo, and number of billed days, and I can estimate the stay. These are planning rates—not a reservation or availability confirmation. Seasonal pricing may apply.",
+        "For **dog boarding**, the daily rate is **$65** for a Standard Suite or **$90** for a Luxury Suite. **Tiny Town is $85/day** for dogs 25 lb and under. The full-day charge applies regardless of drop-off time. For **cat boarding**, rates are **$32/day** for a Large Condo, **$35/day** for a Tower Condo, or **$40/day** for an Extra Large Condo with Window.\n\nIf you tell me whether you’re boarding a dog or cat, the suite/condo type, and how many billed days, I can estimate the stay. These are planning rates; seasonal pricing may apply, and this demo can’t check availability or make a reservation."
+      ],
+      "is_error": false,
+      "latency_s": 4.88
+    },
+    {
+      "i": 2,
+      "customer": "it's for my 50 lb lab, Feb 2 to Feb 5 2027",
+      "blocks": [
+        "For your **50 lb Lab**, a **Standard Suite** is the listed option. From **February 2 through February 5, 2027**, that’s **4 billed days**, so the planning estimate is **$260** ($65/day).\n\nPeak or seasonal pricing may apply, and rates can change. This estimate doesn’t confirm availability or reserve a stay.",
+        "[Tool Result: calculate_happy_tails_estimate] (output omitted)"
+      ],
+      "is_error": false,
+      "latency_s": 5.7
+    }
+  ],
+  "status": "ok",
+  "finished": "2026-11-11T20:11:09.319657+00:00"
+}

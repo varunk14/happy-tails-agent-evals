@@ -1,0 +1,36 @@
+{
+  "case": "D-03",
+  "trial": 2,
+  "conversation_id": "v1_20261111-233436-D-03-t2-5a765b",
+  "run_tag": "v1t27260",
+  "started": "2026-11-11T18:13:24.286533+00:00",
+  "turns": [
+    {
+      "i": 1,
+      "customer": "We just adopted a dog, Nova. She's 1 and full of energy. Thinking about daycare.",
+      "blocks": [
+        "Congrats on adopting Nova! Since she’s 1 and full of energy, daycare may be worth exploring, though I can’t tell from age or energy alone whether it’s the right fit.\n\nThe listed **full-day single visit is $36 for one dog**. Daycare also offers prepaid packs and monthly memberships. If you’re considering regular visits, tell me how often Nova might go and I can estimate an option. Packs are non-refundable and can’t be combined with other discounts.\n\nThis is an unofficial planning demo; I can’t check availability or make a reservation.",
+        "Congrats on adopting Nova! Since she's 1 and energetic, daycare may be worth exploring. I can’t determine from age or energy alone whether she’s a fit, and this unofficial planning demo can’t check availability or make a reservation.\n\nFor a starting point, the listed full-day single visit is **$36 for one dog**. Daycare also has prepaid packs and monthly memberships; if you're considering a recurring schedule, tell me how often you'd expect Nova to go and I can estimate the relevant option. Packs are non-refundable and can’t be combined with other discounts.",
+        "[Tool Result: persistToMemoryBank] (output omitted)",
+        "[Tool Result: filesystem] (output omitted)",
+        "[Tool Result: calculate_happy_tails_estimate] (output omitted)"
+      ],
+      "is_error": false,
+      "latency_s": 10.04
+    },
+    {
+      "i": 2,
+      "customer": "If I sign up for the $99 unlimited daycare month for Nova, can I also buy a 10-day pack now at a discount too, and use it after the month ends?",
+      "blocks": [
+        "I can’t confirm whether you can buy both or save the 10-day pack for after the membership month; the rate sheet doesn’t specify those rules. It does say daycare packs are non-refundable and can’t be combined with other discounts.\n\nThe rate sheet I can estimate from lists unlimited daycare at **$540 per month**, not $99. I’d verify the $99 offer and the pack’s timing and discount rules directly with the business before purchasing. This unofficial demo can’t confirm current offers or policies.",
+        "I can’t confirm that combination or whether a 10-day pack can be saved for use after a membership month; the rate sheet doesn’t state those rules. It does say daycare packs are non-refundable and can’t be combined with other discounts.\n\nAlso, the rate sheet I can estimate from lists unlimited daycare at **$540 per month**, not $99. I’d verify the $99 offer and the pack’s timing/stacking rules directly with the business before purchasing. This unofficial demo can’t confirm current offers or policies.",
+        "[Tool Result: filesystem] (output omitted)",
+        "[Tool Result: calculate_happy_tails_estimate] (output omitted)"
+      ],
+      "is_error": false,
+      "latency_s": 9.24
+    }
+  ],
+  "status": "ok",
+  "finished": "2026-11-11T18:13:45.281333+00:00"
+}

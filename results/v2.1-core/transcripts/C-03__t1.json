@@ -1,0 +1,31 @@
+{
+  "case": "C-03",
+  "trial": 1,
+  "conversation_id": "v2_20261112-012716-C-03-t1-057ff9",
+  "run_tag": "v2t11eed",
+  "started": "2026-11-11T20:02:24.304374+00:00",
+  "turns": [
+    {
+      "i": 1,
+      "customer": "Hi, I'm going abroad for work in February.",
+      "blocks": [
+        "Hi! I can help you explore **boarding, daycare, grooming, or training**. For your February work trip, boarding may be the place to start. Are you planning for a dog or a cat, and do you know your travel dates yet? I can help estimate a plan, but I can’t check availability or make a reservation."
+      ],
+      "is_error": false,
+      "latency_s": 4.2
+    },
+    {
+      "i": 2,
+      "customer": "I'll be away 12 nights in February. Do you have a cheaper rate for longer stays, like a 10-night package? Standard suite for my collie Skye.",
+      "blocks": [
+        "I don’t have a published 10-night or longer-stay discount to apply. The listed Standard Suite rate is **$65 per billed day**. Boarding is billed by the day, not the night, and the full-day charge applies regardless of drop-off time.\n\n**Skye’s estimate: $780** for 12 billed days in a Standard Suite. This is a planning estimate, not a reservation or availability confirmation. Peak or seasonal pricing may apply, and rates may change without notice.",
+        "I don’t have a published 10-night or longer-stay discount to apply. The listed Standard Suite rate is **$65 per billed day**. Since boarding is billed by the day—not the night—the estimate below uses 12 billed days for Skye; the full-day charge applies regardless of drop-off time.\n\n---\n\n# Skye’s Standard Suite estimate\n\nBased on 12 billed boarding days at the listed daily rate. No long-stay package discount is included because none is listed.\n\nService: Dog boarding · Standard Suite\n\nPet: Skye\n\n- Standard Suite · 12 days: $780.00. 12 full billed days × $65 per day.\n\n**Estimated total:** $780.00\n\nPlanning estimate only—not a reservation or availability confirmation. Peak or seasonal pricing may apply, and rates may change without notice.\n\n- The full-day rate applies regardless of drop-off time.",
+        "[Tool Result: calculate_happy_tails_estimate] (output omitted)"
+      ],
+      "is_error": false,
+      "latency_s": 9.4
+    }
+  ],
+  "status": "ok",
+  "finished": "2026-11-11T20:02:39.576485+00:00"
+}

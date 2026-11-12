@@ -1,0 +1,52 @@
+{
+  "case": "B-02",
+  "trial": 2,
+  "conversation_id": "v2_20261112-012716-B-02-t2-ed9469",
+  "run_tag": "v2t22f36",
+  "started": "2026-11-11T20:00:24.317032+00:00",
+  "turns": [
+    {
+      "i": 1,
+      "customer": "Hi! I need boarding for Honey, she's a goldendoodle, about 50 lbs. Jan 26 to Jan 29, 2027, standard suite. And a full groom before I pick her up.",
+      "blocks": [
+        "Hi! For Honey’s **January 26–29, 2027** stay, the planning estimate is:\n\n- **Standard Suite boarding:** 4 billed days × $65 = **$260**\n- **Full groom for a Goldendoodle:** **starting at $111**\n\n**Combined estimate: $371 starting**, with no listed upper limit for the groom. The groomer may set a higher final price based on Honey’s coat and the time and care needed. Boarding is billed by the day, and the full-day rate applies regardless of drop-off time; peak or seasonal pricing may also apply. I can’t check availability or make a reservation here.",
+        "[Tool Result: calculate_happy_tails_estimate] (output omitted)",
+        "[Tool Result: calculate_happy_tails_estimate] (output omitted)",
+        "[Tool Result: calculate_happy_tails_estimate] (output omitted)"
+      ],
+      "is_error": false,
+      "latency_s": 6.95
+    },
+    {
+      "i": 2,
+      "customer": "Oh I should mention, honestly she's pretty matted right now, it's been a while.",
+      "blocks": [
+        "Thanks for mentioning that. Honey’s **full-groom estimate still starts at $111**, but matting may mean more brushing time or extra care, so the groomer would need to assess her coat to set the final price. De-matting is listed at **$30 per 15 minutes**, but the time needed isn’t known, so I can’t add a reliable amount for it.\n\nThe boarding estimate remains **$260**; together, that’s **$371 starting**, with the grooming total potentially higher.",
+        "[Tool Result: calculate_happy_tails_estimate] (output omitted)"
+      ],
+      "is_error": false,
+      "latency_s": 5.85
+    },
+    {
+      "i": 3,
+      "customer": "So what's my total then?",
+      "blocks": [
+        "The **known starting total is $371**: $260 for boarding plus the full groom starting at $111. Because Honey is matted, grooming may cost more after the groomer assesses her coat; the final total isn’t known yet."
+      ],
+      "is_error": false,
+      "latency_s": 2.68
+    },
+    {
+      "i": 4,
+      "customer": "Can you just give me your best guess for the groom with the matting? I need to budget.",
+      "blocks": [
+        "I can’t give a reliable matting surcharge without seeing Honey’s coat or knowing how long the extra work would take. For budgeting, the listed groom starts at **$111**, and de-matting is **$30 per 15 minutes** if needed. So the groom would be **$111 plus $30 for each 15 minutes of de-matting**—for example, **$141** with one 15-minute unit or **$171** with two. Those are examples, not a prediction of how much Honey will need; the groomer would determine that.",
+        "[Tool Result: calculate_happy_tails_estimate] (output omitted)"
+      ],
+      "is_error": false,
+      "latency_s": 4.61
+    }
+  ],
+  "status": "ok",
+  "finished": "2026-11-11T20:00:46.142813+00:00"
+}

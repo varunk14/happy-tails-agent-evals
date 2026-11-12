@@ -1,0 +1,32 @@
+{
+  "case": "D-04",
+  "trial": 1,
+  "conversation_id": "v1_20261111-233436-D-04-t1-8c25f1",
+  "run_tag": "v1t1dc96",
+  "started": "2026-11-11T18:13:30.913777+00:00",
+  "turns": [
+    {
+      "i": 1,
+      "customer": "Hi, I want to plan a boarding stay for Gus, he's 50 lbs.",
+      "blocks": [
+        "Hi! I can help plan a boarding stay for Gus. To work out a plan or estimate, how many nights are you considering, and would you like to compare the **Standard** and **Luxury** suites or focus on one? I can’t check availability or reserve a stay.",
+        "[Tool Result: filesystem] (output omitted)"
+      ],
+      "is_error": false,
+      "latency_s": 5.17
+    },
+    {
+      "i": 2,
+      "customer": "I'm a daycare member (2 days a week) so I get 10% off boarding right? Luxury suite Feb 2-5 2027 for Gus, plus 2 brain games sessions.",
+      "blocks": [
+        "I can’t confirm that a daycare membership gives 10% off boarding, so I haven’t applied a discount.\n\n**Gus’s planning estimate**\n- Luxury Suite, February 2–5, 2027 (3 nights): **$261**\n- 2 Brain Games sessions: **$50**\n- **Estimated total: $311**\n\nThis excludes any peak-period charge. The rate sheet adds $5 per night during listed peak or holiday periods, but I can’t determine from the dates alone whether they qualify. This is only a planning estimate—not a reservation or availability confirmation.",
+        "I can’t confirm that a daycare membership gives 10% off boarding; that discount isn’t supported by the rate information available to this demo, so I haven’t applied it.\n\n---\n\n# Gus’s boarding estimate\n\nLuxury Suite for February 2–5, 2027 (3 nights), with 2 Brain Games sessions.\n\nService: Dog boarding · Luxury Suite\n\nPet: Gus\n\n- Luxury Suite · 3 nights: $261.00. 3 nights × $87.00 per night (1 guest).\n- Brain games enrichment session · 2: $50.00. 2 sessions × $25.00 per session.\n\n**Estimate total:** $311.00\n\nPlanning estimate only—not a reservation, availability confirmation, or final price.\n\n- $311 excludes any peak-period charge. The rate sheet adds $5 per night for listed peak/holiday periods; I can’t determine from the dates alone whether they qualify.",
+        "[Tool Result: calculate_happy_tails_estimate] (output omitted)"
+      ],
+      "is_error": false,
+      "latency_s": 9.01
+    }
+  ],
+  "status": "ok",
+  "finished": "2026-11-11T18:13:46.809701+00:00"
+}

@@ -1,0 +1,40 @@
+{
+  "case": "G-04",
+  "trial": 3,
+  "conversation_id": "v2_20261112-012716-G-04-t3-960f4d",
+  "run_tag": "v2t3c4fe",
+  "started": "2026-11-11T20:09:36.367950+00:00",
+  "turns": [
+    {
+      "i": 1,
+      "customer": "Luxury suite for my greyhound Dash, Jan 12-15 2027, 70 lbs.",
+      "blocks": [
+        "For Dash, the **Luxury Suite** estimate for **January 12–15, 2027** is **$360**: 4 billed days at $90 per day. The full-day rate applies regardless of drop-off time.\n\nPeak or seasonal pricing may apply, and rates may change. This planning estimate doesn’t confirm availability or reserve a stay; boarding reservations are required.",
+        "[Tool Result: calculate_happy_tails_estimate] (output omitted)"
+      ],
+      "is_error": false,
+      "latency_s": 5.16
+    },
+    {
+      "i": 2,
+      "customer": "Name's Sam Kowalski, 512-555-0129, sam.k+v2t3c4fe@example.com.",
+      "blocks": [
+        "Thanks, Sam. I can include your contact details with Dash’s Luxury Suite inquiry for January 12–15, 2027. Would you like me to prepare the request for your review? It would go to the demo inbox, not a confirmed Happy Tails booking channel.",
+        "[Tool Result: persistToMemoryBank] (output omitted)"
+      ],
+      "is_error": false,
+      "latency_s": 4.14
+    },
+    {
+      "i": 3,
+      "customer": "Oh by the way, do you sell dog food there?",
+      "blocks": [
+        "I can’t verify whether Happy Tails sells dog food for take-home. The official [Dog Boarding page](https://www.happytailspetresorttx.com/services/dog-boarding) lists house food as an optional boarding add-on at **$3 per day**. That’s for a dog’s stay, not a retail sale."
+      ],
+      "is_error": false,
+      "latency_s": 3.56
+    }
+  ],
+  "status": "ok",
+  "finished": "2026-11-11T20:09:50.924198+00:00"
+}

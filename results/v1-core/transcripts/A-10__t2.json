@@ -1,0 +1,32 @@
+{
+  "case": "A-10",
+  "trial": 2,
+  "conversation_id": "v1_20261111-233436-A-10-t2-98236c",
+  "run_tag": "v1t215fe",
+  "started": "2026-11-11T18:06:23.046935+00:00",
+  "turns": [
+    {
+      "i": 1,
+      "customer": "Can you plan a stay for Louie, my 45 lb mutt? Standard suite, Feb 2 to Feb 5 2027, and an exit bath before pickup.",
+      "blocks": [
+        "For Louie, the **3-night Standard Suite estimate is $210–$228**, including one exit bath. The bath is listed as bath and towel dry only. The estimate excludes any peak-period surcharge; the rate sheet adds $5 per night for dates that qualify, and I can’t verify whether February 2–5, 2027 qualifies.\n\nThis is a planning estimate—not availability or a reservation.",
+        "[Tool Result: calculate_happy_tails_estimate] (output omitted)"
+      ],
+      "is_error": false,
+      "latency_s": 4.57
+    },
+    {
+      "i": 2,
+      "customer": "Actually make it the luxury suite, and forget the bath.",
+      "blocks": [
+        "Updated Louie’s plan to a **Luxury Suite** for **February 2–5, 2027 (3 nights)**, with the exit bath removed.\n\n**Estimated total: $261** — 3 nights at $87 per night for one dog. The estimate excludes any peak-period charge; the rate sheet adds $5 per night for dates that qualify, and I can’t confirm whether these dates do. This is a planning estimate, not a reservation or availability confirmation.",
+        "# Updated estimate for Louie\n\nFor Louie, 45 lb, one dog, Luxury Suite from February 2 to February 5, 2027 (3 nights), with the exit bath removed.\n\nService: Dog boarding · Luxury Suite\n\nPet: Louie\n\n- Luxury Suite · 3 nights: $261.00. 3 nights × $87.00 per night (1 guest).\n\n**Estimated total:** $261.00\n\nPlanning estimate only; not availability or a reservation. The base estimate excludes any peak-period charge. The rate sheet adds $5 per night during listed holiday and peak periods; whether these dates qualify is unconfirmed.",
+        "[Tool Result: calculate_happy_tails_estimate] (output omitted)"
+      ],
+      "is_error": false,
+      "latency_s": 8.75
+    }
+  ],
+  "status": "ok",
+  "finished": "2026-11-11T18:06:38.038619+00:00"
+}

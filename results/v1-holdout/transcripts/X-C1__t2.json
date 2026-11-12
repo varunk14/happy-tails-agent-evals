@@ -1,0 +1,35 @@
+{
+  "case": "X-C1",
+  "trial": 2,
+  "conversation_id": "v1holdout_20261111-235648-X-C1-t2-1781fe",
+  "run_tag": "v1holdoutt2990a",
+  "started": "2026-11-11T18:28:22.371371+00:00",
+  "turns": [
+    {
+      "i": 1,
+      "customer": "Hi! We're planning ahead for Spring Break.",
+      "blocks": [
+        "Hi! I can help you plan ahead. This is an unofficial planning demo—not a Happy Tails booking channel—and I can’t check availability or reserve services.\n\nWhat would you like to explore for Spring Break: boarding, daycare, grooming, or training?",
+        "Hi! I can help you plan ahead. This is an unofficial planning demo—not a Happy Tails booking channel—and I can’t check availability or reserve services. What would you like to explore for Spring Break?\n\n### Choose a starting point\n\n→ Boarding\n\n→ Daycare\n\n→ Grooming\n\n→ Training",
+        "[Tool Result: filesystem] (output omitted)"
+      ],
+      "is_error": false,
+      "latency_s": 6.71
+    },
+    {
+      "i": 2,
+      "customer": "Spring break trip! Standard suite for our lab Sunny from Saturday March 13 to Sunday March 21, 2027. What will it cost and what are the rules?",
+      "blocks": [
+        "For Sunny, **one dog in a Standard suite for 8 nights** (March 13–21, 2027), the estimate is **$496** at the listed rate of $62 per night.\n\nThe documented rules that affect this estimate:\n- The rate sheet adds **$5 per night** for dates identified as peak or holiday. I can’t verify whether your dates qualify, so that surcharge isn’t included.\n- The **10-night package** applies only to exactly 10 nights, so it doesn’t apply here.\n- This is a planning estimate, not a reservation or availability check. I don’t have verified details on other boarding policies, such as check-in requirements.",
+        "# Sunny’s boarding estimate\n\nFor one dog in a Standard suite from March 13 to March 21, 2027 (8 nights).\n\nService: Dog boarding · Standard suite\n\nPet: Sunny\n\n- Standard Suite · 8 nights: $496.00. 8 nights × $62.00 per night (1 guest).\n\n**Estimated total:** $496.00\n\nPlanning estimate only—not a reservation, availability check, or final booking price.\n\n- The rate sheet adds $5 per night for dates identified as peak/holiday. I can’t verify whether these dates qualify, so that surcharge is not included.\n- The 10-night package does not apply to this 8-night stay.\n\n---\n\nThe documented pricing rules relevant here are: the Standard one-dog rate is $62 per night; the sheet adds $5 per night for listed peak/holiday periods, but I can’t confirm whether your dates count as peak; and the 10-night package applies only to exactly 10 nights when selected. I don’t have verified details for other boarding policies or live availability, so I can’t confirm requirements such as check-in rules or capacity.",
+        "[Tool Result: getCurrentTime] (output omitted)",
+        "[Tool Result: calculate_happy_tails_estimate] (output omitted)",
+        "[Tool Result: Grep] (output omitted)"
+      ],
+      "is_error": false,
+      "latency_s": 11.6
+    }
+  ],
+  "status": "ok",
+  "finished": "2026-11-11T18:28:42.389744+00:00"
+}

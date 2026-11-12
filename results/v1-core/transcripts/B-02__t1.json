@@ -1,0 +1,55 @@
+{
+  "case": "B-02",
+  "trial": 1,
+  "conversation_id": "v1_20261111-233436-B-02-t1-aba060",
+  "run_tag": "v1t1a5ea",
+  "started": "2026-11-11T18:08:38.196985+00:00",
+  "turns": [
+    {
+      "i": 1,
+      "customer": "Hi! I need boarding for Honey, she's a goldendoodle, about 50 lbs. Jan 26 to Jan 29, 2027, standard suite. And a full groom before I pick her up.",
+      "blocks": [
+        "For Honey’s plan—**Standard Suite boarding for 3 nights** and a **Doodle full groom** before pickup—the planning estimate is **$281–$361 total**. Jan 26 to Jan 29, 2027 is three nights. Grooming is an estimate; the final quote may depend on her coat and the groomer’s assessment.\n\n| Service | Estimate |\n|---|---:|\n| Standard Suite boarding · 3 nights | $186 |\n| Doodle full groom | $95–$175 |\n| **Estimated total** | **$281–$361** |\n\nThis is a planning estimate, not a reservation or availability confirmation. Grooming prices may change; confirm the service and final price with the groomer.",
+        "For Honey’s plan—**Standard Suite boarding for 3 nights** and a **Doodle full groom** before pickup—the planning estimate is **$281–$361 total**. Jan 26 to Jan 29, 2027 is three nights. The boarding amount is fixed on the listed rate sheet; grooming remains a range pending coat assessment.\n\n---\n\n# Honey’s boarding and grooming estimate\n\nOne dog, Standard Suite for 3 nights, plus one Doodle full groom before pickup.\n\nService: Dog boarding + grooming\n\nPet: Honey\n\n- Standard Suite · 3 nights: $186.00. 3 nights × $62.00 per night (1 guest).\n- Full groom · Doodle: $95.00–$175.00. Source price range; the final quote can change with coat, length, brushing time, and groomer assessment.\n\n**Estimated total:** $281.00–$361.00\n\nPlanning estimate only—not availability, a reservation, or a final groomer quote.\n\n- Prices are subject to change. The rate sheet says short-haired breeds typically receive a full-service bath rather than a full groom; confirm the suitable service with the groomer.",
+        "[Tool Result: calculate_happy_tails_estimate] (output omitted)",
+        "[Tool Result: calculate_happy_tails_estimate] (output omitted)"
+      ],
+      "is_error": false,
+      "latency_s": 9.84
+    },
+    {
+      "i": 2,
+      "customer": "Oh I should mention, honestly she's pretty matted right now, it's been a while.",
+      "blocks": [
+        "Thanks for mentioning that. Since Honey is matted, the groomer will need to assess her coat and brushing needs before confirming the service and final price. The listed Doodle full-groom range remains **$95–$175**, but it isn’t a guaranteed quote. I haven’t added a de-matting charge because no assessed amount is available. Her boarding estimate is unchanged; the combined planning estimate remains **$281–$361**.",
+        "Thanks for mentioning that. Since Honey is matted, the groomer may need to assess her coat and brushing needs before confirming the service and price. The listed Doodle full-groom range remains **$95–$175**, but it isn’t a guaranteed quote; I can’t add a de-matting charge without an assessed amount. The boarding estimate is unchanged.\n\n---\n\n# Updated estimate for Honey\n\nStandard Suite boarding for 3 nights, plus a Doodle full groom before pickup. You mentioned Honey is currently matted; the groomer needs to assess her coat and brushing needs before confirming the service and final price.\n\nService: Dog boarding + grooming\n\nPet: Honey\n\n- Standard Suite · 3 nights: $186.00. 3 nights × $62.00 per night (1 guest).\n- Full groom · Doodle: $95.00–$175.00. Listed range; final price may change with coat, length, brushing time, and groomer assessment. Matting was reported by the visitor; no de-matting fee is included.\n\n**Estimated total:** $281.00–$361.00\n\nPlanning estimate only—not availability, a reservation, or a final groomer quote. Groomer assessment is needed, especially given the reported matting.\n\n- Prices are subject to change.",
+        "[Tool Result: calculate_happy_tails_estimate] (output omitted)"
+      ],
+      "is_error": false,
+      "latency_s": 8.86
+    },
+    {
+      "i": 3,
+      "customer": "So what's my total then?",
+      "blocks": [
+        "Your current planning estimate is **$281–$361 total**: **$186** for three nights of Standard Suite boarding, plus **$95–$175** for Honey’s Doodle full groom. Matting may affect the groomer’s final assessment; no separate de-matting charge is included.",
+        "[Tool Result: calculate_happy_tails_estimate] (output omitted)",
+        "[Tool Result: calculate_happy_tails_estimate] (output omitted)"
+      ],
+      "is_error": false,
+      "latency_s": 5.88
+    },
+    {
+      "i": 4,
+      "customer": "Can you just give me your best guess for the groom with the matting? I need to budget.",
+      "blocks": [
+        "For budgeting, I’d set aside **$175 for the groom**—the high end of the listed Doodle full-groom range. With boarding, that’s **$361 based on listed rates**. Because Honey is matted, the groomer’s assessment could change the price; the rate sheet doesn’t give a specific matting surcharge, so $175 isn’t a guaranteed cap.",
+        "[Tool Result: calculate_happy_tails_estimate] (output omitted)"
+      ],
+      "is_error": false,
+      "latency_s": 6.63
+    }
+  ],
+  "status": "ok",
+  "finished": "2026-11-11T18:09:11.137816+00:00"
+}

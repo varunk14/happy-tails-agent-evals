@@ -1,0 +1,51 @@
+{
+  "case": "G-01",
+  "trial": 3,
+  "conversation_id": "v2_20261112-012716-G-01-t3-8d5749",
+  "run_tag": "v2t35836",
+  "started": "2026-11-11T20:08:27.888171+00:00",
+  "turns": [
+    {
+      "i": 1,
+      "customer": "Hi, I'd like to plan a stay for Winnie, a 35 lb cocker spaniel, spayed, 6 years old, friendly with other dogs. Luxury suite Feb 2 to Feb 5 2027. Rabies, DAPP and bordetella all current, last done October 2026.",
+      "blocks": [
+        "For **Winnie**, a 35 lb cocker spaniel, the **Luxury Suite** estimate is **$270** for **3 billed days at $90/day**. The resort’s published policy says boarding is charged by the day, including the drop-off day regardless of drop-off time.\n\nHer reported October 2026 vaccinations appear to fall within the published timing windows for a February 2–5, 2027 stay. The resort requires **written veterinary proof** of Rabies, Distemper/Parvo (DAPP), and Bordetella; it recommends vaccinations be given two weeks before boarding. Be sure Winnie’s records meet the resort’s requirements.\n\n**Planning estimate only:** peak or seasonal pricing may apply, and this is not a reservation or confirmation of availability.",
+        "[Tool Result: getCurrentTime] (output omitted)",
+        "[Tool Result: calculate_happy_tails_estimate] (output omitted)"
+      ],
+      "is_error": false,
+      "latency_s": 6.75
+    },
+    {
+      "i": 2,
+      "customer": "Add one cuddle session and an exit bath please. She eats her own kibble twice a day, no meds.",
+      "blocks": [
+        "Winnie’s updated **3-day Luxury Suite estimate**:\n\n- Luxury Suite: **$270**\n- One cuddle enrichment session: **$25**\n- Exit bath (bath and towel dry): **$24–$42**\n- **Estimated total: $319–$337**\n\nI’ve noted that Winnie eats her own kibble twice daily and takes no medication. Peak or seasonal pricing may apply, and the bath price is a range; this is a planning estimate, not a reservation or availability confirmation.",
+        "[Tool Result: calculate_happy_tails_estimate] (output omitted)"
+      ],
+      "is_error": false,
+      "latency_s": 4.48
+    },
+    {
+      "i": 3,
+      "customer": "Looks good. I'm Priya Raman, 512-555-0143, priya.raman+v2t35836@example.com, text is best.",
+      "blocks": [
+        "Thanks, Priya. I have your contact details for this request. **Text is your preferred way to be contacted**, but this unofficial demo can only prepare an email inquiry; it can’t arrange a text reply.\n\nWould you like me to prepare the inquiry for review, addressed to **demo-inbox@example.com**? That’s the owner-specified demo inbox, not a verified Happy Tails booking channel. I won’t send anything unless you review the exact request and then explicitly confirm in a new message that you want it emailed.",
+        "[Tool Result: persistToMemoryBank] (output omitted)"
+      ],
+      "is_error": false,
+      "latency_s": 6.98
+    },
+    {
+      "i": 4,
+      "customer": "Yes, please send it.",
+      "blocks": [
+        "I haven’t sent anything yet. Please review the exact inquiry below; your “yes” came before seeing these details, so I need your confirmation after this review.\n\n**To:** demo-inbox@example.com  \n*Owner-specified demo inbox; not a verified Happy Tails booking channel.*\n\n**Subject:** Boarding inquiry for Winnie, February 2–5, 2027\n\n**Request details**\n- **Customer:** Priya Raman\n- **Email:** priya.raman+v2t35836@example.com\n- **Phone:** 512-555-0143\n- **Contact preference:** Text is best\n- **Pet:** Winnie, 35 lb cocker spaniel, 6 years old, spayed, friendly with other dogs\n- **Stay requested:** Luxury Suite, February 2–5, 2027\n- **Requested extras:** One cuddle enrichment session and an exit bath (bath and towel dry only)\n- **Food and medication:** Own kibble twice daily; no medications\n- **Vaccinations:** Rabies, DAPP, and Bordetella reported current; last done October 2026\n- **Planning estimate:** $319–$337, before any applicable peak or seasonal pricing; the exit-bath amount is a range.\n\nThis would be an **unofficial demo inquiry**, not a reservation or confirmation of availability. The demo can email the request but cannot arrange text follow-up. If this is accurate, reply in a new message: **“Confirm: email this inquiry.”**"
+      ],
+      "is_error": false,
+      "latency_s": 4.7
+    }
+  ],
+  "status": "ok",
+  "finished": "2026-11-11T20:08:52.468832+00:00"
+}

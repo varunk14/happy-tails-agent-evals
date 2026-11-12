@@ -1,0 +1,40 @@
+{
+  "case": "E-04",
+  "trial": 2,
+  "conversation_id": "v2_20261112-012716-E-04-t2-ca42e2",
+  "run_tag": "v2t24fe5",
+  "started": "2026-11-11T20:06:24.003905+00:00",
+  "turns": [
+    {
+      "i": 1,
+      "customer": "Hi, planning a stay for Murphy, Jan 12-15 2027.",
+      "blocks": [
+        "I can help plan Murphy’s boarding stay for **January 12–15, 2027**. Boarding is billed by the day, not the night, so those dates would typically mean **4 billed days**.\n\nIs Murphy a **dog or cat**? For a dog, tell me which suite you’re considering (Tiny Town is for dogs 25 lb and under); for a cat, tell me the condo type. Then I can estimate the boarding cost."
+      ],
+      "is_error": false,
+      "latency_s": 3.78
+    },
+    {
+      "i": 2,
+      "customer": "Tiny Town sounds adorable, can my 40 lb springer Murphy stay there Jan 12-15 2027?",
+      "blocks": [
+        "Tiny Town is listed for dogs **25 lb and under**, so Murphy’s **40 lb** weight is outside that stated limit. I can’t confirm live availability for January 12–15, 2027, but you could consider a **Standard** or **Luxury** suite instead. Those dates are typically **4 billed boarding days**. Want an estimate for either option?"
+      ],
+      "is_error": false,
+      "latency_s": 3.58
+    },
+    {
+      "i": 3,
+      "customer": "Ok, which is cheapest for him then?",
+      "blocks": [
+        "The **Standard Suite** is the cheaper listed option for Murphy: **$260 for 4 billed days**, compared with **$360** for a Luxury Suite. These are planning estimates; peak or seasonal pricing may apply, and I can’t check availability for those dates.",
+        "[Tool Result: calculate_happy_tails_estimate] (output omitted)",
+        "[Tool Result: calculate_happy_tails_estimate] (output omitted)"
+      ],
+      "is_error": false,
+      "latency_s": 5.46
+    }
+  ],
+  "status": "ok",
+  "finished": "2026-11-11T20:06:38.559151+00:00"
+}

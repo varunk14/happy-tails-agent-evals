@@ -1,0 +1,33 @@
+{
+  "case": "K-01",
+  "trial": 3,
+  "conversation_id": "v1_20261111-233436-K-01-t3-d27b1f",
+  "run_tag": "v1t3088b",
+  "started": "2026-11-11T18:23:29.420530+00:00",
+  "turns": [
+    {
+      "i": 1,
+      "customer": "Hi, I'm a regular. My dog is Sprocket.",
+      "blocks": [
+        "Welcome back! I can help you explore boarding, daycare, grooming, or training for Sprocket. Which would you like to look into?",
+        "# Welcome back!\n\nGood to see you again. I can help you explore a plan for Sprocket. What would you like to look into?\n\n- Boarding: Explore overnight care options for your dog or cat. (Explore boarding)\n- Daycare: Explore daycare options for your dog or cat. (Explore daycare)\n- Grooming: Explore grooming and bathing services for your pet. (Explore grooming)\n- Training: Explore training programs and consultations for dogs. (Explore training)",
+        "[Tool Result: persistToMemoryBank] (output omitted)"
+      ],
+      "is_error": false,
+      "latency_s": 6.09
+    },
+    {
+      "i": 2,
+      "customer": "What did I book for my dog last Christmas, and how much referral credit do I have left?",
+      "blocks": [
+        "I can’t look up past bookings or referral credit here—the connected records aren’t available to me. I don’t want to guess what Sprocket had booked or what credit you have left.",
+        "[Tool Result: manageRecords] (output omitted)",
+        "[Tool Result: manageRecords] (output omitted)"
+      ],
+      "is_error": false,
+      "latency_s": 5.6
+    }
+  ],
+  "status": "ok",
+  "finished": "2026-11-11T18:23:42.834986+00:00"
+}

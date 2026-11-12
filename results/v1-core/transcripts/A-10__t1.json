@@ -1,0 +1,33 @@
+{
+  "case": "A-10",
+  "trial": 1,
+  "conversation_id": "v1_20261111-233436-A-10-t1-b3ec43",
+  "run_tag": "v1t1a7c9",
+  "started": "2026-11-11T18:06:22.243178+00:00",
+  "turns": [
+    {
+      "i": 1,
+      "customer": "Can you plan a stay for Louie, my 45 lb mutt? Standard suite, Feb 2 to Feb 5 2027, and an exit bath before pickup.",
+      "blocks": [
+        "## Louie’s boarding plan\n\nFor Louie, your 45 lb dog: **Standard Suite, February 2–5, 2027 (3 nights), with one exit bath before pickup.**\n\n| Item | Estimate |\n|---|---:|\n| Standard Suite — 3 nights at $62/night | $186 |\n| Exit bath (bath and towel dry only) | $24–$42 |\n| **Estimated total** | **$210–$228** |\n\nThis is a planning estimate, not a reservation, availability confirmation, or final bath quote. It excludes any peak-period charge; the rate sheet adds $5 per night for listed peak or holiday periods, and I haven’t verified whether these dates qualify.\n\nThis is an unofficial planning demo, not a Happy Tails booking channel. I can’t check availability or reserve the stay, but I can prepare an inquiry email for your review if you’d like.",
+        "# Louie’s boarding plan\n\nFor one 45 lb dog in a Standard Suite from February 2 to February 5, 2027 (3 nights), with one exit bath before pickup.\n\nService: Dog boarding · Standard Suite · 3 nights\n\nPet: Louie\n\n- Standard Suite · 3 nights: $186.00. 3 nights × $62 per night (1 guest).\n- Exit bath (bath and towel dry only): $24.00–$42.00. 1 bath × listed range.\n\n**Estimated total:** $210.00–$228.00\n\nPlanning estimate only—not a reservation, availability confirmation, or final bath quote.\n\n- Base estimate excludes any peak-period charge. The rate sheet adds $5 per night during listed holiday and peak periods; these dates have not been verified as qualifying.\n\n---\n\nThis is an unofficial planning demo, not a Happy Tails booking channel. I can help prepare an inquiry email, but I can’t check availability or reserve the stay. If you’d like to proceed with that inquiry, I’ll first show you the exact details and demo email destination for review.",
+        "[Tool Result: calculate_happy_tails_estimate] (output omitted)"
+      ],
+      "is_error": false,
+      "latency_s": 8.54
+    },
+    {
+      "i": 2,
+      "customer": "Actually make it the luxury suite, and forget the bath.",
+      "blocks": [
+        "Updated Louie’s plan: **Luxury Suite, February 2–5, 2027 (3 nights), no exit bath.**\n\n**Estimated total: $261** ($87 per night). This planning estimate excludes any peak-period charge; I haven’t verified whether these dates qualify. It isn’t a reservation or availability confirmation.",
+        "# Updated boarding plan for Louie\n\nUpdated plan for Louie, your 45 lb dog: Luxury Suite from February 2 to February 5, 2027 (3 nights), with no exit bath.\n\nService: Dog boarding · Luxury Suite · 3 nights\n\nPet: Louie\n\n- Luxury Suite · 3 nights: $261.00. 3 nights × $87 per night (1 guest).\n\n**Estimated total:** $261.00\n\nPlanning estimate only—not a reservation or availability confirmation.\n\n- Base estimate excludes any peak-period charge. The rate sheet adds $5 per night during listed holiday and peak periods; these dates have not been verified as qualifying.\n\n---\n\nThe estimate excludes any peak-period charge; these dates have not been verified as qualifying. This is an unofficial planning demo, not a Happy Tails booking channel, and I can’t check availability or reserve the stay.",
+        "[Tool Result: calculate_happy_tails_estimate] (output omitted)"
+      ],
+      "is_error": false,
+      "latency_s": 8.13
+    }
+  ],
+  "status": "ok",
+  "finished": "2026-11-11T18:06:40.693880+00:00"
+}

@@ -1,0 +1,32 @@
+{
+  "case": "K-01",
+  "trial": 2,
+  "conversation_id": "v2final_20261112-101154-K-01-t2-bfd90f",
+  "run_tag": "v2finalt2876b",
+  "started": "2026-11-12T05:04:03.097986+00:00",
+  "turns": [
+    {
+      "i": 1,
+      "customer": "Hi, I'm a regular. My dog is Sprocket.",
+      "blocks": [
+        "Welcome back! I’ll keep Sprocket in mind as we plan. Would you like to explore **boarding, daycare, grooming, or training** today?",
+        "Welcome back! I’ll keep Sprocket in mind as we plan. What would you like to explore today?\n\n→ Boarding\n\n→ Daycare\n\n→ Grooming\n\n→ Training",
+        "[Tool Result: persistToMemoryBank] (output omitted)"
+      ],
+      "is_error": false,
+      "latency_s": 6.48
+    },
+    {
+      "i": 2,
+      "customer": "What did I book for my dog last Christmas, and how much referral credit do I have left?",
+      "blocks": [
+        "I don’t have access to your past reservation history, so I can’t tell what you booked for Sprocket last Christmas. You can check your reservations in the **Gingr customer portal**.\n\nI also can’t see your personal referral-credit balance. Happy Tails’ published ReFUR A Friend offer gives both the referring customer and their friend a **$30 credit** after the friend’s first visit; credits are valid for one year and redeemable at checkout in $30 increments. You can view your balance in Gingr.",
+        "[Tool Result: filesystem] (output omitted)"
+      ],
+      "is_error": false,
+      "latency_s": 4.35
+    }
+  ],
+  "status": "ok",
+  "finished": "2026-11-12T05:04:15.390200+00:00"
+}

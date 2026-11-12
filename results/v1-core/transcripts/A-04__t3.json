@@ -1,0 +1,37 @@
+{
+  "case": "A-04",
+  "trial": 3,
+  "conversation_id": "v1_20261111-233436-A-04-t3-96c6e5",
+  "run_tag": "v1t36ebc",
+  "started": "2026-11-11T18:05:31.777129+00:00",
+  "turns": [
+    {
+      "i": 1,
+      "customer": "I'm thinking of daycare for my pup Ollie about twice a week, ongoing. What are my options and what's cheapest per day?",
+      "blocks": [
+        "For Ollie’s **roughly twice-weekly routine**, the closest fit is the **2-visits-per-week membership: $300/month for 10 visits, or $30 per scheduled day**.\n\n| Dog daycare option | Listed price | Effective price per visit/day |\n|---|---:|---:|\n| Single full-day visit | $36 | $36 |\n| 10-day prepaid pack | $340 | $34 |\n| 20-day prepaid pack | $650 | $32.50 |\n| Membership, 1 visit/week (5 visits/month) | $160/month | $32 |\n| **Membership, 2 visits/week (10 visits/month)** | **$300/month** | **$30** |\n| Membership, 3 visits/week (15 visits/month) | $420/month | **$28** |\n| Unlimited membership | $540/month | As low as $18/day, depending on use |\n\n**Cheapest overall:** the unlimited membership can be as low as **$18/day**, depending on use. Among memberships with a fixed number of visits, the 3-per-week plan has the lowest effective rate at **$28 per included visit**, though it offers more visits than you’re considering. The 2-per-week membership is the closest match for Ollie.\n\nPrepaid packs must be paid in advance, are non-refundable, and can’t be combined with other discounts. These are planning figures; this unofficial demo can’t check availability or enroll Ollie.",
+        "For Ollie’s **roughly twice-weekly routine**, the closest fit is the **2-visits-per-week membership: $300/month for 10 visits, or $30 per scheduled day**.\n\nHere are the listed dog daycare options and their effective cost per included visit/day:\n\n| Option | Listed price | Effective price per visit/day |\n|---|---:|---:|\n| Single full-day visit | $36 | $36 |\n| 10-day prepaid pack | $340 | $34 |\n| 20-day prepaid pack | $650 | $32.50 |\n| Membership, 1 visit/week (5 per month) | $160/month | $32 |\n| **Membership, 2 visits/week (10 per month)** | **$300/month** | **$30** |\n| Membership, 3 visits/week (15 per month) | $420/month | **$28** |\n| Unlimited membership | $540/month | As low as $18/day, depending on use |\n\n**Cheapest on the listed per-day figures:** the unlimited membership can be as low as **$18/day**, depending on how often Ollie attends. Among memberships with a fixed number of visits, the 3-per-week plan has the lowest effective rate at **$28 per included visit**, but it includes more visits than you’re considering. For your twice-weekly plan, the 2-per-week membership is the closest match at **$30 per scheduled visit**.\n\nPrepaid packs must be paid in advance, are non-refundable, and can’t be combined with other discounts. These are listed rates for planning; this demo can’t check availability or enroll Ollie.",
+        "[Tool Result: calculate_happy_tails_estimate] (output omitted)",
+        "[Tool Result: calculate_happy_tails_estimate] (output omitted)",
+        "[Tool Result: calculate_happy_tails_estimate] (output omitted)",
+        "[Tool Result: calculate_happy_tails_estimate] (output omitted)",
+        "[Tool Result: calculate_happy_tails_estimate] (output omitted)",
+        "[Tool Result: calculate_happy_tails_estimate] (output omitted)",
+        "[Tool Result: calculate_happy_tails_estimate] (output omitted)"
+      ],
+      "is_error": false,
+      "latency_s": 15.09
+    },
+    {
+      "i": 2,
+      "customer": "And if I bought a pack instead, can I get a refund for days I don't use?",
+      "blocks": [
+        "No. The daycare packs are **non-refundable**, so you wouldn’t get a refund for unused days. They also must be prepaid and can’t be combined with other discounts."
+      ],
+      "is_error": false,
+      "latency_s": 3.22
+    }
+  ],
+  "status": "ok",
+  "finished": "2026-11-11T18:05:51.769984+00:00"
+}

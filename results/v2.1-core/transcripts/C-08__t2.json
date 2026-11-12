@@ -1,0 +1,31 @@
+{
+  "case": "C-08",
+  "trial": 2,
+  "conversation_id": "v2_20261112-012716-C-08-t2-a5f584",
+  "run_tag": "v2t24269",
+  "started": "2026-11-11T20:03:20.796386+00:00",
+  "turns": [
+    {
+      "i": 1,
+      "customer": "My puppy Olive is 5 and a half months old. Can she still do the puppy consultation? Your sheet says it's $110 and for puppies 5 months and under.",
+      "blocks": [
+        "I only emit page content verbatim; ask the calling agent to summarise after fetch.\n\n## Failed URLs\n- https://happytailspetresort.com/: retrieval failed (site blocked or inaccessible)\n- https://happytailspetresort.com/rates/: retrieval failed (site blocked or inaccessible)\n- https://happytailspetresort.com/training/: retrieval failed (site blocked or inaccessible)Yes. Olive is 5½ months old, so she’s within the listed puppy-consultation age limit of **6 months and younger**. The current estimate is **$120** for an at-home consultation—not $110.",
+        "[Tool Result: Subagent] (output omitted)",
+        "[Tool Result: calculate_happy_tails_estimate] (output omitted)"
+      ],
+      "is_error": false,
+      "latency_s": 7.17
+    },
+    {
+      "i": 2,
+      "customer": "Great, can you get the trainer to come to us?",
+      "blocks": [
+        "The puppy consultation is listed as an **at-home visit**, so it’s the service that fits having a trainer come to you. I can’t arrange or confirm a visit, but I can help prepare an inquiry email to the demo address **demo-inbox@example.com**—it isn’t a verified Happy Tails booking channel.\n\nTo prepare the request for Olive, I’d need your name and email address. Then I’ll show you the exact message for review; I won’t send it unless you explicitly confirm."
+      ],
+      "is_error": false,
+      "latency_s": 3.5
+    }
+  ],
+  "status": "ok",
+  "finished": "2026-11-11T20:03:33.299912+00:00"
+}

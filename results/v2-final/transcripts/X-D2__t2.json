@@ -1,0 +1,30 @@
+{
+  "case": "X-D2",
+  "trial": 2,
+  "conversation_id": "v2final_20261112-101154-X-D2-t2-75302f",
+  "run_tag": "v2finalt2ae30",
+  "started": "2026-11-12T05:09:14.400264+00:00",
+  "turns": [
+    {
+      "i": 1,
+      "customer": "Hi! Quick question about daycare deals.",
+      "blocks": [
+        "Happy Tails’ published daycare deals include:\n\n- **Daycare packs:** 10 days for **$350** or 20 days for **$680**. Packs are prepaid and non-refundable; you can use the days one at a time or all at once, and packs can’t be combined with other discounts.\n- **Monthly memberships:** **$160/month** for 1 day per week, **$300** for 2 days per week, **$420** for 3 days per week, or **$540** for unlimited visits. The website also lists guaranteed daycare availability for members, but I can’t check availability for a particular date.\n- **New-dog offer:** **$99 for unlimited daycare for 30 days** after purchase. It’s for new dogs only, one offer per dog, and requires a free group-play evaluation.\n\nThere’s also a **Day Spa rate of $25** for discounted daycare for grooming clients, but the published rate doesn’t specify its billing period. Would you like me to compare the packs and memberships for how often you expect to go?",
+        "[Tool Result: filesystem] (output omitted)"
+      ],
+      "is_error": false,
+      "latency_s": 6.08
+    },
+    {
+      "i": 2,
+      "customer": "My older dog has come to you for years. We just adopted a second dog, Pickle. Can Pickle get the $99 unlimited daycare deal?",
+      "blocks": [
+        "Happy Tails’ published offer is for **new dogs only**—it doesn’t say the owner must also be a new client. So Pickle may qualify even though your older dog has been coming for years, if Pickle is new to Happy Tails and hasn’t used the offer before. The offer requires a free group-play evaluation; the website doesn’t spell out more about eligibility, so staff can clarify if needed at **(512) 764-6150**."
+      ],
+      "is_error": false,
+      "latency_s": 4.19
+    }
+  ],
+  "status": "ok",
+  "finished": "2026-11-12T05:09:27.855903+00:00"
+}

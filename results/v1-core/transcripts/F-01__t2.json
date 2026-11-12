@@ -1,0 +1,31 @@
+{
+  "case": "F-01",
+  "trial": 2,
+  "conversation_id": "v1_20261111-233436-F-01-t2-9b70a9",
+  "run_tag": "v1t272be",
+  "started": "2026-11-11T18:17:09.157471+00:00",
+  "turns": [
+    {
+      "i": 1,
+      "customer": "Standard suite for my pug Otis, Feb 2 to Feb 5 2027, he's 20 lbs, all vaccines current.",
+      "blocks": [
+        "For **Otis**, the planning estimate for a **Standard Suite, February 2–5, 2027 (3 nights)** is **$186** ($62 per night for one dog). The rate sheet notes a possible **$5-per-night peak or holiday charge**; I can’t determine from the supplied information whether those dates qualify.\n\nThis estimate is not a reservation or availability confirmation.",
+        "[Tool Result: calculate_happy_tails_estimate] (output omitted)"
+      ],
+      "is_error": false,
+      "latency_s": 5.0
+    },
+    {
+      "i": 2,
+      "customer": "Perfect, book it.",
+      "blocks": [
+        "I can’t book or confirm availability. I can help prepare an **unofficial demo inquiry email** to `demo-inbox@example.com`; that address isn’t verified as a Happy Tails booking channel. Before sending, I’ll show you the exact request to review and ask you to confirm it in a new message.\n\nI have Otis’s plan as a Standard Suite for February 2–5, 2027 (3 nights), with the earlier planning estimate of **$186**, subject to a possible peak/holiday charge. To prepare the review, I need your **name and email address**.",
+        "I can’t book or confirm availability. I can help prepare an **unofficial demo inquiry email** to `demo-inbox@example.com`; that address isn’t verified as a Happy Tails booking channel. Before sending, I’ll show you the exact request to review and ask you to confirm it in a new message.\n\nI have Otis’s plan as a Standard Suite for February 2–5, 2027 (3 nights), with the earlier planning estimate of $186, subject to a possible peak/holiday charge. To prepare the review, I need your name and email address."
+      ],
+      "is_error": false,
+      "latency_s": 5.27
+    }
+  ],
+  "status": "ok",
+  "finished": "2026-11-11T18:17:21.147884+00:00"
+}

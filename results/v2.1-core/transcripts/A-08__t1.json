@@ -1,0 +1,30 @@
+{
+  "case": "A-08",
+  "trial": 1,
+  "conversation_id": "v2_20261112-012716-A-08-t1-778836",
+  "run_tag": "v2t19f06",
+  "started": "2026-11-11T19:58:25.844368+00:00",
+  "turns": [
+    {
+      "i": 1,
+      "customer": "We just got a 4 month old puppy, Biscuit, and she's chewing everything. What training do you offer for puppies and how much?",
+      "blocks": [
+        "Happy Tails lists an **at-home puppy consultation for $120**. Biscuit, at 4 months old, is within the listed age range of 6 months and younger. The consultation may be a good place to discuss her chewing, but I can’t promise a particular training outcome. This is a planning estimate, not a reservation or confirmation of availability.",
+        "[Tool Result: calculate_happy_tails_estimate] (output omitted)"
+      ],
+      "is_error": false,
+      "latency_s": 4.36
+    },
+    {
+      "i": 2,
+      "customer": "She's 4 months, so the puppy consultation works for her? Can you come to our house?",
+      "blocks": [
+        "Yes. Happy Tails lists the **$120 puppy consultation for puppies 6 months and younger**, and it’s described as **at home**, so Biscuit’s age fits the listed criteria. I can’t come to your home or check whether a trainer is available; this is an unofficial planning demo, not a booking channel."
+      ],
+      "is_error": false,
+      "latency_s": 3.36
+    }
+  ],
+  "status": "ok",
+  "finished": "2026-11-11T19:58:35.318396+00:00"
+}

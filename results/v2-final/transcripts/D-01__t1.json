@@ -1,0 +1,33 @@
+{
+  "case": "D-01",
+  "trial": 1,
+  "conversation_id": "v2final_20261112-101154-D-01-t1-2712dc",
+  "run_tag": "v2finalt14dcd",
+  "started": "2026-11-12T04:50:09.808677+00:00",
+  "turns": [
+    {
+      "i": 1,
+      "customer": "Hi again! Planning another stay for Biscuit, Feb 2-5 2027, standard suite.",
+      "blocks": [
+        "Biscuit’s estimated boarding total for Feb 2–5, 2027 is **$195**: 3 nights in a Standard Suite at $65 per day.\n\nThis is a planning estimate, not a reservation or availability check. The resort bills by the day, and Happy Tails staff confirm the final total. Peak or seasonal pricing may apply; the published information doesn’t specify whether it applies to these dates or what the amount would be. Rates may change without notice.",
+        "# Biscuit’s boarding estimate\n\nFor Feb 2–5, 2027, in a Standard Suite (3 nights).\n\nService: Dog boarding · Standard Suite\n\nPet: Biscuit\n\n- Standard Suite: $195.00. 3 nights × $65/day for this estimate.\n\n**Estimated total:** $195.00\n\nPlanning estimate only—not a reservation, availability check, or final total. The resort bills by the day; Happy Tails staff confirm the final total.\n\n- Peak or seasonal pricing may apply, but the published information does not say whether these dates qualify or by how much. Staff can clarify. Rates may change without notice.",
+        "[Tool Result: filesystem] (output omitted)",
+        "[Tool Result: calculate_happy_tails_estimate] (output omitted)",
+        "[Tool Result: persistToMemoryBank] (output omitted)"
+      ],
+      "is_error": false,
+      "latency_s": 10.11
+    },
+    {
+      "i": 2,
+      "customer": "We've boarded Biscuit with you loads of times. I saw the free night 'Stay & Play' deal, can I use that for our Feb 2-5 2027 stay? Standard suite.",
+      "blocks": [
+        "Based on Happy Tails’ published terms, **no**: the First Stay & Play offer is for new clients only, and you’ve boarded Biscuit there before. It covers one night at the Standard room rate; the free play is a group-play evaluation only, not individual play. The offer is also subject to availability and can’t be combined with other discounts.\n\nYour earlier estimate for Feb 2–5 remains **$195 before any applicable peak or seasonal pricing**; Happy Tails staff confirm the final total."
+      ],
+      "is_error": false,
+      "latency_s": 3.68
+    }
+  ],
+  "status": "ok",
+  "finished": "2026-11-12T04:50:25.163795+00:00"
+}

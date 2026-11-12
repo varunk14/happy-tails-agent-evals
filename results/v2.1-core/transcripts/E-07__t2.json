@@ -1,0 +1,31 @@
+{
+  "case": "E-07",
+  "trial": 2,
+  "conversation_id": "v2_20261112-012716-E-07-t2-1a1366",
+  "run_tag": "v2t2c283",
+  "started": "2026-11-11T20:07:08.744663+00:00",
+  "turns": [
+    {
+      "i": 1,
+      "customer": "Standard suite for Rex, 55 lbs, Feb 9-12 2027. Can you add the 1-week training refresher during his stay?",
+      "blocks": [
+        "The **one-week refresher won’t fit within a Feb 9–12 stay**: it’s listed as **7 nights and 5 training days**, and it’s only for dogs who completed a Happy Tails in-house training program. I can’t add it to this shorter stay as requested.\n\nFor comparison, the Standard Suite estimate is **$195**, assuming **3 billed days** at $65/day. Peak or seasonal pricing may apply, and this isn’t a reservation or availability confirmation.\n\nA listed alternative is a **single 30-minute training add-on during boarding for $50**. Has Rex completed an in-house Happy Tails training program, or would you prefer to consider that single-session add-on?",
+        "[Tool Result: calculate_happy_tails_estimate] (output omitted)",
+        "[Tool Result: calculate_happy_tails_estimate] (output omitted)"
+      ],
+      "is_error": false,
+      "latency_s": 6.64
+    },
+    {
+      "i": 2,
+      "customer": "He's never done training with you, but he went to a trainer somewhere else last year.",
+      "blocks": [
+        "Thanks—that means Rex **doesn’t meet the listed eligibility** for the one-week refresher, which is only for dogs who completed a Happy Tails in-house training program. His training with another trainer doesn’t change that.\n\nThe **single 30-minute training add-on during boarding is listed at $50**. Would you like me to include one of those in the estimate?"
+      ],
+      "is_error": false,
+      "latency_s": 2.65
+    }
+  ],
+  "status": "ok",
+  "finished": "2026-11-11T20:07:19.754871+00:00"
+}

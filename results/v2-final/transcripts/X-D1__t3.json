@@ -1,0 +1,32 @@
+{
+  "case": "X-D1",
+  "trial": 3,
+  "conversation_id": "v2final_20261112-101154-X-D1-t3-a0d7a0",
+  "run_tag": "v2finalt37b55",
+  "started": "2026-11-12T05:09:03.525830+00:00",
+  "turns": [
+    {
+      "i": 1,
+      "customer": "Hi, first time here! Planning a standard suite for my dog Maple, Jan 12-15 2027.",
+      "blocks": [
+        "Hi! Welcome to Happy Tails planning. I can help with boarding, daycare, grooming, or training.\n\nI can help you plan a stay and estimate the cost. Happy Tails staff confirm every booking.\n\n**Maple’s standard-suite estimate**\n- Jan 12–15, 2027: **3 nights × $65/day = $195**\n- Happy Tails bills boarding by the day, and staff confirm the final total. Peak or seasonal pricing may apply; it isn’t specified whether it applies to these dates. This estimate doesn’t confirm availability or reserve a stay.",
+        "[Tool Result: calculate_happy_tails_estimate] (output omitted)",
+        "[Tool Result: persistToMemoryBank] (output omitted)"
+      ],
+      "is_error": false,
+      "latency_s": 6.54
+    },
+    {
+      "i": 2,
+      "customer": "My friend referred me with your Give $30 Get $30 thing. Can I take $30 off this first stay?",
+      "blocks": [
+        "Happy Tails’ published **“Give $30, Get $30”** referral offer awards both you and your friend a **$30 credit after your first visit**. So it wouldn’t reduce the estimate for Maple’s first stay; the current planning estimate remains **$195**, before any applicable seasonal pricing. Referral credits are redeemable at checkout in $30 increments once earned.",
+        "[Tool Result: filesystem] (output omitted)"
+      ],
+      "is_error": false,
+      "latency_s": 5.78
+    }
+  ],
+  "status": "ok",
+  "finished": "2026-11-12T05:09:17.391091+00:00"
+}

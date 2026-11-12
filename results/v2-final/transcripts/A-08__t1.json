@@ -1,0 +1,33 @@
+{
+  "case": "A-08",
+  "trial": 1,
+  "conversation_id": "v2final_20261112-101154-A-08-t1-d8626e",
+  "run_tag": "v2finalt1d791",
+  "started": "2026-11-12T04:43:29.096588+00:00",
+  "turns": [
+    {
+      "i": 1,
+      "customer": "We just got a 4 month old puppy, Biscuit, and she's chewing everything. What training do you offer for puppies and how much?",
+      "blocks": [
+        "Happy Tails offers a **puppy consultation** that can address chewing, housebreaking, crate training, socialization, jumping, nipping, and basic commands. It’s an **at-home consultation for puppies 6 months and younger**; the listed price is **$120**, so Biscuit’s age fits the published range.\n\nThere’s also a **complimentary private training evaluation** to meet the trainer, discuss your goals, and create a tailored plan. The website doesn’t list a separate price for that evaluation.",
+        "Happy Tails offers a **puppy consultation** that covers concerns including chewing, along with housebreaking, crate training, socialization, jumping, nipping, and basic commands. The listed consultation is **at home** and for puppies **6 months and younger**, so Biscuit, at 4 months, fits the published age range.\n\nThere’s also a **complimentary private training evaluation** to meet the trainer, discuss your goals, and create a tailored plan. The source doesn’t state a separate price for that evaluation.\n\n---\n\n# Puppy consultation estimate for Biscuit\n\nThe published puppy consultation is at home and applies to puppies 6 months and younger.\n\nService: Puppy consultation\n\nPet: Biscuit\n\n- Puppy consultation: $120.00. At-home consultation for puppies 6 months and younger.\n\n**Listed price:** $120.00\n\nPlanning estimate based on the published rate; not a reservation or confirmation.",
+        "[Tool Result: filesystem] (output omitted)",
+        "[Tool Result: calculate_happy_tails_estimate] (output omitted)"
+      ],
+      "is_error": false,
+      "latency_s": 7.09
+    },
+    {
+      "i": 2,
+      "customer": "She's 4 months, so the puppy consultation works for her? Can you come to our house?",
+      "blocks": [
+        "Yes. Biscuit is 4 months old, within Happy Tails’ published age limit of 6 months and younger, and the **$120 puppy consultation is at home**. I can’t check the trainer’s availability for your address or a particular date.",
+        "Yes. Biscuit is 4 months old, within Happy Tails’ published puppy-consultation limit of 6 months and younger, and the $120 consultation is listed as **at home**. I can’t check the trainer’s availability for your address or a particular date."
+      ],
+      "is_error": false,
+      "latency_s": 5.53
+    }
+  ],
+  "status": "ok",
+  "finished": "2026-11-12T04:43:43.235967+00:00"
+}

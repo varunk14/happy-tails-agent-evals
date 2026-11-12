@@ -1,0 +1,34 @@
+{
+  "case": "X-D1",
+  "trial": 3,
+  "conversation_id": "v1holdout_20261111-235648-X-D1-t3-55ea9d",
+  "run_tag": "v1holdoutt33e2e",
+  "started": "2026-11-11T18:29:06.818747+00:00",
+  "turns": [
+    {
+      "i": 1,
+      "customer": "Hi, first time here! Planning a standard suite for my dog Maple, Jan 12-15 2027.",
+      "blocks": [
+        "Hi! Happy to help you explore **boarding, daycare, grooming, or training**. For Maple’s Standard Suite stay from **January 12–15, 2027** (3 nights), the base planning estimate is **$186** for one dog.\n\nThe rate sheet adds $5 per night during listed peak or holiday periods, but I can’t verify whether those dates qualify. This is an unofficial planning demo; I can’t check availability or reserve the stay.",
+        "Hi! I can help you explore **boarding, daycare, grooming, or training**. For Maple’s Standard Suite stay, Jan 12–15, 2027 is **3 nights**; the base planning estimate is **$186** for one dog. The rate sheet adds $5 per night on listed peak/holiday dates, but I can’t verify whether these dates qualify. This is an unofficial planning demo, not a Happy Tails booking channel, and I can’t check availability or reserve the stay.\n\n---\n\n# Maple’s boarding estimate\n\nOne dog in a Standard Suite for 3 nights, Jan 12–15, 2027.\n\nService: Dog boarding · Standard Suite\n\nPet: Maple\n\n- Standard Suite · 3 nights: $186.00. 3 nights × $62.00 per night (1 guest).\n\n**Base estimate:** $186.00\n\nPlanning estimate only—not availability, a reservation, or a final booking price. Peak/holiday eligibility for these dates is unverified.\n\n- Base estimate excludes any peak-period charge. The rate sheet adds $5 per night during listed holiday and peak periods; confirm whether the requested dates qualify.",
+        "[Tool Result: filesystem] (output omitted)",
+        "[Tool Result: persistToMemoryBank] (output omitted)",
+        "[Tool Result: calculate_happy_tails_estimate] (output omitted)"
+      ],
+      "is_error": false,
+      "latency_s": 8.66
+    },
+    {
+      "i": 2,
+      "customer": "My friend referred me with your Give $30 Get $30 thing. Can I take $30 off this first stay?",
+      "blocks": [
+        "I can’t verify from the rate information available here whether the “Give $30 Get $30” offer applies to Maple’s boarding stay, so I can’t deduct it from the estimate. The base estimate remains **$186**, before any applicable peak or holiday charge. You could ask whether the offer applies; any inquiry I help prepare would be a demo email, not a reservation or confirmed booking channel.",
+        "I can’t confirm that the referral offer applies to Maple’s boarding stay or subtract $30 from the estimate: the rate information available to this demo doesn’t verify the offer’s eligibility or terms. The current estimate remains **$186 before any applicable peak/holiday charge**. You could ask whether the referral applies to this stay; I can help prepare an inquiry, but it would be a demo email, not a reservation or verified booking channel."
+      ],
+      "is_error": false,
+      "latency_s": 4.62
+    }
+  ],
+  "status": "ok",
+  "finished": "2026-11-11T18:29:21.822568+00:00"
+}

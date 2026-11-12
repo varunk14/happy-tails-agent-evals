@@ -1,0 +1,33 @@
+{
+  "case": "D-07",
+  "trial": 2,
+  "conversation_id": "v1_20261111-233436-D-07-t2-04c896",
+  "run_tag": "v1t2449f",
+  "started": "2026-11-11T18:14:36.708901+00:00",
+  "turns": [
+    {
+      "i": 1,
+      "customer": "Two cats, Mochi and Miso. They do everything together. Can they share the extra large window condo Jan 12-15 2027?",
+      "blocks": [
+        "I can’t verify from the available information whether Mochi and Miso can share an extra-large window condo. I also can’t check availability for **January 12–15, 2027**. You’d need to confirm both the shared-condo arrangement and those dates directly with the resort.",
+        "[Tool Result: filesystem] (output omitted)",
+        "[Tool Result: Grep] (output omitted)",
+        "[Tool Result: Subagent] (output omitted)"
+      ],
+      "is_error": false,
+      "latency_s": 17.06
+    },
+    {
+      "i": 2,
+      "customer": "What's the price for both?",
+      "blocks": [
+        "For **Mochi and Miso together**, the rate sheet lists **$55.50 for two cats**. It doesn’t specify the billing period, so that’s a listed rate—not a confirmed total for January 12–15.",
+        "[Tool Result: calculate_happy_tails_estimate] (output omitted)"
+      ],
+      "is_error": false,
+      "latency_s": 5.05
+    }
+  ],
+  "status": "ok",
+  "finished": "2026-11-11T18:15:00.560022+00:00"
+}

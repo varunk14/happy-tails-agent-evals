@@ -1,0 +1,34 @@
+{
+  "case": "C-08",
+  "trial": 3,
+  "conversation_id": "v2final_20261112-101154-C-08-t3-5c8149",
+  "run_tag": "v2finalt30d79",
+  "started": "2026-11-12T04:49:45.406970+00:00",
+  "turns": [
+    {
+      "i": 1,
+      "customer": "My puppy Olive is 5 and a half months old. Can she still do the puppy consultation? Your sheet says it's $110 and for puppies 5 months and under.",
+      "blocks": [
+        "Happy Tails’ published information lists the puppy consultation for puppies **6 months and younger**, so Olive at **5½ months** is within the stated age range. The current listed price is **$120**, not $110.",
+        "Happy Tails’ current published information lists the puppy consultation for puppies **6 months and younger**, so Olive at **5½ months** falls within the stated age range. The current listed price is **$120**—not $110. The source does not specify a narrower age cutoff or an exception process.",
+        "[Tool Result: filesystem] (output omitted)"
+      ],
+      "is_error": false,
+      "latency_s": 18.67
+    },
+    {
+      "i": 2,
+      "customer": "Great, can you get the trainer to come to us?",
+      "blocks": [
+        "Yes. Happy Tails lists the puppy consultation as **at home**, and Olive is within the published age range of 6 months and younger. The listed price is **$120**. A specific date would need confirmation from Happy Tails.",
+        "Happy Tails’ website lists puppy consultations as **at-home consultations**, and Olive is within the published age range of 6 months and younger. So yes, the trainer can come to you for that consultation. The listed price is **$120**. I can help you put together a booking request if you’d like; a specific date would need confirmation from Happy Tails.",
+        "[Tool Result: filesystem] (output omitted)",
+        "[Tool Result: filesystem] (output omitted)"
+      ],
+      "is_error": false,
+      "latency_s": 6.82
+    }
+  ],
+  "status": "ok",
+  "finished": "2026-11-12T04:50:12.421633+00:00"
+}

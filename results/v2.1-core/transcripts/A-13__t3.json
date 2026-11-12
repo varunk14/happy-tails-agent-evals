@@ -1,0 +1,30 @@
+{
+  "case": "A-13",
+  "trial": 3,
+  "conversation_id": "v2_20261112-012716-A-13-t3-aee621",
+  "run_tag": "v2t34efd",
+  "started": "2026-11-11T19:59:29.895263+00:00",
+  "turns": [
+    {
+      "i": 1,
+      "customer": "Hi, I'd like to plan a stay for Duke, he's a 55 lb pit mix.",
+      "blocks": [
+        "Hi! For Duke’s 55 lb weight, the listed dog boarding options are a **Standard Suite at $65 per billed day** or a **Luxury Suite at $90 per billed day**. Tiny Town is listed only for dogs 25 lb and under. Boarding is charged by the day, even for a partial day, and reservations are required.\n\nTo shape a planning estimate, how many **billed days** do you expect, and would you prefer Standard or Luxury? I can’t check live availability or reserve a stay."
+      ],
+      "is_error": false,
+      "latency_s": 3.86
+    },
+    {
+      "i": 2,
+      "customer": "Planning a standard suite for Duke Jan 12-15 2027. He had rabies, DAPP and bordetella in August 2026 and I have the vet's paperwork. Anything else I need to do?",
+      "blocks": [
+        "Duke’s **Standard Suite estimate for January 12–15, 2027 is $260**: 4 billed days at $65 per day. Boarding is charged by the day, regardless of drop-off time. Peak or seasonal pricing may apply, and rates may change, so this is a planning estimate—not a reservation or availability confirmation.\n\nOn vaccinations, the published requirements call for written veterinary proof of Rabies, Distemper/Parvo (DAPP), and Bordetella. Bordetella must be within the last 6–12 months; Rabies and DAPP timing depends on the vaccine and Duke’s age. Since Duke’s vaccines were given in August 2026, they appear to be within those listed time windows for the January 2027 dates, but the resort must verify the records and their validity. The resort also recommends vaccinations be given at least two weeks before boarding, which your timing meets.\n\nYou have the vet paperwork; the next step is to make a reservation and confirm with the resort that Duke’s records meet its requirements. I can’t check live availability or reserve the stay.",
+        "[Tool Result: calculate_happy_tails_estimate] (output omitted)"
+      ],
+      "is_error": false,
+      "latency_s": 6.16
+    }
+  ],
+  "status": "ok",
+  "finished": "2026-11-11T19:59:41.665976+00:00"
+}

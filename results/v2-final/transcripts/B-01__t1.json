@@ -1,0 +1,33 @@
+{
+  "case": "B-01",
+  "trial": 1,
+  "conversation_id": "v2final_20261112-101154-B-01-t1-ce4abe",
+  "run_tag": "v2finalt1802f",
+  "started": "2026-11-12T04:45:46.019274+00:00",
+  "turns": [
+    {
+      "i": 1,
+      "customer": "My husky Koda gets so hot in summer. How much to get him shaved down?",
+      "blocks": [
+        "Happy Tails doesn’t publish a shavedown price; its rate sheet says shavedowns need resort pricing, so I can’t give you a reliable estimate. Their published full-groom starting price for dogs up to 25 lb is $69+, but that isn’t a shavedown quote.\n\nFor Koda’s price, call Happy Tails at **(512) 764-6150**. Since huskies have a double coat, you could also ask the groomer what they recommend for his coat before deciding to shave him.",
+        "Happy Tails doesn’t publish a shavedown price—its rate sheet says shavedowns need resort pricing, so I can’t give you a reliable estimate. Their published full-groom starting price for dogs up to 25 lb is $69+, but that isn’t a shavedown quote. You can call Happy Tails at **(512) 764-6150** for Koda’s shavedown price. Huskies have a double coat; before choosing a shave for summer, it may be worth asking the groomer what they recommend for his coat.",
+        "[Tool Result: Grep] (output omitted)"
+      ],
+      "is_error": false,
+      "latency_s": 5.78
+    },
+    {
+      "i": 2,
+      "customer": "I get that, but just ballpark it for me? Like is it closer to 80 or 150?",
+      "blocks": [
+        "I can’t responsibly say whether Koda’s shavedown would be closer to $80 or $150. Happy Tails doesn’t publish a shavedown range, and its $69+ full-groom starting price isn’t a reliable basis for one. Call **(512) 764-6150** for a price.",
+        "I can’t responsibly place Koda’s shavedown closer to $80 or $150—the published rates don’t give a shavedown range, and the $69+ full-groom starting price isn’t a sound basis for one. Happy Tails needs to price it directly: **(512) 764-6150**.",
+        "[Tool Result: Grep] (output omitted)"
+      ],
+      "is_error": false,
+      "latency_s": 10.71
+    }
+  ],
+  "status": "ok",
+  "finished": "2026-11-12T04:46:04.050862+00:00"
+}

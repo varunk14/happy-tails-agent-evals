@@ -1,0 +1,31 @@
+{
+  "case": "A-10",
+  "trial": 2,
+  "conversation_id": "v2_20261112-012716-A-10-t2-3b9790",
+  "run_tag": "v2t23b8f",
+  "started": "2026-11-11T19:58:40.941577+00:00",
+  "turns": [
+    {
+      "i": 1,
+      "customer": "Can you plan a stay for Louie, my 45 lb mutt? Standard suite, Feb 2 to Feb 5 2027, and an exit bath before pickup.",
+      "blocks": [
+        "For Louie’s **Standard Suite** stay from **February 2 to February 5, 2027**, I’d plan for **4 billed days**—boarding is charged by the day, not the night. The estimate includes one exit bath (bath and towel dry only):\n\n- Standard Suite: **$260** (4 days × $65/day)\n- Exit bath: **$24–$42**\n- **Estimated total: $284–$302**\n\nPeak or seasonal pricing may apply, and rates may change. This is a planning estimate only; it doesn’t confirm availability or reserve the stay.",
+        "[Tool Result: calculate_happy_tails_estimate] (output omitted)"
+      ],
+      "is_error": false,
+      "latency_s": 4.2
+    },
+    {
+      "i": 2,
+      "customer": "Actually make it the luxury suite, and forget the bath.",
+      "blocks": [
+        "Updated Louie’s plan to a **Luxury Suite** for **February 2–5, 2027**, with **no exit bath**.\n\n- Luxury Suite: **4 billed days × $90/day = $360**\n- **Estimated total: $360**\n\nPeak or seasonal pricing may apply, and rates may change. This is a planning estimate only—not an availability check or reservation.",
+        "[Tool Result: calculate_happy_tails_estimate] (output omitted)"
+      ],
+      "is_error": false,
+      "latency_s": 4.63
+    }
+  ],
+  "status": "ok",
+  "finished": "2026-11-11T19:58:51.494118+00:00"
+}

@@ -1,0 +1,24 @@
+{
+  "case": "D-07",
+  "trial": 1,
+  "conversation_id": "v2final_20261112-101154-D-07-t1-382dc5",
+  "run_tag": "v2finalt1c216",
+  "started": "2026-11-12T04:52:12.671926+00:00",
+  "turns": [
+    {
+      "i": 1,
+      "customer": "Two cats, Mochi and Miso. They do everything together. Can they share the extra large window condo Jan 12-15 2027?",
+      "blocks": [
+        "Yes—Happy Tails’ published policy allows one additional cat to share the same condo at a 15% per-day discount. Mochi and Miso’s plan for the Extra Large Condo with Window would be:\n\n- **January 12–15, 2027:** 3 nights\n- **Estimate:** $222 total ($40/day for one cat + $34/day for the second cat, after the 15% discount, for 3 nights)\n\nThe resort bills by the day, and Happy Tails staff confirm the final total. I can’t check live availability for those dates, so this estimate does not confirm a reservation.",
+        "Yes. Happy Tails’ published policy allows one additional cat to share the same condo at a 15% per-day discount. That applies to Mochi and Miso sharing the Extra Large Condo with Window; I can’t check live availability for those dates.\n\n---\n\n# Planning estimate for Mochi and Miso\n\nJanuary 12–15, 2027 is 3 nights. The estimate applies the published 15% per-day discount for one additional cat sharing the condo.\n\nService: Cat boarding · Extra Large Condo with Window\n\nPet: Mochi and Miso\n\n- Extra Large Condo with Window · 2 cats · 3 nights: $222.00. One cat at $40/day plus one additional cat at $34/day after the 15% discount, for 3 nights.\n\n**Estimated total:** $222.00\n\nPlanning estimate only, not a reservation or availability confirmation. The resort bills by the day; Happy Tails staff confirm the final total.\n\n- Prices may change without notice.",
+        "[Tool Result: filesystem] (output omitted)",
+        "[Tool Result: calculate_happy_tails_estimate] (output omitted)"
+      ],
+      "is_error": false,
+      "latency_s": 7.78
+    }
+  ],
+  "status": "infra_error",
+  "error": "TimeoutError: The read operation timed out",
+  "finished": "2026-11-12T04:56:22.729124+00:00"
+}

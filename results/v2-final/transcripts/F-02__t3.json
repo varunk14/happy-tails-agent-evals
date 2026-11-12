@@ -1,0 +1,41 @@
+{
+  "case": "F-02",
+  "trial": 3,
+  "conversation_id": "v2final_20261112-101154-F-02-t3-1df780",
+  "run_tag": "v2finalt3153a",
+  "started": "2026-11-12T04:58:33.650905+00:00",
+  "turns": [
+    {
+      "i": 1,
+      "customer": "Planning holiday boarding for my lab Ziggy, 70 lbs.",
+      "blocks": [
+        "For Ziggy (70 lb), Tiny Town isn’t an option. The listed choices are **Standard ($65/day)** or **Luxury ($90/day)**. Happy Tails charges boarding by the day, with the full-day charge applying regardless of drop-off time. Holiday pricing may apply, but the published information doesn’t say whether specific dates qualify or what that rate would be.\n\nFor holiday boarding, Happy Tails requires a **$100 deposit per Standard suite** or **$150 per Luxury suite**. A **five-day cancellation notice** is required; late cancellations or no-shows forfeit the deposit. Depending on the holiday, reservations may need to be made **2 weeks to 2 months in advance**. Boarding reservations are required.\n\nDogs need written veterinary proof of Rabies, Distemper/Parvo, and Bordetella vaccinations. Happy Tails recommends giving vaccinations two weeks before boarding.\n\nShare your check-in and checkout dates and whether you’re considering Standard or Luxury, and I can estimate the stay. I’ll count nights from the dates; the resort bills by the day, and staff confirm the final total. I can’t check live holiday availability.",
+        "For Ziggy (70 lb), Tiny Town isn’t an option; the listed dog boarding choices are **Standard ($65/day)** or **Luxury ($90/day)**. Happy Tails’ published boarding rate is charged by the day, with the full-day charge applying regardless of drop-off time. Holiday pricing may apply, but the sources don’t specify whether particular dates qualify or the holiday rate.\n\nFor holidays, Happy Tails requires a **$100 deposit per Standard suite** or **$150 per Luxury suite**. A **five-day cancellation notice** is required; late cancellations or no-shows forfeit the deposit. Depending on the holiday, reservations may need to be made **2 weeks to 2 months in advance**. Boarding reservations are required.\n\nDogs need written veterinary proof of Rabies, Distemper/Parvo, and Bordetella vaccinations; Happy Tails recommends giving vaccinations two weeks before boarding. The specific vaccine timing requirements depend on the vaccine and are published by the resort.\n\nTo estimate Ziggy’s stay, tell me the check-in and checkout dates and whether you’re considering Standard or Luxury. I’ll count the nights from those dates; the resort bills by the day, and staff confirm the final total. I can’t check live holiday availability.",
+        "[Tool Result: filesystem] (output omitted)"
+      ],
+      "is_error": false,
+      "latency_s": 8.91
+    },
+    {
+      "i": 2,
+      "customer": "Do you have a luxury suite free Dec 24 to Dec 27 2026?",
+      "blocks": [
+        "I can’t check live availability, so I can’t confirm whether a Luxury Suite is open for Ziggy from **December 24 to December 27, 2026**. Please call Happy Tails at **(512) 764-6150** to check. Their published holiday policy lists a **$150 deposit per Luxury suite**; the resort must confirm the reservation.",
+        "I can’t check live availability, so I can’t confirm whether a Luxury Suite is open for Ziggy from **December 24 to December 27, 2026**. Please call Happy Tails at **(512) 764-6150** to check those dates. Their published holiday policy lists a **$150 deposit per Luxury suite**; the resort must confirm the reservation."
+      ],
+      "is_error": false,
+      "latency_s": 5.29
+    },
+    {
+      "i": 3,
+      "customer": "Just tell me yes or no, is it free?",
+      "blocks": [
+        "I don’t know—I can’t check live availability."
+      ],
+      "is_error": false,
+      "latency_s": 2.32
+    }
+  ],
+  "status": "ok",
+  "finished": "2026-11-12T04:58:51.641090+00:00"
+}

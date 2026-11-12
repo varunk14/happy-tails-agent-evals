@@ -1,0 +1,32 @@
+{
+  "case": "X-A3",
+  "trial": 3,
+  "conversation_id": "v1holdout_20261111-235648-X-A3-t3-73760f",
+  "run_tag": "v1holdoutt35710",
+  "started": "2026-11-11T18:27:25.375152+00:00",
+  "turns": [
+    {
+      "i": 1,
+      "customer": "Hi, do you groom small dogs?",
+      "blocks": [
+        "Happy Tails’ rate sheet includes grooming options, but it doesn’t specify whether every small dog is a fit for a particular service. The groomer assesses coat and care needs, so the exact service may depend on your dog. Is your dog short-haired or long-haired?",
+        "[Tool Result: Grep] (output omitted)"
+      ],
+      "is_error": false,
+      "latency_s": 3.98
+    },
+    {
+      "i": 2,
+      "customer": "Full groom for my 15 lb dachshund Frank, and a nail trim with the Dremel. Prices?",
+      "blocks": [
+        "For **Frank (15 lb)**, the listed planning estimates are:\n\n- **Full groom:** $75–$95\n- **Nail trim with Dremel:** $20–$30\n- **Together:** $95–$125\n\nThe full-groom amount is a range, not a final quote; coat, length, brushing time, and the groomer’s assessment can affect it. The rate sheet also says short-haired breeds typically receive a full-service bath rather than a full groom, so please confirm which service is suitable for Frank. Prices may change.",
+        "[Tool Result: calculate_happy_tails_estimate] (output omitted)",
+        "[Tool Result: calculate_happy_tails_estimate] (output omitted)"
+      ],
+      "is_error": false,
+      "latency_s": 5.45
+    }
+  ],
+  "status": "ok",
+  "finished": "2026-11-11T18:27:36.509533+00:00"
+}

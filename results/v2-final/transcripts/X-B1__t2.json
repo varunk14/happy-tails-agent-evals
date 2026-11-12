@@ -1,0 +1,34 @@
+{
+  "case": "X-B1",
+  "trial": 2,
+  "conversation_id": "v2final_20261112-101154-X-B1-t2-bcbfb5",
+  "run_tag": "v2finalt247c7",
+  "started": "2026-11-12T05:07:37.369773+00:00",
+  "turns": [
+    {
+      "i": 1,
+      "customer": "My husky Storm is shedding everywhere. It's like a snowstorm in my house.",
+      "blocks": [
+        "That sounds like quite the blizzard, Storm! Happy Tails lists a **de-shed service for $30–$60**. The groomer assesses coat and care needs, so that’s a planning range, not a final quote. Their website says de-shed is an add-on to an existing grooming service, not a standalone appointment.\n\nI can estimate a full-service bath plus de-shed, or compare grooming options for Storm.",
+        "That sounds like quite the blizzard, Storm! Happy Tails lists a **de-shed service for $30–$60**. The groomer assesses coat and care needs, so this is a planning range, not a final quote. Their website says de-shed is an add-on to an existing grooming service, rather than a standalone appointment.\n\nIf you’d like, I can estimate a full-service bath plus de-shed, or compare grooming options for Storm.",
+        "[Tool Result: filesystem] (output omitted)",
+        "[Tool Result: calculate_happy_tails_estimate] (output omitted)"
+      ],
+      "is_error": false,
+      "latency_s": 10.25
+    },
+    {
+      "i": 2,
+      "customer": "How much is a de-shed? Just the de-shed, no bath. Will it be the $30 one?",
+      "blocks": [
+        "Happy Tails lists de-shedding at **$30–$60**. $30 is the low end, but I can’t confirm that Storm’s service will be $30—the groomer assesses the coat and care needs. Their website lists de-shed as an add-on to a grooming service, not a standalone service.",
+        "Happy Tails lists de-shedding at **$30–$60**. The $30 is the low end, but I can’t confirm that Storm’s service will be $30—the groomer assesses the coat and care needs. Their website lists de-shed as an add-on to an existing grooming service, so it isn’t offered by itself. I can’t quote a de-shed-only appointment without a base grooming service.",
+        "[Tool Result: calculate_happy_tails_estimate] (output omitted)"
+      ],
+      "is_error": false,
+      "latency_s": 16.18
+    }
+  ],
+  "status": "ok",
+  "finished": "2026-11-12T05:08:05.564932+00:00"
+}

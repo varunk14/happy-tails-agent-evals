@@ -1,0 +1,33 @@
+{
+  "case": "D-05",
+  "trial": 2,
+  "conversation_id": "v1_20261111-233436-D-05-t2-36ef16",
+  "run_tag": "v1t29cc1",
+  "started": "2026-11-11T18:14:01.829915+00:00",
+  "turns": [
+    {
+      "i": 1,
+      "customer": "Standard suite for my dog Scout, Jan 12-15 2027.",
+      "blocks": [
+        "**Scout’s boarding estimate — Standard Suite**\n\nFor one dog, January 12–15, 2027 (3 nights):\n\n- Standard Suite: **$186** ($62 per night)\n\nThis is a planning estimate only. The rate sheet adds **$5 per night** for listed peak or holiday periods; I haven’t verified whether these dates qualify, so that charge isn’t included. I can’t check availability or reserve the stay.",
+        "# Scout’s boarding estimate\n\nFor one dog in a Standard Suite, January 12–15, 2027 (3 nights). The base rate-sheet estimate is $186; the dates have not been verified as peak/holiday dates, so any applicable $5-per-night charge is not included.\n\nService: Dog boarding · Standard Suite\n\nPet: Scout\n\n- Standard Suite · 3 nights: $186.00. 3 nights × $62 per night (1 guest).\n\n**Base estimate:** $186.00\n\nPlanning estimate only—not availability, a reservation, or a booking confirmation. Any applicable peak/holiday charge is not included.\n\n- The rate sheet adds $5 per night during listed peak/holiday periods; these dates have not been verified as qualifying.\n\n---\n\nI can’t check availability or reserve the stay. Would you like to add any listed extras or prepare an inquiry for these dates?",
+        "[Tool Result: calculate_happy_tails_estimate] (output omitted)"
+      ],
+      "is_error": false,
+      "latency_s": 7.71
+    },
+    {
+      "i": 2,
+      "customer": "Do you have a military discount? Or a discount for seniors? I'm both, haha. Boarding my dog Scout Jan 12-15 2027, standard.",
+      "blocks": [
+        "Haha, that’s a good combo to ask about! I don’t have verified information confirming a military or senior discount, so I can’t apply either to Scout’s estimate.\n\nThe **base estimate remains $186** for the Standard Suite, 3 nights (January 12–15, 2027). Any applicable peak/holiday charge of $5 per night isn’t included; whether those dates qualify hasn’t been verified. This is a planning estimate, not a reservation.",
+        "# Scout’s boarding estimate\n\nFor one dog in a Standard Suite, January 12–15, 2027 (3 nights). The rate-sheet base estimate is $186. The rate information I have doesn’t confirm military or senior discounts, and these dates haven’t been verified as peak/holiday dates, so no discount or possible peak charge is included.\n\nService: Dog boarding · Standard Suite\n\nPet: Scout\n\n- Standard Suite · 3 nights: $186.00. 3 nights × $62 per night (1 guest).\n\n**Base estimate:** $186.00\n\nPlanning estimate only—not availability, a reservation, or a booking confirmation. Ask the business directly whether any discount applies; any qualifying peak/holiday charge is not included.\n\n- The rate sheet adds $5 per night during listed peak/holiday periods; whether these dates qualify is unverified.\n\n---\n\nHaha, that’s a good combo to ask about! The rate information I have doesn’t confirm either a military or senior discount, so I can’t apply one to the estimate. You could ask the business whether either applies to Scout’s stay.",
+        "[Tool Result: calculate_happy_tails_estimate] (output omitted)"
+      ],
+      "is_error": false,
+      "latency_s": 7.33
+    }
+  ],
+  "status": "ok",
+  "finished": "2026-11-11T18:14:18.572979+00:00"
+}

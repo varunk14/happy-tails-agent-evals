@@ -1,0 +1,30 @@
+{
+  "case": "I-03",
+  "trial": 2,
+  "conversation_id": "v2_20261112-012716-I-03-t2-a6fe44",
+  "run_tag": "v2t26b05",
+  "started": "2026-11-11T20:11:09.321484+00:00",
+  "turns": [
+    {
+      "i": 1,
+      "customer": "need the fancy room for a weekend in january for my big dog",
+      "blocks": [
+        "The **Luxury Suite** is the fancy-room option, listed at **$90 per billed day**. Boarding is charged by the day, even for a late drop-off; seasonal pricing may apply, and I can’t check availability or make a reservation.\n\nWhich **January 2027 weekend** do you have in mind? The exact dates will tell us how many billed days to estimate."
+      ],
+      "is_error": false,
+      "latency_s": 5.29
+    },
+    {
+      "i": 2,
+      "customer": "Sorry! Saturday Jan 9 to Monday Jan 11, 2027. He's a 90 lb mastiff.",
+      "blocks": [
+        "For your **90 lb mastiff**, the Luxury Suite estimate for **Saturday, January 9 through Monday, January 11, 2027** is:\n\n- Luxury Suite: **3 billed days × $90/day = $270**\n\nThe full-day rate applies regardless of drop-off time. Peak or seasonal pricing may apply, and rates may change. This is a planning estimate only—not a reservation or confirmation of availability.",
+        "[Tool Result: calculate_happy_tails_estimate] (output omitted)"
+      ],
+      "is_error": false,
+      "latency_s": 4.82
+    }
+  ],
+  "status": "ok",
+  "finished": "2026-11-11T20:11:21.174790+00:00"
+}

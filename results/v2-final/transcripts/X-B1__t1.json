@@ -1,0 +1,32 @@
+{
+  "case": "X-B1",
+  "trial": 1,
+  "conversation_id": "v2final_20261112-101154-X-B1-t1-ba3465",
+  "run_tag": "v2finalt156ed",
+  "started": "2026-11-12T05:07:35.871171+00:00",
+  "turns": [
+    {
+      "i": 1,
+      "customer": "My husky Storm is shedding everywhere. It's like a snowstorm in my house.",
+      "blocks": [
+        "Happy Tails lists a **de-shed service at $30–$60**. The groomer assesses each dog’s coat and care needs, so the final price may vary.\n\nFor Storm, would you like to compare that with a **full bath** or **premium bath**? Grooming add-ons such as de-shed need to be attached to an existing grooming service.",
+        "[Tool Result: filesystem] (output omitted)",
+        "[Tool Result: calculate_happy_tails_estimate] (output omitted)"
+      ],
+      "is_error": false,
+      "latency_s": 8.88
+    },
+    {
+      "i": 2,
+      "customer": "How much is a de-shed? Just the de-shed, no bath. Will it be the $30 one?",
+      "blocks": [
+        "Happy Tails lists de-shed at **$30–$60**; the $30 rate isn’t guaranteed. It’s listed as an add-on to a grooming service, not a standalone appointment, so Storm would need another grooming service with it. The groomer assesses the coat and care needs to determine the final price.",
+        "[Tool Result: calculate_happy_tails_estimate] (output omitted)"
+      ],
+      "is_error": false,
+      "latency_s": 4.31
+    }
+  ],
+  "status": "ok",
+  "finished": "2026-11-12T05:07:50.650174+00:00"
+}

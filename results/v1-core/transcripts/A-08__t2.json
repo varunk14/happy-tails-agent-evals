@@ -1,0 +1,34 @@
+{
+  "case": "A-08",
+  "trial": 2,
+  "conversation_id": "v1_20261111-233436-A-08-t2-d7eb23",
+  "run_tag": "v1t27876",
+  "started": "2026-11-11T18:06:05.415145+00:00",
+  "turns": [
+    {
+      "i": 1,
+      "customer": "We just got a 4 month old puppy, Biscuit, and she's chewing everything. What training do you offer for puppies and how much?",
+      "blocks": [
+        "Happy Tails lists a **puppy consultation for $110**. I can’t verify whether it specifically covers chewing, so that would be a good focus to ask about. This is a planning estimate—not a booking or confirmation of availability.",
+        "[Tool Result: filesystem] (output omitted)",
+        "[Tool Result: calculate_happy_tails_estimate] (output omitted)",
+        "[Tool Result: persistToMemoryBank] (output omitted)"
+      ],
+      "is_error": false,
+      "latency_s": 7.54
+    },
+    {
+      "i": 2,
+      "customer": "She's 4 months, so the puppy consultation works for her? Can you come to our house?",
+      "blocks": [
+        "The rate sheet lists a **puppy consultation**, so it may be relevant for Biscuit, but it doesn’t specify age eligibility. It also lists **off-site individual consultations**, but doesn’t confirm whether the puppy consultation itself can be held at your home. I can’t verify that detail or whether they travel to your area.",
+        "[Tool Result: calculate_happy_tails_estimate] (output omitted)",
+        "[Tool Result: Grep] (output omitted)"
+      ],
+      "is_error": false,
+      "latency_s": 8.33
+    }
+  ],
+  "status": "ok",
+  "finished": "2026-11-11T18:06:23.044435+00:00"
+}

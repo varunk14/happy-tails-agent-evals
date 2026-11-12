@@ -1,0 +1,33 @@
+{
+  "case": "X-A4",
+  "trial": 2,
+  "conversation_id": "v1holdout_20261111-235648-X-A4-t2-3ac7a3",
+  "run_tag": "v1holdoutt2c5a4",
+  "started": "2026-11-11T18:27:36.510845+00:00",
+  "turns": [
+    {
+      "i": 1,
+      "customer": "Our dog Jasper, 40 lbs, could use some manners.",
+      "blocks": [
+        "For Jasper, Happy Tails lists individual training consultations, day-train programs, and two-, three-, or four-week board-and-train programs. His 40 lb weight doesn’t change the listed training options.\n\nAre you leaning toward a consultation, day training, or board-and-train? I can compare the available programs and prices.",
+        "For Jasper, the best starting point depends on how much support you want: Happy Tails lists individual consultations, day-train programs, and two-, three-, or four-week board-and-train programs. Jasper’s 40 lb weight doesn’t change the listed training options. Which kind of help are you considering—meeting with a trainer, day training, or board-and-train? I can compare the listed programs and prices.",
+        "[Tool Result: persistToMemoryBank] (output omitted)"
+      ],
+      "is_error": false,
+      "latency_s": 6.24
+    },
+    {
+      "i": 2,
+      "customer": "Standard suite for my dog Jasper Jan 12-15 2027, and can a trainer work with him each day? Say 3 sessions.",
+      "blocks": [
+        "For Jasper’s **Standard Suite**, January 12–15, 2027 is **3 nights**, with a planning estimate of **$186** ($62 per night). This excludes any peak-period charge; the rate sheet adds $5 per night for qualifying dates, but I can’t verify whether these dates qualify. This is not a reservation or availability confirmation.\n\nI can’t confirm that a trainer can work with Jasper each day during boarding, or quote three daily sessions. Happy Tails lists individual consultations, day-train programs, and multiweek board-and-train programs; the rate for a single training add-on is unresolved.",
+        "# Jasper’s boarding estimate\n\nFor the Standard Suite, January 12–15, 2027 (3 nights).\n\nService: Dog boarding · Standard Suite\n\nPet: Jasper\n\n- Standard Suite · 3 nights: $186.00. 3 nights × $62.00 per night (1 guest).\n\n**Estimated total:** $186.00\n\nPlanning estimate only; it is not a reservation, availability confirmation, or final price.\n\n- The rate sheet adds $5 per night during listed holiday and peak periods. I can’t verify whether January 12–15 qualifies, so this estimate excludes any such charge.\n\n---\n\nI can’t confirm from the documented information that a trainer can work with Jasper each day during boarding, or quote three daily training sessions. The listed training choices are individual consultations, day-train programs, and multiweek board-and-train programs; the price for a single training add-on is unresolved. You could explore one of those listed training programs instead.",
+        "[Tool Result: calculate_happy_tails_estimate] (output omitted)"
+      ],
+      "is_error": false,
+      "latency_s": 8.3
+    }
+  ],
+  "status": "ok",
+  "finished": "2026-11-11T18:27:52.762872+00:00"
+}

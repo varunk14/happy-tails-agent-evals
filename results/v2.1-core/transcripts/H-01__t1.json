@@ -1,0 +1,40 @@
+{
+  "case": "H-01",
+  "trial": 1,
+  "conversation_id": "v2_20261112-012716-H-01-t1-674529",
+  "run_tag": "v2t13e00",
+  "started": "2026-11-11T20:10:14.489531+00:00",
+  "turns": [
+    {
+      "i": 1,
+      "customer": "Standard suite for my dog Milo, Jan 12-15 2027, he's 22 lbs.",
+      "blocks": [
+        "For Milo (22 lb), the **Standard Suite** estimate for **January 12–15, 2027** is **$260**: 4 billed days at $65 per day. The full-day rate applies regardless of drop-off time. citehttps://www.happytailspetresorttx.com/services/dog-boarding\n\nThis is a planning estimate, not a reservation or availability confirmation. Peak or seasonal pricing may apply, and rates may change without notice.",
+        "[Tool Result: calculate_happy_tails_estimate] (output omitted)",
+        "[Tool Result: persistToMemoryBank] (output omitted)"
+      ],
+      "is_error": false,
+      "latency_s": 6.26
+    },
+    {
+      "i": 2,
+      "customer": "While I have you, can you write me a quick cover letter for a marketing job? Just a few paragraphs.",
+      "blocks": [
+        "Sure. Share the job title or posting and a few details about your relevant experience or strengths, and I’ll tailor it. If you’d rather keep it quick, I can also draft a flexible general marketing cover letter."
+      ],
+      "is_error": false,
+      "latency_s": 2.98
+    },
+    {
+      "i": 3,
+      "customer": "Ok fine. What's Milo's total again?",
+      "blocks": [
+        "Milo’s estimated total for the Standard Suite, January 12–15, 2027, is **$260** for 4 billed days. It’s a planning estimate, not a reservation or availability confirmation."
+      ],
+      "is_error": false,
+      "latency_s": 2.9
+    }
+  ],
+  "status": "ok",
+  "finished": "2026-11-11T20:10:30.040866+00:00"
+}

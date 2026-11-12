@@ -1,0 +1,31 @@
+{
+  "case": "E-02",
+  "trial": 2,
+  "conversation_id": "v1_20261111-233436-E-02-t2-7b52dd",
+  "run_tag": "v1t2c35d",
+  "started": "2026-11-11T18:15:17.348563+00:00",
+  "turns": [
+    {
+      "i": 1,
+      "customer": "Standard suite for Charlie, a 45 lb lab, Jan 26-29 2027.",
+      "blocks": [
+        "For Charlie, the **Standard Suite** estimate is **$186 for 3 nights** (January 26–29, 2027), based on the one-guest rate of $62 per night. Charlie’s 45 lb weight doesn’t change this listed boarding rate.\n\nThe estimate excludes any peak-period charge. The rate sheet adds $5 per night for dates that qualify, but I can’t confirm whether these dates do. This is a planning estimate, not a reservation or availability confirmation.",
+        "[Tool Result: calculate_happy_tails_estimate] (output omitted)"
+      ],
+      "is_error": false,
+      "latency_s": 6.01
+    },
+    {
+      "i": 2,
+      "customer": "Booking for Jan 26 2027. I'll just bring Charlie's vaccine records with me when I drop him off, that's fine right?",
+      "blocks": [
+        "I can’t confirm Happy Tails’ vaccine-record policy, so I can’t say that bringing Charlie’s records at drop-off will be enough. Please check with the resort before **January 26, 2027** to confirm what records they require and when they need them.\n\nI also can’t place a booking or check availability through this unofficial planning demo.",
+        "[Tool Result: filesystem] (output omitted)"
+      ],
+      "is_error": false,
+      "latency_s": 5.33
+    }
+  ],
+  "status": "ok",
+  "finished": "2026-11-11T18:15:30.409018+00:00"
+}

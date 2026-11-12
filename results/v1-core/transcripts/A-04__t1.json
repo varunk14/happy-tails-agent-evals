@@ -1,0 +1,37 @@
+{
+  "case": "A-04",
+  "trial": 1,
+  "conversation_id": "v1_20261111-233436-A-04-t1-6ee5e5",
+  "run_tag": "v1t18da6",
+  "started": "2026-11-11T18:05:24.619677+00:00",
+  "turns": [
+    {
+      "i": 1,
+      "customer": "I'm thinking of daycare for my pup Ollie about twice a week, ongoing. What are my options and what's cheapest per day?",
+      "blocks": [
+        "For Ollie’s **ongoing schedule of about two daycare days a week**, the closest match is the **2-visits-per-week membership: $300 per month**. The rate sheet lists 10 visits per month with that membership, which works out to **$30 per listed visit**.\n\nOther dog daycare options:\n\n| Option | Listed price | Effective cost per day |\n|---|---:|---:|\n| Single full-day visit | $36 | $36 |\n| 10-day prepaid pack | $340 | $34 |\n| 20-day prepaid pack | $650 | $32.50 |\n| Membership, 1 visit/week | $160/month for 5 visits | $32 |\n| **Membership, 2 visits/week** | **$300/month for 10 visits** | **$30** |\n| Membership, 3 visits/week | $420/month for 15 visits | $28 |\n| Unlimited membership | $540/month | Depends on use; rate sheet says as low as $18/day |\n\nSo, the **two-visit membership is the lowest-cost fit for the schedule you described**. The three-visit membership has a lower listed per-visit rate, but includes more visits per month. Prepaid packs are non-refundable and can’t be combined with other discounts. These are planning estimates, not a reservation or confirmation of availability.",
+        "[Tool Result: Grep] (output omitted)",
+        "[Tool Result: calculate_happy_tails_estimate] (output omitted)",
+        "[Tool Result: calculate_happy_tails_estimate] (output omitted)",
+        "[Tool Result: calculate_happy_tails_estimate] (output omitted)",
+        "[Tool Result: calculate_happy_tails_estimate] (output omitted)",
+        "[Tool Result: calculate_happy_tails_estimate] (output omitted)",
+        "[Tool Result: calculate_happy_tails_estimate] (output omitted)",
+        "[Tool Result: calculate_happy_tails_estimate] (output omitted)"
+      ],
+      "is_error": false,
+      "latency_s": 15.31
+    },
+    {
+      "i": 2,
+      "customer": "And if I bought a pack instead, can I get a refund for days I don't use?",
+      "blocks": [
+        "No. The rate sheet says daycare packs are **non-refundable**, so you wouldn’t get a refund for unused days. It also says packs can’t be combined with other discounts."
+      ],
+      "is_error": false,
+      "latency_s": 3.04
+    }
+  ],
+  "status": "ok",
+  "finished": "2026-11-11T18:05:44.785138+00:00"
+}

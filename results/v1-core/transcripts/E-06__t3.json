@@ -1,0 +1,40 @@
+{
+  "case": "E-06",
+  "trial": 3,
+  "conversation_id": "v1_20261111-233436-E-06-t3-9250e0",
+  "run_tag": "v1t3b6c9",
+  "started": "2026-11-11T18:16:38.903458+00:00",
+  "turns": [
+    {
+      "i": 1,
+      "customer": "Hi, looking at boarding for Rocky, a 60 lb shepherd mix, Feb 2-5 2027.",
+      "blocks": [
+        "I’m reading **Feb 2–5, 2027** as check-in Feb 2 and checkout Feb 5 (**3 nights**). Which suite should I use for Rocky’s estimate: **Standard** or **Luxury**? I won’t assume those dates count as peak or holiday nights.",
+        "I can help plan Rocky’s boarding estimate. I’m reading **Feb 2–5, 2027** as check-in Feb 2 and checkout Feb 5 (**3 nights**). Which suite would you like me to price? I won’t assume whether any of those dates count as peak or holiday nights.\n\n---\n\n## Which suite should I use for Rocky’s 3-night estimate?\n\n**Choose a suite**\n- Standard (Use the Standard boarding rate.)\n- Luxury (Use the Luxury boarding rate.)"
+      ],
+      "is_error": false,
+      "latency_s": 6.02
+    },
+    {
+      "i": 2,
+      "customer": "My dog Rocky doesn't get along with other dogs. Probably can't board with you, right?",
+      "blocks": [
+        "Not necessarily, but I can’t confirm Happy Tails’ dog-to-dog handling policies or whether they can accommodate Rocky. Since he doesn’t get along with other dogs, ask the resort directly whether they can board him safely and what their arrangements are. I can’t check that for you.",
+        "[Tool Result: filesystem] (output omitted)"
+      ],
+      "is_error": false,
+      "latency_s": 4.64
+    },
+    {
+      "i": 3,
+      "customer": "Ok, can you put a standard suite with individual play into the plan?",
+      "blocks": [
+        "I can add **Standard** and **individual playtime** to Rocky’s plan, but I need to know how many individual-play sessions you want for the 3-night stay. One important caveat: adding individual playtime does **not** confirm that the resort can accommodate Rocky’s difficulty with other dogs or prevent dog-to-dog contact during boarding."
+      ],
+      "is_error": false,
+      "latency_s": 4.41
+    }
+  ],
+  "status": "ok",
+  "finished": "2026-11-11T18:16:56.748153+00:00"
+}

@@ -1,0 +1,31 @@
+{
+  "case": "C-06",
+  "trial": 3,
+  "conversation_id": "v2final_20261112-101154-C-06-t3-5e6534",
+  "run_tag": "v2finalt33b5a",
+  "started": "2026-11-12T04:49:34.934284+00:00",
+  "turns": [
+    {
+      "i": 1,
+      "customer": "My cat Pumpkin needs a large condo from Dec 30 2026 to Jan 2 2027 while we're away for New Year's.",
+      "blocks": [
+        "## Pumpkin’s New Year’s boarding estimate\n\nFor one cat in a Large Condo from **December 30, 2026 to January 2, 2027**:\n\n- **Large Condo:** 3 nights × $32/day = **$96 estimated**\n\nThe resort bills cat boarding by the day; Happy Tails staff confirm the final total. This is a planning estimate, not a reservation or availability confirmation.\n\nHoliday boarding terms apply: a **$50 deposit per condo** is required, and a **five-day cancellation notice** is required. A late cancellation or no-show forfeits the deposit. Depending on the holiday, reservations may need to be made 2 weeks to 2 months in advance.",
+        "# Pumpkin’s New Year’s boarding estimate\n\nFor one cat in a Large Condo from December 30, 2026 to January 2, 2027 (3 nights).\n\nService: Cat boarding — Large Condo\n\nPet: Pumpkin\n\n- Large Condo · 1 cat · 3 nights: $96.00. 3 nights × $32 per day for this estimate.\n\n**Estimated total:** $96.00\n\nPlanning estimate only; this is not a reservation or confirmation of availability. The resort bills by the day, and Happy Tails staff confirm the final total.\n\n- Prices may change without notice.\n- Holiday boarding terms apply: cat reservations require a $50 deposit per condo, and a five-day cancellation notice is required; late cancellations or no-shows forfeit the deposit. Holiday reservations may need to be made 2 weeks to 2 months in advance, depending on the holiday.",
+        "[Tool Result: calculate_happy_tails_estimate] (output omitted)"
+      ],
+      "is_error": false,
+      "latency_s": 6.45
+    },
+    {
+      "i": 2,
+      "customer": "Is there a deposit or anything for that?",
+      "blocks": [
+        "Yes. **Happy Tails’ published holiday policy requires a $50 deposit per cat condo.** A five-day cancellation notice is required; late cancellations or no-shows forfeit the deposit."
+      ],
+      "is_error": false,
+      "latency_s": 2.45
+    }
+  ],
+  "status": "ok",
+  "finished": "2026-11-12T04:49:45.404326+00:00"
+}

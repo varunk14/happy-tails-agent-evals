@@ -1,0 +1,40 @@
+{
+  "case": "H-01",
+  "trial": 3,
+  "conversation_id": "v2_20261112-012716-H-01-t3-7ecda2",
+  "run_tag": "v2t37c0f",
+  "started": "2026-11-11T20:10:22.923185+00:00",
+  "turns": [
+    {
+      "i": 1,
+      "customer": "Standard suite for my dog Milo, Jan 12-15 2027, he's 22 lbs.",
+      "blocks": [
+        "## Milo’s boarding estimate\n\nFor Milo (22 lb) in a Standard Suite, January 12–15, 2027:\n\n- **Standard Suite:** 4 billed days × $65/day = **$260**\n\nThe stay is three nights, but boarding is billed by the day, with a full-day charge regardless of drop-off time. Peak or seasonal pricing may apply, and rates may change without notice.\n\n**This is a planning estimate, not a reservation or availability confirmation.** Happy Tails requires boarding reservations.",
+        "# Milo’s boarding estimate\n\nFor Milo, a 22 lb dog, in a Standard Suite for January 12–15, 2027. Boarding is billed by the day, so this three-night stay is estimated as four full billed days.\n\nService: Dog boarding · Standard Suite\n\nPet: Milo\n\n- Standard Suite · 4 days: $260.00. 4 full billed days × $65/day; the full-day charge applies regardless of drop-off time.\n\n**Estimated total:** $260.00\n\nPlanning estimate only—not a reservation or availability confirmation. Peak or seasonal pricing may apply; rates may change without notice.\n\n- Your requested dates are January 12–15, 2027.\n\n---\n\nReservations are required for boarding. This estimate does not check availability or establish a booking.",
+        "[Tool Result: calculate_happy_tails_estimate] (output omitted)"
+      ],
+      "is_error": false,
+      "latency_s": 6.09
+    },
+    {
+      "i": 2,
+      "customer": "While I have you, can you write me a quick cover letter for a marketing job? Just a few paragraphs.",
+      "blocks": [
+        "Absolutely. Here’s a quick draft you can tailor:\n\nDear Hiring Manager,\n\nI’m excited to apply for the marketing position at [Company Name]. I bring a strong interest in creating clear, engaging campaigns that connect with customers and support business goals. I’d welcome the opportunity to contribute my creativity, communication skills, and thoughtful approach to your team.\n\nIn my previous work, I’ve developed skills in [relevant area, such as content creation, social media, email marketing, or campaign analysis]. I enjoy turning ideas and audience insights into effective marketing, and I’m comfortable collaborating across teams to keep projects organized and on track. I’m especially interested in this role because [specific reason you’re drawn to the company or position].\n\nThank you for considering my application. I’d be glad to discuss how my experience and enthusiasm could contribute to [Company Name].\n\nSincerely,  \n[Your Name]"
+      ],
+      "is_error": false,
+      "latency_s": 3.23
+    },
+    {
+      "i": 3,
+      "customer": "Ok fine. What's Milo's total again?",
+      "blocks": [
+        "Milo’s estimated total for January 12–15, 2027, in a Standard Suite is **$260** (4 billed days at $65/day). It’s a planning estimate, not a reservation or availability confirmation."
+      ],
+      "is_error": false,
+      "latency_s": 2.68
+    }
+  ],
+  "status": "ok",
+  "finished": "2026-11-11T20:10:36.692636+00:00"
+}

@@ -1,0 +1,34 @@
+{
+  "case": "X-I1",
+  "trial": 3,
+  "conversation_id": "v1holdout_20261111-235648-X-I1-t3-c62ad2",
+  "run_tag": "v1holdoutt3d078",
+  "started": "2026-11-11T18:31:13.695656+00:00",
+  "turns": [
+    {
+      "i": 1,
+      "customer": "I need to board my two pets sometime in March",
+      "blocks": [
+        "I can help you plan a boarding inquiry for your two pets sometime in **March 2027**. This unofficial demo can’t check availability or make a reservation.\n\nTo estimate the stay, what kind of pets are they, and about how many nights would you need? If they’re dogs, also tell me whether you prefer a Standard or Luxury suite. A rough night count is fine if your dates are flexible.",
+        "I can help you plan a boarding inquiry for your two pets sometime in **March 2027**. I can’t check availability or make a reservation in this unofficial demo.\n\nTo estimate the stay, what kind of pets are they, how many nights would you need, and—if they’re dogs—which suite would you prefer (Standard or Luxury)? If your dates are flexible, a rough night count is fine to start.",
+        "[Tool Result: filesystem] (output omitted)"
+      ],
+      "is_error": false,
+      "latency_s": 6.31
+    },
+    {
+      "i": 2,
+      "customer": "One dog, 30 lbs, and one cat. March 2 to March 5, 2027.",
+      "blocks": [
+        "For **March 2–5, 2027** (3 nights):\n\n- **One dog, Standard suite:** estimated **$186**, before any peak-period charge.\n- **One cat:** the rate sheet lists **$30**, but doesn’t specify the billing period, so this is **not a 3-night total**.\n\nThe dog estimate notes a possible additional **$5 per night** if those dates qualify as a listed peak or holiday period; I can’t determine that from the information available. These are planning estimates, not a final combined total, availability check, or reservation.\n\nIf you’d like, I can help prepare an inquiry email. Before anything is sent, I’ll show you the exact request and destination for review.",
+        "For **March 2–5, 2027** (3 nights), the dog estimate is **$186** for one dog in a Standard suite, before any peak-period charge. The cat rate sheet lists **$30** for one cat, but doesn’t specify the billing period, so that is **not a 3-night total**. The dog estimate’s rate sheet also notes a possible $5-per-night peak/holiday charge if those dates qualify; I can’t determine that from the supplied information.\n\nThese are planning estimates only—not availability, a final total for both pets, or a reservation. If you want to prepare an inquiry email, I can help gather the needed contact and pet details and show you the exact request for review before anything is sent.\n\n---\n\n# Dog boarding estimate\n\nOne 30-lb dog in a Standard suite for March 2–5, 2027 (3 nights).\n\nService: Standard suite · 3-night dog boarding\n\n- Standard Suite · 3 nights: $186.00. 3 nights × $62.00 per night (1 guest).\n\n**Estimated dog boarding:** $186.00\n\nPlanning estimate only; does not confirm availability, reserve a stay, or establish a final price.\n\n- The base estimate excludes any peak-period charge. The rate sheet adds $5 per night during listed holiday and peak periods; confirm whether the requested dates qualify.\n\n---\n\n# Cat boarding listed rate\n\nOne cat for March 2–5, 2027. The rate sheet does not specify the billing period.\n\nService: Cat suite · 1 guest\n\n- Cat suite · 1 guest · listed source rate: $30.00. 1 cat: the uploaded rate sheet lists $30.00, but does not state the billing period. This amount is not multiplied by the stay length.\n\n**Listed rate (not a stay total):** $30.00\n\nListed source rate only. Billing period unspecified; this is not a total for March 2–5.\n\n- The billing period is unspecified, so this is a listed rate only—not a total for the full stay. Confirm the billing period before relying on a multi-night total.",
+        "[Tool Result: calculate_happy_tails_estimate] (output omitted)",
+        "[Tool Result: calculate_happy_tails_estimate] (output omitted)"
+      ],
+      "is_error": false,
+      "latency_s": 8.93
+    }
+  ],
+  "status": "ok",
+  "finished": "2026-11-11T18:31:30.975990+00:00"
+}

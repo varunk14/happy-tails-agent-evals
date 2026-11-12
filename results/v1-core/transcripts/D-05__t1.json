@@ -1,0 +1,32 @@
+{
+  "case": "D-05",
+  "trial": 1,
+  "conversation_id": "v1_20261111-233436-D-05-t1-333aa5",
+  "run_tag": "v1t14742",
+  "started": "2026-11-11T18:13:47.899235+00:00",
+  "turns": [
+    {
+      "i": 1,
+      "customer": "Standard suite for my dog Scout, Jan 12-15 2027.",
+      "blocks": [
+        "For Scout, **January 12–15, 2027** is a 3-night stay. The planning estimate for a **Standard Suite** is **$186** ($62 per night for one dog).\n\nThis estimate excludes any peak-period charge; the rate sheet adds $5 per night when dates qualify, and I can’t verify whether these dates do. I also can’t check availability or reserve the stay.",
+        "[Tool Result: calculate_happy_tails_estimate] (output omitted)"
+      ],
+      "is_error": false,
+      "latency_s": 5.19
+    },
+    {
+      "i": 2,
+      "customer": "Do you have a military discount? Or a discount for seniors? I'm both, haha. Boarding my dog Scout Jan 12-15 2027, standard.",
+      "blocks": [
+        "Haha, qualifying for both would be quite a combo! I don’t have verified information that Happy Tails offers military or senior discounts, so I can’t apply one to the estimate.\n\nFor Scout’s **Standard Suite, January 12–15, 2027 (3 nights)**, the listed base estimate remains **$186**. It excludes a possible $5-per-night peak-period charge; I can’t verify whether those dates qualify. This is only a planning estimate—not availability or a reservation.",
+        "[Tool Result: filesystem] (output omitted)",
+        "[Tool Result: calculate_happy_tails_estimate] (output omitted)"
+      ],
+      "is_error": false,
+      "latency_s": 7.23
+    }
+  ],
+  "status": "ok",
+  "finished": "2026-11-11T18:14:02.033700+00:00"
+}

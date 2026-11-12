@@ -1,0 +1,58 @@
+{
+  "case": "G-01",
+  "trial": 1,
+  "conversation_id": "v1_20261111-233436-G-01-t1-0f55a3",
+  "run_tag": "v1t1e0e1",
+  "started": "2026-11-11T18:18:18.414773+00:00",
+  "turns": [
+    {
+      "i": 1,
+      "customer": "Hi, I'd like to plan a stay for Winnie, a 35 lb cocker spaniel, spayed, 6 years old, friendly with other dogs. Luxury suite Feb 2 to Feb 5 2027. Rabies, DAPP and bordetella all current, last done October 2026.",
+      "blocks": [
+        "For Winnie’s **February 2–5, 2027** stay, that’s **3 nights** in a Luxury suite. You described her as a 35 lb, 6-year-old spayed Cocker Spaniel who is friendly with other dogs. You also said her rabies, DAPP, and Bordetella vaccinations are current, last done in October 2026.\n\n**Planning estimate: $261** for one dog in a Luxury suite for 3 nights, at $87 per night. This estimate excludes any peak-period charge; the rate sheet lists an additional $5 per night for qualifying holiday or peak dates, but I can’t confirm whether these dates qualify.\n\nThis unofficial estimate is **not a reservation or confirmation of availability**. The vaccination details are what you provided; I can’t confirm the resort’s requirements.",
+        "For Winnie’s **February 2–5, 2027** stay, that’s **3 nights** in a Luxury suite. You’ve described her as a 35 lb, 6-year-old spayed Cocker Spaniel who is friendly with other dogs; you also said her rabies, DAPP, and Bordetella vaccinations are current, last done in October 2026.\n\nThis is an unofficial planning estimate, not a reservation or confirmation of availability. The vaccination details above are what you provided; I can’t confirm resort requirements or whether those dates qualify for a peak-period charge.\n\n---\n\n# Winnie’s boarding estimate\n\nFor one dog in a Luxury suite for 3 nights, February 2–5, 2027.\n\nService: Dog boarding · Luxury suite\n\nPet: Winnie\n\n- Luxury Suite · 3 nights: $261.00. 3 nights × $87.00 per night (1 guest).\n\n**Estimated total:** $261.00\n\nPlanning estimate only; not a reservation, availability confirmation, or final booking price.\n\n- The base estimate excludes any peak-period charge. The rate sheet adds $5 per night during listed holiday and peak periods; confirm whether the requested dates qualify.",
+        "[Tool Result: manageRecords] (output omitted)",
+        "[Tool Result: calculate_happy_tails_estimate] (output omitted)"
+      ],
+      "is_error": false,
+      "latency_s": 9.42
+    },
+    {
+      "i": 2,
+      "customer": "Add one cuddle session and an exit bath please. She eats her own kibble twice a day, no meds.",
+      "blocks": [
+        "I’ve added **one cuddle enrichment session** and an **exit bath** to Winnie’s plan. I’ve also noted that she eats her own kibble twice a day and takes no medication.\n\nThe updated estimate is **$310–$328** for the 3-night Luxury suite stay, cuddle session, and exit bath. It excludes any qualifying peak-period charge of $5 per night. The exit-bath amount is a range, so the total is also a range.\n\nThis is a planning estimate, not a reservation or confirmation of availability.",
+        "I’ve updated Winnie’s plan to include **one cuddle enrichment session** and an **exit bath**. I’ve also noted your instructions that she eats her own kibble twice a day and takes no medication. The rate-sheet estimate is **$310–$328**, before any qualifying peak-period charge. This remains a planning estimate, not a reservation or availability confirmation.\n\n---\n\n# Updated estimate for Winnie\n\nUpdated plan for one dog, 3 nights (February 2–5, 2027), with one cuddle session and an exit bath. You said Winnie eats her own kibble twice daily and takes no medication.\n\nService: Dog boarding · Luxury suite\n\nPet: Winnie\n\n- Luxury Suite · 3 nights: $261.00. 3 nights × $87.00 per night (1 guest).\n- Cuddle enrichment session: $25.00. 1 session × $25.00 per session.\n- Exit bath (bath and towel dry only): $24.00–$42.00. 1 bath × the listed $24–$42 range.\n\n**Estimated total:** $310.00–$328.00\n\nPlanning estimate only; not a reservation, availability confirmation, or final booking price.\n\n- The base estimate excludes any peak-period charge. The rate sheet adds $5 per night during listed holiday and peak periods; confirm whether the requested dates qualify.",
+        "[Tool Result: calculate_happy_tails_estimate] (output omitted)"
+      ],
+      "is_error": false,
+      "latency_s": 7.79
+    },
+    {
+      "i": 3,
+      "customer": "Looks good. I'm Priya Raman, 512-555-0143, priya.raman+v1t1e0e1@example.com, text is best.",
+      "blocks": [
+        "I’ve prepared the inquiry for review, but **haven’t sent an email**. “Looks good” and sharing your contact details don’t authorize me to send it.\n\nThe draft includes Priya Raman’s contact details and text preference; Winnie’s care details; the February 2–5, 2027 Luxury suite plan; one cuddle session; one exit bath; and the **$310–$328 planning estimate**, excluding any qualifying peak-period charge.\n\n**Recipient:** demo-inbox@example.com — the owner-specified demo inbox, not a verified Happy Tails booking channel. This inquiry would not be a reservation or confirm availability. If you want this exact inquiry emailed, please confirm in a new sent message.",
+        "# Review Winnie’s inquiry email\n\nI’ve prepared the details below for an unofficial demo inquiry. “Looks good” and sharing your contact details don’t authorize me to send it, so I haven’t sent anything. Please review the exact details and recipient. If you want this inquiry emailed, confirm in a new sent message that it should be emailed.\n\nService: Dog boarding · Luxury suite\n\nPet: Winnie\n\n- Customer name: Priya Raman\n- Phone: 512-555-0143\n- Email: priya.raman+v1t1e0e1@example.com\n- Preferred contact: Text\n- Pet: Winnie, 35 lb Cocker Spaniel, spayed, 6 years old; friendly with other dogs.\n- Requested dates: February 2–5, 2027 (3 nights)\n- Suite: Luxury\n- Vaccinations: Rabies, DAPP, and Bordetella current; last done October 2026 (as provided by Priya).\n- Feeding: Own kibble twice a day.\n- Medication: None.\n- Extras: One cuddle enrichment session and one exit bath.\n\nPlanning estimate: $310–$328 for the suite, cuddle session, and exit bath. Excludes any qualifying peak-period charge of $5 per night. Not a final price, reservation, or availability confirmation.\n\ndemo-inbox@example.com is the owner-specified demo inbox; it is not a verified Happy Tails booking channel. This inquiry is unofficial and is not a reservation.\n\nReview only — not sent: No email has been sent. If you want this exact inquiry sent to the demo inbox above, please confirm in a new sent chat or voice message. Sending it will not create a reservation or confirm availability.\n\nEmail destination: demo-inbox@example.com"
+      ],
+      "is_error": false,
+      "latency_s": 8.64
+    },
+    {
+      "i": 4,
+      "customer": "Yes, please send it.",
+      "blocks": [
+        "The inquiry email was sent to **demo-inbox@example.com**, the owner-specified demo inbox. It is not a verified Happy Tails booking channel, and the email does **not** create a reservation or confirm availability.",
+        "# Winnie’s inquiry email sent\n\nThe requested inquiry email was sent to the demo inbox shown below. It does not confirm that the dates are available or create a reservation.\n\nService: Dog boarding · Luxury suite\n\nPet: Winnie\n\n- Customer name: Priya Raman\n- Phone: 512-555-0143\n- Email: priya.raman+v1t1e0e1@example.com\n- Preferred contact: Text\n- Pet: Winnie, 35 lb Cocker Spaniel, spayed, 6 years old; friendly with other dogs.\n- Requested dates: February 2–5, 2027 (3 nights)\n- Suite: Luxury\n- Vaccinations: Rabies, DAPP, and Bordetella current; last done October 2026 (as provided by Priya).\n- Feeding: Own kibble twice a day.\n- Medication: None.\n- Extras: One cuddle enrichment session and one exit bath.\n\nPlanning estimate: $310–$328 for the suite, cuddle session, and exit bath. Excludes any qualifying peak-period charge of $5 per night. Not a final price, reservation, or availability confirmation.\n\ndemo-inbox@example.com is the owner-specified demo inbox; it is not a verified Happy Tails booking channel. This unofficial inquiry is not a reservation.\n\nEmail sent: The inquiry email was sent to demo-inbox@example.com. This is only an email to the owner-specified demo inbox, not a reservation, accepted request, or confirmation of availability.\n\nEmail destination: demo-inbox@example.com",
+        "[Tool Result: InspectSurface] (output omitted)",
+        "[Tool Result: InspectSurface] (output omitted)",
+        "[Tool Result: SearchIntegrationTools] (output omitted)",
+        "[Tool Result: CallIntegrationTool] (output omitted)"
+      ],
+      "is_error": false,
+      "latency_s": 15.99
+    }
+  ],
+  "status": "ok",
+  "finished": "2026-11-11T18:19:01.998675+00:00"
+}

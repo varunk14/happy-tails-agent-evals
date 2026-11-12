@@ -1,0 +1,31 @@
+{
+  "case": "X-B2",
+  "trial": 3,
+  "conversation_id": "v1holdout_20261111-235648-X-B2-t3-99dba4",
+  "run_tag": "v1holdoutt33d48",
+  "started": "2026-11-11T18:28:12.392102+00:00",
+  "turns": [
+    {
+      "i": 1,
+      "customer": "Hi, can you groom really big dogs?",
+      "blocks": [
+        "Happy Tails lists grooming, but the information I have doesn’t specify a maximum dog size—so I can’t confirm whether they can groom a really big dog. The groomer also assesses coat and care needs before giving a final quote. What breed and approximate weight is your dog?",
+        "[Tool Result: filesystem] (output omitted)"
+      ],
+      "is_error": false,
+      "latency_s": 4.17
+    },
+    {
+      "i": 2,
+      "customer": "Full groom for my Great Pyrenees Yeti, he's 120 lbs. How much?",
+      "blocks": [
+        "For Yeti, the rate sheet doesn’t list a size category for a 120-lb Great Pyrenees, so I can’t give a reliable full-groom estimate from it. The closest available category is “Doodle,” listed at **$95–$175**, but that may not apply to Yeti. The final quote depends on coat and grooming needs, so please confirm directly with the groomer.",
+        "[Tool Result: calculate_happy_tails_estimate] (output omitted)"
+      ],
+      "is_error": false,
+      "latency_s": 4.4
+    }
+  ],
+  "status": "ok",
+  "finished": "2026-11-11T18:28:22.710380+00:00"
+}

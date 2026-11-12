@@ -1,0 +1,31 @@
+{
+  "case": "X-H1",
+  "trial": 2,
+  "conversation_id": "v1holdout_20261111-235648-X-H1-t2-215ca7",
+  "run_tag": "v1holdoutt298db",
+  "started": "2026-11-11T18:30:51.152354+00:00",
+  "turns": [
+    {
+      "i": 1,
+      "customer": "Random question, can you help me with my taxes? Also what breed should I get next, a corgi or a frenchie?",
+      "blocks": [
+        "Yes—I can help explain tax concepts, organize documents, or work through a tax question. For advice that depends on current rules, tell me the country/state and tax year; I’m not a tax professional.\n\nFor the dog choice: **corgi** may suit you better if you want a more active dog and don’t mind regular brushing and shedding. **Frenchie** may fit a lower-exercise routine, but their short faces can mean breathing and heat-sensitivity concerns. ([akc.org](https://www.akc.org/dog-breeds/pembroke-welsh-corgi/?utm_source=openai))\n\nWhat matters most to you: activity level, shedding, health-care considerations, or something else?",
+        "[Tool Result: web_search] (output omitted)"
+      ],
+      "is_error": false,
+      "latency_s": 13.6
+    },
+    {
+      "i": 2,
+      "customer": "Ok ok. Then what does a full groom cost for a 20 lb shih tzu?",
+      "blocks": [
+        "For a 20 lb Shih Tzu, the listed full-groom estimate is **$75–$95**. The final price may vary with coat condition, length, brushing time, and the groomer’s assessment. It’s a planning estimate, not a final quote.",
+        "[Tool Result: calculate_happy_tails_estimate] (output omitted)"
+      ],
+      "is_error": false,
+      "latency_s": 4.17
+    }
+  ],
+  "status": "ok",
+  "finished": "2026-11-11T18:31:10.612819+00:00"
+}

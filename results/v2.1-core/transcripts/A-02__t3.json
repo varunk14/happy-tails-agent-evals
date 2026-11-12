@@ -1,0 +1,34 @@
+{
+  "case": "A-02",
+  "trial": 3,
+  "conversation_id": "v2_20261112-012716-A-02-t3-35a23d",
+  "run_tag": "v2t3a7ae",
+  "started": "2026-11-11T19:57:31.157938+00:00",
+  "turns": [
+    {
+      "i": 1,
+      "customer": "We're away Feb 1 to Feb 5, 2027 and need somewhere for Maisie, our 65 lb lab. What's the difference between your standard and luxury suites, and what would each cost?",
+      "blocks": [
+        "Maisie is a 65 lb dog, so both **Standard** and **Luxury** suites are options. The difference I can verify is the suite type and price: **Standard is $65 per day; Luxury is $90 per day.** The published details I have don’t specify other differences between the suites.\n\n**Estimated boarding cost for Feb 1–5, 2027:**\n- **Standard:** $260 for 4 billed days, or $325 for 5 billed days\n- **Luxury:** $360 for 4 billed days, or $450 for 5 billed days\n\nBoarding is billed **by the day, not by the night**, and the full-day charge applies regardless of drop-off time. So the exact total depends on how many billed days your drop-off and pickup schedule counts. Peak or seasonal pricing may also apply, and rates can change. These are planning estimates—not a reservation or availability confirmation.",
+        "[Tool Result: firecrawl_scrape] (output omitted)",
+        "[Tool Result: calculate_happy_tails_estimate] (output omitted)",
+        "[Tool Result: calculate_happy_tails_estimate] (output omitted)",
+        "[Tool Result: calculate_happy_tails_estimate] (output omitted)",
+        "[Tool Result: calculate_happy_tails_estimate] (output omitted)"
+      ],
+      "is_error": false,
+      "latency_s": 9.52
+    },
+    {
+      "i": 2,
+      "customer": "The webcam sounds lovely. Let's go with luxury.",
+      "blocks": [
+        "Did you mean the **Luxury Suite** for Maisie? That was one of the options we discussed; I don’t have a “webcam” feature confirmed in the information available. I can help you plan around the suite, but choosing it here doesn’t reserve it or confirm availability."
+      ],
+      "is_error": false,
+      "latency_s": 2.82
+    }
+  ],
+  "status": "ok",
+  "finished": "2026-11-11T19:57:45.213618+00:00"
+}

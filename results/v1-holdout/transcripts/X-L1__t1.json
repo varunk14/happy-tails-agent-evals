@@ -1,0 +1,45 @@
+{
+  "case": "X-L1",
+  "trial": 1,
+  "conversation_id": "v1holdout_20261111-235648-X-L1-t1-8a522b",
+  "run_tag": "v1holdoutt16955",
+  "started": "2026-11-11T18:31:56.819489+00:00",
+  "turns": [
+    {
+      "i": 1,
+      "customer": "Standard suite for Pepper, 25 lb terrier, Jan 26 to Jan 29 2027.",
+      "blocks": [
+        "## Pepper’s boarding estimate\n\nFor your 25 lb terrier in a **Standard Suite**, January 26–29, 2027 (**3 nights**):\n\n- Standard Suite: **$186** (3 nights × $62 per night)\n\n**Estimated total: $186.** This is a planning estimate, not a reservation or availability confirmation. It excludes any peak-period charge; the rate sheet adds $5 per qualifying night, but I haven’t verified whether these dates qualify.",
+        "# Pepper’s boarding estimate\n\nFor Pepper, your 25 lb terrier, in a Standard Suite from January 26 to January 29, 2027 (3 nights).\n\nService: Dog boarding — Standard Suite\n\nPet: Pepper\n\n- Standard Suite · 3 nights: $186.00. 3 nights × $62.00 per night (1 guest).\n\n**Estimated total:** $186.00\n\nPlanning estimate only—not a reservation, availability confirmation, or final price.\n\n- The base estimate excludes any peak-period charge. The rate sheet adds $5 per night during listed holiday and peak periods; these dates have not been verified as qualifying.",
+        "[Tool Result: getCurrentTime] (output omitted)",
+        "[Tool Result: calculate_happy_tails_estimate] (output omitted)"
+      ],
+      "is_error": false,
+      "latency_s": 8.77
+    },
+    {
+      "i": 2,
+      "customer": "What if we did the luxury suite instead and added a nature walk?",
+      "blocks": [
+        "## Updated estimate for Pepper\n\nFor **January 26–29, 2027** (3 nights) in a **Luxury Suite**, with **one nature walk**:\n\n- Luxury Suite: **$261** (3 nights × $87 per night)\n- Nature walk: **$25** (one session)\n\n**Estimated total: $286.** This is a planning estimate, not a reservation or availability confirmation. It excludes any peak-period charge; the rate sheet adds $5 per qualifying night, but I haven’t verified whether these dates qualify.",
+        "# Updated estimate for Pepper\n\nFor Pepper’s 3-night stay, January 26–29, 2027, with the Luxury Suite and one nature walk.\n\nService: Dog boarding — Luxury Suite\n\nPet: Pepper\n\n- Luxury Suite · 3 nights: $261.00. 3 nights × $87.00 per night (1 guest).\n- Nature walk enrichment session: $25.00. 1 session × $25.00 per session.\n\n**Estimated total:** $286.00\n\nPlanning estimate only—not a reservation, availability confirmation, or final price.\n\n- The base estimate excludes any peak-period charge. The rate sheet adds $5 per night during listed holiday and peak periods; confirm whether these dates qualify.",
+        "[Tool Result: calculate_happy_tails_estimate] (output omitted)"
+      ],
+      "is_error": false,
+      "latency_s": 6.3
+    },
+    {
+      "i": 3,
+      "customer": "Hmm, too much. Let's go back to the first plan exactly.",
+      "blocks": [
+        "Back to the original plan: **Pepper in a Standard Suite for 3 nights, January 26–29, 2027, with no add-on.**\n\n- Standard Suite: **$186** (3 nights × $62 per night)\n- **Estimated total: $186**\n\nThis planning estimate excludes any peak-period charge. The rate sheet adds $5 per qualifying night, but I haven’t verified whether these dates qualify. It isn’t a reservation or availability confirmation.",
+        "# Original plan estimate\n\nBack to the original plan: Pepper, your 25 lb terrier, in a Standard Suite January 26–29, 2027 (3 nights), with no nature walk add-on.\n\nService: Dog boarding — Standard Suite\n\nPet: Pepper\n\n- Standard Suite · 3 nights: $186.00. 3 nights × $62.00 per night (1 guest).\n\n**Estimated total:** $186.00\n\nPlanning estimate only—not a reservation, availability confirmation, or final price.\n\n- The base estimate excludes any peak-period charge. The rate sheet adds $5 per night during listed holiday and peak periods; confirm whether these dates qualify.",
+        "[Tool Result: calculate_happy_tails_estimate] (output omitted)"
+      ],
+      "is_error": false,
+      "latency_s": 7.19
+    }
+  ],
+  "status": "ok",
+  "finished": "2026-11-11T18:32:20.767307+00:00"
+}

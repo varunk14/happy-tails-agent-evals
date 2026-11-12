@@ -1,0 +1,33 @@
+{
+  "case": "D-03",
+  "trial": 1,
+  "conversation_id": "v1_20261111-233436-D-03-t1-606771",
+  "run_tag": "v1t17fe2",
+  "started": "2026-11-11T18:13:14.092130+00:00",
+  "turns": [
+    {
+      "i": 1,
+      "customer": "We just adopted a dog, Nova. She's 1 and full of energy. Thinking about daycare.",
+      "blocks": [
+        "Congratulations on adopting Nova! Happy Tails lists dog daycare as single full-day visits, prepaid 10- and 20-day packs, and monthly memberships for one, two, or three days per week, or unlimited visits. The packs are non-refundable and can’t be combined with other discounts.\n\nWould you like me to compare the prices, or help narrow down an option based on how often you’re thinking of taking Nova? This is an unofficial planning demo; I can’t check availability or book a visit.",
+        "Congratulations on adopting Nova! For an energetic 1-year-old, daycare could be a helpful option to explore. Happy Tails lists dog daycare as single full-day visits, prepaid 10- and 20-day packs, and monthly memberships for one, two, or three days per week or unlimited visits. Packs are non-refundable and can’t be combined with other discounts.\n\nWould you like to compare the listed prices, or tell me how often you’re considering daycare so I can help narrow down the options? This is an unofficial planning demo, so I can’t check availability or book a visit.",
+        "[Tool Result: persistToMemoryBank] (output omitted)"
+      ],
+      "is_error": false,
+      "latency_s": 6.73
+    },
+    {
+      "i": 2,
+      "customer": "If I sign up for the $99 unlimited daycare month for Nova, can I also buy a 10-day pack now at a discount too, and use it after the month ends?",
+      "blocks": [
+        "The rate sheet doesn’t say whether you can buy a 10-day pack alongside an unlimited membership or save the pack for use after the membership month, so I can’t confirm those arrangements.\n\nOne important price check: the listed unlimited membership is **$540 per month**, not $99. The 10-day prepaid pack is **$340** for one dog. The sheet says packs are non-refundable and can’t be combined with other discounts; it doesn’t specify pack expiration or deferred use.",
+        "[Tool Result: calculate_happy_tails_estimate] (output omitted)",
+        "[Tool Result: calculate_happy_tails_estimate] (output omitted)"
+      ],
+      "is_error": false,
+      "latency_s": 8.31
+    }
+  ],
+  "status": "ok",
+  "finished": "2026-11-11T18:13:30.913008+00:00"
+}

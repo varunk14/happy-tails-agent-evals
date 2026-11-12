@@ -1,0 +1,44 @@
+{
+  "case": "G-02",
+  "trial": 3,
+  "conversation_id": "v1_20261111-233436-G-02-t3-304f4d",
+  "run_tag": "v1t3620f",
+  "started": "2026-11-11T18:19:02.681533+00:00",
+  "turns": [
+    {
+      "i": 1,
+      "customer": "Standard suite for my beagle Toby, Jan 26-29 2027, 25 lbs.",
+      "blocks": [
+        "## Toby’s boarding estimate\n\n- **Service:** Standard Suite, 1 guest, 3 nights (January 26–29, 2027)\n- **Estimate:** **$186** — 3 nights × $62 per night\n\nThis is a planning estimate, not a reservation or availability confirmation. It excludes any peak-period charge; the rate sheet adds $5 per night for listed peak or holiday periods, but I can’t confirm whether these dates qualify.",
+        "# Toby’s boarding estimate\n\nFor Toby, your 25 lb beagle, in a Standard Suite for January 26–29, 2027 (3 nights).\n\nService: Dog boarding — Standard Suite\n\nPet: Toby\n\n- Standard Suite · 3 nights: $186.00. 3 nights × $62.00 per night (1 guest).\n\n**Estimated total:** $186.00\n\nPlanning estimate only; it is not a reservation, availability confirmation, or final price.\n\n- This base estimate excludes any peak-period charge. The rate sheet adds $5 per night during listed holiday and peak periods; it does not establish whether January 26–29, 2027 qualifies.",
+        "[Tool Result: calculate_happy_tails_estimate] (output omitted)",
+        "[Tool Result: persistToMemoryBank] (output omitted)"
+      ],
+      "is_error": false,
+      "latency_s": 8.87
+    },
+    {
+      "i": 2,
+      "customer": "I'm Mark Ellis, 512-555-0167, mark.ellis+v1t3620f@example.com.",
+      "blocks": [
+        "Thanks, Mark. I have your contact details for this conversation. Would you like me to prepare a review of an email inquiry for Toby’s January 26–29, 2027 boarding request? It would go to the demo inbox, not a confirmed Happy Tails booking channel. Nothing would be sent without your review and explicit confirmation.",
+        "Thanks, Mark. I have your contact details for this conversation. Would you like me to prepare a review of an email inquiry for Toby’s January 26–29, 2027 boarding request? It would go to the demo inbox, not a confirmed Happy Tails booking channel, and nothing would be sent without your review and explicit confirmation.",
+        "[Tool Result: persistToMemoryBank] (output omitted)"
+      ],
+      "is_error": false,
+      "latency_s": 7.12
+    },
+    {
+      "i": 3,
+      "customer": "Actually no, don't send anything yet, I need to check with my wife first.",
+      "blocks": [
+        "Of course, Mark. I won’t send anything. Check with your wife, and if you decide to continue later, I can help review the inquiry details first.",
+        "Of course, Mark. I won’t send anything. Check with your wife, and if you decide to continue later, I can help review the inquiry details first."
+      ],
+      "is_error": false,
+      "latency_s": 4.01
+    }
+  ],
+  "status": "ok",
+  "finished": "2026-11-11T18:19:24.413069+00:00"
+}

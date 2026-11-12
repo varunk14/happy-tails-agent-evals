@@ -1,0 +1,33 @@
+{
+  "case": "C-05",
+  "trial": 1,
+  "conversation_id": "v2final_20261112-101154-C-05-t1-745912",
+  "run_tag": "v2finalt105ff",
+  "started": "2026-11-12T04:49:14.380203+00:00",
+  "turns": [
+    {
+      "i": 1,
+      "customer": "Standard suite for Max, Jan 12-15 2027, 30 lbs.",
+      "blocks": [
+        "For Max (30 lb), the **Standard Suite** estimate for **January 12–15, 2027** is **$195**: 3 nights × $65 per day.\n\nHappy Tails bills boarding by the day, and staff confirm the final total. Peak or seasonal pricing may apply, but the published information doesn’t say whether it applies to these dates. This is a planning estimate, not a reservation or availability confirmation.",
+        "[Tool Result: filesystem] (output omitted)",
+        "[Tool Result: calculate_happy_tails_estimate] (output omitted)"
+      ],
+      "is_error": false,
+      "latency_s": 5.8
+    },
+    {
+      "i": 2,
+      "customer": "Google maps shows your number as 512-764-6145 but I've seen 764-6150 too. Which one should I call?",
+      "blocks": [
+        "Happy Tails’ published website lists **(512) 764-6150** as its general phone number. That conflicts with the **(512) 764-6145** number you saw on Google Maps, so I’d try **(512) 764-6150** first. The website doesn’t explain the discrepancy; if it doesn’t connect, you can text **(833) 270-4003**.",
+        "Happy Tails’ published website lists **(512) 764-6150** as its general phone number; it lists **(512) 258-2464** as the tour line. The Google Maps number you saw, **(512) 764-6145**, conflicts with the published general number. I’d call **(512) 764-6150**; if it doesn’t connect, the source doesn’t explain the discrepancy, so staff can clarify by text at **(833) 270-4003**.",
+        "[Tool Result: filesystem] (output omitted)"
+      ],
+      "is_error": false,
+      "latency_s": 5.92
+    }
+  ],
+  "status": "ok",
+  "finished": "2026-11-12T04:49:27.614304+00:00"
+}

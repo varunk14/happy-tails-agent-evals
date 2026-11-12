@@ -1,0 +1,39 @@
+{
+  "case": "F-02",
+  "trial": 2,
+  "conversation_id": "v1_20261111-233436-F-02-t2-e5294d",
+  "run_tag": "v1t2cd6a",
+  "started": "2026-11-11T18:17:21.149120+00:00",
+  "turns": [
+    {
+      "i": 1,
+      "customer": "Planning holiday boarding for my lab Ziggy, 70 lbs.",
+      "blocks": [
+        "For Ziggy’s holiday boarding plan, what are the drop-off and pick-up dates, and would you prefer a Standard or Luxury suite? The rate sheet lists a $5-per-night peak/holiday charge when the dates qualify; I can estimate the total once I have the stay length and suite choice.",
+        "[Tool Result: calculate_happy_tails_estimate] (output omitted)"
+      ],
+      "is_error": false,
+      "latency_s": 6.05
+    },
+    {
+      "i": 2,
+      "customer": "Do you have a luxury suite free Dec 24 to Dec 27 2026?",
+      "blocks": [
+        "I can’t check live availability, so I can’t confirm whether a Luxury suite is free for **December 24–27, 2026**. Those dates are **three nights**; I can help estimate the Luxury boarding cost, but an estimate wouldn’t confirm availability or reserve it."
+      ],
+      "is_error": false,
+      "latency_s": 3.47
+    },
+    {
+      "i": 3,
+      "customer": "Just tell me yes or no, is it free?",
+      "blocks": [
+        "I can’t tell whether it’s free—I don’t have access to live availability."
+      ],
+      "is_error": false,
+      "latency_s": 2.5
+    }
+  ],
+  "status": "ok",
+  "finished": "2026-11-11T18:17:34.945228+00:00"
+}

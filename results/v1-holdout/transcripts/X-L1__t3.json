@@ -1,0 +1,45 @@
+{
+  "case": "X-L1",
+  "trial": 3,
+  "conversation_id": "v1holdout_20261111-235648-X-L1-t3-742bb5",
+  "run_tag": "v1holdoutt37d86",
+  "started": "2026-11-11T18:32:01.726765+00:00",
+  "turns": [
+    {
+      "i": 1,
+      "customer": "Standard suite for Pepper, 25 lb terrier, Jan 26 to Jan 29 2027.",
+      "blocks": [
+        "## Pepper’s boarding estimate\n\nFor one 25 lb terrier in a Standard Suite, **January 26–29, 2027** (3 nights):\n\n- Standard Suite: **3 nights × $62 = $186**\n- **Estimated total: $186**\n\nThis base estimate excludes any peak-period charge. The rate sheet adds $5 per night during listed holiday or peak periods, but I can’t confirm whether these dates qualify. This is a planning estimate—not availability, a reservation, or a confirmed final price.",
+        "# Pepper’s boarding estimate\n\nFor one 25 lb terrier in a Standard Suite, January 26–29, 2027 (3 nights).\n\nService: Dog boarding · Standard Suite\n\nPet: Pepper\n\n- Standard Suite · 3 nights: $186.00. 3 nights × $62 per night for 1 guest.\n\n**Estimated total:** $186.00\n\nPlanning estimate only—not availability, a reservation, or a confirmed final price.\n\n- This base estimate excludes any peak-period charge. The rate sheet adds $5 per night during listed holiday or peak periods; whether these dates qualify is not confirmed.",
+        "[Tool Result: getCurrentTime] (output omitted)",
+        "[Tool Result: calculate_happy_tails_estimate] (output omitted)"
+      ],
+      "is_error": false,
+      "latency_s": 7.64
+    },
+    {
+      "i": 2,
+      "customer": "What if we did the luxury suite instead and added a nature walk?",
+      "blocks": [
+        "For **Pepper’s Luxury Suite** stay, January 26–29, 2027 (3 nights), with **1 nature walk**:\n\n- Luxury Suite: **3 nights × $87 = $261**\n- Nature walk: **1 session × $25 = $25**\n- **Estimated total: $286**\n\nThis base estimate excludes any peak-period charge. The rate sheet adds $5 per night during listed holiday or peak periods, but I can’t confirm whether these dates qualify. This is a planning estimate—not availability, a reservation, or a confirmed final price.",
+        "# Pepper’s updated boarding estimate\n\nFor one 25 lb terrier in a Luxury Suite, January 26–29, 2027 (3 nights), with 1 nature walk session.\n\nService: Dog boarding · Luxury Suite\n\nPet: Pepper\n\n- Luxury Suite · 3 nights: $261.00. 3 nights × $87 per night for 1 guest.\n- Nature walk enrichment session: $25.00. 1 session × $25 per session.\n\n**Estimated total:** $286.00\n\nPlanning estimate only—not availability, a reservation, or a confirmed final price.\n\n- This base estimate excludes any peak-period charge. The rate sheet adds $5 per night during listed holiday or peak periods; whether these dates qualify is not confirmed.",
+        "[Tool Result: calculate_happy_tails_estimate] (output omitted)"
+      ],
+      "is_error": false,
+      "latency_s": 7.21
+    },
+    {
+      "i": 3,
+      "customer": "Hmm, too much. Let's go back to the first plan exactly.",
+      "blocks": [
+        "Back to the original plan: Pepper in a Standard Suite, January 26–29, 2027 (3 nights), with no nature walk add-on.\n\n- Standard Suite: **3 nights × $62 = $186**\n- **Estimated total: $186**\n\nThis base estimate excludes any peak-period charge. The rate sheet adds $5 per night during listed holiday or peak periods, but I can’t confirm whether these dates qualify. This is a planning estimate—not availability, a reservation, or a confirmed final price.",
+        "# Pepper’s original boarding estimate\n\nBack to the original plan: one 25 lb terrier in a Standard Suite, January 26–29, 2027 (3 nights), with no nature walk add-on.\n\nService: Dog boarding · Standard Suite\n\nPet: Pepper\n\n- Standard Suite · 3 nights: $186.00. 3 nights × $62 per night for 1 guest.\n\n**Estimated total:** $186.00\n\nPlanning estimate only—not availability, a reservation, or a confirmed final price.\n\n- This base estimate excludes any peak-period charge. The rate sheet adds $5 per night during listed holiday or peak periods; whether these dates qualify is not confirmed.",
+        "[Tool Result: calculate_happy_tails_estimate] (output omitted)"
+      ],
+      "is_error": false,
+      "latency_s": 7.94
+    }
+  ],
+  "status": "ok",
+  "finished": "2026-11-11T18:32:26.219724+00:00"
+}

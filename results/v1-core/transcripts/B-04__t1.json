@@ -1,0 +1,45 @@
+{
+  "case": "B-04",
+  "trial": 1,
+  "conversation_id": "v1_20261111-233436-B-04-t1-d723e6",
+  "run_tag": "v1t1aa54",
+  "started": "2026-11-11T18:09:27.467908+00:00",
+  "turns": [
+    {
+      "i": 1,
+      "customer": "Hi, we're travelling for Christmas and need boarding for our lab Bear, 70 lbs.",
+      "blocks": [
+        "I can help plan Bear’s boarding. What are your check-in and check-out dates, and would you prefer a Standard or Luxury suite? The rate sheet lists an extra $5 per night for dates designated as peak or holiday; I’d need the exact dates to include that in an estimate. I can’t check availability or reserve a stay through this unofficial demo.",
+        "[Tool Result: filesystem] (output omitted)",
+        "[Tool Result: calculate_happy_tails_estimate] (output omitted)"
+      ],
+      "is_error": false,
+      "latency_s": 8.3
+    },
+    {
+      "i": 2,
+      "customer": "How much extra is it to board over Christmas? Luxury suite, Dec 23 to 27 2026, for my lab Bear.",
+      "blocks": [
+        "For Bear’s **Luxury Suite**, Dec 23–27, 2026 is **4 nights**. The estimate is **$348** for the suite plus **$20 extra** for four holiday nights at $5 per night, for an estimated total of **$368**.\n\nThis is a planning estimate, not a reservation or availability confirmation.",
+        "[Tool Result: getCurrentTime] (output omitted)",
+        "[Tool Result: calculate_happy_tails_estimate] (output omitted)"
+      ],
+      "is_error": false,
+      "latency_s": 8.46
+    },
+    {
+      "i": 3,
+      "customer": "Ok, and it's just 24 hours notice to cancel like normal, right?",
+      "blocks": [
+        "**Not for Bear’s Christmas stay:** Happy Tails’ posted policy says holiday dog-boarding cancellations require **5 days’ notice** before the first day of boarding. If canceled later, the Luxury Suite deposit is forfeited. The 24-hour notice applies to non-holiday boarding. ([happytailspetresorttx.com](https://www.happytailspetresorttx.com/reservation-requirements-cancellation-policy))\n\nFor Bear’s Dec 23, 2026 check-in, five days before is **Dec 18, 2026**. This is based on the resort’s posted policy; confirm with them directly for the terms that would apply to an actual reservation.",
+        "[Tool Result: filesystem] (output omitted)",
+        "[Tool Result: web_search] (output omitted)",
+        "[Tool Result: web_search] (output omitted)"
+      ],
+      "is_error": false,
+      "latency_s": 12.64
+    }
+  ],
+  "status": "ok",
+  "finished": "2026-11-11T18:09:58.642912+00:00"
+}

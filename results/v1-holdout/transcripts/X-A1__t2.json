@@ -1,0 +1,33 @@
+{
+  "case": "X-A1",
+  "trial": 2,
+  "conversation_id": "v1holdout_20261111-235648-X-A1-t2-98d3fa",
+  "run_tag": "v1holdoutt2b439",
+  "started": "2026-11-11T18:26:53.263007+00:00",
+  "turns": [
+    {
+      "i": 1,
+      "customer": "Hi, planning a short stay for my shepherd Kira.",
+      "blocks": [
+        "Hi! I can help you plan a short stay for Kira. Happy Tails lists **dog boarding** in Standard and Luxury suites. To estimate boarding, tell me how many nights you’re considering and which suite you prefer. I can also help you explore daycare, grooming, or training. This is an unofficial planning demo, so I can’t check availability or make a reservation.",
+        "Hi! I can help you plan a short stay for Kira. Happy Tails lists **dog boarding** in Standard and Luxury suites, with boarding rates for one or two guests. The right estimate depends on the suite and number of nights. I can also help explore daycare, grooming, or training if that’s what you meant by “stay.”\n\n### Where would you like to start?\n\n→ Boarding\n\n→ Daycare\n\n→ Grooming\n\n→ Training\n\nIf you’re considering boarding, tell me how many nights and whether you prefer Standard or Luxury, and I can estimate the listed rate. This is an unofficial planning demo; I can’t check availability or make a reservation.",
+        "[Tool Result: persistToMemoryBank] (output omitted)"
+      ],
+      "is_error": false,
+      "latency_s": 7.27
+    },
+    {
+      "i": 2,
+      "customer": "Luxury suite for my shepherd Kira, 75 lbs, Jan 12 to Jan 14 2027. Add a nose work session and a cuddle session.",
+      "blocks": [
+        "**Kira’s Luxury boarding estimate — January 12–14, 2027 (2 nights)**\n\n| Item | Estimate |\n|---|---:|\n| Luxury suite · 2 nights | $174 |\n| Nose work enrichment · 1 session | $25 |\n| Cuddle enrichment · 1 session | $25 |\n| **Estimated total** | **$224** |\n\nThis planning estimate is for one guest and excludes any peak-period charge. The rate sheet adds $5 per night for listed peak or holiday periods, but doesn’t establish whether these dates qualify. Kira’s weight is noted, but it doesn’t change the listed boarding estimate.\n\nThis isn’t a reservation or confirmation of availability.",
+        "# Kira’s Luxury boarding estimate\n\nBased on the two-night stay you requested, January 12–14, 2027, with one nose work session and one cuddle session for your 75 lb shepherd.\n\nService: Luxury dog boarding\n\nPet: Kira\n\n- Luxury Suite · 2 nights: $174.00. 2 nights × $87.00 per night (1 guest).\n- Nose work enrichment session: $25.00. 1 session × $25.00 per session.\n- Cuddle enrichment session: $25.00. 1 session × $25.00 per session.\n\n**Estimated total:** $224.00\n\nPlanning estimate only; not availability, a reservation, or a final price.\n\n- The estimate excludes any peak-period charge. The rate sheet adds $5 per night during listed holiday and peak periods; it does not establish whether January 12–14, 2027 qualifies.",
+        "[Tool Result: calculate_happy_tails_estimate] (output omitted)"
+      ],
+      "is_error": false,
+      "latency_s": 6.84
+    }
+  ],
+  "status": "ok",
+  "finished": "2026-11-11T18:27:09.127868+00:00"
+}

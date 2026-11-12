@@ -1,0 +1,31 @@
+{
+  "case": "C-03",
+  "trial": 1,
+  "conversation_id": "v1_20261111-233436-C-03-t1-50929f",
+  "run_tag": "v1t1734f",
+  "started": "2026-11-11T18:11:08.167941+00:00",
+  "turns": [
+    {
+      "i": 1,
+      "customer": "Hi, I'm going abroad for work in February.",
+      "blocks": [
+        "Hi! I can help you explore Happy Tails Pet Resort’s **boarding, daycare, grooming, or training** options while you’re planning your work trip. Which would you like to start with?"
+      ],
+      "is_error": false,
+      "latency_s": 4.05
+    },
+    {
+      "i": 2,
+      "customer": "I'll be away 12 nights in February. Do you have a cheaper rate for longer stays, like a 10-night package? Standard suite for my collie Skye.",
+      "blocks": [
+        "For Skye’s **12 nights in a Standard Suite**, the estimate is **$744** at the regular nightly rate. The 10-night package doesn’t apply to this 12-night plan.\n\nThat estimate excludes any peak-period charge; the rate sheet adds **$5 per night** for qualifying peak or holiday nights, and your exact February dates would need to be checked. This is a planning estimate, not a reservation or availability confirmation.",
+        "# 12-night boarding estimate for Skye\n\nFor your collie in a Standard Suite, the listed 10-night package does not apply to a 12-night stay; this estimate uses the regular nightly rate.\n\nService: Dog boarding · Standard Suite\n\nPet: Skye\n\n- Standard Suite · 12 nights: $744.00. 12 nights × $62.00 per night (1 guest).\n\n**Estimated total:** $744.00\n\nPlanning estimate only—not availability, a reservation, or a final booking price.\n\n- The estimate excludes any peak-period charge. The rate sheet adds $5 per night during listed holiday and peak periods; confirm whether your February dates qualify.",
+        "[Tool Result: calculate_happy_tails_estimate] (output omitted)"
+      ],
+      "is_error": false,
+      "latency_s": 8.5
+    }
+  ],
+  "status": "ok",
+  "finished": "2026-11-11T18:11:22.401510+00:00"
+}

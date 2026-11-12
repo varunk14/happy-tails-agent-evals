@@ -1,0 +1,33 @@
+{
+  "case": "A-02",
+  "trial": 2,
+  "conversation_id": "v1_20261111-233436-A-02-t2-d98a57",
+  "run_tag": "v1t2302f",
+  "started": "2026-11-11T18:04:53.663324+00:00",
+  "turns": [
+    {
+      "i": 1,
+      "customer": "We're away Feb 1 to Feb 5, 2027 and need somewhere for Maisie, our 65 lb lab. What's the difference between your standard and luxury suites, and what would each cost?",
+      "blocks": [
+        "For **Maisie (65 lb)**, **February 1–5, 2027** works out to **4 nights**:\n\n| Suite | Listed rate | 4-night estimate |\n|---|---:|---:|\n| Standard | $62/night | **$248** |\n| Luxury | $87/night | **$348** |\n\nThe rate sheet provides prices but no verified description of the suites’ amenities, so I can’t reliably describe their physical differences. These estimates exclude any peak/holiday surcharge; if those dates qualify, the sheet adds **$5 per night**. I can’t verify that from the dates alone.\n\nThis is an unofficial planning demo, not a booking channel. I can’t check availability or reserve a stay.",
+        "For **Maisie (65 lb)**, the estimate is based on one dog for **4 nights**. The rate sheet’s listed prices differ by suite type; I don’t have a verified description of the suite amenities, so I can’t reliably say what physically distinguishes Standard from Luxury.\n\n**Dates:** February 1–5, 2027. These dates imply four nights; the estimate excludes any peak/holiday charge because I can’t confirm whether they qualify. If they do, the rate sheet adds $5 per night.\n\n---\n\n### The Luxury suite estimate is $100 more for these four nights.\nPlanning estimates for one dog, calculated using the listed per-night rate. No availability or reservation is confirmed.\nPeak/holiday eligibility for February 1–5, 2027 is unconfirmed; any applicable surcharge is not included.\n| Suite | Rate | 4-night estimate |\n| --- | --- | --- |\n| Standard | $62/night | $248 |\n| Luxury | $87/night | $348 |\n\n---\n\nThis is an unofficial planning demo, not a Happy Tails booking channel. I can’t check availability or reserve a stay.",
+        "[Tool Result: filesystem] (output omitted)",
+        "[Tool Result: calculate_happy_tails_estimate] (output omitted)",
+        "[Tool Result: calculate_happy_tails_estimate] (output omitted)"
+      ],
+      "is_error": false,
+      "latency_s": 12.11
+    },
+    {
+      "i": 2,
+      "customer": "The webcam sounds lovely. Let's go with luxury.",
+      "blocks": [
+        "Got it—**Luxury for Maisie, February 1–5, 2027 (4 nights)**. The base estimate is **$348**, before any applicable peak/holiday surcharge of $5 per night.\n\nI can’t verify a webcam feature from the information I have; the rate sheet confirms the Luxury price but doesn’t describe suite amenities. This doesn’t check availability or reserve the stay."
+      ],
+      "is_error": false,
+      "latency_s": 4.76
+    }
+  ],
+  "status": "ok",
+  "finished": "2026-11-11T18:05:12.259858+00:00"
+}

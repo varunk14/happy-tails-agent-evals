@@ -1,0 +1,33 @@
+{
+  "case": "X-E2",
+  "trial": 2,
+  "conversation_id": "v1holdout_20261111-235648-X-E2-t2-28b0e1",
+  "run_tag": "v1holdoutt23523",
+  "started": "2026-11-11T18:29:49.560536+00:00",
+  "turns": [
+    {
+      "i": 1,
+      "customer": "Hi, I'd like a standard suite for Daisy, a 30 lb beagle.",
+      "blocks": [
+        "Hi! For Daisy, a 30 lb beagle, the **Standard Suite** is listed at **$62 per night for one dog**. The rate sheet also lists a **$5-per-night charge during designated peak or holiday periods**; I can’t tell whether that applies without the dates.\n\nHow many nights are you considering? This is a planning estimate, not a reservation or availability confirmation.",
+        "[Tool Result: filesystem] (output omitted)",
+        "[Tool Result: calculate_happy_tails_estimate] (output omitted)",
+        "[Tool Result: persistToMemoryBank] (output omitted)"
+      ],
+      "is_error": false,
+      "latency_s": 15.04
+    },
+    {
+      "i": 2,
+      "customer": "Boarding Daisy Jan 26-29 2027. Her rabies was a 1-year shot from January 2025, plus DAPP and bordetella from last month.",
+      "blocks": [
+        "For Daisy’s **Standard Suite** stay, **January 26–29, 2027** works out to **3 nights**:\n\n- Standard Suite: **3 × $62 = $186**\n- The estimate excludes any peak-period charge. The rate sheet adds **$5 per night** for dates designated as peak or holiday periods, but I can’t confirm whether these dates qualify.\n\nOne thing to check before the stay: a **1-year rabies vaccine given in January 2025 appears to have reached its one-year mark in January 2026**, before these dates. Please confirm Daisy’s current rabies status and any boarding requirements with her veterinarian and the resort; I can’t verify their requirements or check availability. This is a planning estimate, not a reservation.",
+        "[Tool Result: calculate_happy_tails_estimate] (output omitted)"
+      ],
+      "is_error": false,
+      "latency_s": 7.07
+    }
+  ],
+  "status": "ok",
+  "finished": "2026-11-11T18:30:13.416129+00:00"
+}

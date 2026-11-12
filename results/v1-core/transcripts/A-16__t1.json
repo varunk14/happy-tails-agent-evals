@@ -1,0 +1,33 @@
+{
+  "case": "A-16",
+  "trial": 1,
+  "conversation_id": "v1_20261111-233436-A-16-t1-fda50d",
+  "run_tag": "v1t11367",
+  "started": "2026-11-11T18:08:04.640266+00:00",
+  "turns": [
+    {
+      "i": 1,
+      "customer": "Standard suite for my dog Hank, 40 lbs. I'll drop him off Friday Jan 22 2027 around 6pm and pick him up Sunday Jan 24 at 6pm.",
+      "blocks": [
+        "**Hank’s estimated boarding total: $124** for one dog in a Standard Suite for two nights, Friday, January 22, to Sunday, January 24, 2027. The 6 p.m. drop-off and pickup times don’t change the estimate.\n\nThis excludes any peak-period charge; the rate sheet adds $5 per night on listed peak or holiday dates, and I can’t confirm whether these dates qualify. This is a planning estimate, not a reservation or availability confirmation.",
+        "# Hank’s boarding estimate\n\nFor one dog in a Standard Suite from Friday, January 22, to Sunday, January 24, 2027. The 6 p.m. drop-off and pick-up times don’t change the two-night estimate.\n\nService: Standard Suite · dog boarding\n\nPet: Hank\n\n- Standard Suite · 2 nights: $124.00. 2 nights × $62.00 per night (1 guest).\n\n**Estimated total:** $124.00\n\nPlanning estimate only—not a reservation, availability confirmation, or final price.\n\n- The estimate excludes any peak-period charge. The rate sheet adds $5 per night during listed holiday and peak periods; whether these dates qualify is not confirmed.",
+        "[Tool Result: getCurrentTime] (output omitted)",
+        "[Tool Result: calculate_happy_tails_estimate] (output omitted)"
+      ],
+      "is_error": false,
+      "latency_s": 9.68
+    },
+    {
+      "i": 2,
+      "customer": "Wait, am I paying for Friday even though he only arrives at 6?",
+      "blocks": [
+        "**Yes—the estimate includes Friday night.** It’s calculated as two overnight stays—Friday and Saturday nights—at $62 per night, for $124 total. The rate sheet lists a per-night rate, not hourly billing or a late-arrival adjustment, so I can’t confirm whether the resort has a different check-in policy.",
+        "**Yes—the estimate includes Friday night.** It’s calculated as two overnight stays: Friday night and Saturday night, at $62 per night, for $124 total. The rate sheet lists a per-night rate, not hourly billing or a late-arrival adjustment, so I can’t confirm whether the resort applies any different check-in policy."
+      ],
+      "is_error": false,
+      "latency_s": 9.25
+    }
+  ],
+  "status": "ok",
+  "finished": "2026-11-11T18:08:25.379942+00:00"
+}

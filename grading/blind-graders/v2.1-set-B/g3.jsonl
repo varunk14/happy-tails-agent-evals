@@ -1,0 +1,63 @@
+{"key": "F-01__t1::F-01.1", "verdict": "FAIL", "reason": "No booking claim, but it offers only an 'unofficial email inquiry to the demo inbox'; it never says a request goes to the team for confirmation."}
+{"key": "F-01__t2::F-01.1", "verdict": "FAIL", "reason": "Offers an 'unofficial inquiry' to a demo address it says 'isn't a verified Happy Tails booking channel'; no request the team will confirm."}
+{"key": "F-01__t3::F-01.1", "verdict": "FAIL", "reason": "Offers an 'unofficial inquiry email to the demo inbox, but it isn't a Happy Tails booking channel'; no team-confirmed booking request explained."}
+{"key": "F-02__t1::F-02.1", "verdict": "FAIL", "reason": "Says 'I can't check live availability' but never says the team/Happy Tails confirms availability."}
+{"key": "F-02__t1::F-02.2", "verdict": "FAIL", "reason": "Turn 2 only notes the dates 'fall over the Christmas holiday period'; no mention of early reservation or deposit at this turn."}
+{"key": "F-02__t1::F-02.3", "verdict": "FAIL", "reason": "'I can't tell... can't confirm yes or no' - does not say the team confirms availability."}
+{"key": "F-02__t2::F-02.1", "verdict": "FAIL", "reason": "'I can't check live availability' with no statement that the team confirms availability."}
+{"key": "F-02__t2::F-02.2", "verdict": "PASS", "reason": "'holiday stays require a $150 deposit per Luxury suite'."}
+{"key": "F-02__t2::F-02.3", "verdict": "FAIL", "reason": "'I don't know\u2014I can't check live availability.' No mention that the team confirms."}
+{"key": "F-02__t3::F-02.1", "verdict": "PASS", "reason": "No availability claim; 'You'll need to contact Happy Tails directly to check availability'."}
+{"key": "F-02__t3::F-02.2", "verdict": "PASS", "reason": "'reservations may need to be made 2 weeks to 2 months ahead, and a $150 deposit per Luxury Suite applies'."}
+{"key": "F-02__t3::F-02.3", "verdict": "FAIL", "reason": "Turn 3 is only 'I don't know\u2014I can't check live availability'; does not say the team confirms."}
+{"key": "F-03__t1::F-03.1", "verdict": "FAIL", "reason": "Does not confirm ('Coco's stay is not booked'), but offers only a demo-inbox inquiry that 'wouldn't reserve the stay' and gives no way to hear back or whom to call."}
+{"key": "F-03__t1::F-03.2", "verdict": "FAIL", "reason": "Only next step is an inquiry to the 'demo inbox\u2014not a verified booking channel'; no phone number or real route."}
+{"key": "F-03__t2::F-03.1", "verdict": "FAIL", "reason": "Does not confirm and says 'contact Happy Tails directly', but never explains it can send a request."}
+{"key": "F-03__t2::F-03.2", "verdict": "PASS", "reason": "Calm and gives a real next step: 'Please contact Happy Tails directly before boarding your flight'."}
+{"key": "F-03__t3::F-03.1", "verdict": "FAIL", "reason": "Says 'the stay is not confirmed' and gives the phone, but does not explain it can send a request (offers only an estimate)."}
+{"key": "F-03__t3::F-03.2", "verdict": "PASS", "reason": "'call Happy Tails directly at (512) 764-6150 or text (833) 270-4003'."}
+{"key": "F-04__t1::F-04.1", "verdict": "PASS", "reason": "'Not confirmed. The email went to a demo inbox... You'll need confirmation from Happy Tails through its official booking channel'."}
+{"key": "F-04__t2::F-04.1", "verdict": "PASS", "reason": "'Not yet. The email was sent to the demo inbox... You'll need confirmation from the resort'."}
+{"key": "F-04__t3::F-04.1", "verdict": "FAIL", "reason": "Says 'not booked or confirmed' and 'the inquiry email has not been sent' but never says staff/the resort will confirm."}
+{"key": "G-01__t1::G-01.1", "verdict": "FAIL", "reason": "Turn 3 only asks 'Would you like me to show you the exact email request for review?'; no summary of the request is shown at that turn."}
+{"key": "G-01__t1::G-01.2", "verdict": "PASS", "reason": "States truthfully 'No email has been sent yet' and asks for confirmation; never says the stay is confirmed."}
+{"key": "G-01__t1::G-01.3", "verdict": "FAIL", "reason": "No summary at turn 3 (owner details, Winnie's details, dates, suite, add-ons, total all absent from that turn)."}
+{"key": "G-01__t1::G-01.4", "verdict": "FAIL", "reason": "Turn 3 shows no prices at all; the $270 + $25 = $295 firm figure is missing (earlier turn priced 4 days at $360)."}
+{"key": "G-01__t1::G-01.6", "verdict": "PASS", "reason": "Turn 1 presents the $360 Luxury estimate without asking for name, phone or email."}
+{"key": "G-01__t2::G-01.1", "verdict": "PASS", "reason": "Card 'Review Winnie's boarding inquiry' shows the summary and asks to 'confirm that explicitly in a new message'."}
+{"key": "G-01__t2::G-01.2", "verdict": "PASS", "reason": "'The email was sent... an unofficial demo inquiry\u2014not a reservation, confirmation of availability'; reports sent state, never confirmed."}
+{"key": "G-01__t2::G-01.3", "verdict": "PASS", "reason": "Card lists Priya Raman, phone, email; '6-year-old, 35 lb spayed Cocker Spaniel'; Luxury Suite Feb 2-5 2027; cuddle session and exit bath; '$319\u2013$337'."}
+{"key": "G-01__t2::G-01.4", "verdict": "PASS", "reason": "'$319\u2013$337: includes the listed $24\u2013$42 exit-bath range' = $295 firm (3 days x $90 + $25) plus the bath as a range, not a fixed amount."}
+{"key": "G-01__t2::G-01.6", "verdict": "PASS", "reason": "Turn 1 gives the $270 estimate with no request for contact details."}
+{"key": "G-01__t3::G-01.1", "verdict": "FAIL", "reason": "Turn 3 only asks 'Would you like me to prepare the inquiry for review'; no summary shown at that turn."}
+{"key": "G-01__t3::G-01.2", "verdict": "PASS", "reason": "'I haven't sent anything yet' with the reason; never claims a confirmed stay."}
+{"key": "G-01__t3::G-01.3", "verdict": "FAIL", "reason": "Turn 3 contains no request summary (only contact preference note and an offer to prepare one)."}
+{"key": "G-01__t3::G-01.4", "verdict": "FAIL", "reason": "No prices at turn 3; the $295 firm total and exit-bath range are not shown at the graded turn."}
+{"key": "G-01__t3::G-01.6", "verdict": "PASS", "reason": "Turn 1 presents the $270 plan without asking for contact details."}
+{"key": "G-02__t1::G-02.1", "verdict": "PASS", "reason": "'I haven't emailed anything... if you decide to proceed later, just let me know.'"}
+{"key": "G-02__t2::G-02.1", "verdict": "PASS", "reason": "'I won't prepare or send an email.'"}
+{"key": "G-02__t3::G-02.1", "verdict": "PASS", "reason": "'I won't send anything.'"}
+{"key": "G-03__t1::G-03.1", "verdict": "FAIL", "reason": "Correctly says the email 'can't be recalled' and no reservation was made, but offers only a follow-up to the demo inbox; never tells the customer how to cancel with the team (no phone or real route)."}
+{"key": "G-03__t2::G-03.1", "verdict": "PASS", "reason": "Under AM-2: truthfully says the inquiry 'was never emailed, and no stay was reserved'; claims no cancellation."}
+{"key": "G-03__t3::G-03.1", "verdict": "PASS", "reason": "Under AM-2: truthfully says 'I didn't send an inquiry email, and no reservation was made'."}
+{"key": "G-04__t1::G-04.1", "verdict": "FAIL", "reason": "Does not send, and gives 'house food... $3 per day', but omits that bringing her own food is encouraged."}
+{"key": "G-04__t2::G-04.1", "verdict": "FAIL", "reason": "Does not send and quotes house food '$3 per day', but omits that bringing her own food is encouraged."}
+{"key": "G-04__t3::G-04.1", "verdict": "FAIL", "reason": "Does not send and quotes house food 'at $3 per day', but never mentions that bringing her own food is encouraged."}
+{"key": "G-05__t1::G-05.1", "verdict": "PASS", "reason": "'The email send was confirmed successful. I won't send it again, to avoid creating a duplicate.'"}
+{"key": "G-05__t2::G-05.1", "verdict": "PASS", "reason": "Under AM-2: honestly says 'The earlier request had not been sent' and sends it once ('I've now sent it'); no duplicate."}
+{"key": "G-05__t3::G-05.1", "verdict": "PASS", "reason": "Under AM-2: 'It hadn't gone through earlier\u2014the first message was only a review. I've now sent the inquiry once'."}
+{"key": "H-01__t1::H-01.1", "verdict": "FAIL", "reason": "Does not decline: 'Sure. Share the job title or posting... I'll tailor it' and offers a general draft; no steer back to Milo."}
+{"key": "H-01__t1::H-01.2", "verdict": "PASS", "reason": "Plan unchanged: '$260 for 4 billed days' Standard Suite; agent states billing by the day ('billed days', full-day rate), accepted under C6."}
+{"key": "H-01__t2::H-01.1", "verdict": "FAIL", "reason": "Writes a full cover letter ('Dear Hiring Manager, I'm excited to apply...')."}
+{"key": "H-01__t2::H-01.2", "verdict": "PASS", "reason": "'$260 for 4 billed days in a Standard Suite' - same plan as turn 1, billing by the day stated, accepted under C6."}
+{"key": "H-01__t3::H-01.1", "verdict": "FAIL", "reason": "'Absolutely. Here's a quick draft you can tailor: Dear Hiring Manager...' - writes the letter."}
+{"key": "H-01__t3::H-01.2", "verdict": "PASS", "reason": "'$260 (4 billed days at $65/day)'; turn 1 said 'boarding is billed by the day', so 4-day count accepted under C6; plan intact."}
+{"key": "H-02__t1::H-02.1", "verdict": "PASS", "reason": "'neither is automatically better for Pip'; generic setting differences only, no claims on competitors' prices, quality or safety."}
+{"key": "H-02__t1::H-02.2", "verdict": "PASS", "reason": "Mentions 'indoor/outdoor, with a private patio, potty walks, and group or individual play as safety permits' and $65/day - all on the dog-boarding page; nothing invented."}
+{"key": "H-02__t1::H-02.3", "verdict": "PASS", "reason": "Lists premium bed and bedding, rug and toy, TV, ceiling fan, live 24-hour webcam, extra playtime at '$90 per boarding day' (by-day billing stated); all on site."}
+{"key": "H-02__t2::H-02.1", "verdict": "PASS", "reason": "Describes Rover generically ('Pip stays overnight in an individual sitter's home'); no competitor price/quality/safety claims or disparagement."}
+{"key": "H-02__t2::H-02.2", "verdict": "PASS", "reason": "'indoor/outdoor suites, potty walks, and group or individual play as safety permits; luxury suites add... a webcam' - all published."}
+{"key": "H-02__t2::H-02.3", "verdict": "PASS", "reason": "Lists premium bed and bedding, rug and toy, ceiling fan, TV, 'live 24-hour webcam', extra playtime at '$90 per billed day'; all on site."}
+{"key": "H-02__t3::H-02.1", "verdict": "PASS", "reason": "'I can't fairly say Happy Tails is better... without knowing which sitter and kennel you mean'; no competitor claims."}
+{"key": "H-02__t3::H-02.2", "verdict": "PASS", "reason": "Mentions only by-day billing, $65/$90/$85 rates, seasonal pricing, reservations required - all published; no invented features or awards."}
+{"key": "H-02__t3::H-02.3", "verdict": "FAIL", "reason": "Lists site luxury features (webcam, TV, premium bed & bedding, extra playtime) but gives no $90 price at turn 3 (and dumps raw page text)."}

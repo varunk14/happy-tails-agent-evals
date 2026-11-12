@@ -1,0 +1,46 @@
+{
+  "case": "D-02",
+  "trial": 2,
+  "conversation_id": "v2_20261112-012716-D-02-t2-c89689",
+  "run_tag": "v2t228cb",
+  "started": "2026-11-11T20:03:52.677722+00:00",
+  "turns": [
+    {
+      "i": 1,
+      "customer": "Hi, we just moved to Cedar Park and have never used a boarding place. Our pup Ziggy is 30 lbs.",
+      "blocks": [
+        "Welcome to Cedar Park! I can help you explore **boarding, daycare, grooming, or training**. Since this would be Ziggy’s first boarding experience, we can start with boarding options and what to expect. At 30 lb, he’s above the listed Tiny Town limit of 25 lb and under.\n\nWhich would you like to explore first?",
+        "Welcome to Cedar Park! I can help you explore Happy Tails Pet Resort’s four services: **boarding, daycare, grooming, and training**. Since this would be Ziggy’s first boarding experience, we can start by comparing boarding options and the practical details to know; his 30 lb weight means Tiny Town (for dogs 25 lb and under) isn’t listed for him. Which would you like to explore first?",
+        "[Tool Result: persistToMemoryBank] (output omitted)"
+      ],
+      "is_error": false,
+      "latency_s": 9.79
+    },
+    {
+      "i": 2,
+      "customer": "We're new! Can we use the First Stay & Play offer for 3 nights in a luxury suite for our pup Ziggy, Jan 26 to 29 2027?",
+      "blocks": [
+        "The current offer advertises **“Stay for a night, play all the next day. Pay $0!”** That sounds relevant to a boarding stay, but the published offer doesn’t specify its eligibility details or whether it applies to a Luxury Suite or your dates—so I can’t confirm Ziggy qualifies. ([happytailspetresorttx.com](https://www.happytailspetresorttx.com/offers?utm_source=openai))\n\nFor **January 26–29, 2027**, the Luxury Suite estimate is **$360**: 4 billed days at $90/day. Boarding is charged by the day, including the drop-off day, regardless of drop-off time; peak or seasonal pricing may apply. This is a planning estimate before any offer, not a confirmed price or reservation. ([happytailspetresorttx.com](https://www.happytailspetresorttx.com/services/dog-boarding?utm_source=openai))\n\nThe offer’s exact effect on that estimate remains unconfirmed. I can help prepare an inquiry asking whether it applies, but this demo can’t check availability or reserve the stay.",
+        "[Tool Result: web_search] (output omitted)",
+        "[Tool Result: web_search] (output omitted)",
+        "[Tool Result: calculate_happy_tails_estimate] (output omitted)",
+        "[Tool Result: web_search] (output omitted)",
+        "[Tool Result: web_search] (output omitted)"
+      ],
+      "is_error": false,
+      "latency_s": 15.96
+    },
+    {
+      "i": 3,
+      "customer": "Ok so if we do 3 nights in a standard room with the offer, what do we pay?",
+      "blocks": [
+        "The **Standard Suite estimate is $260** for January 26–29, 2027: 4 billed days at $65/day. The offer’s discount isn’t included because I can’t confirm whether it applies to this stay or how it would affect the price. Peak or seasonal pricing may also apply. This is a planning estimate, not a confirmed price or reservation.",
+        "[Tool Result: calculate_happy_tails_estimate] (output omitted)"
+      ],
+      "is_error": false,
+      "latency_s": 4.19
+    }
+  ],
+  "status": "ok",
+  "finished": "2026-11-11T20:04:24.301502+00:00"
+}

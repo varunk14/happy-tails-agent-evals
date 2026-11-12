@@ -1,0 +1,30 @@
+{
+  "case": "B-01",
+  "trial": 2,
+  "conversation_id": "v2_20261112-012716-B-01-t2-7d656b",
+  "run_tag": "v2t2772d",
+  "started": "2026-11-11T20:00:13.812186+00:00",
+  "turns": [
+    {
+      "i": 1,
+      "customer": "My husky Koda gets so hot in summer. How much to get him shaved down?",
+      "blocks": [
+        "I can’t give a reliable price for shaving Koda down: the listed rates don’t cover shavedowns, and Happy Tails says to ask the resort for shavedown pricing. I wouldn’t use the full-groom starting price as an estimate for that service.",
+        "[Tool Result: calculate_happy_tails_estimate] (output omitted)"
+      ],
+      "is_error": false,
+      "latency_s": 5.3
+    },
+    {
+      "i": 2,
+      "customer": "I get that, but just ballpark it for me? Like is it closer to 80 or 150?",
+      "blocks": [
+        "I can’t responsibly place a shavedown closer to $80 or $150—the listed grooming rates don’t price that service, and a full-groom starting rate wouldn’t be a sound substitute. Happy Tails would need to price Koda’s shavedown directly after assessing his coat."
+      ],
+      "is_error": false,
+      "latency_s": 3.46
+    }
+  ],
+  "status": "ok",
+  "finished": "2026-11-11T20:00:24.315383+00:00"
+}

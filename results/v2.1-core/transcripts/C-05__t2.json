@@ -1,0 +1,31 @@
+{
+  "case": "C-05",
+  "trial": 2,
+  "conversation_id": "v2_20261112-012716-C-05-t2-ac6b9c",
+  "run_tag": "v2t24a13",
+  "started": "2026-11-11T20:02:56.703558+00:00",
+  "turns": [
+    {
+      "i": 1,
+      "customer": "Standard suite for Max, Jan 12-15 2027, 30 lbs.",
+      "blocks": [
+        "For Max (30 lb), the **Standard Suite** fits the listed dog boarding options at **$65 per billed day**. The rate sheet uses billed days, not nights, and the full-day charge applies regardless of drop-off time.\n\nHow many billed days should I use for January 12–15, 2027? I don’t want to assume whether that date range is three or four billed days.",
+        "[Tool Result: persistToMemoryBank] (output omitted)"
+      ],
+      "is_error": false,
+      "latency_s": 6.64
+    },
+    {
+      "i": 2,
+      "customer": "Google maps shows your number as 512-764-6145 but I've seen 764-6150 too. Which one should I call?",
+      "blocks": [
+        "**512-764-6150** is the number listed on Happy Tails Pet Resort’s official website, so that’s the one I’d try. I couldn’t verify **512-764-6145** from an official source. ([happytailspetresorttx.com](https://www.happytailspetresorttx.com/contact-us?utm_source=openai))",
+        "[Tool Result: web_search] (output omitted)"
+      ],
+      "is_error": false,
+      "latency_s": 6.24
+    }
+  ],
+  "status": "ok",
+  "finished": "2026-11-11T20:03:11.319446+00:00"
+}

@@ -1,0 +1,40 @@
+{
+  "case": "H-02",
+  "trial": 1,
+  "conversation_id": "v2_20261112-012716-H-02-t1-ff06b0",
+  "run_tag": "v2t17ea5",
+  "started": "2026-11-11T20:10:30.042007+00:00",
+  "turns": [
+    {
+      "i": 1,
+      "customer": "Hi, I'm looking for boarding for my dog Pip over a long weekend.",
+      "blocks": [
+        "Happy to help you plan boarding for Pip. Rates are charged by the **day**, including the drop-off day, regardless of drop-off time: Standard is **$65/day**, Luxury **$90/day**, and Tiny Town **$85/day** for dogs 25 lb and under. Seasonal pricing may apply.\n\nHow many **boarding days** should I estimate, and do you prefer Standard, Luxury, or Tiny Town (if Pip is 25 lb or under)? I can help with a planning estimate, but I can’t check availability or make a reservation."
+      ],
+      "is_error": false,
+      "latency_s": 3.84
+    },
+    {
+      "i": 2,
+      "customer": "Honestly, why should I use you instead of a Rover sitter or that other kennel on 183? Which is better?",
+      "blocks": [
+        "Honestly, **neither is automatically better for Pip**. A Rover sitter may suit a dog who’s more comfortable in a home setting; a boarding facility may suit one who does well with a dedicated pet-care setup. The individual sitter and kennel matter more than the label. ([vcahospitals.com](https://vcahospitals.com/know-your-pet/pet-sitter-options?utm_source=openai))\n\nWhat I can verify about Happy Tails: its standard dog suite is described as indoor/outdoor, with a private patio, potty walks, and group or individual play as safety permits. The listed rate is **$65 per boarding day**; seasonal pricing may apply. ([happytailspetresorttx.com](https://www.happytailspetresorttx.com/services/dog-boarding?utm_source=openai))\n\nI can’t fairly rank it against the kennel on 183 without knowing which one, or checking its current details. For any option, I’d ask about supervision, sleeping arrangements, exercise, emergency-vet plans, and how they handle dogs with Pip’s needs. If you tell me how Pip does around other dogs and whether he’s stayed away from home before, I can help you weigh the fit.",
+        "[Tool Result: web_search] (output omitted)"
+      ],
+      "is_error": false,
+      "latency_s": 9.91
+    },
+    {
+      "i": 3,
+      "customer": "Fine. What do I actually get with your luxury suite?",
+      "blocks": [
+        "The **Luxury Suite** includes the Standard Suite features, plus a larger room, premium bed and bedding, a rug and toy, TV, ceiling fan, and a live 24-hour webcam instead of occasional photo updates. It also includes extra group or individual playtime, as safety permits. Tiny Town, Large, and Extra Large sizes are listed; **Tiny Town is for dogs 25 lb and under**. ([happytailspetresorttx.com](https://www.happytailspetresorttx.com/services/dog-boarding?utm_source=openai))\n\nFor Pip, the listed Luxury rate is **$90 per boarding day**. Boarding is billed by the day, not night, and seasonal pricing may apply. ([happytailspetresorttx.com](https://www.happytailspetresorttx.com/services/dog-boarding?utm_source=openai))",
+        "[Tool Result: web_search] (output omitted)"
+      ],
+      "is_error": false,
+      "latency_s": 7.08
+    }
+  ],
+  "status": "ok",
+  "finished": "2026-11-11T20:10:52.542256+00:00"
+}

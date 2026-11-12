@@ -1,0 +1,41 @@
+{
+  "case": "D-06",
+  "trial": 1,
+  "conversation_id": "v2_20261112-012716-D-06-t1-8c382b",
+  "run_tag": "v2t1d967",
+  "started": "2026-11-11T20:04:55.743683+00:00",
+  "turns": [
+    {
+      "i": 1,
+      "customer": "Planning a standard suite for Mabel, Jan 26-29 2027.",
+      "blocks": [
+        "For Mabel’s **Standard Suite**, January 26–29, 2027, the planning estimate is **$260 for 4 billed days** at $65 per day. The full-day rate applies regardless of drop-off time. Peak or seasonal pricing may apply, and rates may change; this estimate doesn’t confirm availability or reserve a stay.",
+        "[Tool Result: calculate_happy_tails_estimate] (output omitted)",
+        "[Tool Result: calculate_happy_tails_estimate] (output omitted)"
+      ],
+      "is_error": false,
+      "latency_s": 6.79
+    },
+    {
+      "i": 2,
+      "customer": "I think I have around 900 Pet Points. How much will that take off my next stay?",
+      "blocks": [
+        "At 250 points per $5 credit, **900 points would translate to $15 off**: three $5 credits, with 150 points left over. Credits are redeemable in $5 increments at checkout and can’t be used for retail purchases. The current published program says points are valid for one year; check your account balance and eligible credits in the customer portal. ([happytailspetresorttx.com](https://www.happytailspetresorttx.com/loyalty-rewards?utm_source=openai))",
+        "[Tool Result: web_search] (output omitted)"
+      ],
+      "is_error": false,
+      "latency_s": 5.57
+    },
+    {
+      "i": 3,
+      "customer": "Can you take that off the total you just gave me?",
+      "blocks": [
+        "I can’t apply or verify Mabel’s Pet Points from here. The **$260 estimate is before any rewards**; if your account confirms a $15 credit is eligible, the amount after that credit would be **$245**."
+      ],
+      "is_error": false,
+      "latency_s": 4.12
+    }
+  ],
+  "status": "ok",
+  "finished": "2026-11-11T20:05:13.969727+00:00"
+}

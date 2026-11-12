@@ -1,0 +1,31 @@
+{
+  "case": "A-14",
+  "trial": 1,
+  "conversation_id": "v1_20261111-233436-A-14-t1-2a1549",
+  "run_tag": "v1t17145",
+  "started": "2026-11-11T18:07:32.199836+00:00",
+  "turns": [
+    {
+      "i": 1,
+      "customer": "Hey, planning a luxury suite for my dog Rosie, Jan 26-29 2027.",
+      "blocks": [
+        "For Rosie, the **3-night Luxury Suite estimate is $261** ($87 per night). The rate sheet lists an additional $5 per night for qualifying holiday or peak periods, but I can’t tell from the rate sheet whether January 26–29, 2027 qualifies. This is a planning estimate only—not a reservation or availability confirmation.",
+        "[Tool Result: calculate_happy_tails_estimate] (output omitted)"
+      ],
+      "is_error": false,
+      "latency_s": 4.85
+    },
+    {
+      "i": 2,
+      "customer": "If I book a luxury suite for the end of January and my trip gets cancelled, how much notice do I need to give, and is there a fee?",
+      "blocks": [
+        "I don’t have a verified cancellation policy for luxury-suite boarding, so I can’t confirm how much notice is required or whether there’s a fee. The available rate information doesn’t specify those terms. Please confirm the policy directly with Happy Tails before booking; this demo can’t check or make reservations.",
+        "[Tool Result: Grep] (output omitted)"
+      ],
+      "is_error": false,
+      "latency_s": 4.61
+    }
+  ],
+  "status": "ok",
+  "finished": "2026-11-11T18:07:43.475128+00:00"
+}

@@ -1,0 +1,32 @@
+{
+  "case": "D-01",
+  "trial": 1,
+  "conversation_id": "v2_20261112-012716-D-01-t1-228f21",
+  "run_tag": "v2t12301",
+  "started": "2026-11-11T20:03:29.803528+00:00",
+  "turns": [
+    {
+      "i": 1,
+      "customer": "Hi again! Planning another stay for Biscuit, Feb 2-5 2027, standard suite.",
+      "blocks": [
+        "Hi again! Biscuit’s **February 2–5, 2027** stay in a Standard Suite is estimated at **$260**: 4 billed days × $65/day. Boarding is billed by the day, regardless of drop-off time.\n\nPeak or seasonal pricing may apply, and rates can change. This is a planning estimate—not a reservation or confirmation of availability.",
+        "Hi again! For Biscuit’s **February 2–5, 2027** stay in a Standard Suite, that’s **4 billed boarding days**. Boarding is charged by the day, not the night, and the full-day rate applies regardless of drop-off time.\n\n---\n\n# Biscuit’s boarding estimate\n\nOne dog in a Standard Suite for February 2–5, 2027 (4 billed days).\n\nService: Dog boarding · Standard Suite\n\nPet: Biscuit\n\n- Standard Suite · 4 days: $260.00. 4 full billed days × $65.00 per day; the official site says the full-day rate applies regardless of drop-off time.\n\n**Estimated total:** $260.00\n\nPlanning estimate only—not a reservation, availability confirmation, or final price.\n\n- Peak or seasonal pricing may apply for these dates; this estimate does not determine whether they qualify. Rates may change without notice.\n- Boarding requires a reservation.",
+        "[Tool Result: calculate_happy_tails_estimate] (output omitted)"
+      ],
+      "is_error": false,
+      "latency_s": 6.22
+    },
+    {
+      "i": 2,
+      "customer": "We've boarded Biscuit with you loads of times. I saw the free night 'Stay & Play' deal, can I use that for our Feb 2-5 2027 stay? Standard suite.",
+      "blocks": [
+        "Based on the offer currently shown on Happy Tails’ website, **Stay & Play is for a pet’s first stay**: one night of boarding plus the following day of play for $0. Since Biscuit has stayed there before, it **doesn’t appear to apply** to the February 2–5, 2027 stay, even in a Standard Suite. The offer page doesn’t specify an expiration date, so I can’t confirm whether its terms will remain the same for those dates. ([happytailspetresorttx.com](https://www.happytailspetresorttx.com/?utm_source=openai))\n\nThis is only an interpretation of the published offer—not an eligibility check or reservation confirmation.",
+        "[Tool Result: web_search] (output omitted)"
+      ],
+      "is_error": false,
+      "latency_s": 6.73
+    }
+  ],
+  "status": "ok",
+  "finished": "2026-11-11T20:03:44.539195+00:00"
+}

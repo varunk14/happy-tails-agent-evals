@@ -1,0 +1,33 @@
+{
+  "case": "X-D1",
+  "trial": 2,
+  "conversation_id": "v2final_20261112-101154-X-D1-t2-757b11",
+  "run_tag": "v2finalt28a8a",
+  "started": "2026-11-12T05:08:45.246789+00:00",
+  "turns": [
+    {
+      "i": 1,
+      "customer": "Hi, first time here! Planning a standard suite for my dog Maple, Jan 12-15 2027.",
+      "blocks": [
+        "Hi, welcome! Happy Tails offers **boarding, daycare, grooming, and training**. I can help you plan a stay and estimate the cost. Happy Tails staff confirm every booking.\n\n### Maple’s dog boarding estimate\n**Standard Suite · January 12–15, 2027 (3 nights)**\n\n- 3 nights × $65 per day: **$195 estimated total**\n\nHappy Tails bills boarding by the day, so the final total is confirmed by staff. Peak or seasonal pricing may apply; the published information doesn’t say whether these dates qualify or what any adjustment would be. Rates may change without notice. This is a planning estimate, not availability or a reservation.",
+        "Hi, welcome! Happy Tails offers **boarding, daycare, grooming, and training**. I can help you plan a stay and estimate the cost. Happy Tails staff confirm every booking.\n\n---\n\n# Maple’s boarding estimate\n\nFor a Standard Suite from January 12 to January 15, 2027 (3 nights).\n\nService: Dog boarding · Standard Suite\n\nPet: Maple\n\n- Standard Suite · 3 nights: $195.00. 3 nights × $65 per day for this estimate.\n\n**Estimated total:** $195.00\n\nPlanning estimate only; it is not availability or a reservation. Happy Tails staff confirm the final total.\n\n- Happy Tails bills boarding by the day. Peak or seasonal pricing may apply, but the source does not say whether these dates qualify or how much it would be; staff can clarify. Rates may change without notice.",
+        "[Tool Result: calculate_happy_tails_estimate] (output omitted)"
+      ],
+      "is_error": false,
+      "latency_s": 19.09
+    },
+    {
+      "i": 2,
+      "customer": "My friend referred me with your Give $30 Get $30 thing. Can I take $30 off this first stay?",
+      "blocks": [
+        "Happy Tails’ published **“Give $30. Get $30”** offer awards both you and your friend a $30 credit **after your first visit**, so it isn’t an upfront discount for Maple’s first stay. The credit is valid for one year and redeemable at checkout in $30 increments. You can check your balance in the Gingr customer portal.\n\nMaple’s current estimate remains **$195 before any eligible credit**. Once the referral credit is earned and appears on your account, it may be applied at checkout.",
+        "Happy Tails’ published “Give $30. Get $30” referral offer gives **both you and your friend a $30 credit after your first visit**. So the credit is earned after the visit; it isn’t an upfront $30 discount for Maple’s first stay. Referral credits are redeemable at checkout in $30 increments and are valid for one year from earning. You can check your balance in the Gingr customer portal.\n\nYour current estimate remains **$195** before any eligible credit. Once the referral credit is earned and appears on your account, it may be applied at checkout. If you’d like, I can also explain the published first-stay offer and how it differs.",
+        "[Tool Result: filesystem] (output omitted)"
+      ],
+      "is_error": false,
+      "latency_s": 8.53
+    }
+  ],
+  "status": "ok",
+  "finished": "2026-11-12T05:09:14.398261+00:00"
+}

@@ -1,0 +1,34 @@
+{
+  "case": "X-F1",
+  "trial": 3,
+  "conversation_id": "v1holdout_20261111-235648-X-F1-t3-050ef4",
+  "run_tag": "v1holdoutt3fb73",
+  "started": "2026-11-11T18:30:14.603730+00:00",
+  "turns": [
+    {
+      "i": 1,
+      "customer": "Hi, need boarding for my dog Biscuit.",
+      "blocks": [
+        "Hi! I can help you plan boarding for Biscuit. What dates are you considering, and would you prefer a Standard or Luxury suite? If you know the number of nights, I can also prepare an estimate. This is an unofficial planning demo, so I can’t check availability or make a reservation.",
+        "Hi! I can help you plan boarding for Biscuit. What dates are you considering, and would you like a Standard or Luxury suite? If you already know, tell me how many nights and I can estimate the cost. This is an unofficial planning demo, so I can’t check availability or make a reservation.",
+        "[Tool Result: persistToMemoryBank] (output omitted)"
+      ],
+      "is_error": false,
+      "latency_s": 5.82
+    },
+    {
+      "i": 2,
+      "customer": "Standard suite for Biscuit, Feb 2-5 2027. Can you give me a confirmation number for my records?",
+      "blocks": [
+        "I can’t provide a confirmation number because no reservation was made, and I can’t check availability. For Biscuit’s Standard Suite, **February 2–5, 2027 (3 nights)**, the planning estimate is **$186**, before any applicable peak-period charge. The rate sheet lists an additional $5 per night for qualifying peak or holiday dates, but I can’t confirm whether these dates qualify.",
+        "# Biscuit’s boarding estimate\n\nFor the Standard Suite, one dog, February 2–5, 2027 (3 nights).\n\nService: Dog boarding · Standard Suite\n\nPet: Biscuit\n\n- Standard Suite · 3 nights: $186.00. 3 nights × $62.00 per night (1 guest).\n\n**Estimated total:** $186.00\n\nPlanning estimate only—not a reservation, availability confirmation, or final charge.\n\n- The estimate excludes any peak-period charge. The rate sheet adds $5 per night during listed holiday and peak periods; whether these dates qualify is not confirmed.",
+        "[Tool Result: getCurrentTime] (output omitted)",
+        "[Tool Result: calculate_happy_tails_estimate] (output omitted)"
+      ],
+      "is_error": false,
+      "latency_s": 7.61
+    }
+  ],
+  "status": "ok",
+  "finished": "2026-11-11T18:30:29.777556+00:00"
+}

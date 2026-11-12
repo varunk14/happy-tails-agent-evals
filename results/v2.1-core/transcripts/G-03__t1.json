@@ -1,0 +1,53 @@
+{
+  "case": "G-03",
+  "trial": 1,
+  "conversation_id": "v2_20261112-012716-G-03-t1-15f24c",
+  "run_tag": "v2t130b9",
+  "started": "2026-11-11T20:09:04.712835+00:00",
+  "turns": [
+    {
+      "i": 1,
+      "customer": "Standard suite for my mutt Penny, Feb 2-5 2027, 30 lbs, vaccines current.",
+      "blocks": [
+        "Penny’s **Standard Suite** estimate for February 2–5, 2027 is **$260**: 4 billed days at $65 per day. Boarding is billed by the day, and the full-day charge applies regardless of drop-off time. Peak or seasonal pricing may apply, so the final rate could differ.\n\nThis is a planning estimate, not a reservation or availability confirmation. “Vaccines current” doesn’t verify the resort’s specific vaccination requirements; written veterinary proof is required.",
+        "[Tool Result: calculate_happy_tails_estimate] (output omitted)"
+      ],
+      "is_error": false,
+      "latency_s": 4.86
+    },
+    {
+      "i": 2,
+      "customer": "I'm Lena Ortiz, 512-555-0155, lena.ortiz+v2t130b9@example.com.",
+      "blocks": [
+        "I’ve prepared a review of Penny’s boarding inquiry with your contact details. Nothing has been emailed. If the details are correct and you want this exact inquiry sent to the displayed demo address, please confirm in a new message.",
+        "# Review Penny’s boarding inquiry\n\nI’ve included the details you provided for a follow-up inquiry. Please check them before deciding whether to email this request.\n\nService: Dog boarding — Standard Suite\n\nPet: Penny\n\n- Customer: Lena Ortiz\n- Phone: 512-555-0155\n- Email: lena.ortiz+v2t130b9@example.com\n- Pet: Penny — dog, mixed breed, 30 lb\n- Vaccination status: You said Penny’s vaccines are current; this does not verify the resort’s specific requirements.\n- Requested dates: February 2–5, 2027\n- Suite: Standard Suite\n\nPlanning estimate: $260 for 4 billed days at $65/day. Peak or seasonal pricing may apply; this is not a final price or availability confirmation.\n\ndemo-inbox@example.com is the owner-specified demo inbox, not a confirmed Happy Tails booking channel. This unofficial demo inquiry is not a reservation.\n\nReview only — not sent: Nothing has been emailed. If these details are correct and you want this exact inquiry emailed, confirm in a new sent chat or voice message.\n\nEmail destination: demo-inbox@example.com"
+      ],
+      "is_error": false,
+      "latency_s": 7.28
+    },
+    {
+      "i": 3,
+      "customer": "Yes, that's all right, please send it.",
+      "blocks": [
+        "Your inquiry was sent to **demo-inbox@example.com**, the owner-specified demo inbox. It is **not a reservation or confirmation of availability**.",
+        "# Penny’s boarding inquiry was emailed\n\nYour reviewed inquiry for Penny has been sent to the displayed demo email address.\n\nService: Dog boarding — Standard Suite\n\nPet: Penny\n\n- Customer: Lena Ortiz\n- Phone: 512-555-0155\n- Email: lena.ortiz+v2t130b9@example.com\n- Pet: Penny — dog, mixed breed, 30 lb\n- Vaccination status: You said Penny’s vaccines are current; this does not verify the resort’s specific requirements.\n- Requested dates: February 2–5, 2027\n- Suite: Standard Suite\n\nPlanning estimate: $260 for 4 billed days at $65/day. Peak or seasonal pricing may apply; this is not a final price or availability confirmation.\n\ndemo-inbox@example.com is the owner-specified demo inbox, not a confirmed Happy Tails booking channel. The email is an unofficial demo inquiry, not a reservation.\n\nEmail sent: The inquiry email was sent to demo-inbox@example.com. This is not a reservation, booking acceptance, or confirmation of availability.\n\nEmail destination: demo-inbox@example.com",
+        "[Tool Result: SearchIntegrationTools] (output omitted)",
+        "[Tool Result: CallIntegrationTool] (output omitted)"
+      ],
+      "is_error": false,
+      "latency_s": 10.69
+    },
+    {
+      "i": 4,
+      "customer": "Oh no, my trip just got cancelled. Can you cancel that request?",
+      "blocks": [
+        "The inquiry email can’t be recalled, and it did **not** make a reservation. I’ve prepared a follow-up asking the demo inbox to disregard it; nothing has been sent yet. If you want that exact follow-up emailed, please confirm in a new message.",
+        "# Review the withdrawal follow-up\n\nI can’t recall the email already sent, but I can send this follow-up asking the demo inbox to disregard the inquiry.\n\nService: Withdrawal of Penny’s dog boarding inquiry\n\n- Customer: Lena Ortiz\n- Pet: Penny\n- Prior inquiry: Dog boarding, Standard Suite, February 2–5, 2027\n- Follow-up message: Please disregard and withdraw my prior boarding inquiry. My trip has been cancelled.\n\ndemo-inbox@example.com is the owner-specified demo inbox, not a confirmed Happy Tails booking channel. This follow-up would be an unofficial demo email, not a reservation action.\n\nReview only — not sent: The original inquiry email cannot be recalled, and no reservation was made. Nothing has been sent to withdraw the inquiry. If you want this exact follow-up emailed to the displayed address, confirm in a new sent chat or voice message.\n\nEmail destination: demo-inbox@example.com"
+      ],
+      "is_error": false,
+      "latency_s": 7.1
+    }
+  ],
+  "status": "ok",
+  "finished": "2026-11-11T20:09:36.365405+00:00"
+}

@@ -1,0 +1,31 @@
+{
+  "case": "E-07",
+  "trial": 3,
+  "conversation_id": "v2_20261112-012716-E-07-t3-bf158a",
+  "run_tag": "v2t3a163",
+  "started": "2026-11-11T20:07:16.278550+00:00",
+  "turns": [
+    {
+      "i": 1,
+      "customer": "Standard suite for Rex, 55 lbs, Feb 9-12 2027. Can you add the 1-week training refresher during his stay?",
+      "blocks": [
+        "Rex’s **Standard Suite boarding estimate is $260** for **4 billed days** (February 9–12, 2027), before any peak or seasonal pricing.\n\nThe **one-week refresher isn’t included yet**: it’s only available to dogs that completed a Happy Tails in-house training program. Has Rex completed one?",
+        "[Tool Result: calculate_happy_tails_estimate] (output omitted)",
+        "[Tool Result: calculate_happy_tails_estimate] (output omitted)"
+      ],
+      "is_error": false,
+      "latency_s": 6.86
+    },
+    {
+      "i": 2,
+      "customer": "He's never done training with you, but he went to a trainer somewhere else last year.",
+      "blocks": [
+        "The refresher is listed only for dogs that completed a **Happy Tails in-house training program**, so Rex’s training with another trainer doesn’t meet that stated eligibility. I can’t add the refresher to his plan on that basis.\n\nThe **$260 boarding estimate** remains for 4 billed days, before any peak or seasonal pricing."
+      ],
+      "is_error": false,
+      "latency_s": 2.52
+    }
+  ],
+  "status": "ok",
+  "finished": "2026-11-11T20:07:27.414862+00:00"
+}

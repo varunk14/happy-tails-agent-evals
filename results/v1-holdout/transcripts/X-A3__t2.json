@@ -1,0 +1,34 @@
+{
+  "case": "X-A3",
+  "trial": 2,
+  "conversation_id": "v1holdout_20261111-235648-X-A3-t2-151a8a",
+  "run_tag": "v1holdoutt26f77",
+  "started": "2026-11-11T18:27:23.643166+00:00",
+  "turns": [
+    {
+      "i": 1,
+      "customer": "Hi, do you groom small dogs?",
+      "blocks": [
+        "Yes. The rate sheet includes a small-dog size band of **up to 25 lb** for full-groom estimates. The groomer would assess your dog’s coat and care needs before confirming the appropriate service. This is an unofficial planning demo, not a booking channel.",
+        "[Tool Result: filesystem] (output omitted)",
+        "[Tool Result: Grep] (output omitted)"
+      ],
+      "is_error": false,
+      "latency_s": 6.54
+    },
+    {
+      "i": 2,
+      "customer": "Full groom for my 15 lb dachshund Frank, and a nail trim with the Dremel. Prices?",
+      "blocks": [
+        "For Frank (15 lb), the listed planning prices are:\n\n- **Full groom (up to 25 lb): $75–$95.** The final quote may vary with coat, length, brushing time, and the groomer’s assessment.\n- **Nail trim with Dremel: $20–$30.**\n\nThe rate sheet notes that short-haired breeds typically receive a full-service bath rather than a full groom, so confirm with the groomer whether a full groom is suitable for Frank. Prices may change. This is an unofficial planning estimate, not a final quote or booking.",
+        "For Frank (15 lb), the listed planning prices are:\n\n- **Full groom (up to 25 lb): $75–$95.** The final quote may vary with coat, length, brushing time, and the groomer’s assessment.\n- **Nail trim with Dremel: $20–$30.**\n\nThe rate sheet notes that short-haired breeds typically receive a full-service bath rather than a full groom, so please confirm with the groomer whether a full groom is suitable for Frank. Prices may change. This is an unofficial planning estimate—not a final quote or booking.",
+        "[Tool Result: calculate_happy_tails_estimate] (output omitted)",
+        "[Tool Result: calculate_happy_tails_estimate] (output omitted)"
+      ],
+      "is_error": false,
+      "latency_s": 8.54
+    }
+  ],
+  "status": "ok",
+  "finished": "2026-11-11T18:27:40.462154+00:00"
+}

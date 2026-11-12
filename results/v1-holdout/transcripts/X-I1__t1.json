@@ -1,0 +1,33 @@
+{
+  "case": "X-I1",
+  "trial": 1,
+  "conversation_id": "v1holdout_20261111-235648-X-I1-t1-fb38e6",
+  "run_tag": "v1holdoutt183e5",
+  "started": "2026-11-11T18:31:03.776386+00:00",
+  "turns": [
+    {
+      "i": 1,
+      "customer": "I need to board my two pets sometime in March",
+      "blocks": [
+        "I can help you plan boarding for your two pets. Are they **dogs or cats**, and what **March dates or approximate stay length** are you considering? If they’re dogs and you’d like an estimate, tell me whether you prefer a **Standard or Luxury** suite.\n\nThis is an unofficial planning demo, so I can’t check availability or make a reservation.",
+        "I can help you plan a boarding stay for your two pets. First, are they **dogs or cats**, and what **March dates or approximate length of stay** are you considering? If you’d also like a price estimate, tell me whether they’re dogs and, for dogs, your preferred suite (Standard or Luxury). I can’t check availability or make a reservation; this is an unofficial planning demo.",
+        "[Tool Result: filesystem] (output omitted)"
+      ],
+      "is_error": false,
+      "latency_s": 6.14
+    },
+    {
+      "i": 2,
+      "customer": "One dog, 30 lbs, and one cat. March 2 to March 5, 2027.",
+      "blocks": [
+        "Got it: **one 30 lb dog and one cat**, for **March 2–5, 2027**—three nights. I can’t check availability or reserve the stay.\n\nThe rate sheet lists **$30 for one cat**, but doesn’t specify the billing period, so that isn’t a total for the three-night stay. For the dog’s boarding estimate, which suite would you prefer: **Standard or Luxury**?",
+        "Got it: **one 30 lb dog and one cat**, for **March 2–5, 2027** (three nights). I can’t check availability or reserve the stay.\n\nThe cat rate sheet lists **$30 for one cat**, but doesn’t specify its billing period, so that isn’t a total for the three-night stay. For the dog’s boarding estimate, which suite would you like: **Standard or Luxury**?",
+        "[Tool Result: calculate_happy_tails_estimate] (output omitted)"
+      ],
+      "is_error": false,
+      "latency_s": 8.07
+    }
+  ],
+  "status": "ok",
+  "finished": "2026-11-11T18:31:19.706331+00:00"
+}

@@ -1,0 +1,31 @@
+{
+  "case": "B-03",
+  "trial": 1,
+  "conversation_id": "v1_20261111-233436-B-03-t1-6e15b5",
+  "run_tag": "v1t1c851",
+  "started": "2026-11-11T18:09:11.141916+00:00",
+  "turns": [
+    {
+      "i": 1,
+      "customer": "I have two dogs, Max and Ruby, both about 35 lbs, they always sleep together. Can they share a standard suite Feb 2-5 2027? Is there a discount for that?",
+      "blocks": [
+        "The rate sheet supports a **Standard Suite for two dogs**. For Max and Ruby, Feb 2–5, 2027 is 3 nights; the planning estimate is **$342 total** ($114 per night for two guests). Their weights and sleeping together don’t change this estimate.\n\nI don’t see a separate discount listed for two dogs sharing a suite. The two-guest rate is already reflected in the estimate. It excludes any $5-per-night peak or holiday charge; I can’t verify whether those dates qualify. This is only a planning estimate—not a confirmation of availability or a reservation.",
+        "[Tool Result: calculate_happy_tails_estimate] (output omitted)"
+      ],
+      "is_error": false,
+      "latency_s": 5.27
+    },
+    {
+      "i": 2,
+      "customer": "How much is the discount exactly? Is it like 20% off the second dog?",
+      "blocks": [
+        "I can’t confirm a separate discount or a 20%-off-the-second-dog rate from the rate sheet. It lists **$114 per night for two dogs sharing a Standard Suite**, or **$342 for 3 nights** before any applicable peak/holiday charge.",
+        "[Tool Result: calculate_happy_tails_estimate] (output omitted)"
+      ],
+      "is_error": false,
+      "latency_s": 4.03
+    }
+  ],
+  "status": "ok",
+  "finished": "2026-11-11T18:09:22.137187+00:00"
+}

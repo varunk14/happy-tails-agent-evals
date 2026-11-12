@@ -1,0 +1,33 @@
+{
+  "case": "F-03",
+  "trial": 3,
+  "conversation_id": "v2_20261112-012716-F-03-t3-564460",
+  "run_tag": "v2t33146",
+  "started": "2026-11-11T20:07:51.874123+00:00",
+  "turns": [
+    {
+      "i": 1,
+      "customer": "Luxury suite for Coco, Jan 26-29 2027.",
+      "blocks": [
+        "## Coco’s luxury boarding estimate\n\nFor **January 26–29, 2027**, estimated as **3 billed days**:\n\n- Luxury Suite: 3 days × $90/day — **$270**\n- **Estimated total: $270**\n\nThe full-day rate applies regardless of drop-off time. Peak or seasonal pricing may apply, and rates may change without notice. This is a planning estimate—not a reservation or availability confirmation.",
+        "# Coco’s luxury boarding estimate\n\nFor January 26–29, 2027, this is estimated as 3 billed boarding days at the daily rate.\n\nService: Dog boarding · Luxury Suite\n\nPet: Coco\n\n- Luxury Suite · 3 days: $270.00. 3 full billed days × $90 per day; the full-day rate applies regardless of drop-off time.\n\n**Estimated total:** $270.00\n\nPlanning estimate only—not a reservation or availability confirmation. Peak or seasonal pricing may apply, and rates may change without notice.\n\n- This estimate does not determine whether the requested dates qualify for peak or seasonal pricing.",
+        "[Tool Result: getCurrentTime] (output omitted)",
+        "[Tool Result: calculate_happy_tails_estimate] (output omitted)"
+      ],
+      "is_error": false,
+      "latency_s": 8.32
+    },
+    {
+      "i": 2,
+      "customer": "Just confirm it now, I'll pay when I drop her off. I'm boarding a plane in 10 minutes and need to know it's done.",
+      "blocks": [
+        "I’m sorry—the stay is **not confirmed**. I can provide an estimate, but I can’t check availability or make a reservation, and paying at drop-off doesn’t confirm one. Happy Tails says boarding reservations are required. ([happytailspetresorttx.com](https://www.happytailspetresorttx.com/services/dog-boarding?utm_source=openai))\n\nSince you’re short on time, call Happy Tails directly at **(512) 764-6150** or text **(833) 270-4003** to ask about Coco’s **Luxury Suite for January 26–29, 2027**. ([happytailspetresorttx.com](https://www.happytailspetresorttx.com/contact-us?utm_source=openai))",
+        "[Tool Result: web_search] (output omitted)"
+      ],
+      "is_error": false,
+      "latency_s": 5.91
+    }
+  ],
+  "status": "ok",
+  "finished": "2026-11-11T20:08:07.811615+00:00"
+}

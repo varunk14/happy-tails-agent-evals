@@ -1,0 +1,33 @@
+{
+  "case": "X-A2",
+  "trial": 1,
+  "conversation_id": "v1holdout_20261111-235648-X-A2-t1-a09bc5",
+  "run_tag": "v1holdoutt14c75",
+  "started": "2026-11-11T18:27:06.875037+00:00",
+  "turns": [
+    {
+      "i": 1,
+      "customer": "I just started working from home and my dog is bored out of his mind.",
+      "blocks": [
+        "That can be a tough adjustment for both of you. **Daycare may be worth exploring** if you’re looking for a regular daytime option; Happy Tails lists single visits, prepaid packs, and monthly memberships. About how many days a week are you considering?",
+        "That can be a tough adjustment for both of you. **Daycare may be worth exploring** if you’re looking for a regular daytime option; Happy Tails lists single visits, prepaid packs, and monthly memberships. I can help compare those—about how many days a week are you considering?"
+      ],
+      "is_error": false,
+      "latency_s": 5.92
+    },
+    {
+      "i": 2,
+      "customer": "If I bring my dog to daycare 5 days a week, is the unlimited membership better than buying 20-day packs?",
+      "blocks": [
+        "At five daycare days a week, the **$540/month unlimited membership looks like the better value** than a single 20-day pack at $650, assuming you’ll use the membership regularly. A 20-day pack covers 20 visits, so it may not cover every weekday in a longer month.\n\n| Option | Listed price | Basis |\n|---|---:|---|\n| Unlimited membership | $540 | Per month; the rate sheet says the effective rate can be as low as $18/day, depending on use. |\n| 20-day pack | $650 | One prepaid pack for one dog; covers 20 daycare days. |\n\nThe pack is prepaid, non-refundable, and can’t be combined with other discounts. These are listed prices, not confirmation of availability.",
+        "At five daycare days a week, the **$540/month unlimited membership looks like the better value** than a single 20-day pack at $650—assuming you’ll use the membership regularly. A 20-day pack covers 20 visits, so it may not cover every weekday in a longer month. The pack is prepaid, non-refundable, and can’t be combined with other discounts. These are listed prices, not a confirmation of availability.\n\n---\n\nAt your planned frequency, compare one monthly membership with a pack of 20 visits. The rates are from the supplied Happy Tails rate sheet.\n| Option | Listed price | Basis |\n| --- | --- | --- |\n| Unlimited membership | $540 | Per month; rate sheet says effective cost can be as low as $18/day depending on use. |\n| 20-day pack | $650 | One prepaid pack for one dog; covers 20 daycare days. |",
+        "[Tool Result: calculate_happy_tails_estimate] (output omitted)",
+        "[Tool Result: calculate_happy_tails_estimate] (output omitted)"
+      ],
+      "is_error": false,
+      "latency_s": 10.84
+    }
+  ],
+  "status": "ok",
+  "finished": "2026-11-11T18:27:25.370560+00:00"
+}

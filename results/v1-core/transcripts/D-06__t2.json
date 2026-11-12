@@ -1,0 +1,43 @@
+{
+  "case": "D-06",
+  "trial": 2,
+  "conversation_id": "v1_20261111-233436-D-06-t2-7553a8",
+  "run_tag": "v1t25290",
+  "started": "2026-11-11T18:14:15.620420+00:00",
+  "turns": [
+    {
+      "i": 1,
+      "customer": "Planning a standard suite for Mabel, Jan 26-29 2027.",
+      "blocks": [
+        "### Mabel’s boarding estimate\n\nAssuming Mabel is a dog, a **Standard Suite for January 26–29, 2027** is **$186 for 3 nights** ($62 per night, one guest).\n\nThis estimate excludes any peak-period charge; it hasn’t been confirmed whether those dates qualify. It’s for planning only—not availability or a reservation.",
+        "# Mabel’s boarding estimate\n\nFor a Standard Suite from January 26 to January 29, 2027 (3 nights), assuming Mabel is a dog.\n\nService: Dog boarding · Standard Suite\n\nPet: Mabel\n\n- Standard Suite · 3 nights: $186.00. 3 nights × $62.00 per night (1 guest).\n\n**Estimated total:** $186.00\n\nPlanning estimate only—not availability, a reservation, or a final booking price.\n\n- The estimate excludes any peak-period charge. The rate sheet adds $5 per night during listed holiday and peak periods; whether these dates qualify has not been confirmed.",
+        "[Tool Result: calculate_happy_tails_estimate] (output omitted)"
+      ],
+      "is_error": false,
+      "latency_s": 7.58
+    },
+    {
+      "i": 2,
+      "customer": "I think I have around 900 Pet Points. How much will that take off my next stay?",
+      "blocks": [
+        "If your balance is about **900 eligible points**, that could give you **$15 off**: 250 points earn a $5 credit, and credits are redeemable in $5 increments at checkout. The remaining 150 points wouldn’t make another $5 credit yet. Check your account for the exact balance and whether the points are still valid; the resort says points expire one year after they’re earned. ([happytailspetresorttx.com](https://www.happytailspetresorttx.com/loyalty-rewards?utm_source=openai))",
+        "[Tool Result: Grep] (output omitted)",
+        "[Tool Result: web_search] (output omitted)"
+      ],
+      "is_error": false,
+      "latency_s": 8.59
+    },
+    {
+      "i": 3,
+      "customer": "Can you take that off the total you just gave me?",
+      "blocks": [
+        "The boarding estimate is still **$186**. The $15 points credit isn’t included in the rate-sheet calculator, so I can’t confirm or apply it to the estimate. If the full $15 credit is valid for this stay, the arithmetic would be **$171 before any applicable peak-period charge**—but please verify the redemption with the resort.",
+        "[Tool Result: calculate_happy_tails_estimate] (output omitted)"
+      ],
+      "is_error": false,
+      "latency_s": 10.08
+    }
+  ],
+  "status": "ok",
+  "finished": "2026-11-11T18:14:43.608761+00:00"
+}

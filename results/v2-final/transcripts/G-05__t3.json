@@ -1,0 +1,54 @@
+{
+  "case": "G-05",
+  "trial": 3,
+  "conversation_id": "v2final_20261112-101154-G-05-t3-b79b68",
+  "run_tag": "v2finalt37e08",
+  "started": "2026-11-12T05:01:31.164846+00:00",
+  "turns": [
+    {
+      "i": 1,
+      "customer": "Standard suite for Bruno, a 50 lb boxer mix, Jan 26-29 2027, vaccines current.",
+      "blocks": [
+        "For Bruno, the Standard Suite estimate for **January 26–29, 2027** is **$195** (3 nights × $65 per day). His 50 lb weight fits the Standard Suite plan.\n\nHappy Tails requires written veterinary proof of current Rabies, Distemper/Parvo, and Bordetella vaccinations for boarding. You mentioned Bruno’s vaccines are current; bring the documentation. The resort bills boarding by the day, and Happy Tails staff confirm the final total. Peak or seasonal pricing may apply, but the published information doesn’t specify whether it applies to these dates.",
+        "For Bruno, the Standard Suite plan is **$195 for Jan 26–29, 2027** (3 nights at $65/day). A 50 lb dog is within the Standard Suite plan. You said Bruno’s vaccines are current; boarding requires written veterinary proof of Rabies, Distemper/Parvo, and Bordetella, so bring that documentation. Happy Tails bills boarding by the day, and staff confirm the final total. Peak or seasonal pricing may apply; the published information does not say whether it applies to these dates.\n\n---\n\n# Bruno’s boarding estimate\n\nOne dog in a Standard Suite, Jan 26–29, 2027 (3 nights).\n\nService: Dog boarding · Standard Suite\n\nPet: Bruno\n\n- Standard Suite · 3 nights: $195.00. 3 nights × $65.00 per day for this estimate.\n\n**Estimated total:** $195.00\n\nPlanning estimate only—not availability, a reservation, or a final total. The resort bills by the day; Happy Tails staff confirm the final total.\n\n- Peak or seasonal pricing may apply; the published information does not specify whether these dates qualify or the amount. Rates may change without notice.",
+        "[Tool Result: calculate_happy_tails_estimate] (output omitted)"
+      ],
+      "is_error": false,
+      "latency_s": 6.83
+    },
+    {
+      "i": 2,
+      "customer": "I'm Tom Nguyen, 512-555-0174, tom.nguyen+v2finalt37e08@example.com.",
+      "blocks": [
+        "Thanks, Tom. I have your contact details for this conversation. Would you like me to prepare a booking request for Bruno’s January 26–29, 2027 boarding stay?",
+        "Thanks, Tom. I have your contact details for this conversation. Would you like me to prepare a booking request for Bruno’s January 26–29, 2027 boarding stay?",
+        "[Tool Result: persistToMemoryBank] (output omitted)"
+      ],
+      "is_error": false,
+      "latency_s": 6.23
+    },
+    {
+      "i": 3,
+      "customer": "Yes, please send it.",
+      "blocks": [
+        "I’ll put together your plan and a booking request. Only the Happy Tails team can confirm a booking, so call (512) 764-6150 to lock it in or for anything urgent.\n\nPlease review the exact request details below. If they’re right, reply in a new message confirming you want this request emailed. I won’t send it until you confirm after reviewing.\n\n**Request for Bruno · Dog boarding**\n- **Customer:** Tom Nguyen\n- **Email:** tom.nguyen+v2finalt37e08@example.com\n- **Phone:** 512-555-0174\n- **Pet:** Bruno, dog; boxer mix, 50 lb\n- **Requested dates:** January 26–29, 2027\n- **Suite:** Standard Suite\n- **Vaccines:** You said Bruno’s vaccines are current.\n- **Planning estimate:** $195 for 3 nights at $65/day. Happy Tails bills boarding by the day; staff confirm the final total. Peak or seasonal pricing may apply, but the published information doesn’t specify whether it applies to these dates. Rates may change without notice.\n\nThis request has **not** been sent. It is not a booking or an availability confirmation.",
+        "I'll put together your plan and a booking request. Only the Happy Tails team can confirm a booking, so call (512) 764-6150 to lock it in or for anything urgent.\n\nPlease review the exact request details below. If they’re right, reply in a new message confirming you want this request emailed. I won’t send it until you confirm after reviewing.\n\n---\n\n# Review Bruno’s boarding request\n\nA request for staff follow-up for Bruno’s dog boarding stay. This is not a booking or an availability confirmation.\n\nService: Dog boarding · Standard Suite\n\nPet: Bruno\n\n- Customer: Tom Nguyen\n- Email: tom.nguyen+v2finalt37e08@example.com\n- Phone: 512-555-0174\n- Pet: Dog\n- Breed and weight: Boxer mix, 50 lb\n- Requested dates: January 26–29, 2027\n- Suite: Standard Suite\n- Vaccines: Tom says Bruno’s vaccines are current.\n\nPlanning estimate: $195 for 3 nights at $65/day. Happy Tails bills boarding by the day; staff confirm the final total. Peak or seasonal pricing may apply, and the published information does not specify whether it applies to these dates. Rates may change without notice.\n\nOnly Happy Tails staff can confirm the booking. Call (512) 764-6150 for confirmation or anything urgent.\n\nReview needed: This request has not been sent. Review these exact details, then confirm in a new sent chat message if you want them emailed."
+      ],
+      "is_error": false,
+      "latency_s": 17.03
+    },
+    {
+      "i": 4,
+      "customer": "Did that go through? Send it again just in case.",
+      "blocks": [
+        "Your request was sent. It is not a booking until Happy Tails confirms it. Call (512) 764-6150 to lock it in or for anything urgent.",
+        "[Tool Result: SearchIntegrationTools] (output omitted)",
+        "[Tool Result: CallIntegrationTool] (output omitted)"
+      ],
+      "is_error": false,
+      "latency_s": 9.52
+    }
+  ],
+  "status": "ok",
+  "finished": "2026-11-12T05:02:12.252664+00:00"
+}

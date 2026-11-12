@@ -1,0 +1,33 @@
+{
+  "case": "X-C2",
+  "trial": 2,
+  "conversation_id": "v1holdout_20261111-235648-X-C2-t2-4ee39e",
+  "run_tag": "v1holdoutt2dd42",
+  "started": "2026-11-11T18:28:40.337130+00:00",
+  "turns": [
+    {
+      "i": 1,
+      "customer": "Hi, I'm thinking about daycare again for my dog Rex.",
+      "blocks": [
+        "Hi! I can help you revisit daycare options for Rex. The listed choices are single visits, prepaid packs, and monthly memberships. Which would you like to compare or price? Packs are non-refundable and can’t be combined with other discounts. I can’t check live availability or book a visit through this unofficial planning demo.",
+        "[Tool Result: persistToMemoryBank] (output omitted)",
+        "[Tool Result: filesystem] (output omitted)",
+        "[Tool Result: calculate_happy_tails_estimate] (output omitted)"
+      ],
+      "is_error": false,
+      "latency_s": 6.91
+    },
+    {
+      "i": 2,
+      "customer": "I paid $340 for a 10-day daycare pack last year. Same price now?",
+      "blocks": [
+        "Yes—the current rate sheet lists the **10-day daycare pack for one dog at $340**, the same amount you paid last year. It’s prepaid, non-refundable, and can’t be combined with other discounts. This is a listed price, not confirmation that a pack is currently available.",
+        "[Tool Result: calculate_happy_tails_estimate] (output omitted)"
+      ],
+      "is_error": false,
+      "latency_s": 5.16
+    }
+  ],
+  "status": "ok",
+  "finished": "2026-11-11T18:28:54.125520+00:00"
+}

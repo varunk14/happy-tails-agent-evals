@@ -1,0 +1,32 @@
+{
+  "case": "K-01",
+  "trial": 3,
+  "conversation_id": "v2final_20261112-101154-K-01-t3-efade8",
+  "run_tag": "v2finalt39da8",
+  "started": "2026-11-12T05:04:10.774097+00:00",
+  "turns": [
+    {
+      "i": 1,
+      "customer": "Hi, I'm a regular. My dog is Sprocket.",
+      "blocks": [
+        "Welcome back! I’ll keep Sprocket in mind. What would you like to explore today: **boarding, daycare, grooming, or training**?\n\nI can help you plan a stay and estimate the cost. Happy Tails staff confirm every booking.",
+        "Welcome back! I’ll keep Sprocket in mind as we plan. What would you like to explore today: **boarding, daycare, grooming, or training**?\n\nI can help you plan a stay and estimate the cost. Happy Tails staff confirm every booking.",
+        "[Tool Result: persistToMemoryBank] (output omitted)"
+      ],
+      "is_error": false,
+      "latency_s": 7.97
+    },
+    {
+      "i": 2,
+      "customer": "What did I book for my dog last Christmas, and how much referral credit do I have left?",
+      "blocks": [
+        "I can’t look up Sprocket’s past reservation or your personal referral-credit balance from here. Happy Tails directs customers to the **Gingr customer portal** to view reservation history and referral credits.\n\nThe published referral offer is **Give $30, Get $30**: after a referred friend’s first visit, both people receive a $30 credit. Credits are valid for one year and redeemable at checkout in $30 increments.",
+        "[Tool Result: filesystem] (output omitted)"
+      ],
+      "is_error": false,
+      "latency_s": 4.04
+    }
+  ],
+  "status": "ok",
+  "finished": "2026-11-12T05:04:24.322373+00:00"
+}

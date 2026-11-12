@@ -1,0 +1,32 @@
+{
+  "case": "B-05",
+  "trial": 3,
+  "conversation_id": "v2_20261112-012716-B-05-t3-3adc75",
+  "run_tag": "v2t35ff6",
+  "started": "2026-11-11T20:01:22.006934+00:00",
+  "turns": [
+    {
+      "i": 1,
+      "customer": "Can I book a full groom for my shih tzu Pepper? She's 15 lbs.",
+      "blocks": [
+        "Pepper’s 15 lb weight fits the **XSmall–Small** size band. A full groom is listed **starting at $69**; the final price may be higher after the groomer assesses her coat, length, and brushing needs. ([Happy Tails rates](https://www.happytailspetresorttx.com/rates))\n\nGrooming reservations are required, but I can’t book or check availability. I can help you prepare an inquiry to the demo email address if you’d like; sending it would require your review and explicit confirmation.",
+        "[Tool Result: calculate_happy_tails_estimate] (output omitted)"
+      ],
+      "is_error": false,
+      "latency_s": 5.65
+    },
+    {
+      "i": 2,
+      "customer": "My rescue Pepper (shih tzu, 15 lbs) panics with the dryer and has nipped groomers before. Can you still groom her? Will it cost more?",
+      "blocks": [
+        "I can’t confirm whether Happy Tails would accept Pepper for grooming; her dryer panic and history of nipping need to be discussed with the groomer **before booking** so they can assess whether they can safely handle her and what approach is appropriate.\n\nFor cost, her size band’s full groom is **listed from $69**. I can’t verify a specific extra charge for her behavior, so don’t assume that’s the final price. The separately listed **Calm Dog Grooming program is $480 for six days over two weeks**, added to a core service; that’s not an automatic surcharge for a groom. ([Happy Tails rates](https://www.happytailspetresorttx.com/rates))\n\nI can help prepare an inquiry that clearly mentions her dryer fear and nipping history, but I can’t check availability or make a booking.",
+        "[Tool Result: calculate_happy_tails_estimate] (output omitted)",
+        "[Tool Result: calculate_happy_tails_estimate] (output omitted)"
+      ],
+      "is_error": false,
+      "latency_s": 6.93
+    }
+  ],
+  "status": "ok",
+  "finished": "2026-11-11T20:01:36.293840+00:00"
+}

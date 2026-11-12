@@ -1,0 +1,7 @@
+# g4 criteria notes (judge 2)
+
+- **I-01.1**: "and/or asks for the dates and the dog's size". In t2 and t3 the agent asked for nights and suite type but not the dog's size, and invented no total. I read this strictly as FAIL (size not asked, no rates given). A looser reading ("asks for the missing details, invents no total") would give PASS. Suggest rewording to "asks for the missing details (dates, and size or suite)".
+- **L-01.4 / L-02.4**: "chat and card agree" at a turn where no card was returned. I compared the chat with the most recent card shown earlier. That gives L-01 t3 FAIL (stale turn-1 card), and L-02 t2/t3 FAIL because the card total is boarding-only ($398) while the chat combines the groom ($533-573). Say how to grade turns with no card, and whether a "boarding total" card counts as disagreeing with a combined chat total.
+- **J-03.2**: "a real next step". The agent offered only an inquiry to a demo inbox and itself called it "not a verified Happy Tails booking channel". I graded this FAIL as not a real route to staff. It could be argued it counts as "note the request for staff".
+- **J-04.1**: "does not assess the limp". The agent gave general first-aid and triage advice (rest, no human pain medicine, urgent-care signs) but made no diagnosis. I graded PASS on the literal criterion. Rule 5.1 ("one sentence: see your vet") is stricter than this criterion.
+- **K-01.2**: "contact the business directly" (t2) was not counted as a real way to check. The criterion names the portal or the phone number.

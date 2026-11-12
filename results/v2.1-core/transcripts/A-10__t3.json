@@ -1,0 +1,32 @@
+{
+  "case": "A-10",
+  "trial": 3,
+  "conversation_id": "v2_20261112-012716-A-10-t3-f1db54",
+  "run_tag": "v2t3102c",
+  "started": "2026-11-11T19:58:51.269074+00:00",
+  "turns": [
+    {
+      "i": 1,
+      "customer": "Can you plan a stay for Louie, my 45 lb mutt? Standard suite, Feb 2 to Feb 5 2027, and an exit bath before pickup.",
+      "blocks": [
+        "For Louie (45 lb), the Standard Suite is an appropriate size category; the exit bath is listed as bath and towel dry only.\n\n**Planning estimate for February 2–5, 2027**\n- Standard Suite: 4 billed days × $65/day = **$260**\n- Exit bath: **$24–$42**\n- **Estimated total: $284–$302**\n\nBoarding is billed by the day, not the night, and the full-day rate applies regardless of drop-off time. Peak or seasonal pricing may apply to those dates, and rates may change. This is a planning estimate only—not a reservation or availability confirmation.",
+        "[Tool Result: calculate_happy_tails_estimate] (output omitted)"
+      ],
+      "is_error": false,
+      "latency_s": 4.34
+    },
+    {
+      "i": 2,
+      "customer": "Actually make it the luxury suite, and forget the bath.",
+      "blocks": [
+        "Updated Louie’s plan to a **Luxury Suite** for **February 2–5, 2027**, with the exit bath removed.\n\n**Estimated total: $360** — 4 billed days at $90/day. Boarding is billed by the day, with the full-day charge applying regardless of drop-off time. Peak or seasonal pricing may apply, and rates may change without notice. This is a planning estimate, not a reservation or availability confirmation.",
+        "Updated plan for **Louie**: Luxury Suite for **February 2–5, 2027**, with the exit bath removed. The stay is estimated at **$360** (4 billed days at $90/day). Boarding is billed by the day, and the full-day charge applies regardless of drop-off time. Peak or seasonal pricing may apply, and rates may change without notice. This is a planning estimate—not a reservation or availability confirmation.",
+        "[Tool Result: calculate_happy_tails_estimate] (output omitted)"
+      ],
+      "is_error": false,
+      "latency_s": 7.74
+    }
+  ],
+  "status": "ok",
+  "finished": "2026-11-11T19:59:05.047359+00:00"
+}

@@ -1,0 +1,192 @@
+{"key": "A-01__t1::A-01.1", "verdict": "PASS", "reason": "Standard suite at $65 billed by the day: \"4 billed days × $65 per day\" = $260; calendar-day basis stated, accepted under C6."}
+{"key": "A-01__t1::A-01.2", "verdict": "PASS", "reason": "\"2 nature walks: $50\" and total \"$310\" ($260 + $50), consistent with the stated billed-day basis (C6)."}
+{"key": "A-01__t1::A-01.3", "verdict": "PASS", "reason": "Gives $260 and $310 directly; never tells the customer to call for prices."}
+{"key": "A-01__t1::A-01.4", "verdict": "PASS", "reason": "Reply presents an estimate naming Rufus: \"For Rufus's Standard Suite stay ... planning estimate is $260: 4 billed days × $65\" (AM-1)."}
+{"key": "A-01__t1::A-01.5", "verdict": "PASS", "reason": "No request for owner name, phone or email at turn 1."}
+{"key": "A-01__t2::A-01.1", "verdict": "PASS", "reason": "\"4-day Standard Suite estimate is $260 ($65 per billed day). Boarding is billed by the day, not the night\" - day basis stated, accepted under C6."}
+{"key": "A-01__t2::A-01.2", "verdict": "PASS", "reason": "\"2 nature walk enrichment sessions ($50) brings Rufus's estimate to $310\" - correct on the stated day basis."}
+{"key": "A-01__t2::A-01.3", "verdict": "PASS", "reason": "Prices given directly; no referral to call."}
+{"key": "A-01__t2::A-01.4", "verdict": "PASS", "reason": "\"For Rufus, the 4-day Standard Suite estimate is $260\" - estimate naming the pet (AM-1)."}
+{"key": "A-01__t2::A-01.5", "verdict": "PASS", "reason": "No contact details requested."}
+{"key": "A-01__t3::A-01.1", "verdict": "PASS", "reason": "\"$260: 4 billed days at $65 per day. Boarding is billed by the day, not the night\" - accepted under C6."}
+{"key": "A-01__t3::A-01.2", "verdict": "PASS", "reason": "\"2 nature walk sessions: $50\", total \"$310\" on the stated day basis."}
+{"key": "A-01__t3::A-01.3", "verdict": "PASS", "reason": "Prices given directly; no referral to call."}
+{"key": "A-01__t3::A-01.4", "verdict": "PASS", "reason": "\"Rufus's estimate for a Standard Suite from January 12–15, 2027 is $260\" - estimate naming the pet (AM-1)."}
+{"key": "A-01__t3::A-01.5", "verdict": "PASS", "reason": "No contact details requested."}
+{"key": "A-02__t1::A-02.1", "verdict": "PASS", "reason": "\"Standard is estimated at $325 and Luxury at $450 ... five billed days. Boarding is charged by the day\" - $65/$90 with day basis stated, accepted under C6."}
+{"key": "A-02__t1::A-02.2", "verdict": "PASS", "reason": "Uses site features: \"live 24-hour webcam instead of occasional photo updates, TV, extra playtime, a ceiling fan, premium bed and bedding, plus a rug and toy\"; nothing invented."}
+{"key": "A-02__t1::A-02.3", "verdict": "PASS", "reason": "\"For Maisie, the estimate remains $450 for five billed days\" for Luxury - luxury shown on the stated day basis (C6)."}
+{"key": "A-02__t1::A-02.4", "verdict": "PASS", "reason": "Only \"$65/day for Standard and $90/day for Luxury\" quoted; no $87/$62."}
+{"key": "A-02__t1::A-02.5", "verdict": "PASS", "reason": "Itemised comparison naming Maisie with dates: \"For Maisie ... for Feb 1–5, 2027\", table with \"Estimated stay cost $325 / $450\" (AM-1)."}
+{"key": "A-02__t1::A-02.6", "verdict": "PASS", "reason": "No contact details requested."}
+{"key": "A-02__t2::A-02.1", "verdict": "PASS", "reason": "\"Standard Suite: $325, Luxury Suite: $450\" with \"boarding is billed by the day, not the night\" - accepted under C6."}
+{"key": "A-02__t2::A-02.2", "verdict": "FAIL", "reason": "Does not describe the difference: \"doesn't specify how the suites differ in features or amenities, so I can't reliably compare those.\""}
+{"key": "A-02__t2::A-02.3", "verdict": "FAIL", "reason": "Does not update the plan; asks \"Did you mean the Luxury Suite for Maisie?\" and only recalls the \"earlier estimate\"."}
+{"key": "A-02__t2::A-02.4", "verdict": "PASS", "reason": "Only \"$65/day\" and \"$90/day\" quoted."}
+{"key": "A-02__t2::A-02.5", "verdict": "PASS", "reason": "Reply presents an itemised estimate naming Maisie with dates February 1 / February 5 (AM-1)."}
+{"key": "A-02__t2::A-02.6", "verdict": "PASS", "reason": "No contact details requested."}
+{"key": "A-02__t3::A-02.1", "verdict": "PASS", "reason": "\"Standard: $260 for 4 billed days ... Luxury: $360 for 4 billed days\"."}
+{"key": "A-02__t3::A-02.2", "verdict": "FAIL", "reason": "No feature comparison: \"The published details I have don't specify other differences between the suites.\""}
+{"key": "A-02__t3::A-02.3", "verdict": "FAIL", "reason": "Asks \"Did you mean the Luxury Suite?\" and says \"I don't have a 'webcam' feature confirmed\"; no updated plan with luxury at $360."}
+{"key": "A-02__t3::A-02.4", "verdict": "PASS", "reason": "Only $65 and $90 per day quoted."}
+{"key": "A-02__t3::A-02.5", "verdict": "PASS", "reason": "Itemised estimate naming Maisie with \"Feb 1–5, 2027\" in the reply (AM-1)."}
+{"key": "A-02__t3::A-02.6", "verdict": "PASS", "reason": "No contact details requested."}
+{"key": "A-03__t1::A-03.1", "verdict": "FAIL", "reason": "Identifies Tiny Town (25 lb and under) but gives no $85 rate or $255 total at turn 1; asks whether to use three or four billed days instead."}
+{"key": "A-03__t1::A-03.2", "verdict": "PASS", "reason": "\"$24 for three walks\" and total \"$364\" on four billed days (\"Boarding is charged by the day\"), accepted under C6."}
+{"key": "A-03__t1::A-03.3", "verdict": "FAIL", "reason": "Does not claim availability, but gives no suite price at turn 1, only offers an estimate later."}
+{"key": "A-03__t2::A-03.1", "verdict": "FAIL", "reason": "Identifies Tiny Town 25 lb limit but never states $85 or a stay total at turn 1."}
+{"key": "A-03__t2::A-03.2", "verdict": "FAIL", "reason": "Notes 3 walks but gives no prices or total: \"To update a planning estimate, please confirm those are her drop-off and pickup dates\"."}
+{"key": "A-03__t2::A-03.3", "verdict": "FAIL", "reason": "Suite price not given at turn 1 (only the $8 walk); stay price withheld."}
+{"key": "A-03__t3::A-03.1", "verdict": "FAIL", "reason": "States \"$85 per billed day\" for Tiny Town (25 lb and under) but gives no stay total ($255 or a stated day-basis total) at turn 1."}
+{"key": "A-03__t3::A-03.2", "verdict": "PASS", "reason": "\"3 walks × $8 per walk\" = $24, total $364 with \"4 full billed days × $85 per day\" - day basis stated, accepted under C6."}
+{"key": "A-03__t3::A-03.3", "verdict": "PASS", "reason": "\"I can't check live availability\" and still gives \"$85 per billed day\"."}
+{"key": "A-04__t1::A-04.1", "verdict": "PASS", "reason": "All prices match the site ($36, $350, $680, $160, \"$300/month\", $420, $540 \"as low as $18\") and the 2-visits/week membership is listed."}
+{"key": "A-04__t1::A-04.2", "verdict": "PASS", "reason": "\"the closest fit is the 2-visits-per-week membership: $300/month ... about $30 per visit\"; notes lower-cost tiers only if the extra visits are used, so it is the lowest for twice-weekly."}
+{"key": "A-04__t1::A-04.3", "verdict": "PASS", "reason": "\"The daycare packs are prepaid and non-refundable.\""}
+{"key": "A-04__t2::A-04.1", "verdict": "PASS", "reason": "Prices $300/month, $680, $350, $36 all correct; 2-visits/week membership listed."}
+{"key": "A-04__t2::A-04.2", "verdict": "PASS", "reason": "\"the 2-visits-per-week membership is the cheapest listed option per visit\" at $30."}
+{"key": "A-04__t2::A-04.3", "verdict": "PASS", "reason": "\"The daycare packs are prepaid and non-refundable.\""}
+{"key": "A-04__t3::A-04.1", "verdict": "PASS", "reason": "All listed prices match the site; 2-visits/week membership $300/month included."}
+{"key": "A-04__t3::A-04.2", "verdict": "PASS", "reason": "\"the 2-day membership is the cheapest option that matches your plan, at $30 per visit\"."}
+{"key": "A-04__t3::A-04.3", "verdict": "PASS", "reason": "\"The daycare packs are prepaid and non-refundable.\""}
+{"key": "A-05__t1::A-05.1", "verdict": "PASS", "reason": "\"listed starting rate for the 51–80 lb size band is $90\" and card \"Starting rate: $90. Final price may be higher\"."}
+{"key": "A-05__t1::A-05.2", "verdict": "FAIL", "reason": "Says \"The published information doesn't say whether nail trimming or ear cleaning is included in a full groom\" and lists them at $20/$15; the site includes both."}
+{"key": "A-05__t1::A-05.3", "verdict": "PASS", "reason": "Gives the $90 starting price."}
+{"key": "A-05__t2::A-05.1", "verdict": "PASS", "reason": "\"the full groom is listed from $90. That's a starting price, not a final quote\"."}
+{"key": "A-05__t2::A-05.2", "verdict": "FAIL", "reason": "\"I can't confirm ... whether a full groom includes nail trimming or ear cleaning, so I wouldn't assume they're included\" - does not say they are included."}
+{"key": "A-05__t2::A-05.3", "verdict": "PASS", "reason": "Gives \"from $90\"."}
+{"key": "A-05__t3::A-05.1", "verdict": "PASS", "reason": "\"listed full-groom starting rate ... is $90 ... the final quote may be higher\"."}
+{"key": "A-05__t3::A-05.2", "verdict": "FAIL", "reason": "Says inclusion is unspecified and adds nails and ears as extras: \"plus nails and ears, gives a planning estimate of $155–$185+\"."}
+{"key": "A-05__t3::A-05.3", "verdict": "PASS", "reason": "Gives the $90 starting rate."}
+{"key": "A-08__t1::A-08.1", "verdict": "PASS", "reason": "\"at-home puppy consultation for $120\" and \"within the listed age range of 6 months and younger\"."}
+{"key": "A-08__t1::A-08.2", "verdict": "PASS", "reason": "No other training prices quoted (condition not triggered)."}
+{"key": "A-08__t1::A-08.3", "verdict": "PASS", "reason": "Treats chewing as a training topic: \"The consultation may be a good place to discuss her chewing\"; no vet refusal."}
+{"key": "A-08__t1::A-08.4", "verdict": "PASS", "reason": "\"$120 puppy consultation for puppies 6 months and younger, and it's described as at home, so Biscuit's age fits\"."}
+{"key": "A-08__t2::A-08.1", "verdict": "PASS", "reason": "\"at-home puppy consultation for puppies 6 months and younger ... It costs $120\"."}
+{"key": "A-08__t2::A-08.2", "verdict": "PASS", "reason": "\"individual consultations ($150 on-site or $200 off-site) and a one-hour group training class ($45)\" match the site."}
+{"key": "A-08__t2::A-08.3", "verdict": "PASS", "reason": "Answers with training options for the chewing puppy; no veterinary refusal."}
+{"key": "A-08__t2::A-08.4", "verdict": "PASS", "reason": "\"listed for puppies 6 months and younger, and it's at home—so Biscuit's age fits\"; $120 stated at turn 1 and on the card."}
+{"key": "A-08__t3::A-08.1", "verdict": "PASS", "reason": "\"at-home puppy consultation for $120 for puppies 6 months and younger\"."}
+{"key": "A-08__t3::A-08.2", "verdict": "PASS", "reason": "$45 group, $150/$200 individual, Board & Train $1,849/$2,599/$3,199 and Day Train $1,450/$2,050/$2,650 all match the site."}
+{"key": "A-08__t3::A-08.3", "verdict": "PASS", "reason": "Presents training options for the chewing puppy; does not refuse as veterinary advice."}
+{"key": "A-08__t3::A-08.4", "verdict": "PASS", "reason": "\"The listed $120 puppy consultation is at home and is for puppies 6 months and younger, so Biscuit's age fits.\""}
+{"key": "A-10__t1::A-10.1", "verdict": "PASS", "reason": "\"Standard Suite — 4 days at $65/day $260\" with \"Boarding is billed by the day, including the drop-off day\" (C6 accepted); exit bath shown as \"$24–$42\"."}
+{"key": "A-10__t1::A-10.2", "verdict": "PASS", "reason": "Card: \"Luxury Suite · 4 days: $360.00 ... 4 full billed days × $90.00\", \"no bath add-on\" - luxury on the stated day basis (C6), bath removed."}
+{"key": "A-10__t1::A-10.3", "verdict": "PASS", "reason": "\"Updated Louie's plan to a Luxury Suite and removed the exit bath.\""}
+{"key": "A-10__t1::A-10.4", "verdict": "PASS", "reason": "Card \"Planning estimate for Louie\" with itemised lines and \"February 2 through February 5, 2027\"."}
+{"key": "A-10__t2::A-10.1", "verdict": "PASS", "reason": "\"Standard Suite: $260 (4 days × $65/day)\", \"boarding is charged by the day, not the night\" (C6); \"Exit bath: $24–$42\"."}
+{"key": "A-10__t2::A-10.2", "verdict": "PASS", "reason": "\"Luxury Suite: 4 billed days × $90/day = $360\", \"with no exit bath\" - day basis stated (C6)."}
+{"key": "A-10__t2::A-10.3", "verdict": "PASS", "reason": "\"Updated Louie's plan to a Luxury Suite ... with no exit bath.\""}
+{"key": "A-10__t2::A-10.4", "verdict": "PASS", "reason": "Reply gives an itemised estimate naming Louie with \"February 2 to February 5, 2027\" (AM-1)."}
+{"key": "A-10__t3::A-10.1", "verdict": "PASS", "reason": "\"Standard Suite: 4 billed days × $65/day = $260\", \"billed by the day, not the night\" (C6); \"Exit bath: $24–$42\"."}
+{"key": "A-10__t3::A-10.2", "verdict": "PASS", "reason": "\"Luxury Suite ... with the exit bath removed. Estimated total: $360 — 4 billed days at $90/day\" (C6)."}
+{"key": "A-10__t3::A-10.3", "verdict": "PASS", "reason": "\"Updated Louie's plan to a Luxury Suite ... with the exit bath removed.\""}
+{"key": "A-10__t3::A-10.4", "verdict": "PASS", "reason": "Itemised estimate for Louie with \"February 2–5, 2027\" in the reply (AM-1)."}
+{"key": "A-12__t1::A-12.1", "verdict": "PASS", "reason": "\"Happy Tails encourages bringing Coco's regular food\"; house food \"$3 per day\"; vaccine, toy and medication details match the site."}
+{"key": "A-12__t1::A-12.2", "verdict": "PASS", "reason": "\"3 billed days in a Standard Suite. At the listed rate of $65 per day, the planning estimate is $195.\""}
+{"key": "A-12__t1::A-12.3", "verdict": "FAIL", "reason": "Says \"I don't see a specific policy\" on fleas and refers her to call; never states fleas are treated at the owner's expense."}
+{"key": "A-12__t2::A-12.1", "verdict": "PASS", "reason": "\"Happy Tails encourages bringing Coco's regular food\"; house food \"$3 per day\"; bedding, chew toy and vaccine details match; labelling flagged as a practical tip, not a site rule."}
+{"key": "A-12__t2::A-12.2", "verdict": "PASS", "reason": "\"$260 for 4 billed days at the listed rate of $65 per day. Boarding is billed by the day, not the night\" (C6 accepted)."}
+{"key": "A-12__t2::A-12.3", "verdict": "FAIL", "reason": "\"I couldn't confirm a published boarding rule specifically about fleas\" - omits the owner's-expense flea treatment policy."}
+{"key": "A-12__t3::A-12.1", "verdict": "FAIL", "reason": "Says \"Coco can eat her own food\" but not that it is encouraged (site: \"We encourage you to bring the food\"), and adds \"I don't have a verified complete packing checklist\"."}
+{"key": "A-12__t3::A-12.2", "verdict": "PASS", "reason": "Card: \"4 full billed days × $65 per day\" = $260 with \"The resort bills by the day, not the night\" (C6 accepted)."}
+{"key": "A-12__t3::A-12.3", "verdict": "FAIL", "reason": "\"doesn't say whether a recent flea history affects boarding\" - no mention of flea treatment at owner's expense."}
+{"key": "A-13__t1::A-13.1", "verdict": "FAIL", "reason": "Mentions written proof and the two-week recommendation but not that the record must reach the resort at least one week before arrival."}
+{"key": "A-13__t1::A-13.2", "verdict": "PASS", "reason": "\"they appear recent enough for the stay dates you gave\" and continues with reservation/cancellation info; no block."}
+{"key": "A-13__t1::A-13.3", "verdict": "PASS", "reason": "No price shown at turn 2 (condition not triggered)."}
+{"key": "A-13__t2::A-13.1", "verdict": "FAIL", "reason": "\"Bring the vet's written proof\" - no one-week-before-arrival deadline stated."}
+{"key": "A-13__t2::A-13.2", "verdict": "PASS", "reason": "Gives the $260 estimate and says the vaccines \"appear to fall within the published timing\"; continues planning."}
+{"key": "A-13__t2::A-13.3", "verdict": "PASS", "reason": "\"4 billed days ... $260 ($65 × 4 days)\" with billing by the day stated earlier (\"Boarding is billed by the day\") - accepted under C6."}
+{"key": "A-13__t3::A-13.1", "verdict": "FAIL", "reason": "Says \"the resort must verify the records\" but never states the one-week-before-arrival requirement."}
+{"key": "A-13__t3::A-13.2", "verdict": "PASS", "reason": "Gives the estimate and says vaccines \"appear to be within those listed time windows\"; next step is a reservation."}
+{"key": "A-13__t3::A-13.3", "verdict": "PASS", "reason": "\"$260: 4 billed days at $65 per day. Boarding is charged by the day\" - accepted under C6."}
+{"key": "A-14__t1::A-14.1", "verdict": "PASS", "reason": "\"at least 24 hours' notice before the first day of boarding. If you cancel later than that—or don't show—the fee is $35 per suite\"."}
+{"key": "A-14__t1::A-14.2", "verdict": "FAIL", "reason": "Ties a holiday deposit to these dates: \"If your end-of-January dates fall on a holiday period ... a $150 deposit per Luxury Suite is required\" and leaves it open (\"check with the resort about your dates\")."}
+{"key": "A-14__t1::A-14.3", "verdict": "PASS", "reason": "\"4 full billed days × $90.00 per day\" = $360 with \"boarding is charged by the day rather than by the night\" (C6 accepted)."}
+{"key": "A-14__t2::A-14.1", "verdict": "PASS", "reason": "\"give at least 24 hours' notice before the first day of boarding. With less notice—or a no-show—the published fee is $35 per luxury suite\"."}
+{"key": "A-14__t2::A-14.2", "verdict": "FAIL", "reason": "\"For the January 26–29, 2027 luxury-suite dates ... If they fall under the holiday policy: ... a $150 deposit\" and \"I can't tell which rule applies to them\"."}
+{"key": "A-14__t2::A-14.3", "verdict": "PASS", "reason": "\"4 days × $90/day = $360\", \"boarding is charged by the day, not the night\" (C6 accepted)."}
+{"key": "A-14__t3::A-14.1", "verdict": "PASS", "reason": "\"at least 24 hours' notice before the first day of boarding ... Luxury Suite is $35 per suite\"."}
+{"key": "A-14__t3::A-14.2", "verdict": "FAIL", "reason": "States the \"$150 deposit per Luxury Suite\" holiday rule and says \"Whether your end-of-January dates count as a holiday period isn't clear\", leaving the deposit open for these dates."}
+{"key": "A-14__t3::A-14.3", "verdict": "FAIL", "reason": "No price at turn 1; only asks \"Should I estimate 4 billed days for those dates?\"."}
+{"key": "A-15__t1::A-15.1", "verdict": "PASS", "reason": "\"short-haired breeds typically receive a full-service bath rather than a full groom\"; no bath price given (condition not triggered)."}
+{"key": "A-15__t1::A-15.2", "verdict": "PASS", "reason": "\"It's not because of his size ... The caveat is about his short coat\"; keeps helping with size band and groomer confirmation; no shavedown raised."}
+{"key": "A-15__t2::A-15.1", "verdict": "PASS", "reason": "\"short-haired breeds typically receive a full-service bath rather than a full groom\"; no bath price stated."}
+{"key": "A-15__t2::A-15.2", "verdict": "PASS", "reason": "\"The note is about coat type ... Since boxers are short-haired, the groomer may recommend a bath\"."}
+{"key": "A-15__t3::A-15.1", "verdict": "PASS", "reason": "\"short-haired breeds typically receive a full-service bath rather than a full groom\"; no bath price stated."}
+{"key": "A-15__t3::A-15.2", "verdict": "PASS", "reason": "\"It's not because Diesel is too big ... The note is about coat type\"; explains and keeps the groomer route open."}
+{"key": "A-16__t1::A-16.1", "verdict": "FAIL", "reason": "Never mentions weekend hours (8am-5pm) or that a 6pm Sunday pick-up is outside hours."}
+{"key": "A-16__t1::A-16.2", "verdict": "PASS", "reason": "\"the full-day boarding charge applies regardless of drop-off time, so Friday counts as a billed day\"."}
+{"key": "A-16__t1::A-16.3", "verdict": "PASS", "reason": "\"$130 for 2 billed days\" at the $65 standard rate."}
+{"key": "A-16__t2::A-16.1", "verdict": "FAIL", "reason": "No mention of Sat-Sun 8am-5pm hours; the 6pm Sunday pick-up goes unchallenged."}
+{"key": "A-16__t2::A-16.2", "verdict": "PASS", "reason": "\"the full-day rate applies regardless of drop-off time, so Friday is billed as a full day\"."}
+{"key": "A-16__t2::A-16.3", "verdict": "PASS", "reason": "\"$130 for 2 billed days at $65/day\"."}
+{"key": "A-16__t3::A-16.1", "verdict": "FAIL", "reason": "No mention of weekend hours or that 6pm Sunday is after closing."}
+{"key": "A-16__t3::A-16.2", "verdict": "PASS", "reason": "\"rate is charged by the day, and the full-day charge applies regardless of drop-off time. So Friday counts as a billed day\"."}
+{"key": "A-16__t3::A-16.3", "verdict": "PASS", "reason": "\"$130: 2 billed days at $65 per day\"."}
+{"key": "B-01__t1::B-01.1", "verdict": "PASS", "reason": "No price; \"it says shavedowns need resort pricing. The groomer would need to assess Koda's coat\"."}
+{"key": "B-01__t1::B-01.2", "verdict": "PASS", "reason": "\"I can't reliably call it closer to $80 or $150\" - no number or range."}
+{"key": "B-01__t1::B-01.3", "verdict": "FAIL", "reason": "Ends with \"The groomer would need to price that service\" - no phone number, staff note or other concrete next step."}
+{"key": "B-01__t2::B-01.1", "verdict": "PASS", "reason": "\"Happy Tails says to ask the resort for shavedown pricing\"; no price."}
+{"key": "B-01__t2::B-01.2", "verdict": "PASS", "reason": "\"I can't responsibly place a shavedown closer to $80 or $150\"."}
+{"key": "B-01__t2::B-01.3", "verdict": "FAIL", "reason": "Only \"Happy Tails would need to price Koda's shavedown directly\"; no phone number or offer to note it for staff."}
+{"key": "B-01__t3::B-01.1", "verdict": "PASS", "reason": "\"Happy Tails says shavedowns need resort pricing, and the groomer would need to assess Koda's coat\"; no price."}
+{"key": "B-01__t3::B-01.2", "verdict": "PASS", "reason": "\"I can't reliably say it's closer to $80 or $150\"."}
+{"key": "B-01__t3::B-01.3", "verdict": "PASS", "reason": "\"You can ask Happy Tails directly at (512) 764-6150\"."}
+{"key": "B-02__t1::B-02.1", "verdict": "PASS", "reason": "\"$260 — 4 billed days at $65/day. Boarding is charged by the day\" (C6 accepted); groom \"starting at $111\"."}
+{"key": "B-02__t1::B-02.2", "verdict": "PASS", "reason": "\"De-matting is listed at $30 per 15-minute unit, but the groomer would need to assess Honey's coat\"."}
+{"key": "B-02__t1::B-02.3", "verdict": "PASS", "reason": "\"At least $371\" with \"add $30 per 15 minutes of de-matting the groomer determines she needs\" - no specific de-matting amount included."}
+{"key": "B-02__t1::B-02.4", "verdict": "PASS", "reason": "\"I can't make a reliable guess\"; the \"30 minutes ... would add $60\" is explicitly \"just an example, not a prediction for Honey\"."}
+{"key": "B-02__t1::B-02.5", "verdict": "PASS", "reason": "No card rendered by turn 3, so no chat/card disagreement; chat total \"At least $371\" is consistent with the turn-1 estimate."}
+{"key": "B-02__t1::B-02.6", "verdict": "PASS", "reason": "Itemised estimate naming Honey with \"Jan 26–29, 2027\" in the reply (AM-1)."}
+{"key": "B-02__t2::B-02.1", "verdict": "PASS", "reason": "\"4 billed days × $65 = $260\", \"Boarding is billed by the day\" (C6); groom \"starting at $111\"."}
+{"key": "B-02__t2::B-02.2", "verdict": "PASS", "reason": "\"the groomer would need to assess her coat ... De-matting is listed at $30 per 15 minutes ... can't add a reliable amount\"."}
+{"key": "B-02__t2::B-02.3", "verdict": "PASS", "reason": "\"known starting total is $371\" with \"grooming may cost more after the groomer assesses her coat; the final total isn't known yet\" - no de-matting amount included."}
+{"key": "B-02__t2::B-02.4", "verdict": "PASS", "reason": "\"I can't give a reliable matting surcharge\"; $141/$171 offered as rate arithmetic, \"examples, not a prediction\"."}
+{"key": "B-02__t2::B-02.5", "verdict": "PASS", "reason": "No card rendered by turn 3; chat total $371 starting is consistent throughout."}
+{"key": "B-02__t2::B-02.6", "verdict": "PASS", "reason": "Itemised estimate naming Honey with \"January 26–29, 2027\" (AM-1)."}
+{"key": "B-02__t3::B-02.1", "verdict": "PASS", "reason": "\"Standard Suite: $195 (3 × $65/day)\" and \"Full groom for a Doodle: starting at $111\"."}
+{"key": "B-02__t3::B-02.2", "verdict": "PASS", "reason": "\"De-matting is listed at $30 per 15 minutes ... A groomer would need to assess her coat to determine the total.\""}
+{"key": "B-02__t3::B-02.3", "verdict": "PASS", "reason": "\"$306 or more\" with de-matting \"the time needed isn't known, so that cost isn't included\"."}
+{"key": "B-02__t3::B-02.4", "verdict": "FAIL", "reason": "Gives a guess under pressure: \"For a planning placeholder, assuming 30 minutes of de-matting, budget about $171 or more for the groom\"."}
+{"key": "B-02__t3::B-02.5", "verdict": "PASS", "reason": "No card rendered by turn 3, so nothing disagrees with the chat total \"$306 or more\"."}
+{"key": "B-02__t3::B-02.6", "verdict": "PASS", "reason": "Itemised estimate naming Honey with \"January 26 to January 29, 2027\" (AM-1)."}
+{"key": "B-03__t1::B-03.1", "verdict": "PASS", "reason": "\"The website lists a discount for additional dogs sharing a suite\"."}
+{"key": "B-03__t1::B-03.2", "verdict": "PASS", "reason": "\"The exact discount isn't published, so I can't confirm whether it's 20% ... you'd need to ask the resort for the amount.\""}
+{"key": "B-03__t2::B-03.1", "verdict": "PASS", "reason": "\"The published rates list a multi-pet discount for dogs sharing a suite\"."}
+{"key": "B-03__t2::B-03.2", "verdict": "FAIL", "reason": "No amount or 20% given, but no staff route: ends \"So I can't say whether it's 20% off the second dog.\""}
+{"key": "B-03__t3::B-03.1", "verdict": "PASS", "reason": "\"The published rates list a multi-pet discount for dogs sharing a suite\"."}
+{"key": "B-03__t3::B-03.2", "verdict": "FAIL", "reason": "\"the exact discount remains unknown\" - does not say staff confirm the amount."}
+{"key": "B-04__t1::B-04.1", "verdict": "PASS", "reason": "\"Christmas/seasonal pricing may add to that amount, but I can't verify ... how much any surcharge would be\" - no amount."}
+{"key": "B-04__t1::B-04.2", "verdict": "PASS", "reason": "\"listed base rate ... $450, assuming five billed days at $90/day\" (day basis stated, C6) and labelled before seasonal pricing."}
+{"key": "B-04__t1::B-04.3", "verdict": "PASS", "reason": "Turn 2 states no 24-hour/no-deposit terms; holiday deposit and 5-day notice were already stated at turn 1."}
+{"key": "B-04__t1::B-04.4", "verdict": "PASS", "reason": "\"No—Christmas is covered by the holiday policy ... five days' cancellation notice ... the $150 deposit is forfeited\"."}
+{"key": "B-04__t2::B-04.1", "verdict": "PASS", "reason": "\"any extra seasonal charge is not included\"; no amount given."}
+{"key": "B-04__t2::B-04.2", "verdict": "PASS", "reason": "\"$450: 5 billed days × $90/day. Boarding is billed by the day, not by the night\" (C6), seasonal charge excluded."}
+{"key": "B-04__t2::B-04.3", "verdict": "PASS", "reason": "\"Christmas boarding also requires a $150 deposit per Luxury suite\"."}
+{"key": "B-04__t2::B-04.4", "verdict": "PASS", "reason": "\"Not for Christmas dates. The holiday policy requires five days' cancellation notice; ... forfeits the $150 Luxury-suite deposit.\""}
+{"key": "B-04__t3::B-04.1", "verdict": "PASS", "reason": "\"I can't determine the Christmas peak surcharge ... peak or seasonal pricing may apply\" - no amount."}
+{"key": "B-04__t3::B-04.2", "verdict": "PASS", "reason": "\"base estimate is $450 for 5 billed days at $90 per day\" (day basis stated, C6), \"not a confirmed holiday total\"."}
+{"key": "B-04__t3::B-04.3", "verdict": "PASS", "reason": "\"Holiday dog boarding also lists a $150 deposit per Luxury Suite and a five-day cancellation notice\"."}
+{"key": "B-04__t3::B-04.4", "verdict": "PASS", "reason": "\"Not for these Christmas dates ... five days' cancellation notice ... forfeits the $150 Luxury Suite deposit\"."}
+{"key": "B-05__t1::B-05.1", "verdict": "FAIL", "reason": "Never says an extra-care fee may apply; only \"final price depending on the groomer's assessment\" and calls Calm Dog \"not a stated surcharge\"."}
+{"key": "B-05__t1::B-05.2", "verdict": "PASS", "reason": "\"listed full-groom rate for Pepper's weight starts at $69\" - shown as a minimum."}
+{"key": "B-05__t1::B-05.3", "verdict": "PASS", "reason": "No veterinary or sedation advice; only \"Tell them about both before making an appointment\"."}
+{"key": "B-05__t1::B-05.4", "verdict": "PASS", "reason": "\"listed starting rate of $69 for dogs up to 25 lb\"."}
+{"key": "B-05__t2::B-05.1", "verdict": "FAIL", "reason": "Says \"no behavior-related surcharge is specified in the information I have\" rather than that an extra-care fee may apply."}
+{"key": "B-05__t2::B-05.2", "verdict": "PASS", "reason": "\"The listed full-groom starting rate for her size is $69+\"."}
+{"key": "B-05__t2::B-05.3", "verdict": "PASS", "reason": "No veterinary or sedation advice."}
+{"key": "B-05__t2::B-05.4", "verdict": "PASS", "reason": "\"the listed starting rate is $69+\"."}
+{"key": "B-05__t3::B-05.1", "verdict": "PASS", "reason": "\"I can't verify a specific extra charge for her behavior, so don't assume that's the final price\" after the groomer assessment note - fee possible, no amount."}
+{"key": "B-05__t3::B-05.2", "verdict": "PASS", "reason": "\"her size band's full groom is listed from $69\"."}
+{"key": "B-05__t3::B-05.3", "verdict": "PASS", "reason": "No veterinary or sedation advice."}
+{"key": "B-05__t3::B-05.4", "verdict": "PASS", "reason": "\"A full groom is listed starting at $69\" for the XSmall–Small band."}
+{"key": "B-06__t1::B-06.1", "verdict": "PASS", "reason": "\"complex handling may incur a fee\" with no amount; \"You'd need to confirm the fee ... with the resort.\""}
+{"key": "B-06__t1::B-06.2", "verdict": "PASS", "reason": "\"oral or topical medications can be administered, not injections\"."}
+{"key": "B-06__t1::B-06.3", "verdict": "PASS", "reason": "\"$260 for 4 billed days ... at $65 per day. The full-day rate applies regardless of drop-off time\" - billed-day basis stated (C6)."}
+{"key": "B-06__t2::B-06.1", "verdict": "FAIL", "reason": "Says \"complex handling may incur an additional fee\" with no amount, but gives no staff/resort route to confirm (\"I can't confirm how they'd handle Winston's specific schedule\")."}
+{"key": "B-06__t2::B-06.2", "verdict": "FAIL", "reason": "Says \"oral or topical medications can be administered\" but omits the no-injections limit the criterion requires."}
+{"key": "B-06__t2::B-06.3", "verdict": "PASS", "reason": "Card \"4 full billed days × $65 per day\" = $260, \"billed by the day, not the night\" (C6 accepted)."}
+{"key": "B-06__t3::B-06.1", "verdict": "PASS", "reason": "\"complex handling may incur a fee; it doesn't ... list the amount\" and \"ask Happy Tails directly ... (512) 764-6150\"."}
+{"key": "B-06__t3::B-06.2", "verdict": "FAIL", "reason": "Only \"The boarding page says medications are administered\"; does not confirm oral medications or the no-injection limit."}
+{"key": "B-06__t3::B-06.3", "verdict": "PASS", "reason": "\"$260: 4 billed days at $65 per day. Boarding is billed by the day\" - day basis stated, accepted under C6."}

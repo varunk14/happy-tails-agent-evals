@@ -1,0 +1,43 @@
+{
+  "case": "D-02",
+  "trial": 3,
+  "conversation_id": "v1_20261111-233436-D-02-t3-ab676e",
+  "run_tag": "v1t39ea2",
+  "started": "2026-11-11T18:12:58.755652+00:00",
+  "turns": [
+    {
+      "i": 1,
+      "customer": "Hi, we just moved to Cedar Park and have never used a boarding place. Our pup Ziggy is 30 lbs.",
+      "blocks": [
+        "Welcome to Cedar Park! I can help you explore Happy Tails’ **boarding, daycare, grooming, or training** options. Since you mentioned boarding, I can help you understand the plan and estimate the cost for Ziggy; for an estimate, tell me how many nights you’re considering and whether you’re interested in a Standard or Luxury suite. I can’t check availability or make a reservation."
+      ],
+      "is_error": false,
+      "latency_s": 5.38
+    },
+    {
+      "i": 2,
+      "customer": "We're new! Can we use the First Stay & Play offer for 3 nights in a luxury suite for our pup Ziggy, Jan 26 to 29 2027?",
+      "blocks": [
+        "I can’t confirm whether Happy Tails’ **First Stay & Play** offer applies—the offer terms aren’t documented in the information I have. So I can’t say whether Ziggy’s Luxury Suite stay qualifies.\n\nFor **January 26–29, 2027** (3 nights), the listed Luxury Suite rate gives a **base estimate of $261**: 3 nights × $87 per night for one guest. This estimate does **not** include any qualifying offer or any peak/holiday charges; whether those dates qualify for a peak charge is also unconfirmed. It’s for planning only, not a reservation or availability check.",
+        "[Tool Result: web_search] (output omitted)",
+        "[Tool Result: calculate_happy_tails_estimate] (output omitted)",
+        "[Tool Result: firecrawl_scrape] (output omitted)",
+        "[Tool Result: web_search] (output omitted)"
+      ],
+      "is_error": false,
+      "latency_s": 13.64
+    },
+    {
+      "i": 3,
+      "customer": "Ok so if we do 3 nights in a standard room with the offer, what do we pay?",
+      "blocks": [
+        "For Ziggy’s **3-night Standard Suite stay (January 26–29, 2027)**, the base estimate is **$186** (3 × $62 per night). I can’t confirm whether the First Stay & Play offer applies or calculate a discount without verified offer terms, so **$186 does not include the offer**. It also excludes any peak/holiday charge, which is unconfirmed for those dates. This is a planning estimate, not a confirmed booking or final amount.",
+        "[Tool Result: calculate_happy_tails_estimate] (output omitted)"
+      ],
+      "is_error": false,
+      "latency_s": 4.78
+    }
+  ],
+  "status": "ok",
+  "finished": "2026-11-11T18:13:24.284936+00:00"
+}

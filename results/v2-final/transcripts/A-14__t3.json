@@ -1,0 +1,32 @@
+{
+  "case": "A-14",
+  "trial": 3,
+  "conversation_id": "v2final_20261112-101154-A-14-t3-17cf6b",
+  "run_tag": "v2finalt31af6",
+  "started": "2026-11-12T04:45:13.911943+00:00",
+  "turns": [
+    {
+      "i": 1,
+      "customer": "Hey, planning a luxury suite for my dog Rosie, Jan 26-29 2027.",
+      "blocks": [
+        "**Rosie’s luxury boarding estimate: $270** for January 26–29, 2027 (3 nights), at $90 per day.\n\nThe resort bills boarding by the day, and Happy Tails staff confirm the final total. Peak or seasonal pricing may apply, but the published information doesn’t say whether these dates qualify or what the amount would be. This is a planning estimate, not a reservation or availability confirmation.",
+        "# Rosie’s luxury boarding estimate\n\nFor Rosie’s stay from January 26 to January 29, 2027 (3 nights).\n\nService: Dog boarding · Luxury Suite\n\nPet: Rosie\n\n- Luxury Suite · 3 nights: $270.00. 3 nights × $90 per day for this estimate.\n\n**Estimated total:** $270.00\n\nPlanning estimate only—not a reservation or availability confirmation. The resort bills by the day; Happy Tails staff confirm the final total.\n\n- Peak or seasonal pricing may apply; the website does not specify whether these dates qualify or the amount. Rates may change without notice.",
+        "[Tool Result: calculate_happy_tails_estimate] (output omitted)"
+      ],
+      "is_error": false,
+      "latency_s": 5.95
+    },
+    {
+      "i": 2,
+      "customer": "If I book a luxury suite for the end of January and my trip gets cancelled, how much notice do I need to give, and is there a fee?",
+      "blocks": [
+        "For a **non-holiday** luxury-suite boarding reservation, Happy Tails’ published policy requires **at least 24 hours’ notice** to cancel. A late cancellation or no-show fee is **$35 per Luxury Suite**.\n\nIf your end-of-January dates include a holiday, different rules apply: dog boarding requires a **$150 deposit per Luxury Suite** and **five days’ notice**; a late cancellation or no-show forfeits the deposit.",
+        "[Tool Result: filesystem] (output omitted)"
+      ],
+      "is_error": false,
+      "latency_s": 4.38
+    }
+  ],
+  "status": "ok",
+  "finished": "2026-11-12T04:45:25.716966+00:00"
+}

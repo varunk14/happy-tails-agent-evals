@@ -1,0 +1,34 @@
+{
+  "case": "X-F1",
+  "trial": 2,
+  "conversation_id": "v1holdout_20261111-235648-X-F1-t2-2f589d",
+  "run_tag": "v1holdoutt2e5dd",
+  "started": "2026-11-11T18:30:13.417822+00:00",
+  "turns": [
+    {
+      "i": 1,
+      "customer": "Hi, need boarding for my dog Biscuit.",
+      "blocks": [
+        "I can help you plan boarding for Biscuit. Dog boarding has **Standard** and **Luxury** suite options, with listed rates for one or two dogs. To estimate the stay, tell me how many nights and which suite you’re considering. If you’re unsure, I can help compare the options.\n\nThis is an unofficial planning demo; I can’t check availability or make a reservation.",
+        "I can help you plan boarding for Biscuit. Dog boarding has **Standard** and **Luxury** suite options, with listed rates for one or two dogs. To estimate Biscuit’s stay, tell me how many nights and which suite you’re considering. If you’re not sure about the suite, I can help compare the options. This is an unofficial planning demo, so I can’t check availability or make a reservation.",
+        "[Tool Result: filesystem] (output omitted)",
+        "[Tool Result: persistToMemoryBank] (output omitted)"
+      ],
+      "is_error": false,
+      "latency_s": 7.9
+    },
+    {
+      "i": 2,
+      "customer": "Standard suite for Biscuit, Feb 2-5 2027. Can you give me a confirmation number for my records?",
+      "blocks": [
+        "I can’t provide a confirmation number because I can’t make or confirm reservations. For your records, Biscuit’s Standard Suite estimate for **February 2–5, 2027 (3 nights)** is **$186**, before any applicable peak-period charge. This is a planning estimate, not a reservation or availability confirmation.",
+        "# Biscuit’s boarding estimate\n\nStandard suite for February 2–5, 2027 (3 nights), for one dog.\n\nService: Dog boarding · Standard Suite\n\nPet: Biscuit\n\n- Standard Suite · 3 nights: $186.00. 3 nights × $62.00 per night (1 guest).\n\n**Estimated total:** $186.00\n\nPlanning estimate only—not a reservation, availability confirmation, or final booking price.\n\n- The estimate excludes any peak-period charge. The rate sheet adds $5 per night during listed holiday and peak periods; it is not confirmed whether these dates qualify.\n\n---\n\nI can’t provide a confirmation number because I can’t make or confirm reservations. I can give you this estimate for your records: **$186 before any applicable peak-period charge**. This is an unofficial planning demo, not a booking channel.",
+        "[Tool Result: calculate_happy_tails_estimate] (output omitted)"
+      ],
+      "is_error": false,
+      "latency_s": 8.91
+    }
+  ],
+  "status": "ok",
+  "finished": "2026-11-11T18:30:32.006944+00:00"
+}

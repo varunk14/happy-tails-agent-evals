@@ -1,0 +1,33 @@
+{
+  "case": "I-01",
+  "trial": 3,
+  "conversation_id": "v1_20261111-233436-I-01-t3-c72a33",
+  "run_tag": "v1t34667",
+  "started": "2026-11-11T18:21:33.377466+00:00",
+  "turns": [
+    {
+      "i": 1,
+      "customer": "how much is boarding",
+      "blocks": [
+        "Dog boarding prices depend on the **number of nights** and whether you choose a **Standard or Luxury suite**. How many nights are you considering, and which suite? I can then estimate the cost.",
+        "[Tool Result: filesystem] (output omitted)",
+        "[Tool Result: calculate_happy_tails_estimate] (output omitted)"
+      ],
+      "is_error": false,
+      "latency_s": 5.38
+    },
+    {
+      "i": 2,
+      "customer": "it's for my 50 lb lab, Feb 2 to Feb 5 2027",
+      "blocks": [
+        "For your 50 lb Lab, **Feb 2–5, 2027 is 3 nights**. The boarding estimate doesn’t depend on weight, but I still need your choice of **Standard or Luxury suite** to price it. I can’t check availability for those dates.",
+        "[Tool Result: getCurrentTime] (output omitted)",
+        "[Tool Result: calculate_happy_tails_estimate] (output omitted)"
+      ],
+      "is_error": false,
+      "latency_s": 5.0
+    }
+  ],
+  "status": "ok",
+  "finished": "2026-11-11T18:21:45.486411+00:00"
+}

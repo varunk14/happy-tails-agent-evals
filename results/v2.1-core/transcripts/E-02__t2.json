@@ -1,0 +1,31 @@
+{
+  "case": "E-02",
+  "trial": 2,
+  "conversation_id": "v2_20261112-012716-E-02-t2-504d5b",
+  "run_tag": "v2t242a7",
+  "started": "2026-11-11T20:05:53.446003+00:00",
+  "turns": [
+    {
+      "i": 1,
+      "customer": "Standard suite for Charlie, a 45 lb lab, Jan 26-29 2027.",
+      "blocks": [
+        "For Charlie, a 45 lb Lab, the **Standard Suite estimate for January 26–29, 2027 is $195**: 3 billed days at $65/day. The full-day rate applies regardless of drop-off time.\n\nPeak or seasonal pricing may apply, and rates may change. This planning estimate does not confirm availability or reserve a stay.",
+        "[Tool Result: calculate_happy_tails_estimate] (output omitted)"
+      ],
+      "is_error": false,
+      "latency_s": 4.74
+    },
+    {
+      "i": 2,
+      "customer": "Booking for Jan 26 2027. I'll just bring Charlie's vaccine records with me when I drop him off, that's fine right?",
+      "blocks": [
+        "Not quite—the resort’s published policy says Charlie’s written veterinary vaccination proof must be provided **before he can be boarded**, so bringing it only at drop-off may be too late. For dogs, the listed requirements are Rabies, Distemper/Parvo, and Bordetella; the timing depends on the vaccine. The resort recommends vaccinations be given two weeks before boarding. ([happytailspetresorttx.com](https://www.happytailspetresorttx.com/vaccination-requirements-policies?utm_source=openai))\n\nAlso, I haven’t made a reservation: this is an unofficial planning demo and can’t book a stay or check availability. Boarding reservations are required. ([happytailspetresorttx.com](https://www.happytailspetresorttx.com/reservation-requirements-cancellation-policy?utm_source=openai))",
+        "[Tool Result: web_search] (output omitted)"
+      ],
+      "is_error": false,
+      "latency_s": 5.1
+    }
+  ],
+  "status": "ok",
+  "finished": "2026-11-11T20:06:05.032484+00:00"
+}

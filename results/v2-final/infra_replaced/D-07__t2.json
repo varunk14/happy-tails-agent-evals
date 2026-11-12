@@ -1,0 +1,11 @@
+{
+  "case": "D-07",
+  "trial": 2,
+  "conversation_id": "v2final_20261112-101154-D-07-t2-9fc075",
+  "run_tag": "v2finalt2fdec",
+  "started": "2026-11-12T04:52:21.997281+00:00",
+  "turns": [],
+  "status": "infra_error",
+  "error": "TimeoutError: The read operation timed out",
+  "finished": "2026-11-12T04:56:23.937210+00:00"
+}

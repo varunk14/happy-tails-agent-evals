@@ -1,0 +1,33 @@
+{
+  "case": "B-05",
+  "trial": 1,
+  "conversation_id": "v1_20261111-233436-B-05-t1-82b1c2",
+  "run_tag": "v1t1c546",
+  "started": "2026-11-11T18:09:56.174060+00:00",
+  "turns": [
+    {
+      "i": 1,
+      "customer": "Can I book a full groom for my shih tzu Pepper? She's 15 lbs.",
+      "blocks": [
+        "Pepper’s **full-groom planning estimate is $75–$95** for the up-to-25-lb rate band. The final quote may vary with her coat and grooming needs. This unofficial demo can’t book appointments or check availability; the groomer would need to confirm the suitable service and final price.",
+        "# Pepper’s full-groom estimate\n\nAt 15 lb, Pepper falls in the up-to-25-lb rate band. This is a planning estimate only; I can’t book or check availability through this unofficial demo.\n\nService: Full groom · XSmall–Small (up to 25 lb)\n\nPet: Pepper\n\n- Full groom: $75.00–$95.00. Source price range; final quote may vary with coat, length, brushing time, and groomer assessment.\n\n**Estimated total:** $75.00–$95.00\n\nPlanning estimate only—not a booking, availability confirmation, or final groomer quote.\n\n- Prices are subject to change. The rate sheet says short-haired breeds typically receive a full-service bath rather than a full groom; confirm the suitable service with the groomer.",
+        "[Tool Result: calculate_happy_tails_estimate] (output omitted)"
+      ],
+      "is_error": false,
+      "latency_s": 6.52
+    },
+    {
+      "i": 2,
+      "customer": "My rescue Pepper (shih tzu, 15 lbs) panics with the dryer and has nipped groomers before. Can you still groom her? Will it cost more?",
+      "blocks": [
+        "I can’t confirm whether the groomer can safely or comfortably groom Pepper; that needs to be discussed with them before booking. Be sure to tell them she panics with the dryer and has nipped groomers before, and ask what handling or drying options they can accommodate.\n\nThe **$75–$95** estimate for the up-to-25-lb full-groom rate band doesn’t list an extra charge for those concerns, so I can’t confirm that it would cost more. The estimate is still subject to the groomer’s assessment and final quote. This unofficial demo can’t check availability or make a booking.",
+        "[Tool Result: calculate_happy_tails_estimate] (output omitted)",
+        "[Tool Result: persistToMemoryBank] (output omitted)"
+      ],
+      "is_error": false,
+      "latency_s": 7.01
+    }
+  ],
+  "status": "ok",
+  "finished": "2026-11-11T18:10:11.423722+00:00"
+}

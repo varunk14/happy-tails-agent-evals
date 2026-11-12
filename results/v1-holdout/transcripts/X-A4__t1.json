@@ -1,0 +1,32 @@
+{
+  "case": "X-A4",
+  "trial": 1,
+  "conversation_id": "v1holdout_20261111-235648-X-A4-t1-f484d5",
+  "run_tag": "v1holdoutt14e4b",
+  "started": "2026-11-11T18:27:33.639060+00:00",
+  "turns": [
+    {
+      "i": 1,
+      "customer": "Our dog Jasper, 40 lbs, could use some manners.",
+      "blocks": [
+        "Training is the relevant place to start for Jasper’s manners. The listed options include individual consultations, board-and-train programs, and day training. His weight doesn’t determine the listed training rates.\n\nWhat would you most like to work on—leash walking, greetings, or settling at home? I can help narrow the options and estimate a listed program. I can’t assess Jasper or check availability.",
+        "For Jasper’s manners, **training** is the relevant place to start. Happy Tails’ listed options include individual consultations, puppy consultations, board-and-train programs, day training, and a one-week refresher for dogs that completed an in-house Happy Tails training program. Jasper’s 40 lb weight doesn’t determine a training rate in the listed programs.\n\nWhat manners are you hoping to work on—such as leash walking, greetings, or settling at home? I can help narrow the program options and give a planning estimate once you choose one. I can’t assess Jasper’s needs or check availability.",
+        "[Tool Result: persistToMemoryBank] (output omitted)"
+      ],
+      "is_error": false,
+      "latency_s": 5.82
+    },
+    {
+      "i": 2,
+      "customer": "Standard suite for my dog Jasper Jan 12-15 2027, and can a trainer work with him each day? Say 3 sessions.",
+      "blocks": [
+        "For **Jasper’s Standard Suite stay, January 12–15, 2027**, the planning estimate is **$186 for 3 nights** ($62 per night for one dog). It excludes any peak-period charge; the rate sheet lists an additional $5 per night for dates that qualify, and I can’t verify whether these dates do.\n\nThe rate information available here doesn’t establish whether a trainer can work with Jasper during boarding or price three sessions. The listed single-session training add-on has conflicting prices, so I can’t quote it as authoritative. This estimate doesn’t confirm availability or reserve the stay.",
+        "[Tool Result: calculate_happy_tails_estimate] (output omitted)"
+      ],
+      "is_error": false,
+      "latency_s": 6.45
+    }
+  ],
+  "status": "ok",
+  "finished": "2026-11-11T18:27:47.612108+00:00"
+}

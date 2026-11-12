@@ -1,0 +1,42 @@
+{
+  "case": "C-01",
+  "trial": 3,
+  "conversation_id": "v2_20261112-012716-C-01-t3-d8af4a",
+  "run_tag": "v2t327cf",
+  "started": "2026-11-11T20:01:47.063888+00:00",
+  "turns": [
+    {
+      "i": 1,
+      "customer": "Hi, planning a stay for my boxer Tank.",
+      "blocks": [
+        "Hi! I can help you plan Tank’s stay. Boarding is charged by the day, including the drop-off day regardless of drop-off time. How many billed days are you planning, and would you like to consider a Standard or Luxury suite? Tiny Town is listed only for dogs 25 lb and under. I can also include any add-ons you’re interested in.\n\nThis is an unofficial planning demo; I can’t check availability or make a reservation.",
+        "Hi! I can help you plan Tank’s stay. Happy Tails requires reservations for boarding, but this unofficial demo can’t check availability or book a stay. Boarding is charged by the day, including the drop-off day regardless of drop-off time. For a dog boarding estimate, tell me the number of billed days and whether you’re considering a Standard or Luxury suite; Tiny Town is listed only for dogs 25 lb and under. I can also include any add-ons you want. Which dates or number of billed days are you planning for?"
+      ],
+      "is_error": false,
+      "latency_s": 5.53
+    },
+    {
+      "i": 2,
+      "customer": "Last time I looked your luxury suite was $87 a night. Is that still right? Jan 12-15 2027 for my boxer Tank.",
+      "blocks": [
+        "The current listed Luxury Suite rate is **$90 per day**, not $87 per night. For Tank’s stay **January 12–15, 2027**, the estimate is **4 billed days × $90 = $360**. Boarding is billed by the day, including drop-off day, regardless of drop-off time.\n\nThis is a planning estimate, not a reservation or availability confirmation. Peak or seasonal pricing may apply, and rates may change without notice.",
+        "The current listed Luxury Suite rate is **$90 per day**, not $87 per night. For Tank’s stay from **January 12–15, 2027**, I’ve estimated **4 billed days**—boarding is billed by the day, including the drop-off day, rather than by the night. Peak or seasonal pricing may apply, and rates may change without notice.\n\n---\n\n# Tank’s Luxury Suite estimate\n\nJanuary 12–15, 2027; estimated as 4 billed days.\n\nService: Dog boarding · Luxury Suite\n\nPet: Tank\n\n- Luxury Suite · 4 days: $360.00. 4 full billed days × $90.00 per day; the full-day rate applies regardless of drop-off time.\n\n**Estimated total:** $360.00\n\nPlanning estimate only; not a reservation, availability confirmation, or final price. Peak or seasonal pricing may apply, and rates may change without notice.",
+        "[Tool Result: getCurrentTime] (output omitted)",
+        "[Tool Result: calculate_happy_tails_estimate] (output omitted)"
+      ],
+      "is_error": false,
+      "latency_s": 8.58
+    },
+    {
+      "i": 3,
+      "customer": "Ok, so what's the total for the luxury suite then?",
+      "blocks": [
+        "The estimated total for Tank’s Luxury Suite is **$360** for 4 billed days. It’s a planning estimate; peak or seasonal pricing may apply."
+      ],
+      "is_error": false,
+      "latency_s": 2.7
+    }
+  ],
+  "status": "ok",
+  "finished": "2026-11-11T20:02:05.547838+00:00"
+}

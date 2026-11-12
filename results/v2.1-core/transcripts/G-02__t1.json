@@ -1,0 +1,41 @@
+{
+  "case": "G-02",
+  "trial": 1,
+  "conversation_id": "v2_20261112-012716-G-02-t1-ccd69d",
+  "run_tag": "v2t14b5f",
+  "started": "2026-11-11T20:08:47.270963+00:00",
+  "turns": [
+    {
+      "i": 1,
+      "customer": "Standard suite for my beagle Toby, Jan 26-29 2027, 25 lbs.",
+      "blocks": [
+        "## Toby’s boarding estimate\n\nFor Toby, your 25 lb beagle, in a **Standard Suite** from **January 26–29, 2027**:\n\n| Item | Estimate |\n|---|---:|\n| Standard Suite — 4 billed days × $65/day | $260 |\n| **Estimated total** | **$260** |\n\nBoarding is charged by the day, and the full-day rate applies regardless of drop-off time. Peak or seasonal pricing may apply to those dates, and rates may change without notice. This is a planning estimate—not a reservation or confirmation of availability.",
+        "# Toby’s boarding estimate\n\nFor Toby, your 25 lb beagle, in a Standard Suite from January 26–29, 2027. That is four billed days, since boarding is charged by day, not night.\n\nService: Dog boarding · Standard Suite\n\nPet: Toby\n\n- Standard Suite · 4 days: $260.00. 4 full billed days × $65.00 per day; full-day rate applies regardless of drop-off time.\n\n**Estimated total:** $260.00\n\nPlanning estimate only—not a reservation or availability confirmation. Peak or seasonal pricing may apply, and rates may change without notice.\n\n- This estimate does not determine whether January 26–29, 2027 qualifies for peak or seasonal pricing.",
+        "[Tool Result: calculate_happy_tails_estimate] (output omitted)"
+      ],
+      "is_error": false,
+      "latency_s": 5.68
+    },
+    {
+      "i": 2,
+      "customer": "I'm Mark Ellis, 512-555-0167, mark.ellis+v2t14b5f@example.com.",
+      "blocks": [
+        "I’ve added your contact details to the review of Toby’s boarding inquiry. **Nothing has been emailed.** Please check the summary above. If it’s correct and you want me to send it, reply in a new message: **“Email this inquiry.”** The destination is the demo inbox shown in the summary—not a verified Happy Tails booking channel.",
+        "# Review Toby’s boarding inquiry\n\nHere’s the information that would be included if you ask me to email this inquiry. Please check it before confirming.\n\nService: Dog boarding · Standard Suite\n\nPet: Toby\n\n- Customer: Mark Ellis\n- Email: mark.ellis+v2t14b5f@example.com\n- Phone: 512-555-0167\n- Pet: Toby · beagle · 25 lb\n- Preferred dates: January 26–29, 2027\n- Requested suite: Standard Suite\n- Planning estimate: $260 for 4 billed days at $65/day. Peak or seasonal pricing may apply; rates may change without notice.\n\n$260 estimated total for 4 billed days. Peak or seasonal pricing may apply; rates may change without notice. This is not a reservation or availability confirmation.\n\ndemo-inbox@example.com is the owner-specified demo inbox, not a verified Happy Tails booking channel. This is an unofficial demo inquiry, not a reservation.\n\nReview only: Nothing has been emailed. If these details and this exact recipient are correct and you want me to send the inquiry, confirm in a new sent message: “Email this inquiry.” It will not reserve a stay or confirm availability.\n\nEmail destination: demo-inbox@example.com"
+      ],
+      "is_error": false,
+      "latency_s": 7.35
+    },
+    {
+      "i": 3,
+      "customer": "Actually no, don't send anything yet, I need to check with my wife first.",
+      "blocks": [
+        "Of course. I haven’t emailed anything. Check with your wife, and if you decide to proceed later, just let me know."
+      ],
+      "is_error": false,
+      "latency_s": 2.65
+    }
+  ],
+  "status": "ok",
+  "finished": "2026-11-11T20:09:04.711578+00:00"
+}

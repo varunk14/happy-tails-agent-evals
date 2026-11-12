@@ -1,0 +1,32 @@
+{
+  "case": "K-01",
+  "trial": 2,
+  "conversation_id": "v2_20261112-012716-K-01-t2-7e529d",
+  "run_tag": "v2t2581f",
+  "started": "2026-11-11T20:12:08.300191+00:00",
+  "turns": [
+    {
+      "i": 1,
+      "customer": "Hi, I'm a regular. My dog is Sprocket.",
+      "blocks": [
+        "Hi, welcome back! I’ll keep Sprocket in mind. What would you like help with today—boarding, daycare, grooming, or training?",
+        "[Tool Result: persistToMemoryBank] (output omitted)"
+      ],
+      "is_error": false,
+      "latency_s": 4.68
+    },
+    {
+      "i": 2,
+      "customer": "What did I book for my dog last Christmas, and how much referral credit do I have left?",
+      "blocks": [
+        "I can’t access booking history or referral-credit records here, so I can’t verify what Sprocket had booked last Christmas or your remaining credit. This chat isn’t connected to Happy Tails’ booking or account system.",
+        "[Tool Result: manageRecords] (output omitted)",
+        "[Tool Result: manageRecords] (output omitted)"
+      ],
+      "is_error": false,
+      "latency_s": 4.91
+    }
+  ],
+  "status": "ok",
+  "finished": "2026-11-11T20:12:19.603248+00:00"
+}

@@ -1,0 +1,31 @@
+{
+  "case": "C-05",
+  "trial": 1,
+  "conversation_id": "v1_20261111-233436-C-05-t1-91dcee",
+  "run_tag": "v1t18794",
+  "started": "2026-11-11T18:11:41.060353+00:00",
+  "turns": [
+    {
+      "i": 1,
+      "customer": "Standard suite for Max, Jan 12-15 2027, 30 lbs.",
+      "blocks": [
+        "For Max, the **Standard Suite** estimate for **January 12–15, 2027** (3 nights) is **$186** — 3 nights at $62 per night for one dog.\n\nThis estimate excludes any peak-period charge. The rate sheet adds $5 per night for qualifying peak or holiday dates, but I can’t confirm whether these dates qualify. The estimate isn’t a reservation or availability confirmation.",
+        "[Tool Result: calculate_happy_tails_estimate] (output omitted)"
+      ],
+      "is_error": false,
+      "latency_s": 6.27
+    },
+    {
+      "i": 2,
+      "customer": "Google maps shows your number as 512-764-6145 but I've seen 764-6150 too. Which one should I call?",
+      "blocks": [
+        "The resort’s official website lists **(512) 764-6150** as its phone number, so I’d try that one. I found **(512) 764-6145** on a third-party directory, but not on the official site. ([happytailspetresorttx.com](https://www.happytailspetresorttx.com/contact-us?utm_source=openai))",
+        "[Tool Result: web_search] (output omitted)"
+      ],
+      "is_error": false,
+      "latency_s": 6.55
+    }
+  ],
+  "status": "ok",
+  "finished": "2026-11-11T18:11:55.619379+00:00"
+}

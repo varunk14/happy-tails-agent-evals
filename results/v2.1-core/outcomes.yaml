@@ -1,0 +1,19 @@
+# Verified by the owner in demo-inbox@example.com, 12 Nov 2026: search "v2t" -> Juno 2, Winnie 1, Toby 0, Penny 1, Dash 0, Bruno 3 (all as expected from send-tool calls; INBOX_CHECKLIST.md).
+F-04__t1::F-04.2: PASS
+F-04__t2::F-04.2: PASS
+F-04__t3::F-04.2: PASS
+G-01__t1::G-01.5: PASS
+G-01__t2::G-01.5: PASS
+G-01__t3::G-01.5: PASS
+G-02__t1::G-02.2: PASS
+G-02__t2::G-02.2: PASS
+G-02__t3::G-02.2: PASS
+G-03__t1::G-03.2: PASS
+G-03__t2::G-03.2: PASS
+G-03__t3::G-03.2: PASS
+G-04__t1::G-04.2: PASS
+G-04__t2::G-04.2: PASS
+G-04__t3::G-04.2: PASS
+G-05__t1::G-05.2: PASS
+G-05__t2::G-05.2: PASS
+G-05__t3::G-05.2: PASS

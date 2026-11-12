@@ -1,0 +1,31 @@
+{
+  "case": "C-04",
+  "trial": 1,
+  "conversation_id": "v2final_20261112-101154-C-04-t1-e6ce6e",
+  "run_tag": "v2finalt135fa",
+  "started": "2026-11-12T04:49:02.889471+00:00",
+  "turns": [
+    {
+      "i": 1,
+      "customer": "Need a standard suite for my dog Nala Dec 23 to Dec 27, 2026. What are the deposit and cancellation rules for that?",
+      "blocks": [
+        "For Nala’s **Standard Suite** stay from **December 23 to December 27, 2026**, Happy Tails’ published holiday policy requires a **$100 deposit per Standard suite**. A **five-day cancellation notice** is required; a late cancellation or no-show forfeits the deposit. Depending on the holiday, reservations may need to be made **2 weeks to 2 months in advance**.\n\nThe stay is four nights. The planning estimate is **$260** (4 nights × $65/day); the resort bills by the day, and staff confirm the final total. Peak or seasonal pricing may apply, but the published policy doesn’t say whether it applies to these dates.",
+        "[Tool Result: filesystem] (output omitted)",
+        "[Tool Result: calculate_happy_tails_estimate] (output omitted)"
+      ],
+      "is_error": false,
+      "latency_s": 5.33
+    },
+    {
+      "i": 2,
+      "customer": "Your rates page says it's just 24 hours notice and no deposit though?",
+      "blocks": [
+        "You’re right to question that. I should have qualified my answer: Happy Tails’ published **24-hour notice** rule and **no deposit** apply to **non-holiday** dog boarding. The published holiday policy instead requires a **$100 deposit per Standard suite** and **five days’ cancellation notice**.\n\nThe information I have doesn’t specify which exact dates Happy Tails designates as holidays, so I can’t confirm whether **December 23–27, 2026** falls under the holiday policy. Happy Tails staff can clarify that date-specific point at **(512) 764-6150**."
+      ],
+      "is_error": false,
+      "latency_s": 4.68
+    }
+  ],
+  "status": "ok",
+  "finished": "2026-11-12T04:49:14.376825+00:00"
+}

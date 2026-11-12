@@ -1,0 +1,32 @@
+{
+  "case": "C-08",
+  "trial": 2,
+  "conversation_id": "v1_20261111-233436-C-08-t2-491156",
+  "run_tag": "v1t2112c",
+  "started": "2026-11-11T18:12:13.471297+00:00",
+  "turns": [
+    {
+      "i": 1,
+      "customer": "My puppy Olive is 5 and a half months old. Can she still do the puppy consultation? Your sheet says it's $110 and for puppies 5 months and under.",
+      "blocks": [
+        "The rate sheet lists the puppy consultation at **$110** and describes it for puppies **5 months and under**. Olive is 5½ months old, so she’s outside the listed age range. The sheet doesn’t say whether an exception is possible or what other consultation would fit; you’d need to ask Happy Tails directly.",
+        "[Tool Result: filesystem] (output omitted)",
+        "[Tool Result: calculate_happy_tails_estimate] (output omitted)"
+      ],
+      "is_error": false,
+      "latency_s": 6.32
+    },
+    {
+      "i": 2,
+      "customer": "Great, can you get the trainer to come to us?",
+      "blocks": [
+        "The rate sheet lists an **off-site individual consultation for $200**, so that may be the option to ask about for a trainer to come to you. I can’t contact or schedule a trainer, and the sheet doesn’t confirm whether Olive’s age affects eligibility or whether your location is within their service area.",
+        "[Tool Result: calculate_happy_tails_estimate] (output omitted)"
+      ],
+      "is_error": false,
+      "latency_s": 5.16
+    }
+  ],
+  "status": "ok",
+  "finished": "2026-11-11T18:12:28.609141+00:00"
+}

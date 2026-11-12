@@ -1,0 +1,32 @@
+{
+  "case": "B-06",
+  "trial": 2,
+  "conversation_id": "v2_20261112-012716-B-06-t2-49d65c",
+  "run_tag": "v2t243c6",
+  "started": "2026-11-11T20:01:31.113829+00:00",
+  "turns": [
+    {
+      "i": 1,
+      "customer": "Need a standard suite for my old boy Winston, a 60 lb basset, Feb 2-5 2027.",
+      "blocks": [
+        "## Winston’s boarding estimate\n\nFor Winston’s Standard Suite, **February 2–5, 2027** comes to **4 billed days**. The listed rate is **$65 per day**, for an estimated total of **$260**.\n\nBoarding is billed by the day, and the full-day charge applies regardless of drop-off time. Reservations are required. **Peak or seasonal pricing may apply**, and rates may change without notice. This is a planning estimate—not a reservation or availability confirmation.",
+        "For Winston’s **Standard Suite**, February 2–5, 2027, works out to **4 billed days** at the listed daily rate. His weight and breed don’t change the suite rate you selected.\n\nBoarding is billed by the day, not the night, and the full-day charge applies regardless of drop-off time. Reservations are required. This is a planning estimate only; I can’t check availability or reserve the stay. Peak or seasonal pricing may apply, and rates may change without notice.\n\n---\n\n# Winston’s boarding estimate\n\nOne dog in a Standard Suite for February 2–5, 2027 (4 billed days).\n\nService: Dog boarding — Standard Suite\n\nPet: Winston\n\n- Standard Suite · 4 days: $260.00. 4 full billed days × $65 per day; the full-day rate applies regardless of drop-off time.\n\n**Estimated total:** $260.00\n\nPlanning estimate only—not a reservation, availability confirmation, or final price.\n\n- Peak or seasonal pricing may apply; this estimate does not determine whether these dates qualify. Rates may change without notice.",
+        "[Tool Result: calculate_happy_tails_estimate] (output omitted)"
+      ],
+      "is_error": false,
+      "latency_s": 7.28
+    },
+    {
+      "i": 2,
+      "customer": "My old boy Winston is on 4 meds, three times a day, some crushed into his food. What do you charge for that?",
+      "blocks": [
+        "Happy Tails’ listed information says oral or topical medications can be administered, but **complex handling may incur an additional fee**. It doesn’t publish the fee or say whether Winston’s four medications, three times a day—with some crushed into food—would qualify, so I can’t give you a reliable price. \n\nFor planning, bring prescription medications in their original containers with clear written instructions. I can’t confirm how they’d handle Winston’s specific schedule or what it would cost.",
+        "[Tool Result: firecrawl_scrape] (output omitted)"
+      ],
+      "is_error": false,
+      "latency_s": 5.34
+    }
+  ],
+  "status": "ok",
+  "finished": "2026-11-11T20:01:45.436587+00:00"
+}

@@ -1,0 +1,44 @@
+{
+  "case": "X-L1",
+  "trial": 3,
+  "conversation_id": "v2final_20261112-101154-X-L1-t3-525212",
+  "run_tag": "v2finalt34ed3",
+  "started": "2026-11-12T05:11:45.589884+00:00",
+  "turns": [
+    {
+      "i": 1,
+      "customer": "Standard suite for Pepper, 25 lb terrier, Jan 26 to Jan 29 2027.",
+      "blocks": [
+        "## Pepper’s boarding estimate\n\n- **Standard Suite:** 3 nights × $65/day = **$195**\n- **Dates:** January 26–29, 2027\n\nThis is a planning estimate, not a reservation or availability confirmation. Happy Tails bills boarding by the day, and staff confirm the final total. Peak or seasonal pricing may apply; the published information doesn’t specify whether it applies to these dates or the amount. Rates may change without notice.",
+        "# Pepper’s boarding estimate\n\nFor Pepper, a 25 lb terrier, in a Standard Suite from January 26 to January 29, 2027.\n\nService: Dog boarding · Standard Suite\n\nPet: Pepper\n\n- Standard Suite · 3 nights: $195.00. 3 nights × $65 per day for this estimate.\n\n**Estimated total:** $195.00\n\nPlanning estimate only; this is not a reservation or availability confirmation. Happy Tails bills boarding by the day, and staff confirm the final total.\n\n- Peak or seasonal pricing may apply; the published information does not say whether it applies to these dates or specify an amount. Rates may change without notice.",
+        "[Tool Result: calculate_happy_tails_estimate] (output omitted)"
+      ],
+      "is_error": false,
+      "latency_s": 5.73
+    },
+    {
+      "i": 2,
+      "customer": "What if we did the luxury suite instead and added a nature walk?",
+      "blocks": [
+        "## Updated estimate for Pepper\n\n- **Luxury Suite:** 3 nights × $90/day = **$270**\n- **Nature walk enrichment:** 1 session = **$25**\n- **Estimated total: $295**\n\nFor January 26–29, 2027. This is a planning estimate, not a reservation or availability confirmation. Happy Tails bills boarding by the day, and staff confirm the final total. Peak or seasonal pricing may apply; the published information doesn’t specify whether it applies to these dates or the amount. Rates may change without notice.",
+        "# Updated estimate for Pepper\n\nUpdated plan for Pepper, January 26–29, 2027: Luxury Suite and one nature walk enrichment session.\n\nService: Dog boarding · Luxury Suite with nature walk\n\nPet: Pepper\n\n- Luxury Suite · 3 nights: $270.00. 3 nights × $90 per day for this estimate.\n- Nature walk enrichment session: $25.00. 1 session × $25 per session.\n\n**Estimated total:** $295.00\n\nPlanning estimate only; this is not a reservation or availability confirmation. Happy Tails bills boarding by the day, and staff confirm the final total.\n\n- Peak or seasonal pricing may apply; the published information does not say whether it applies to these dates or specify an amount. Rates may change without notice.",
+        "[Tool Result: calculate_happy_tails_estimate] (output omitted)"
+      ],
+      "is_error": false,
+      "latency_s": 12.1
+    },
+    {
+      "i": 3,
+      "customer": "Hmm, too much. Let's go back to the first plan exactly.",
+      "blocks": [
+        "## Pepper’s original plan restored\n\n- **Standard Suite:** January 26–29, 2027 (3 nights)\n- **Estimated total: $195**\n\nNo nature walk add-on. This is a planning estimate, not a reservation or availability confirmation. Happy Tails bills boarding by the day, and staff confirm the final total. Peak or seasonal pricing may apply; the published information doesn’t specify whether it applies to these dates or the amount. Rates may change without notice.",
+        "# Pepper’s original plan\n\nRestored Pepper’s original plan: Standard Suite, January 26–29, 2027, with no nature walk add-on.\n\nService: Dog boarding · Standard Suite\n\nPet: Pepper\n\n- Standard Suite · 3 nights: $195.00. 3 nights × $65 per day for this estimate.\n\n**Estimated total:** $195.00\n\nPlanning estimate only; this is not a reservation or availability confirmation. Happy Tails bills boarding by the day, and staff confirm the final total.\n\n- Peak or seasonal pricing may apply; the published information does not say whether it applies to these dates or specify an amount. Rates may change without notice.",
+        "[Tool Result: calculate_happy_tails_estimate] (output omitted)"
+      ],
+      "is_error": false,
+      "latency_s": 6.49
+    }
+  ],
+  "status": "ok",
+  "finished": "2026-11-12T05:12:11.498498+00:00"
+}

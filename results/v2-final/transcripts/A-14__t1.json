@@ -1,0 +1,32 @@
+{
+  "case": "A-14",
+  "trial": 1,
+  "conversation_id": "v2final_20261112-101154-A-14-t1-0198a2",
+  "run_tag": "v2finalt18817",
+  "started": "2026-11-12T04:45:03.565544+00:00",
+  "turns": [
+    {
+      "i": 1,
+      "customer": "Hey, planning a luxury suite for my dog Rosie, Jan 26-29 2027.",
+      "blocks": [
+        "Rosie’s **Luxury Suite** boarding estimate for **January 26–29, 2027** is **$270**: 3 nights × $90 per day.\n\nThis is a planning estimate, not a reservation or availability confirmation. Happy Tails bills boarding by the day, and staff confirm the final total. Peak or seasonal pricing may apply to these dates, but the published information doesn’t say whether it does or what the amount would be; rates may also change without notice.\n\nWould you like to add any boarding extras or work on a booking request for Rosie?",
+        "# Rosie’s luxury-suite boarding estimate\n\nFor Rosie’s stay from January 26 to January 29, 2027, the estimate uses three nights.\n\nService: Dog boarding · Luxury Suite\n\nPet: Rosie\n\n- Luxury Suite · 3 nights: $270.00. 3 nights × $90 per day for this estimate.\n\n**Estimated total:** $270.00\n\nPlanning estimate only—not availability, a reservation, or a final price. The resort bills boarding by the day; Happy Tails staff confirm the final total.\n\n- Peak or seasonal pricing may apply. The site does not specify whether these dates qualify or the amount; Happy Tails staff can clarify.\n- Rates may change without notice.\n\n---\n\nWould you like to add any boarding extras or work on a booking request for Rosie?",
+        "[Tool Result: calculate_happy_tails_estimate] (output omitted)"
+      ],
+      "is_error": false,
+      "latency_s": 26.14
+    },
+    {
+      "i": 2,
+      "customer": "If I book a luxury suite for the end of January and my trip gets cancelled, how much notice do I need to give, and is there a fee?",
+      "blocks": [
+        "For a **non-holiday luxury-suite** reservation, Happy Tails’ published policy requires at least **24 hours’ cancellation notice**. If you cancel later than that or don’t show, the fee is **$35 per Luxury Suite**.\n\nHoliday rules are different: they require **five days’ notice**, and a late cancellation or no-show forfeits the **$150 Luxury Suite deposit**. The site says holiday reservations may need to be made 2 weeks to 2 months in advance, depending on the holiday.",
+        "[Tool Result: filesystem] (output omitted)"
+      ],
+      "is_error": false,
+      "latency_s": 4.33
+    }
+  ],
+  "status": "ok",
+  "finished": "2026-11-12T04:45:35.580249+00:00"
+}

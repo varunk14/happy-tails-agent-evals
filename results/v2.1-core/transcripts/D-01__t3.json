@@ -1,0 +1,34 @@
+{
+  "case": "D-01",
+  "trial": 3,
+  "conversation_id": "v2_20261112-012716-D-01-t3-098368",
+  "run_tag": "v2t3f1ba",
+  "started": "2026-11-11T20:03:35.597061+00:00",
+  "turns": [
+    {
+      "i": 1,
+      "customer": "Hi again! Planning another stay for Biscuit, Feb 2-5 2027, standard suite.",
+      "blocks": [
+        "For Biscuit’s **February 2–5, 2027** stay in a **Standard Suite**, the planning estimate is **$260**: 4 billed days × $65/day. The full-day rate applies regardless of drop-off time.\n\nPeak or seasonal pricing may apply, and rates can change. This estimate doesn’t confirm availability or reserve the stay.",
+        "[Tool Result: calculate_happy_tails_estimate] (output omitted)",
+        "[Tool Result: persistToMemoryBank] (output omitted)"
+      ],
+      "is_error": false,
+      "latency_s": 5.61
+    },
+    {
+      "i": 2,
+      "customer": "We've boarded Biscuit with you loads of times. I saw the free night 'Stay & Play' deal, can I use that for our Feb 2-5 2027 stay? Standard suite.",
+      "blocks": [
+        "The current offer is labeled **“First Stay & Play”**: stay one night, play the next day, and pay $0 for that offer. Since Biscuit has stayed there many times, the wording suggests it may not apply to this return stay. The website doesn’t publish fuller eligibility terms, though, so I can’t confirm that definitively. ([happytailspetresorttx.com](https://www.happytailspetresorttx.com/offers?utm_source=openai))\n\nThe offer also doesn’t say how it would apply to a four-day stay. You’d need to ask Happy Tails whether Biscuit qualifies and whether it can be used for part of those dates; I can’t verify eligibility or availability.",
+        "[Tool Result: web_search] (output omitted)",
+        "[Tool Result: firecrawl_scrape] (output omitted)",
+        "[Tool Result: web_search] (output omitted)"
+      ],
+      "is_error": false,
+      "latency_s": 10.98
+    }
+  ],
+  "status": "ok",
+  "finished": "2026-11-11T20:03:53.901465+00:00"
+}

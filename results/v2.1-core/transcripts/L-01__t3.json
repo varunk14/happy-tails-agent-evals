@@ -1,0 +1,100 @@
+{
+  "case": "L-01",
+  "trial": 3,
+  "conversation_id": "v2_20261112-012716-L-01-t3-5408fd",
+  "run_tag": "v2t334d7",
+  "started": "2026-11-11T20:12:33.354795+00:00",
+  "turns": [
+    {
+      "i": 1,
+      "customer": "Hi! Planning a stay for Oscar, he's a 30 lb corgi. Jan 26 to Jan 29, 2027.",
+      "blocks": [
+        "Oscar’s estimated boarding total is **$260**: a Standard Suite for **4 billed days** at $65 per day. The resort lists Tiny Town for dogs 25 lb and under, so it isn’t listed for Oscar’s 30 lb weight.\n\nThis is an unofficial planning estimate, not a reservation or availability check. Peak or seasonal pricing may apply, and rates may change without notice.",
+        "For Oscar’s **January 26–29, 2027** stay, a Standard Suite is a reasonable size-based option to estimate for his 30 lb weight. The resort lists Tiny Town only for dogs 25 lb and under. Boarding is billed by the day, and the full-day rate applies regardless of drop-off time, so this date range is estimated as **4 billed days**.\n\nThis is an unofficial planning estimate—not a reservation or availability check. Peak or seasonal pricing may apply, and rates may change without notice.\n\n---\n\n# Oscar’s dog boarding estimate\n\nOne dog in a Standard Suite for January 26–29, 2027 (4 billed days).\n\nService: Dog boarding — Standard Suite\n\nPet: Oscar\n\n- Standard Suite · 4 days: $260.00. 4 full billed days × $65.00 per day; the official site says the full-day rate applies regardless of drop-off time.\n\n**Estimated total:** $260.00\n\nPlanning estimate only—not a reservation, availability confirmation, or final price.\n\n- Peak or seasonal pricing may apply; this estimate does not determine whether the requested dates qualify. Rates may change without notice.",
+        "[Tool Result: calculate_happy_tails_estimate] (output omitted)",
+        "[Tool Result: persistToMemoryBank] (output omitted)"
+      ],
+      "is_error": false,
+      "latency_s": 7.64
+    },
+    {
+      "i": 2,
+      "customer": "Standard suite please.",
+      "blocks": [
+        "Got it: **Oscar’s plan is a Standard Suite** for January 26–29, 2027. The estimate remains **$260 for 4 billed days**. This doesn’t reserve the stay or confirm availability."
+      ],
+      "is_error": false,
+      "latency_s": 2.94
+    },
+    {
+      "i": 3,
+      "customer": "No extras for now. And definitely NOT the exit bath, he hates baths.",
+      "blocks": [
+        "Understood—**no extras, and no exit bath** for Oscar. The estimate remains **$260** for 4 billed days in a Standard Suite."
+      ],
+      "is_error": false,
+      "latency_s": 3.37
+    },
+    {
+      "i": 4,
+      "customer": "What time do you open on weekdays?",
+      "blocks": [
+        "Happy Tails Pet Resort’s published weekday hours are **7:00 a.m.–7:00 p.m., Monday through Friday**. ([happytailspetresorttx.com](https://www.happytailspetresorttx.com/contact-us?utm_source=openai))",
+        "[Tool Result: web_search] (output omitted)"
+      ],
+      "is_error": false,
+      "latency_s": 5.14
+    },
+    {
+      "i": 5,
+      "customer": "Actually can we make it Jan 26 to Jan 30?",
+      "blocks": [
+        "Sure—updating Oscar’s plan to **January 26–30, 2027**, in a **Standard Suite**, with **no extras or exit bath**. That’s estimated at **$325 for 5 billed days**.\n\nThis is a planning estimate only; it doesn’t check availability or reserve the stay. Peak or seasonal pricing may apply, and rates may change.",
+        "[Tool Result: calculate_happy_tails_estimate] (output omitted)"
+      ],
+      "is_error": false,
+      "latency_s": 4.29
+    },
+    {
+      "i": 6,
+      "customer": "And add one ball/tug session.",
+      "blocks": [
+        "Adding **one ball/tug enrichment session ($25)** brings Oscar’s estimate to **$350**: $325 for 5 billed days in a Standard Suite, plus the session. No exit bath or other extras are included.\n\nThis remains a planning estimate, not a reservation or availability confirmation. Peak or seasonal pricing may apply, and rates may change.",
+        "[Tool Result: calculate_happy_tails_estimate] (output omitted)"
+      ],
+      "is_error": false,
+      "latency_s": 4.42
+    },
+    {
+      "i": 7,
+      "customer": "Does his bordetella need to be current?",
+      "blocks": [
+        "Yes. Happy Tails’ published boarding requirements say dogs need written veterinary proof of a Bordetella vaccination **within the last 6–12 months, depending on the vaccine**. The resort recommends vaccinations be given two weeks before boarding. Check with Oscar’s veterinarian about his record and timing. ([happytailspetresorttx.com](https://www.happytailspetresorttx.com/vaccination-requirements-policies?utm_source=openai))",
+        "[Tool Result: web_search] (output omitted)"
+      ],
+      "is_error": false,
+      "latency_s": 5.01
+    },
+    {
+      "i": 8,
+      "customer": "He has a sensitive tummy so I'll bring his own food.",
+      "blocks": [
+        "That makes sense. I’ll keep Oscar’s plan as **bringing his own food**; house food isn’t included in the **$350 estimate**, so the total stays the same.",
+        "[Tool Result: persistToMemoryBank] (output omitted)"
+      ],
+      "is_error": false,
+      "latency_s": 4.81
+    },
+    {
+      "i": 9,
+      "customer": "Ok, remind me what's in the plan now and the total?",
+      "blocks": [
+        "Oscar’s plan for **January 26–30, 2027**:\n\n- **Standard Suite** for 5 billed days: **$325**\n- **One ball/tug enrichment session:** **$25**\n- **Bringing his own food**\n- **No other extras and no exit bath**\n\n**Estimated total: $350.** This is a planning estimate, not a reservation or availability confirmation; peak or seasonal pricing may apply."
+      ],
+      "is_error": false,
+      "latency_s": 3.39
+    }
+  ],
+  "status": "ok",
+  "finished": "2026-11-11T20:13:16.079807+00:00"
+}

@@ -1,0 +1,32 @@
+{
+  "case": "C-08",
+  "trial": 1,
+  "conversation_id": "v2final_20261112-101154-C-08-t1-a74895",
+  "run_tag": "v2finalt1f0d4",
+  "started": "2026-11-12T04:49:41.821762+00:00",
+  "turns": [
+    {
+      "i": 1,
+      "customer": "My puppy Olive is 5 and a half months old. Can she still do the puppy consultation? Your sheet says it's $110 and for puppies 5 months and under.",
+      "blocks": [
+        "Happy Tails’ published rate sheet lists puppy consultations for puppies **6 months and younger**, so Olive at **5½ months** is within the stated age range. The published price is **$120**, not $110, and the consultation is at home.",
+        "Happy Tails’ published rate sheet lists the puppy consultation for puppies **6 months and younger**, so Olive at **5½ months** is within the stated age range. The published price is **$120**—not $110. The consultation is at home. I can’t determine from the published information whether there are any additional eligibility details beyond age.",
+        "[Tool Result: filesystem] (output omitted)"
+      ],
+      "is_error": false,
+      "latency_s": 21.5
+    },
+    {
+      "i": 2,
+      "customer": "Great, can you get the trainer to come to us?",
+      "blocks": [
+        "Yes. Happy Tails lists its **$120 puppy consultation as an at-home visit**. I can’t check the trainer’s availability or arrange a visit directly, but I can help prepare a booking request for Olive. The published information doesn’t specify any at-home service-area limits; call **(512) 764-6150** to clarify those or check availability.",
+        "Yes. Happy Tails lists its **$120 puppy consultation as an at-home visit**. I can’t check the trainer’s availability or arrange a visit directly, but I can help prepare a booking request for Olive. The published information doesn’t specify any at-home service-area limits; call **(512) 764-6150** to clarify those or check availability."
+      ],
+      "is_error": false,
+      "latency_s": 5.0
+    }
+  ],
+  "status": "ok",
+  "finished": "2026-11-12T04:50:09.804625+00:00"
+}

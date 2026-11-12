@@ -1,0 +1,32 @@
+{
+  "case": "B-05",
+  "trial": 2,
+  "conversation_id": "v2_20261112-012716-B-05-t2-10c32c",
+  "run_tag": "v2t2c0eb",
+  "started": "2026-11-11T20:01:16.446376+00:00",
+  "turns": [
+    {
+      "i": 1,
+      "customer": "Can I book a full groom for my shih tzu Pepper? She's 15 lbs.",
+      "blocks": [
+        "I can’t book or check availability—this is an unofficial planning demo, not a Happy Tails booking channel. For Pepper’s 15 lb full groom, the listed starting rate is **$69+**; the groomer determines the final price based on her coat and care needs. Grooming reservations are required.\n\nI can help prepare an inquiry email to the demo inbox, but it would not be a reservation or availability confirmation.",
+        "[Tool Result: calculate_happy_tails_estimate] (output omitted)"
+      ],
+      "is_error": false,
+      "latency_s": 5.38
+    },
+    {
+      "i": 2,
+      "customer": "My rescue Pepper (shih tzu, 15 lbs) panics with the dryer and has nipped groomers before. Can you still groom her? Will it cost more?",
+      "blocks": [
+        "I can’t confirm whether Happy Tails can safely groom Pepper: I don’t have a published policy about dryer panic or a history of nipping. Because she has nipped groomers before, tell the groomer about both behaviors before making an appointment and ask whether they can accommodate her.\n\nThe listed full-groom starting rate for her size is **$69+**. I can’t confirm whether her needs would add a fee; the final price depends on the groomer’s assessment of her coat and care needs, and no behavior-related surcharge is specified in the information I have. Grooming reservations are required, but I can’t make one or check availability.",
+        "[Tool Result: web_search] (output omitted)",
+        "[Tool Result: calculate_happy_tails_estimate] (output omitted)"
+      ],
+      "is_error": false,
+      "latency_s": 7.54
+    }
+  ],
+  "status": "ok",
+  "finished": "2026-11-11T20:01:31.111957+00:00"
+}

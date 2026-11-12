@@ -1,0 +1,33 @@
+{
+  "case": "A-02",
+  "trial": 3,
+  "conversation_id": "v1_20261111-233436-A-02-t3-8db50f",
+  "run_tag": "v1t390e1",
+  "started": "2026-11-11T18:04:54.815745+00:00",
+  "turns": [
+    {
+      "i": 1,
+      "customer": "We're away Feb 1 to Feb 5, 2027 and need somewhere for Maisie, our 65 lb lab. What's the difference between your standard and luxury suites, and what would each cost?",
+      "blocks": [
+        "Maisie’s dates, **February 1–5, 2027**, are **4 nights**. For one dog, the base boarding estimates are:\n\n- **Standard suite:** **$248** ($62/night)\n- **Luxury suite:** **$348** ($87/night)\n\nThe rate information I have supports the price difference, but doesn’t describe how the suites differ in features. These estimates also exclude any peak-period charge: the rate sheet adds **$5 per night** when dates fall within a listed peak or holiday period, and I can’t verify whether these dates qualify. This is a planning estimate only—not availability or a reservation.",
+        "[Tool Result: filesystem] (output omitted)",
+        "[Tool Result: calculate_happy_tails_estimate] (output omitted)",
+        "[Tool Result: calculate_happy_tails_estimate] (output omitted)",
+        "[Tool Result: Grep] (output omitted)"
+      ],
+      "is_error": false,
+      "latency_s": 8.71
+    },
+    {
+      "i": 2,
+      "customer": "The webcam sounds lovely. Let's go with luxury.",
+      "blocks": [
+        "Luxury is the option you’re leaning toward for Maisie. The estimate remains **$348 for 4 nights**, before any applicable peak-period charge. I can’t verify that a webcam is included—the information I have lists suite rates but not their features. This doesn’t reserve a stay or confirm availability."
+      ],
+      "is_error": false,
+      "latency_s": 4.5
+    }
+  ],
+  "status": "ok",
+  "finished": "2026-11-11T18:05:09.726684+00:00"
+}

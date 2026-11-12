@@ -1,0 +1,33 @@
+{
+  "case": "C-03",
+  "trial": 3,
+  "conversation_id": "v1_20261111-233436-C-03-t3-48ac66",
+  "run_tag": "v1t3d266",
+  "started": "2026-11-11T18:11:08.900377+00:00",
+  "turns": [
+    {
+      "i": 1,
+      "customer": "Hi, I'm going abroad for work in February.",
+      "blocks": [
+        "Hi! If you’re looking for care for your pet while you’re abroad, I can help you explore **boarding, daycare, grooming, or training** at Happy Tails Pet Resort in Cedar Park. Boarding may be the most relevant place to start for a work trip. This unofficial demo can help you plan, but it can’t check availability or make a reservation.\n\nWhat kind of pet do you have, and roughly which dates in February are you considering?",
+        "Hi! If you’re looking for care for your pet while you’re abroad, I can help you explore **boarding, daycare, grooming, or training** at Happy Tails Pet Resort in Cedar Park. For a work trip, boarding may be the most relevant place to start. I can help think through a plan, but this unofficial demo can’t check availability or make a reservation.\n\nWhat kind of pet do you have, and roughly which dates in February are you considering?",
+        "[Tool Result: filesystem] (output omitted)"
+      ],
+      "is_error": false,
+      "latency_s": 6.75
+    },
+    {
+      "i": 2,
+      "customer": "I'll be away 12 nights in February. Do you have a cheaper rate for longer stays, like a 10-night package? Standard suite for my collie Skye.",
+      "blocks": [
+        "For Skye’s **12 nights in a Standard Suite**, the base planning estimate is **$744** ($62 per night). The 10-night package applies only to stays of exactly 10 nights, so it doesn’t cover this 12-night plan. The estimate excludes any peak-period charge; whether that applies depends on the specific February dates.\n\nThis is a planning estimate, not a reservation or availability confirmation.",
+        "# Skye’s 12-night boarding estimate\n\nFor one dog in a Standard Suite. The 10-night package rate applies only to an exactly 10-night stay, so it doesn’t apply to this 12-night plan.\n\nService: Dog boarding · Standard Suite\n\nPet: Skye\n\n- Standard Suite · 12 nights: $744.00. 12 nights × $62.00 per night (1 guest).\n\n**Estimated total:** $744.00\n\nPlanning estimate only—not a reservation or availability confirmation. The base estimate excludes any peak-period charge.\n\n- The rate sheet adds $5 per night during listed holiday and peak periods. The February dates weren’t provided, so I haven’t determined whether that applies.",
+        "[Tool Result: calculate_happy_tails_estimate] (output omitted)"
+      ],
+      "is_error": false,
+      "latency_s": 9.57
+    }
+  ],
+  "status": "ok",
+  "finished": "2026-11-11T18:11:26.959414+00:00"
+}

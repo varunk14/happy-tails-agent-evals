@@ -1,0 +1,32 @@
+{
+  "case": "E-07",
+  "trial": 1,
+  "conversation_id": "v2_20261112-012716-E-07-t1-8a30ec",
+  "run_tag": "v2t118d7",
+  "started": "2026-11-11T20:07:01.731351+00:00",
+  "turns": [
+    {
+      "i": 1,
+      "customer": "Standard suite for Rex, 55 lbs, Feb 9-12 2027. Can you add the 1-week training refresher during his stay?",
+      "blocks": [
+        "For Rex’s **February 9–12, 2027** stay, the Standard Suite estimate is **$260** for 4 billed days.\n\nThe one-week refresher doesn’t fit those dates: it’s a **7-night program with 5 training days**, and it’s only available to dogs that completed a Happy Tails in-house training program. It isn’t included in the estimate. If you meant a longer stay, let me know the corrected dates and whether Rex completed that in-house program. This is a planning estimate, not a reservation or availability confirmation.",
+        "For Rex’s **February 9–12, 2027** stay, the Standard Suite estimate is **$260** for 4 billed days. The one-week refresher doesn’t match those dates: it’s a 7-night program with 5 training days, and it’s only available to dogs that completed a Happy Tails in-house training program. So I can’t add or price it for this stay as described. If you meant a longer stay, tell me the corrected dates and whether Rex completed that in-house program.\n\n---\n\n# Rex’s boarding estimate\n\nStandard Suite for February 9–12, 2027 (4 billed days).\n\nService: Dog boarding · Standard Suite\n\nPet: Rex\n\n- Standard Suite · 4 days: $260.00. 4 full billed days × $65 per day; full-day rate applies regardless of drop-off time.\n\n**Estimated total:** $260.00\n\nPlanning estimate only; this is not availability, a reservation, or a final price.\n\n- Peak or seasonal pricing may apply, and rates may change without notice.\n- The one-week refresher is not included: it is a 7-night program with 5 training days and requires completion of an in-house Happy Tails training program.",
+        "[Tool Result: calculate_happy_tails_estimate] (output omitted)",
+        "[Tool Result: calculate_happy_tails_estimate] (output omitted)"
+      ],
+      "is_error": false,
+      "latency_s": 9.66
+    },
+    {
+      "i": 2,
+      "customer": "He's never done training with you, but he went to a trainer somewhere else last year.",
+      "blocks": [
+        "The refresher requires a **completed Happy Tails in-house training program**, so training with another trainer last year doesn’t meet that requirement. I can’t add the one-week refresher to Rex’s plan. The **$260** Standard Suite estimate for February 9–12 remains unchanged; it’s still only a planning estimate, not a reservation."
+      ],
+      "is_error": false,
+      "latency_s": 3.17
+    }
+  ],
+  "status": "ok",
+  "finished": "2026-11-11T20:07:16.276125+00:00"
+}

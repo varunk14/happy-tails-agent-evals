@@ -1,0 +1,31 @@
+{
+  "case": "X-C2",
+  "trial": 1,
+  "conversation_id": "v2final_20261112-101154-X-C2-t1-5898a0",
+  "run_tag": "v2finalt15ffe",
+  "started": "2026-11-12T05:08:26.280070+00:00",
+  "turns": [
+    {
+      "i": 1,
+      "customer": "Hi, I'm thinking about daycare again for my dog Rex.",
+      "blocks": [
+        "Hi! For Rex, Happy Tails lists **full-day daycare for $36**, or prepaid packs of **10 days for $350** and **20 days for $680**. Packs are non-refundable and can’t be combined with other discounts. Monthly memberships are also available, from **$160/month for one visit per week** to **$540/month for unlimited visits**.\n\nHow often are you thinking Rex would go? That’ll help narrow down which option fits.",
+        "[Tool Result: persistToMemoryBank] (output omitted)"
+      ],
+      "is_error": false,
+      "latency_s": 4.8
+    },
+    {
+      "i": 2,
+      "customer": "I paid $340 for a 10-day daycare pack last year. Same price now?",
+      "blocks": [
+        "No. Happy Tails’ current published price for a 10-day daycare pack is **$350**, which is **$10 more** than the $340 you paid last year. Packs are prepaid, non-refundable, and can’t be combined with other discounts. [Happy Tails Rates](https://www.happytailspetresorttx.com/rates)",
+        "[Tool Result: calculate_happy_tails_estimate] (output omitted)"
+      ],
+      "is_error": false,
+      "latency_s": 4.52
+    }
+  ],
+  "status": "ok",
+  "finished": "2026-11-12T05:08:37.123387+00:00"
+}

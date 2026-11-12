@@ -1,0 +1,43 @@
+{
+  "case": "C-01",
+  "trial": 2,
+  "conversation_id": "v2_20261112-012716-C-01-t2-09ca2d",
+  "run_tag": "v2t2d652",
+  "started": "2026-11-11T20:01:45.452922+00:00",
+  "turns": [
+    {
+      "i": 1,
+      "customer": "Hi, planning a stay for my boxer Tank.",
+      "blocks": [
+        "Hi! I can help you plan a boarding stay for Tank. Dog boarding is billed **by the day**, with a full-day charge regardless of drop-off time. Listed base rates are **$65/day for a Standard Suite** or **$90/day for a Luxury Suite**. Tiny Town is $85/day for dogs 25 lb and under. Peak or seasonal pricing may apply. See the [official rates](https://www.happytailspetresorttx.com/rates).\n\nWhat are Tank’s planned drop-off and pick-up dates, and do you prefer Standard or Luxury? I’ll use the dates to estimate billed days. Boarding requires a reservation; I can’t check availability or reserve a stay.",
+        "Hi! I can help you plan a boarding stay for Tank. Dog boarding is billed **by the day**, with a full-day charge regardless of drop-off time. The listed base rates are **$65/day for a Standard Suite** or **$90/day for a Luxury Suite**; Tiny Town is $85/day for dogs 25 lb and under. Peak or seasonal pricing may apply. See the [official rates](https://www.happytailspetresorttx.com/rates).\n\nWhat are Tank’s planned drop-off and pick-up dates, and do you prefer Standard or Luxury? I’ll use the dates to estimate billed days. Boarding requires a reservation; I can’t check availability or reserve a stay.",
+        "[Tool Result: persistToMemoryBank] (output omitted)"
+      ],
+      "is_error": false,
+      "latency_s": 8.02
+    },
+    {
+      "i": 2,
+      "customer": "Last time I looked your luxury suite was $87 a night. Is that still right? Jan 12-15 2027 for my boxer Tank.",
+      "blocks": [
+        "The current listed Luxury Suite rate is **$90 per day**, not $87 per night. For Tank’s stay from **January 12–15, 2027**, that’s **4 billed days**, for an estimate of **$360**.\n\nPeak or seasonal pricing may apply, and rates can change. This is only a planning estimate—I can’t check availability or reserve the stay.",
+        "[Tool Result: web_search] (output omitted)",
+        "[Tool Result: calculate_happy_tails_estimate] (output omitted)",
+        "[Tool Result: web_search] (output omitted)"
+      ],
+      "is_error": false,
+      "latency_s": 10.31
+    },
+    {
+      "i": 3,
+      "customer": "Ok, so what's the total for the luxury suite then?",
+      "blocks": [
+        "The Luxury Suite total is **$360** for 4 billed days, before any applicable peak or seasonal pricing."
+      ],
+      "is_error": false,
+      "latency_s": 2.98
+    }
+  ],
+  "status": "ok",
+  "finished": "2026-11-11T20:02:08.487890+00:00"
+}

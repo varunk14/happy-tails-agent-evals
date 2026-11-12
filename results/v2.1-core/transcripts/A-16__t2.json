@@ -1,0 +1,30 @@
+{
+  "case": "A-16",
+  "trial": 2,
+  "conversation_id": "v2_20261112-012716-A-16-t2-c66a65",
+  "run_tag": "v2t2f720",
+  "started": "2026-11-11T20:00:03.972062+00:00",
+  "turns": [
+    {
+      "i": 1,
+      "customer": "Standard suite for my dog Hank, 40 lbs. I'll drop him off Friday Jan 22 2027 around 6pm and pick him up Sunday Jan 24 at 6pm.",
+      "blocks": [
+        "For Hank (40 lb), the Standard Suite estimate is **$130 for 2 billed days** at $65/day. The full-day charge applies regardless of drop-off time, so I’ve counted Friday and Saturday; this is a planning estimate, not a reservation or availability confirmation. Peak or seasonal pricing may apply, and rates may change.",
+        "[Tool Result: calculate_happy_tails_estimate] (output omitted)"
+      ],
+      "is_error": false,
+      "latency_s": 4.06
+    },
+    {
+      "i": 2,
+      "customer": "Wait, am I paying for Friday even though he only arrives at 6?",
+      "blocks": [
+        "Yes. The published dog-boarding policy says the full-day rate applies regardless of drop-off time, so Friday is billed as a full day even with a 6 p.m. arrival."
+      ],
+      "is_error": false,
+      "latency_s": 2.85
+    }
+  ],
+  "status": "ok",
+  "finished": "2026-11-11T20:00:12.631110+00:00"
+}

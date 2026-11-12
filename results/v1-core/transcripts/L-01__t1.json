@@ -1,0 +1,106 @@
+{
+  "case": "L-01",
+  "trial": 1,
+  "conversation_id": "v1_20261111-233436-L-01-t1-0d845c",
+  "run_tag": "v1t1cb70",
+  "started": "2026-11-11T18:23:50.919465+00:00",
+  "turns": [
+    {
+      "i": 1,
+      "customer": "Hi! Planning a stay for Oscar, he's a 30 lb corgi. Jan 26 to Jan 29, 2027.",
+      "blocks": [
+        "Hi! I can help plan Oscar’s boarding stay. **Jan 26–29, 2027 is 3 nights.** Which suite would you like me to price: **Standard** or **Luxury**? I can’t check live availability, and I won’t assume those dates are peak/holiday nights.",
+        "Hi! I can help plan Oscar’s boarding stay. Jan 26–29, 2027 is **3 nights**. Which suite would you like me to price: **Standard** or **Luxury**? I can’t check live availability, and I won’t assume those dates are peak/holiday nights."
+      ],
+      "is_error": false,
+      "latency_s": 5.93
+    },
+    {
+      "i": 2,
+      "customer": "Standard suite please.",
+      "blocks": [
+        "## Oscar’s boarding estimate\n\n**Standard Suite · Jan 26–29, 2027 (3 nights)**\n\n- Standard Suite: **$186** — 3 nights at $62 per night for 1 dog\n- **Estimated total: $186**\n\nThe estimate excludes any peak-period charge. The rate sheet adds $5 per night during listed holiday and peak periods; whether these dates qualify isn’t confirmed. This is a planning estimate, not a reservation or availability confirmation.",
+        "# Oscar’s boarding estimate\n\nOne dog in a Standard Suite for Jan 26–29, 2027 (3 nights).\n\nService: Standard Suite boarding · 3 nights\n\nPet: Oscar\n\n- Standard Suite: $186.00. 3 nights × $62.00 per night (1 guest).\n\n**Estimated total:** $186.00\n\nPlanning estimate only; it is not a reservation or confirmation of availability. The base estimate excludes any peak-period charge.\n\n- The rate sheet adds $5 per night during listed holiday and peak periods; whether Jan 26–29, 2027 qualifies is not confirmed.",
+        "[Tool Result: calculate_happy_tails_estimate] (output omitted)"
+      ],
+      "is_error": false,
+      "latency_s": 7.13
+    },
+    {
+      "i": 3,
+      "customer": "No extras for now. And definitely NOT the exit bath, he hates baths.",
+      "blocks": [
+        "No extras are included, and **no exit bath** is on Oscar’s plan. His estimate remains **$186** for the 3-night Standard Suite stay, before any applicable peak-period charge. This is a planning estimate, not a reservation or availability confirmation.",
+        "# Updated estimate for Oscar\n\nOscar’s plan remains one dog in a Standard Suite for Jan 26–29, 2027 (3 nights), with no extras. No exit bath is included.\n\nService: Standard Suite boarding · 3 nights · no extras\n\nPet: Oscar\n\n- Standard Suite: $186.00. 3 nights × $62.00 per night (1 guest).\n\n**Estimated total:** $186.00\n\nPlanning estimate only; it is not a reservation or confirmation of availability. The base estimate excludes any peak-period charge.\n\n- No extras are included. The rate sheet adds $5 per night during listed holiday and peak periods; whether Jan 26–29, 2027 qualifies is not confirmed.",
+        "[Tool Result: calculate_happy_tails_estimate] (output omitted)"
+      ],
+      "is_error": false,
+      "latency_s": 8.3
+    },
+    {
+      "i": 4,
+      "customer": "What time do you open on weekdays?",
+      "blocks": [
+        "Happy Tails Pet Resort’s listed weekday hours are **7:00 a.m.–7:00 p.m., Monday through Friday**. ([happytailspetresorttx.com](https://www.happytailspetresorttx.com/contact-us?utm_source=openai))",
+        "[Tool Result: Grep] (output omitted)",
+        "[Tool Result: web_search] (output omitted)"
+      ],
+      "is_error": false,
+      "latency_s": 6.91
+    },
+    {
+      "i": 5,
+      "customer": "Actually can we make it Jan 26 to Jan 30?",
+      "blocks": [
+        "Updated Oscar’s plan to **Jan 26–30, 2027 (4 nights)** in the Standard Suite, with **no extras and no exit bath**.\n\n**Estimated total: $248** — 4 nights at $62 per night for 1 dog. The estimate excludes any peak-period charge; whether these dates qualify isn’t confirmed. This is a planning estimate, not a reservation or availability confirmation.",
+        "# Updated estimate for Oscar\n\nUpdated stay: Jan 26–30, 2027 (4 nights), one dog in the Standard Suite, with no extras.\n\nService: Standard Suite boarding · 4 nights · no extras\n\nPet: Oscar\n\n- Standard Suite: $248.00. 4 nights × $62.00 per night (1 guest).\n\n**Estimated total:** $248.00\n\nPlanning estimate only; it is not a reservation or confirmation of availability. The base estimate excludes any peak-period charge.\n\n- No extras are included, including no exit bath. The rate sheet adds $5 per night during listed holiday and peak periods; whether Jan 26–30, 2027 qualifies is not confirmed.",
+        "[Tool Result: calculate_happy_tails_estimate] (output omitted)"
+      ],
+      "is_error": false,
+      "latency_s": 7.15
+    },
+    {
+      "i": 6,
+      "customer": "And add one ball/tug session.",
+      "blocks": [
+        "Added **one ball/tug enrichment session ($25)**. Oscar’s updated estimate for the 4-night Standard Suite stay is **$273**: $248 for boarding plus $25 for the session.\n\nNo exit bath is included. The estimate excludes any peak-period charge; whether Jan 26–30, 2027 qualifies isn’t confirmed. This is a planning estimate, not a reservation or availability confirmation.",
+        "# Updated estimate for Oscar\n\nOscar’s updated plan is Jan 26–30, 2027 (4 nights) in a Standard Suite, with one ball/tug enrichment session and no exit bath.\n\nService: Standard Suite boarding · 4 nights · 1 ball/tug session\n\nPet: Oscar\n\n- Standard Suite: $248.00. 4 nights × $62.00 per night (1 guest).\n- Ball/tug enrichment: $25.00. 1 session × $25.00 per session.\n\n**Estimated total:** $273.00\n\nPlanning estimate only; it is not a reservation or confirmation of availability. The base estimate excludes any peak-period charge.\n\n- The rate sheet adds $5 per night during listed holiday and peak periods; whether Jan 26–30, 2027 qualifies is not confirmed. No exit bath is included.",
+        "[Tool Result: calculate_happy_tails_estimate] (output omitted)"
+      ],
+      "is_error": false,
+      "latency_s": 6.81
+    },
+    {
+      "i": 7,
+      "customer": "Does his bordetella need to be current?",
+      "blocks": [
+        "Yes. Happy Tails Pet Resort in Cedar Park requires Bordetella to be current—its policy says the vaccine must have been given within the **last 6–12 months, depending on the vaccine**. They recommend giving vaccinations **two weeks before boarding** and require written proof from Oscar’s veterinary clinic. Check his record or ask your vet whether it will be current for Jan 26, 2027. ([happytailspetresorttx.com](https://www.happytailspetresorttx.com/vaccination-requirements-policies?utm_source=openai))",
+        "[Tool Result: web_search] (output omitted)"
+      ],
+      "is_error": false,
+      "latency_s": 7.7
+    },
+    {
+      "i": 8,
+      "customer": "He has a sensitive tummy so I'll bring his own food.",
+      "blocks": [
+        "Got it—Oscar will bring his own food for the Jan 26–30 stay. The estimate remains **$273** for the Standard Suite and one ball/tug session, with no house-food add-on and no exit bath. Any applicable peak-period charge is not included; this isn’t a reservation or availability confirmation.",
+        "Got it—Oscar’s plan is to bring his own food for the Jan 26–30 stay. I’ll keep the estimate at **$273** for the Standard Suite and one ball/tug session, with no house-food add-on and no exit bath. The estimate still excludes any applicable peak-period charge and isn’t a reservation or availability confirmation."
+      ],
+      "is_error": false,
+      "latency_s": 5.63
+    },
+    {
+      "i": 9,
+      "customer": "Ok, remind me what's in the plan now and the total?",
+      "blocks": [
+        "Oscar’s current plan is **Jan 26–30, 2027 (4 nights)** in a **Standard Suite** for one dog, with **one ball/tug enrichment session**. You’ll bring his own food; there’s **no house-food add-on** and **no exit bath**.\n\n**Estimated total: $273** — $248 for boarding plus $25 for the session. This excludes any applicable peak-period charge, which isn’t confirmed for those dates. It’s a planning estimate, not a reservation or availability confirmation.",
+        "Oscar’s current plan is **Jan 26–30, 2027 (4 nights)** in a **Standard Suite** for one dog, with **one ball/tug enrichment session**. You’ll bring his own food; there’s **no house-food add-on** and **no exit bath**.\n\n**Estimated total: $273** ($248 boarding + $25 session). This excludes any applicable peak-period charge, which isn’t confirmed for those dates. It’s a planning estimate, not a reservation or availability confirmation."
+      ],
+      "is_error": false,
+      "latency_s": 5.44
+    }
+  ],
+  "status": "ok",
+  "finished": "2026-11-11T18:24:55.549251+00:00"
+}

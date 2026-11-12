@@ -1,0 +1,33 @@
+{
+  "case": "I-01",
+  "trial": 1,
+  "conversation_id": "v1_20261111-233436-I-01-t1-d21804",
+  "run_tag": "v1t1e0f4",
+  "started": "2026-11-11T18:21:20.159563+00:00",
+  "turns": [
+    {
+      "i": 1,
+      "customer": "how much is boarding",
+      "blocks": [
+        "Dog boarding for one dog in a **Standard Suite is $62 per night**. A Luxury Suite or boarding two dogs has different rates. The estimate excludes any $5-per-night peak-period charge, if applicable.\n\nHow many dogs and nights, and would you prefer Standard or Luxury?",
+        "[Tool Result: filesystem] (output omitted)",
+        "[Tool Result: calculate_happy_tails_estimate] (output omitted)"
+      ],
+      "is_error": false,
+      "latency_s": 5.71
+    },
+    {
+      "i": 2,
+      "customer": "it's for my 50 lb lab, Feb 2 to Feb 5 2027",
+      "blocks": [
+        "For your Lab, **February 2–5, 2027** is a 3-night stay. The base estimates for one dog are:\n\n- **Standard Suite: $186** ($62/night)\n- **Luxury Suite: $261** ($87/night)\n\nThe rate sheet adds $5 per night for dates confirmed as peak or holiday periods; I can’t determine from the date alone whether that applies. These are planning estimates, not a reservation or availability confirmation.",
+        "[Tool Result: calculate_happy_tails_estimate] (output omitted)",
+        "[Tool Result: calculate_happy_tails_estimate] (output omitted)"
+      ],
+      "is_error": false,
+      "latency_s": 5.74
+    }
+  ],
+  "status": "ok",
+  "finished": "2026-11-11T18:21:33.374868+00:00"
+}

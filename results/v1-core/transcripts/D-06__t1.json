@@ -1,0 +1,43 @@
+{
+  "case": "D-06",
+  "trial": 1,
+  "conversation_id": "v1_20261111-233436-D-06-t1-21165b",
+  "run_tag": "v1t15bf0",
+  "started": "2026-11-11T18:14:04.929455+00:00",
+  "turns": [
+    {
+      "i": 1,
+      "customer": "Planning a standard suite for Mabel, Jan 26-29 2027.",
+      "blocks": [
+        "## Mabel’s boarding estimate\n\nFor **one dog in a Standard Suite for 3 nights, January 26–29, 2027**:\n\n- Standard Suite: **$186** (3 nights × $62 per night)\n\nThe estimate excludes any peak-period charge. The rate sheet adds **$5 per night** for listed holiday and peak periods, but whether these dates qualify hasn’t been confirmed. This is a planning estimate, not a reservation or availability confirmation.",
+        "# Mabel’s boarding estimate\n\nFor one dog in a Standard Suite for 3 nights, January 26–29, 2027.\n\nService: Standard Suite · 3 nights\n\nPet: Mabel\n\n- Standard Suite: $186.00. 3 nights × $62 per night (1 guest).\n\n**Estimated total:** $186.00\n\nPlanning estimate only; this is not a reservation or availability confirmation.\n\n- The estimate excludes any peak-period charge. The rate sheet adds $5 per night during listed holiday and peak periods; whether these dates qualify is not confirmed.",
+        "[Tool Result: calculate_happy_tails_estimate] (output omitted)"
+      ],
+      "is_error": false,
+      "latency_s": 7.77
+    },
+    {
+      "i": 2,
+      "customer": "I think I have around 900 Pet Points. How much will that take off my next stay?",
+      "blocks": [
+        "If your balance is about **900 points**, that’s enough for **$15 in credits**: 250 points earn a $5 credit, redeemable in $5 increments. The remaining 150 points wouldn’t reach another $5 credit. ([happytailspetresorttx.com](https://www.happytailspetresorttx.com/loyalty-rewards?utm_source=openai))\n\nIf the full $15 is valid and applied at checkout to Mabel’s planned **$186** stay, it would bring that estimate to **$171**, before any applicable peak-period charge. Credits are redeemed at checkout, and points are valid for one year from when they were earned; I can’t verify your actual balance or points’ expiration. ([happytailspetresorttx.com](https://www.happytailspetresorttx.com/loyalty-rewards?utm_source=openai))",
+        "[Tool Result: Grep] (output omitted)",
+        "[Tool Result: filesystem] (output omitted)",
+        "[Tool Result: web_search] (output omitted)"
+      ],
+      "is_error": false,
+      "latency_s": 10.19
+    },
+    {
+      "i": 3,
+      "customer": "Can you take that off the total you just gave me?",
+      "blocks": [
+        "I can’t apply the Pet Points credit to the official estimate with the pricing tool. The Standard Suite estimate remains **$186**; if your **$15 credit** is available and accepted at checkout, the remaining amount would be **$171**, before any applicable peak-period charge."
+      ],
+      "is_error": false,
+      "latency_s": 5.82
+    }
+  ],
+  "status": "ok",
+  "finished": "2026-11-11T18:14:30.424792+00:00"
+}

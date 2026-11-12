@@ -1,0 +1,33 @@
+{
+  "case": "A-05",
+  "trial": 3,
+  "conversation_id": "v2final_20261112-101154-A-05-t3-cee88b",
+  "run_tag": "v2finalt378fa",
+  "started": "2026-11-12T04:43:18.357391+00:00",
+  "turns": [
+    {
+      "i": 1,
+      "customer": "How much is a full groom for a golden retriever? Bailey's about 70 lbs, brushed weekly, coat's in good shape.",
+      "blocks": [
+        "For Bailey’s 70 lb size, Happy Tails lists a full groom at **$90+**. Her weekly brushing and coat condition are useful context, but the groomer assesses coat and care needs to determine the final price. This is a planning estimate, not a final quote.",
+        "# Bailey’s full-groom estimate\n\nAt about 70 lb, Bailey falls in the 51–80 lb size range. Her weekly brushing and coat condition are helpful details, but the groomer sets the final price after assessing her coat and needs.\n\nService: Full groom · Large (51–80 lb)\n\nPet: Bailey\n\n- Full groom · Large (51–80 lb): $90.00. Listed starting rate; the final price may be higher after the groomer’s assessment.\n\n**Starting at:** $90.00\n\nThis is a planning estimate, not a final groomer quote or reservation.\n\n- Happy Tails lists full grooms for this size at $90+. Prices may change; the groomer assesses coat, length, brushing time, and extra-care needs.",
+        "[Tool Result: calculate_happy_tails_estimate] (output omitted)"
+      ],
+      "is_error": false,
+      "latency_s": 5.99
+    },
+    {
+      "i": 2,
+      "customer": "Does that include his nails and ears? And can you add a de-shed? He sheds a ton.",
+      "blocks": [
+        "The published full-groom rate doesn’t specify whether nail trimming and ear cleaning are included, so I can’t confirm that. Happy Tails staff can clarify at **(512) 764-6150**.\n\nDe-shedding is listed at **$30–$60**. Bailey’s full groom starts at **$90+**, but the groomer determines the final price after assessing her coat and care needs.",
+        "The listed full-groom rate doesn’t specify whether nail trimming and ear cleaning are included, so I can’t confirm that from Happy Tails’ published rates. Staff can clarify that specific detail at **(512) 764-6150**.\n\nHappy Tails lists de-shedding at **$30–$60**. I can’t combine that with Bailey’s full-groom starting rate into a total because the full groom is **$90+**, and the groomer determines the final price after assessing her coat and care needs.",
+        "[Tool Result: calculate_happy_tails_estimate] (output omitted)"
+      ],
+      "is_error": false,
+      "latency_s": 5.3
+    }
+  ],
+  "status": "ok",
+  "finished": "2026-11-12T04:43:31.138160+00:00"
+}

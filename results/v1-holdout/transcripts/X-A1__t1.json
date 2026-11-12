@@ -1,0 +1,32 @@
+{
+  "case": "X-A1",
+  "trial": 1,
+  "conversation_id": "v1holdout_20261111-235648-X-A1-t1-e30b2a",
+  "run_tag": "v1holdoutt165e9",
+  "started": "2026-11-11T18:26:53.262551+00:00",
+  "turns": [
+    {
+      "i": 1,
+      "customer": "Hi, planning a short stay for my shepherd Kira.",
+      "blocks": [
+        "Hi! I can help you explore **boarding, daycare, grooming, or training** for Kira. For a short stay, boarding is likely the place to start. How many nights are you considering, and would you like to compare Standard and Luxury suites?",
+        "Hi! I can help you explore **boarding, daycare, grooming, or training** for Kira. For a short stay, boarding is likely the place to start. How many nights are you considering, and would you like to compare Standard and Luxury suites?",
+        "[Tool Result: persistToMemoryBank] (output omitted)"
+      ],
+      "is_error": false,
+      "latency_s": 7.28
+    },
+    {
+      "i": 2,
+      "customer": "Luxury suite for my shepherd Kira, 75 lbs, Jan 12 to Jan 14 2027. Add a nose work session and a cuddle session.",
+      "blocks": [
+        "For Kira’s two-night stay, the **Luxury Suite** plus one nose work session and one cuddle session comes to an estimated **$224**:\n\n- Luxury Suite: $174\n- Nose work enrichment: $25\n- Cuddle enrichment: $25\n\nThe estimate excludes any peak-period charge. The rate sheet adds $5 per night for dates that qualify as listed holiday or peak periods; I can’t confirm whether **January 12–14, 2027** qualify. This is a planning estimate, not a reservation or availability confirmation.",
+        "[Tool Result: calculate_happy_tails_estimate] (output omitted)"
+      ],
+      "is_error": false,
+      "latency_s": 4.55
+    }
+  ],
+  "status": "ok",
+  "finished": "2026-11-11T18:27:06.873737+00:00"
+}

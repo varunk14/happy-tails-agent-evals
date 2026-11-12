@@ -1,0 +1,32 @@
+{
+  "case": "A-08",
+  "trial": 3,
+  "conversation_id": "v2_20261112-012716-A-08-t3-7341ae",
+  "run_tag": "v2t3dd00",
+  "started": "2026-11-11T19:58:35.143938+00:00",
+  "turns": [
+    {
+      "i": 1,
+      "customer": "We just got a 4 month old puppy, Biscuit, and she's chewing everything. What training do you offer for puppies and how much?",
+      "blocks": [
+        "Happy Tails lists an **at-home puppy consultation for $120** for puppies 6 months and younger, so Biscuit’s age fits. The listing doesn’t specify what the consultation covers, so I can’t confirm that it addresses chewing specifically.\n\nOther listed options are a **one-hour group class for $45**, individual consultations (**$150 on-site / $200 off-site**), Board & Train (**$1,849–$3,199**, depending on length), and Day Train (**$1,450–$2,650**, depending on length). These are planning prices, not a reservation or availability confirmation.",
+        "# Biscuit’s puppy-training estimate\n\nThe listed puppy consultation fits Biscuit’s age of 4 months.\n\nService: Puppy consultation\n\nPet: Biscuit\n\n- Puppy consultation: $120.00. At-home consultation for puppies 6 months and younger.\n\n**Listed price:** $120.00\n\nPlanning estimate only; this is not a reservation or confirmation of availability. The source does not specify what the consultation covers, so chewing support is not guaranteed.\n\n---\n\nOther listed training options include a one-hour group class for $45, individual consultations ($150 on-site or $200 off-site), Board & Train (2 weeks $1,849; 3 weeks $2,599; 4 weeks $3,199), and Day Train (10 days $1,450; 15 days $2,050; 20 days $2,650). The puppy consultation is the option specifically listed for puppies 6 months and younger.",
+        "[Tool Result: SetSessionLocale] (output omitted)",
+        "[Tool Result: calculate_happy_tails_estimate] (output omitted)"
+      ],
+      "is_error": false,
+      "latency_s": 10.42
+    },
+    {
+      "i": 2,
+      "customer": "She's 4 months, so the puppy consultation works for her? Can you come to our house?",
+      "blocks": [
+        "Yes. The listed **$120 puppy consultation is at home** and is for puppies **6 months and younger**, so Biscuit’s age fits. I can’t arrange or confirm a visit, though—this unofficial demo can’t check availability or book services."
+      ],
+      "is_error": false,
+      "latency_s": 4.01
+    }
+  ],
+  "status": "ok",
+  "finished": "2026-11-11T19:58:51.267413+00:00"
+}

@@ -1,0 +1,32 @@
+{
+  "case": "A-14",
+  "trial": 2,
+  "conversation_id": "v1_20261111-233436-A-14-t2-736234",
+  "run_tag": "v1t227a0",
+  "started": "2026-11-11T18:07:37.187702+00:00",
+  "turns": [
+    {
+      "i": 1,
+      "customer": "Hey, planning a luxury suite for my dog Rosie, Jan 26-29 2027.",
+      "blocks": [
+        "For Rosie’s **3-night Luxury Suite plan (January 26–29, 2027)**, the planning estimate is **$261** ($87 per night). The rate sheet adds $5 per night for dates that qualify as listed peak or holiday periods; I can’t determine from the dates alone whether that applies. This estimate doesn’t confirm availability or reserve a stay.",
+        "[Tool Result: calculate_happy_tails_estimate] (output omitted)"
+      ],
+      "is_error": false,
+      "latency_s": 4.49
+    },
+    {
+      "i": 2,
+      "customer": "If I book a luxury suite for the end of January and my trip gets cancelled, how much notice do I need to give, and is there a fee?",
+      "blocks": [
+        "The posted policy requires **at least 24 hours’ notice before the first day of boarding**. If you cancel with less notice—or don’t show—the listed fee for a **Luxury Suite is $35 per suite**. ([happytailspetresorttx.com](https://www.happytailspetresorttx.com/reservation-requirements-cancellation-policy?utm_source=openai))\n\nThat’s the published policy I found; confirm it when making a reservation, since this planning demo can’t book or verify the policy for your specific stay.",
+        "[Tool Result: filesystem] (output omitted)",
+        "[Tool Result: web_search] (output omitted)"
+      ],
+      "is_error": false,
+      "latency_s": 8.68
+    }
+  ],
+  "status": "ok",
+  "finished": "2026-11-11T18:07:52.102861+00:00"
+}

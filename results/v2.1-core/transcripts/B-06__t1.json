@@ -1,0 +1,34 @@
+{
+  "case": "B-06",
+  "trial": 1,
+  "conversation_id": "v2_20261112-012716-B-06-t1-fabf72",
+  "run_tag": "v2t1b497",
+  "started": "2026-11-11T20:01:30.635895+00:00",
+  "turns": [
+    {
+      "i": 1,
+      "customer": "Need a standard suite for my old boy Winston, a 60 lb basset, Feb 2-5 2027.",
+      "blocks": [
+        "For Winston’s **Standard Suite**, the planning estimate is **$260 for 4 billed days** (February 2–5, 2027), at $65 per day. The full-day rate applies regardless of drop-off time. Peak or seasonal pricing may apply, and rates may change.\n\nWinston’s 60 lb weight is noted; the Standard Suite is the option you chose. This is an unofficial planning estimate—not a reservation or availability confirmation.",
+        "[Tool Result: getCurrentTime] (output omitted)",
+        "[Tool Result: calculate_happy_tails_estimate] (output omitted)"
+      ],
+      "is_error": false,
+      "latency_s": 5.05
+    },
+    {
+      "i": 2,
+      "customer": "My old boy Winston is on 4 meds, three times a day, some crushed into his food. What do you charge for that?",
+      "blocks": [
+        "The published information doesn’t specify a medication-administration charge. It says oral or topical medications can be administered (not injections), and notes that complex handling may incur a fee. Prescriptions should be in their original containers with clear written directions.\n\nWith Winston’s four medications three times a day, including some crushed into food, I can’t tell from the published rates whether an extra fee would apply or whether the food instructions can be accommodated. Those details would need confirmation from the resort. This is an unofficial planning demo, not resort staff or a booking channel.",
+        "The published information doesn’t give a specific medication-administration charge. It says oral or topical medications can be administered, not injections; prescriptions should be in their original containers with clear written directions, and complex handling may incur a fee.\n\nBecause Winston has four medicines three times daily, including some crushed into food, I can’t determine from the published rates whether that counts as complex handling or what it would cost. You’d need to confirm the fee and whether they can accommodate the food instructions with the resort. This is an unofficial planning demo, not resort staff or a booking channel.",
+        "[Tool Result: SetSessionLocale] (output omitted)",
+        "[Tool Result: Grep] (output omitted)"
+      ],
+      "is_error": false,
+      "latency_s": 8.09
+    }
+  ],
+  "status": "ok",
+  "finished": "2026-11-11T20:01:45.451662+00:00"
+}

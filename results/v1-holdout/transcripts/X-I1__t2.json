@@ -1,0 +1,33 @@
+{
+  "case": "X-I1",
+  "trial": 2,
+  "conversation_id": "v1holdout_20261111-235648-X-I1-t2-30b3b2",
+  "run_tag": "v1holdoutt2b232",
+  "started": "2026-11-11T18:31:10.615129+00:00",
+  "turns": [
+    {
+      "i": 1,
+      "customer": "I need to board my two pets sometime in March",
+      "blocks": [
+        "I can help you plan a March stay for both pets. This is an unofficial planning demo; I can’t check availability or make a reservation.\n\nAre they dogs or cats, and about how many nights would they stay? For dog boarding, I can estimate once I know the number of nights and whether you prefer a Standard or Luxury suite. For two cats, the rate sheet lists $55.50, but doesn’t specify the billing period, so I can’t calculate a stay total from it.",
+        "I can help you plan a March boarding stay for both pets. This is an unofficial planning demo, so I can’t check availability or make a reservation.\n\nTo estimate dog boarding, I’ll need the number of nights and whether you prefer a Standard or Luxury suite. If they’re cats, the rate sheet lists $55.50 for two guests, but it doesn’t specify the billing period, so I can’t turn that into a stay total. What kind of pets are they, and what dates or approximate length of stay are you considering?",
+        "[Tool Result: filesystem] (output omitted)"
+      ],
+      "is_error": false,
+      "latency_s": 6.01
+    },
+    {
+      "i": 2,
+      "customer": "One dog, 30 lbs, and one cat. March 2 to March 5, 2027.",
+      "blocks": [
+        "For **March 2–5, 2027**, that’s a **three-night stay**. I can estimate boarding for your 30 lb dog once you choose a **Standard** or **Luxury** suite.\n\nFor your cat, the rate sheet lists **$30 for one guest**, but doesn’t specify the billing period. That amount isn’t a total for the three-night stay; confirm the period before relying on it.",
+        "For March 2–5, 2027, that’s a three-night stay. I can estimate the dog’s boarding once you choose a Standard or Luxury suite. The dog’s 30 lb weight doesn’t change the details I need for this estimate.\n\nFor your one cat, the rate sheet lists **$30**, but doesn’t say what billing period that covers, so it isn’t a total for the three-night stay. What suite would you like for your dog?\n\n---\n\n# Cat boarding rate listing\n\nFor your one cat; the billing period is unspecified, so this is not a total for March 2–5.\n\nService: Cat boarding\n\n- Cat suite · 1 guest · listed source rate: $30.00. 1 cat: listed amount; billing period not stated, and not multiplied by the stay length.\n\n**Listed amount:** $30.00\n\nThis is a listed rate only, not a stay total, availability confirmation, reservation, or final price.\n\n- Confirm the billing period before relying on a multi-night total.",
+        "[Tool Result: calculate_happy_tails_estimate] (output omitted)"
+      ],
+      "is_error": false,
+      "latency_s": 7.12
+    }
+  ],
+  "status": "ok",
+  "finished": "2026-11-11T18:31:25.436452+00:00"
+}

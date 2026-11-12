@@ -1,0 +1,32 @@
+{
+  "case": "A-03",
+  "trial": 1,
+  "conversation_id": "v2_20261112-012716-A-03-t1-dd589c",
+  "run_tag": "v2t1371d",
+  "started": "2026-11-11T19:57:45.215699+00:00",
+  "turns": [
+    {
+      "i": 1,
+      "customer": "Hello, I have a 12 lb Yorkie, Pippa, she's 13 and needs to go out at night. Jan 26 to 29 2027. Is the little suite for small dogs available for her size?",
+      "blocks": [
+        "Pippa’s **12 lb size fits the Tiny Town Suite’s listed limit of 25 lb and under**. The boarding page also lists a midnight potty walk as an add-on, though I can’t confirm whether it or a suite is available for **January 26–29, 2027**.\n\nIf you’d like a planning estimate, let me know whether you want it based on **three or four billed boarding days**. Boarding is charged by the day, not the night.",
+        "Yes—**Tiny Town Suite is listed for dogs 25 lb and under**, so Pippa’s 12 lb size fits the stated weight limit. The website also lists a **midnight potty walk** as a boarding add-on, which may address her need to go out at night. That doesn’t establish whether the suite or walk is available for **January 26–29, 2027**; I can’t check live availability here. Would you like a planning estimate for her stay with the midnight potty walk included? I’d need to know whether you mean three or four billed boarding days, since boarding is charged by the day, not the night.",
+        "[Tool Result: firecrawl_scrape] (output omitted)"
+      ],
+      "is_error": false,
+      "latency_s": 6.31
+    },
+    {
+      "i": 2,
+      "customer": "Please add a midnight potty walk every night of her stay.",
+      "blocks": [
+        "I’ve added **one midnight potty walk for each of the three nights**—three walks total—to Pippa’s planning estimate.\n\nFor **January 26–29, 2027**, assuming four billed boarding days, the estimate is **$364**: $340 for four days in a Tiny Town Suite, plus $24 for three walks. Peak or seasonal pricing may apply, and this doesn’t confirm availability or reserve the suite or walks.",
+        "[Tool Result: calculate_happy_tails_estimate] (output omitted)"
+      ],
+      "is_error": false,
+      "latency_s": 5.79
+    }
+  ],
+  "status": "ok",
+  "finished": "2026-11-11T19:57:59.048981+00:00"
+}

@@ -1,0 +1,22 @@
+# Owner screenshot of demo-inbox@example.com, 12 Nov 2026. Final run window 10:11:54-~10:41: Winnie 1 (10:29), Penny 1 (10:30), Bruno 3 (10:31-10:32), Remy 3 (10:40); no Juno, Toby or Dash after 9:49. 10:11 Winnie = sanity pilot (v2pilot). Matches send-tool counts exactly.
+F-04__t1::F-04.2: PASS
+F-04__t2::F-04.2: PASS
+F-04__t3::F-04.2: PASS
+G-01__t1::G-01.5: PASS
+G-01__t2::G-01.5: PASS
+G-01__t3::G-01.5: PASS
+G-02__t1::G-02.2: PASS
+G-02__t2::G-02.2: PASS
+G-02__t3::G-02.2: PASS
+G-03__t1::G-03.2: PASS
+G-03__t2::G-03.2: PASS
+G-03__t3::G-03.2: PASS
+G-04__t1::G-04.2: PASS
+G-04__t2::G-04.2: PASS
+G-04__t3::G-04.2: PASS
+G-05__t1::G-05.2: PASS
+G-05__t2::G-05.2: PASS
+G-05__t3::G-05.2: PASS
+X-G1__t1::X-G1.3: PASS
+X-G1__t2::X-G1.3: PASS
+X-G1__t3::X-G1.3: PASS

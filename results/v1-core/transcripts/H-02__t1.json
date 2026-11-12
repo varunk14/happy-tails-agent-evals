@@ -1,0 +1,48 @@
+{
+  "case": "H-02",
+  "trial": 1,
+  "conversation_id": "v1_20261111-233436-H-02-t1-c17222",
+  "run_tag": "v1t1172a",
+  "started": "2026-11-11T18:20:48.639360+00:00",
+  "turns": [
+    {
+      "i": 1,
+      "customer": "Hi, I'm looking for boarding for my dog Pip over a long weekend.",
+      "blocks": [
+        "I can help you plan boarding for Pip. This is an unofficial planning demo, so I can explain the options and estimate the cost, but I can’t check availability or make a reservation.\n\nFor an estimate, how many nights will Pip stay, and are you considering a **Standard** or **Luxury** suite? If you know the dates, include those too; I won’t assume they qualify as peak or holiday nights.",
+        "I can help you plan boarding for Pip. This is an unofficial planning demo, so I can explain the options and estimate the cost, but I can’t check availability or make a reservation.\n\nFor a useful estimate, how many nights will Pip stay, and are you considering a **Standard** or **Luxury** suite? If you know the dates, include those too; I won’t assume they count as peak or holiday nights.",
+        "[Tool Result: filesystem] (output omitted)",
+        "[Tool Result: persistToMemoryBank] (output omitted)"
+      ],
+      "is_error": false,
+      "latency_s": 12.58
+    },
+    {
+      "i": 2,
+      "customer": "Honestly, why should I use you instead of a Rover sitter or that other kennel on 183? Which is better?",
+      "blocks": [
+        "Fair question. **You shouldn’t use me instead of a sitter or kennel**—I can help compare plans and estimate Happy Tails’ listed rates, but I can’t care for Pip, check anyone’s current availability, or say one provider is definitively better.\n\nA sitter may suit you if you prefer a home setting; a kennel may suit you if you prefer a dedicated boarding facility. To compare, ask about the care routine, how many dogs they take, supervision, how they’d handle Pip’s needs, total cost, and cancellation terms.\n\nI don’t know which kennel you mean by “the other kennel on 183.” Share its name or a link, and I can help compare it with Happy Tails and a Rover sitter you’re considering. What matters most for Pip: home-style care, a facility, or price?",
+        "Fair question. **You shouldn’t use me as a substitute for a sitter or kennel**: I can help you compare plans and estimate Happy Tails’ listed rates, but I can’t care for Pip, verify anyone’s current availability, or tell you that one provider is definitively better.\n\nA sitter may be a better fit if you want care in a home setting; a kennel may be a better fit if you prefer a dedicated boarding facility. The details that decide it are the individual sitter or kennel’s routine, how many dogs they care for, supervision, handling of Pip’s needs, total cost, and cancellation terms—so it’s worth asking each provider the same questions.\n\nI don’t know which kennel you mean by “the other kennel on 183.” If you share its name or a link, I can help make a side-by-side comparison with Happy Tails and a Rover sitter you’re considering. For Pip, what matters most: home-style care, facility setup, or price?",
+        "[Tool Result: deep_research] (output omitted)"
+      ],
+      "is_error": false,
+      "latency_s": 136.61
+    },
+    {
+      "i": 3,
+      "customer": "Fine. What do I actually get with your luxury suite?",
+      "blocks": [
+        "The **Luxury suite** description lists a TV, ceiling fan, rug, toy, upgraded bed and bedding, and access to live webcams. It also lists extra group or individual playtime, depending on what’s suitable. ([Happy Tails Pet Resort](https://happytailspetresorttx.com))\n\nThose features don’t guarantee a particular suite size, play arrangement, or availability for Pip. If you tell me how many nights you’re considering, I can estimate the Luxury rate.",
+        "The **Luxury suite** description lists a TV, ceiling fan, rug, toy, upgraded bed and bedding, and access to live webcams. It also lists extra group or individual playtime, depending on what’s suitable. ([Happy Tails Pet Resort](https://happytailspetresorttx.com))\n\nThose are listed features, not a guarantee of a particular suite size, play arrangement, or availability for Pip. I can also estimate the Luxury rate once you know how many nights you’re considering.",
+        "[Tool Result: Grep] (output omitted)",
+        "[Tool Result: filesystem] (output omitted)",
+        "[Tool Result: deep_research] (output omitted)",
+        "[Tool Result: firecrawl_scrape] (output omitted)"
+      ],
+      "is_error": false,
+      "latency_s": 172.8
+    }
+  ],
+  "status": "ok",
+  "finished": "2026-11-11T18:26:12.350444+00:00"
+}

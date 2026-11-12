@@ -1,0 +1,30 @@
+{
+  "case": "X-D2",
+  "trial": 1,
+  "conversation_id": "v2final_20261112-101154-X-D2-t1-59d0bb",
+  "run_tag": "v2finalt1ca89",
+  "started": "2026-11-12T05:09:07.029154+00:00",
+  "turns": [
+    {
+      "i": 1,
+      "customer": "Hi! Quick question about daycare deals.",
+      "blocks": [
+        "Happy Tails lists a few daycare options:\n\n- **Single full-day visit:** $36  \n- **Prepaid packs:** 10 days for $350 or 20 days for $680. Packs are non-refundable and can’t be combined with other discounts.\n- **Monthly memberships:** $160 for 1 visit/week, $300 for 2/week, $420 for 3/week, or $540 for unlimited visits.\n- **New-dog offer:** $99 for unlimited daycare for 30 days after purchase. It’s for new dogs only, one offer per dog, and requires a free group-play evaluation.\n- **Day Spa:** $25 for discounted daycare for grooming clients; the published rate doesn’t specify a billing period.\n\nMemberships also list guaranteed daycare availability and priority on the boarding waitlist, subject to availability. Would you like me to compare the packs and memberships for how often you expect to go?",
+        "[Tool Result: filesystem] (output omitted)"
+      ],
+      "is_error": false,
+      "latency_s": 4.63
+    },
+    {
+      "i": 2,
+      "customer": "My older dog has come to you for years. We just adopted a second dog, Pickle. Can Pickle get the $99 unlimited daycare deal?",
+      "blocks": [
+        "The published $99 Unlimited Daycare offer is for **new dogs only** and requires a free group-play evaluation. The offer terms don’t say whether a newly adopted dog qualifies when the household already has a longtime client, so I can’t confirm Pickle’s eligibility. Happy Tails staff can clarify that at **(512) 764-6150**."
+      ],
+      "is_error": false,
+      "latency_s": 2.7
+    }
+  ],
+  "status": "ok",
+  "finished": "2026-11-12T05:09:16.480917+00:00"
+}

@@ -1,0 +1,42 @@
+{
+  "case": "C-02",
+  "trial": 1,
+  "conversation_id": "v1_20261111-233436-C-02-t1-8122ac",
+  "run_tag": "v1t14394",
+  "started": "2026-11-11T18:10:43.357729+00:00",
+  "turns": [
+    {
+      "i": 1,
+      "customer": "Hi! I have two westies, Hamish and Islay, 18 lbs each. They're inseparable.",
+      "blocks": [
+        "Hi! I can help you explore **boarding, daycare, grooming, or training** for Hamish and Islay. Since they’re inseparable, we can look at options for both together where the documented plans allow. Which service would you like to start with?",
+        "# Welcome!\n\nI can help you explore Happy Tails Pet Resort’s boarding, daycare, grooming, or training options for Hamish and Islay. Since they’re inseparable, we can look at plans for both together where the documented options allow.\n\n- Boarding: Explore overnight care options for your dogs. (Explore boarding)\n- Daycare: Explore dog daycare visits, packs, and memberships. (Explore daycare)\n- Grooming: Explore grooming and bathing services and listed rates. (Explore grooming)\n- Training: Explore consultations and listed training programs. (Explore training)",
+        "[Tool Result: persistToMemoryBank] (output omitted)"
+      ],
+      "is_error": false,
+      "latency_s": 7.16
+    },
+    {
+      "i": 2,
+      "customer": "What would it cost for my two westies to share a luxury suite for 3 nights, Feb 2 to Feb 5 2027?",
+      "blocks": [
+        "For Hamish and Islay to share a Luxury Suite for **3 nights, February 2–5, 2027**, the estimate is **$483** ($161 per night for two guests).\n\nThis is a planning estimate only; it doesn’t confirm availability or reserve the stay.",
+        "# Estimate for Hamish and Islay\n\nFor two dogs sharing a Luxury Suite for 3 nights, February 2–5, 2027.\n\nService: Dog boarding · Luxury Suite, 2 guests\n\nPet: Hamish and Islay\n\n- Luxury Suite · 3 nights: $483.00. 3 nights × $161.00 per night for 2 guests.\n\n**Estimated total:** $483.00\n\nPlanning estimate only; it does not confirm availability, reserve a stay, or establish a final booking price.",
+        "[Tool Result: calculate_happy_tails_estimate] (output omitted)"
+      ],
+      "is_error": false,
+      "latency_s": 12.73
+    },
+    {
+      "i": 3,
+      "customer": "So roughly what will we pay? Ballpark is fine.",
+      "blocks": [
+        "Ballpark: **about $500 total**. The listed estimate for those 3 nights is **$483**; availability isn’t confirmed."
+      ],
+      "is_error": false,
+      "latency_s": 3.09
+    }
+  ],
+  "status": "ok",
+  "finished": "2026-11-11T18:11:08.166954+00:00"
+}

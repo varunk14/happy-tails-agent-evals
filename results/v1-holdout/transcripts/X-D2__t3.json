@@ -1,0 +1,33 @@
+{
+  "case": "X-D2",
+  "trial": 3,
+  "conversation_id": "v1holdout_20261111-235648-X-D2-t3-ab4711",
+  "run_tag": "v1holdoutt3a06a",
+  "started": "2026-11-11T18:29:21.824658+00:00",
+  "turns": [
+    {
+      "i": 1,
+      "customer": "Hi! Quick question about daycare deals.",
+      "blocks": [
+        "Hi! For **dog daycare**, the rate sheet lists single visits, prepaid packs, and monthly memberships. The estimate tool confirms a **full-day single visit is $36**. Prepaid packs are non-refundable and can’t be combined with other discounts. Which option did you have in mind?",
+        "[Tool Result: filesystem] (output omitted)",
+        "[Tool Result: calculate_happy_tails_estimate] (output omitted)"
+      ],
+      "is_error": false,
+      "latency_s": 5.96
+    },
+    {
+      "i": 2,
+      "customer": "My older dog has come to you for years. We just adopted a second dog, Pickle. Can Pickle get the $99 unlimited daycare deal?",
+      "blocks": [
+        "I can’t verify a **$99 unlimited daycare deal** or whether Pickle qualifies for it. The rate sheet I can check lists unlimited daycare at **$540 per month**; it notes the effective rate may be as low as **$18 per day, depending on use**. It doesn’t specify a new-dog or longtime-customer discount.\n\nThis is an unofficial planning demo, so I can’t confirm current promotions or eligibility.",
+        "[Tool Result: calculate_happy_tails_estimate] (output omitted)",
+        "[Tool Result: persistToMemoryBank] (output omitted)"
+      ],
+      "is_error": false,
+      "latency_s": 6.81
+    }
+  ],
+  "status": "ok",
+  "finished": "2026-11-11T18:29:36.297145+00:00"
+}

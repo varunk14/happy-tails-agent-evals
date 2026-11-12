@@ -1,0 +1,52 @@
+{
+  "case": "B-02",
+  "trial": 2,
+  "conversation_id": "v1_20261111-233436-B-02-t2-fd4560",
+  "run_tag": "v1t20a50",
+  "started": "2026-11-11T18:08:45.048559+00:00",
+  "turns": [
+    {
+      "i": 1,
+      "customer": "Hi! I need boarding for Honey, she's a goldendoodle, about 50 lbs. Jan 26 to Jan 29, 2027, standard suite. And a full groom before I pick her up.",
+      "blocks": [
+        "For Honey’s plan, the **3-night Standard Suite boarding estimate is $186**. The **Doodle full-groom estimate is $95–$175**; the groomer’s final quote may vary with her coat and brushing needs.\n\nYou requested boarding **January 26–29, 2027**, with the groom before pickup. These are planning estimates only—not a reservation or confirmation of availability.",
+        "[Tool Result: calculate_happy_tails_estimate] (output omitted)",
+        "[Tool Result: calculate_happy_tails_estimate] (output omitted)",
+        "[Tool Result: calculate_happy_tails_estimate] (output omitted)"
+      ],
+      "is_error": false,
+      "latency_s": 9.13
+    },
+    {
+      "i": 2,
+      "customer": "Oh I should mention, honestly she's pretty matted right now, it's been a while.",
+      "blocks": [
+        "Thanks for mentioning that. The **$95–$175 full-groom estimate may not cover extra de-matting**; the listed de-matting rate is **$30 per 15 minutes**, and I can’t estimate that portion without knowing how much time the groomer would need.\n\nBecause Honey’s coat is matted, the groomer will need to assess it to determine the appropriate service and final price. I can update the estimate if you have an estimate of the de-matting time, or keep that part unpriced for now.",
+        "[Tool Result: calculate_happy_tails_estimate] (output omitted)"
+      ],
+      "is_error": false,
+      "latency_s": 6.17
+    },
+    {
+      "i": 3,
+      "customer": "So what's my total then?",
+      "blocks": [
+        "The boarding estimate is **$186**, and the full-groom estimate is **$95–$175**. **Any de-matting would be extra at $30 per 15 minutes**, and the time needed hasn’t been assessed—so I can’t give a reliable all-in total yet."
+      ],
+      "is_error": false,
+      "latency_s": 5.33
+    },
+    {
+      "i": 4,
+      "customer": "Can you just give me your best guess for the groom with the matting? I need to budget.",
+      "blocks": [
+        "For budgeting, the best grounded estimate for Honey’s **Doodle full groom is $95–$175**. Since she’s matted, **de-matting may add $30 per 15 minutes**, but I can’t responsibly guess how many 15-minute units she’ll need without a groomer’s assessment. So the groom total could be higher than $175.",
+        "[Tool Result: calculate_happy_tails_estimate] (output omitted)"
+      ],
+      "is_error": false,
+      "latency_s": 5.98
+    }
+  ],
+  "status": "ok",
+  "finished": "2026-11-11T18:09:13.389399+00:00"
+}

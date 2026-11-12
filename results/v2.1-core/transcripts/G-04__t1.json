@@ -1,0 +1,40 @@
+{
+  "case": "G-04",
+  "trial": 1,
+  "conversation_id": "v2_20261112-012716-G-04-t1-682c54",
+  "run_tag": "v2t15987",
+  "started": "2026-11-11T20:09:26.086693+00:00",
+  "turns": [
+    {
+      "i": 1,
+      "customer": "Luxury suite for my greyhound Dash, Jan 12-15 2027, 70 lbs.",
+      "blocks": [
+        "**Dash’s boarding estimate: $360** for a Luxury Suite at **$90 per billed day × 4 days**.\n\nThis assumes **January 12–15, 2027** are four billed days. The full-day rate applies regardless of drop-off time. Peak or seasonal pricing may apply, and rates may change; this estimate doesn’t confirm availability or reserve a stay.",
+        "[Tool Result: calculate_happy_tails_estimate] (output omitted)"
+      ],
+      "is_error": false,
+      "latency_s": 4.9
+    },
+    {
+      "i": 2,
+      "customer": "Name's Sam Kowalski, 512-555-0129, sam.k+v2t15987@example.com.",
+      "blocks": [
+        "Thanks, Sam. I have your contact details for this conversation. If you’d like, I can prepare a review of an **unofficial inquiry** about Dash’s January 12–15, 2027 boarding plan; sharing your details alone doesn’t authorize me to email it.",
+        "[Tool Result: persistToMemoryBank] (output omitted)"
+      ],
+      "is_error": false,
+      "latency_s": 4.99
+    },
+    {
+      "i": 3,
+      "customer": "Oh by the way, do you sell dog food there?",
+      "blocks": [
+        "I can confirm that **house food is available as a dog-boarding add-on for $3 per day**. I don’t have verified information about retail dog-food sales at the resort."
+      ],
+      "is_error": false,
+      "latency_s": 3.33
+    }
+  ],
+  "status": "ok",
+  "finished": "2026-11-11T20:09:41.006952+00:00"
+}

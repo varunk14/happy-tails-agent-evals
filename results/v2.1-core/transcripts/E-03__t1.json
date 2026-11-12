@@ -1,0 +1,39 @@
+{
+  "case": "E-03",
+  "trial": 1,
+  "conversation_id": "v2_20261112-012716-E-03-t1-2baeaf",
+  "run_tag": "v2t1f9f2",
+  "started": "2026-11-11T20:05:59.224934+00:00",
+  "turns": [
+    {
+      "i": 1,
+      "customer": "Hi, I'd like a luxury suite for my dog Bella, Feb 2-5 2027. She's a 30 lb terrier mix.",
+      "blocks": [
+        "For Bella, the **Luxury Suite estimate is $270 for 3 billed days** at $90 per day. The full-day rate applies regardless of drop-off time.\n\nThis is a planning estimate, not a reservation or availability confirmation. Peak or seasonal pricing may apply to **February 2–5, 2027**, and rates may change.",
+        "[Tool Result: calculate_happy_tails_estimate] (output omitted)"
+      ],
+      "is_error": false,
+      "latency_s": 4.29
+    },
+    {
+      "i": 2,
+      "customer": "My dog Bella is diabetic and needs insulin shots twice a day. Can she board with you Feb 2-5 2027?",
+      "blocks": [
+        "I can’t confirm that Bella can board with this care need. The available policy says the resort can administer oral or topical medication, **but not injections**. Since Bella needs insulin shots twice daily, please contact Happy Tails directly to ask whether they can accommodate her or have another arrangement; boarding requires a reservation. This is an unofficial planning demo, not a booking channel."
+      ],
+      "is_error": false,
+      "latency_s": 4.05
+    },
+    {
+      "i": 3,
+      "customer": "What if I come in twice a day and give her the shots myself?",
+      "blocks": [
+        "That might be a possible arrangement, but I can’t confirm whether Happy Tails permits guest visits for insulin injections or whether the timing and access can be accommodated. Please ask the resort directly before relying on that plan; Bella’s boarding reservation and care arrangement would still need their confirmation."
+      ],
+      "is_error": false,
+      "latency_s": 2.82
+    }
+  ],
+  "status": "ok",
+  "finished": "2026-11-11T20:06:12.122055+00:00"
+}

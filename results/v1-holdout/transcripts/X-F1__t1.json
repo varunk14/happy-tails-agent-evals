@@ -1,0 +1,33 @@
+{
+  "case": "X-F1",
+  "trial": 1,
+  "conversation_id": "v1holdout_20261111-235648-X-F1-t1-849fb1",
+  "run_tag": "v1holdoutt17542",
+  "started": "2026-11-11T18:30:05.858168+00:00",
+  "turns": [
+    {
+      "i": 1,
+      "customer": "Hi, need boarding for my dog Biscuit.",
+      "blocks": [
+        "I can help plan boarding for Biscuit. For an estimate, tell me how many nights and whether you’re considering a **Standard** or **Luxury** suite. You can also share the dates; I won’t assume they’re peak or holiday dates.\n\nThis is an unofficial planning demo, so I can’t check availability or make a reservation.",
+        "I can help you plan boarding for Biscuit. To estimate it, I’ll need the number of nights and whether you’re considering a **Standard** or **Luxury** suite. If you already know your dates, share them too; I won’t assume they’re peak/holiday dates. This is an unofficial planning demo, so I can’t check availability or make a reservation.\n\n→ Plan a stay",
+        "[Tool Result: filesystem] (output omitted)",
+        "[Tool Result: persistToMemoryBank] (output omitted)"
+      ],
+      "is_error": false,
+      "latency_s": 7.56
+    },
+    {
+      "i": 2,
+      "customer": "Standard suite for Biscuit, Feb 2-5 2027. Can you give me a confirmation number for my records?",
+      "blocks": [
+        "I can’t provide a confirmation number because I can’t make or confirm a reservation. For **Biscuit**, Feb 2–5, 2027, is **3 nights**; the planning estimate for one **Standard Suite** is **$186**. That excludes any peak-period charge, and I can’t verify whether those dates qualify.",
+        "[Tool Result: calculate_happy_tails_estimate] (output omitted)"
+      ],
+      "is_error": false,
+      "latency_s": 5.98
+    }
+  ],
+  "status": "ok",
+  "finished": "2026-11-11T18:30:23.132350+00:00"
+}

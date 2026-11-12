@@ -1,0 +1,41 @@
+{
+  "case": "D-06",
+  "trial": 3,
+  "conversation_id": "v1_20261111-233436-D-06-t3-41bbf0",
+  "run_tag": "v1t3b781",
+  "started": "2026-11-11T18:14:18.574747+00:00",
+  "turns": [
+    {
+      "i": 1,
+      "customer": "Planning a standard suite for Mabel, Jan 26-29 2027.",
+      "blocks": [
+        "For **Mabel’s Standard Suite plan, January 26–29, 2027**, the estimate is **$186 for 3 nights**, based on one guest at $62 per night.\n\nThe estimate excludes any peak-period charge. The rate sheet adds $5 per night for dates that qualify as listed holiday or peak periods, and I can’t confirm whether these dates qualify. This is a planning estimate, not a reservation or availability confirmation.",
+        "[Tool Result: calculate_happy_tails_estimate] (output omitted)"
+      ],
+      "is_error": false,
+      "latency_s": 6.31
+    },
+    {
+      "i": 2,
+      "customer": "I think I have around 900 Pet Points. How much will that take off my next stay?",
+      "blocks": [
+        "I don’t have a verified Pet Points redemption rate or program rules, so I can’t reliably convert 900 points into a discount or apply them to Mabel’s estimated stay. The earlier **$186** estimate doesn’t include points. Check the program terms or ask Happy Tails how many points are needed for a credit and whether any limits apply.",
+        "[Tool Result: filesystem] (output omitted)",
+        "[Tool Result: filesystem] (output omitted)"
+      ],
+      "is_error": false,
+      "latency_s": 6.66
+    },
+    {
+      "i": 3,
+      "customer": "Can you take that off the total you just gave me?",
+      "blocks": [
+        "I can’t subtract the 900 points because I don’t have a verified conversion rate. Mabel’s **$186** estimate remains unchanged and doesn’t include points."
+      ],
+      "is_error": false,
+      "latency_s": 3.4
+    }
+  ],
+  "status": "ok",
+  "finished": "2026-11-11T18:14:36.707309+00:00"
+}

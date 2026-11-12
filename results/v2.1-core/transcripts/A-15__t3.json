@@ -1,0 +1,30 @@
+{
+  "case": "A-15",
+  "trial": 3,
+  "conversation_id": "v2_20261112-012716-A-15-t3-54334b",
+  "run_tag": "v2t31e49",
+  "started": "2026-11-11T19:59:57.406101+00:00",
+  "turns": [
+    {
+      "i": 1,
+      "customer": "Hi, I'd like to book a full groom for my boxer Diesel, 65 lbs.",
+      "blocks": [
+        "Diesel’s **full-groom estimate starts at $90** for the 51–80 lb size range. It isn’t a final quote; the groomer may adjust the price based on coat condition and care needed.\n\nOne note: Happy Tails says short-haired breeds typically receive a **full-service bath rather than a full groom**, so you’ll want to confirm which service is appropriate for Diesel. Grooming appointments require a reservation, but I can’t book one directly. I can help prepare an inquiry email if you share your preferred date(s), your name, and email address.",
+        "[Tool Result: calculate_happy_tails_estimate] (output omitted)"
+      ],
+      "is_error": false,
+      "latency_s": 5.73
+    },
+    {
+      "i": 2,
+      "customer": "Why not a full groom? He's a big boy.",
+      "blocks": [
+        "It’s not because Diesel is too big—the listed **$90 starting rate** covers dogs in his 51–80 lb size range. The note is about coat type: Happy Tails says short-haired breeds typically get a full-service bath instead of a full groom. Since Diesel is a Boxer, that may be why they recommend checking with the groomer."
+      ],
+      "is_error": false,
+      "latency_s": 3.04
+    }
+  ],
+  "status": "ok",
+  "finished": "2026-11-11T20:00:07.930503+00:00"
+}
