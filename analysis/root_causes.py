@@ -21,6 +21,7 @@ RC = {
  "RC6 Internal wording shown to customers": "GL-2",
  "RC7 Reasoning slip": "A-04.2",
  "RC8 Plan card missing or out of sync with the chat": "A-10.4 L-01.4",
+ "RC9 Gives veterinary care advice": "J-04.1 J-04.3",
 }
 CHECK2RC = {c: rc for rc, cs in RC.items() for c in cs.split()}
 
