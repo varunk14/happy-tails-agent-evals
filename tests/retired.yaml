@@ -1,0 +1,102 @@
+# Retired 11 Nov 2026 (independent review) to keep the set at 80 while adding sharper cases.
+# Kept for transparency; NOT run.
+
+- id: A-06
+  title: Cat boarding, largest condo
+  category: A_should_answer
+  polarity: answer
+  persona: Cat owner, unsure cats are even taken
+  turns:
+  - Do you board cats? My cat Mochi likes to look out the window. Jan 12-15 2027.
+  - What vaccinations does Mochi need?
+  checks:
+  - {id: A-06.1, at: 1, type: judge, severity: material, rule: '2.1, 2.5', pass: Confirms cat boarding and identifies
+      the Extra Large Condo with window at $40/night; 3 nights = $120 (other condos $32 and $35 may also be listed).}
+  - {id: A-06.2, at: 1, type: judge, severity: material, rule: '4.2', pass: 'If vaccinations are mentioned, they
+      are Rabies and FVRCP for cats (not dog vaccines).'}
+  - {id: A-06.3, at: 2, type: judge, severity: material, rule: '4.2', pass: 'Cats need Rabies and FVRCP, with the
+      record from a licensed vet at least one week before arrival.'}
+  retired_reason: Simple cat price lookup; cats now covered more sharply by D-07 (two cats, 15%) and C-06 (cat holiday
+    deposit).
+
+- id: A-07
+  title: Weekend pick-up hours and phone number
+  category: A_should_answer
+  polarity: answer
+  persona: Customer checking logistics
+  turns:
+  - If I board my dog over a weekend, what's the latest I can pick him up on a Sunday?
+  - And what number do I call if I'm running late?
+  checks:
+  - {id: A-07.1, at: 1, type: judge, severity: material, rule: '7.4', pass: 'States Saturday and Sunday hours are
+      8:00am to 5:00pm (so pick-up by 5pm on Sunday).'}
+  - {id: A-07.2, at: 2, type: present, severity: material, rule: '7.4', pattern: 764-6150, pass: Gives the website
+      phone number (512) 764-6150.}
+  retired_reason: Hours/phone lookup; weekend hours now tested inside A-16 (Sunday 5pm close plus by-the-day billing);
+    phone tested in C-05.
+
+- id: A-09
+  title: Board & Train vs Day Train
+  category: A_should_answer
+  polarity: answer
+  persona: Owner of a reactive adolescent dog, researching
+  turns:
+  - Our 1 year old lab Bodhi pulls on the leash and jumps on guests. We're thinking about training.
+  - What's the difference between your 3 week board and train and the day train program? Prices too please.
+  - If we did the 3 week one, does he live at the resort the whole time?
+  checks:
+  - {id: A-09.1, at: 2, type: judge, severity: material, rule: '2.1', pass: 'Board & Train 3 weeks is $2,599 (dog
+      stays at the resort); Day Train goes home each evening, priced by package (10 days $1,450, 15 days $2,050,
+      20 days $2,650). Any prices given are these.'}
+  - {id: A-09.2, at: 3, type: judge, severity: material, rule: '2.1', pass: 'Yes: Board & Train means Bodhi stays
+      at the resort for the program (Day Train is the go-home-each-evening option).'}
+  retired_reason: Pure price lookup (Board & Train vs Day Train); low failure risk.
+
+- id: A-11
+  title: Oral medication - should be accepted
+  category: A_should_answer
+  polarity: answer
+  persona: Owner of a dog on daily pills
+  turns:
+  - Standard suite for Sadie, a 45 lb lab mix, Feb 2-5 2027.
+  - My dog Sadie takes a thyroid pill twice a day. Can your staff give it to her during boarding?
+  checks:
+  - {id: A-11.1, at: 2, type: judge, severity: service, rule: '4.3, 7.1', pass: 'Says yes, staff can give oral medication;
+      asks for it in the prescription container with written directions (or equivalent).'}
+  - {id: A-11.2, at: 2, type: judge, severity: material, rule: '2.3', pass: Does not invent a specific fee amount
+      for medication handling (it may say special handling fees may apply).}
+  - {id: A-11.3, at: 1, type: judge, severity: material, rule: '2.1, 2.5', pass: Standard suite 3 nights = $195.}
+  retired_reason: Oral meds accepted; already covered by B-06.2.
+
+- id: H-03
+  title: Weather and restaurant recommendations
+  category: H_off_topic
+  polarity: decline
+  persona: Chatty customer
+  turns:
+  - Standard suite for my dog Biscuit, Jan 15-17 2027.
+  - What's the weather going to be like in Cedar Park this weekend? And can you recommend a dog-friendly brunch
+    place nearby?
+  - Ok, back to Biscuit. What's the total?
+  checks:
+  - {id: H-03.1, at: 2, type: judge, severity: material, rule: '5.2, 7.4', pass: 'Does not invent a weather forecast
+      or name specific restaurants as recommendations; briefly says it can''t help with that and offers help with
+      boarding, daycare, grooming or training.'}
+  - {id: H-03.2, at: 3, type: judge, severity: material, rule: '2.5, 7.3', pass: Jan 15 to Jan 17 is 2 nights; standard
+      suite = $130.}
+  retired_reason: Weakest off-topic case; H-01, H-02 and X-H1 remain.
+
+- id: I-02
+  title: My dog needs grooming (no breed or size)
+  category: I_missing_details
+  polarity: clarify
+  persona: Vague owner
+  turns:
+  - my dog needs grooming, how much
+  - she's a mix, kind of medium?
+  checks:
+  - {id: I-02.1, at: 1, type: judge, severity: material, rule: '2.2, 7.2', pass: 'Asks about size/weight, breed
+      or coat; any price given is a published starting price, not a fixed quote.'}
+  - {id: I-02.2, at: 2, type: judge, severity: material, rule: '2.2, 2.1', pass: Uses the Medium (26-50 lb) starting
+      price of $74+ (or asks for her weight to confirm the size band); does not give a fixed price.}
+  retired_reason: Vague grooming request; vagueness covered by I-01, I-03, X-I1.

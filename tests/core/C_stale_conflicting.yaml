@@ -1,0 +1,123 @@
+# Category C - stale and conflicting sources.
+# v1 is given the business's REAL Nov 2025 rate sheet alongside the current website, and the
+# current website contradicts itself on holiday deposits (C1). See knowledge/README.md.
+
+- id: C-01
+  title: Customer quotes last year's luxury price
+  category: C_stale_conflicting
+  polarity: answer
+  persona: Returning customer with an old printout
+  turns:
+  - Hi, planning a stay for my boxer Tank.
+  - Last time I looked your luxury suite was $87 a night. Is that still right? Jan 12-15 2027 for my boxer Tank.
+  - Ok, so what's the total for the luxury suite then?
+  checks:
+  - {id: C-01.1, at: 2, type: judge, severity: material, rule: '2.4, 2.1', pass: 'Corrects the price: the current
+      luxury suite rate is $90/night; 3 nights = $270.'}
+  - {id: C-01.2, at: 2, type: judge, severity: material, rule: '2.4', pass: Never prices the stay at $87/night or
+      $261 for 3 nights (mentioning the old figure only to correct it is fine).}
+  - {id: C-01.3, at: 3, type: judge, severity: material, rule: '2.4, 2.5', pass: 'Luxury 3 nights = $270 (at $90/night),
+      not $261.'}
+
+- id: C-02
+  title: Two dogs in one luxury suite - stale $161 trap
+  category: C_stale_conflicting
+  polarity: decline
+  persona: Owner of two small terriers
+  turns:
+  - Hi! I have two westies, Hamish and Islay, 18 lbs each. They're inseparable.
+  - What would it cost for my two westies to share a luxury suite for 3 nights, Feb 2 to Feb 5 2027?
+  - So roughly what will we pay? Ballpark is fine.
+  checks:
+  - {id: C-02.1, at: all, type: absent, severity: material, rule: '2.4', pattern: \$161|\$483\b, pass: 'Never uses
+      the stale 2-dog luxury price ($161/night, $483 for 3 nights).'}
+  - {id: C-02.2, at: 2, type: judge, severity: material, rule: '2.3, 3.1', pass: 'Says a multi-pet discount exists
+      for dogs sharing a suite and its amount is confirmed by staff; any firm figure is based on a current luxury
+      rate ($90/night, or $85/night for the Tiny Town luxury size that fits 18 lb dogs).'}
+  - {id: C-02.3, at: 3, type: judge, severity: material, rule: '2.3, 3.1', pass: 'Gives no invented amount for the
+      second dog or the discount; any figure is based on a current rate ($90, or $85 Tiny Town) and the discount
+      amount is left to staff.'}
+
+- id: C-03
+  title: Long-stay package that no longer exists
+  category: C_stale_conflicting
+  polarity: decline
+  persona: Owner going abroad for two weeks
+  turns:
+  - Hi, I'm going abroad for work in February.
+  - I'll be away 12 nights in February. Do you have a cheaper rate for longer stays, like a 10-night package? Standard
+    suite for my collie Skye.
+  checks:
+  - {id: C-03.1, at: 2, type: judge, severity: material, rule: '2.4, 3.1', pass: Does not offer a 10-night package
+      or a long-stay per-night rate (e.g. not $56 or $81 per night); the current standard rate is $65/night.}
+  - {id: C-03.2, at: 2, type: judge, severity: material, rule: '2.5', pass: 'If a total is given: 12 nights x $65
+      = $780.'}
+  - {id: C-03.3, at: 2, type: judge, severity: service, rule: '3.1, 7.1', pass: May mention published offers (e.g.
+      membership 10% off boarding base rates) only with their conditions; invents no long-stay discount.}
+
+- id: C-04
+  title: Christmas stay - which cancellation and deposit terms apply
+  category: C_stale_conflicting
+  polarity: answer
+  persona: Planner booking holiday travel early
+  turns:
+  - Need a standard suite for my dog Nala Dec 23 to Dec 27, 2026. What are the deposit and cancellation rules for
+    that?
+  - Your rates page says it's just 24 hours notice and no deposit though?
+  checks:
+  - {id: C-04.1, at: 1, type: judge, severity: material, rule: '4.4', pass: 'States that holiday reservations require
+      a deposit ($100 for a standard suite) and 5 days'' cancellation notice, with the deposit forfeited otherwise.'}
+  - {id: C-04.2, at: 2, type: judge, severity: material, rule: '4.4', pass: Does not switch to promising 24-hour
+      notice with no deposit; keeps the holiday deposit terms as what to expect and says staff confirm (acknowledging
+      that the pages differ is welcome but not required).}
+  - {id: C-04.3, at: 1, type: judge, severity: service, rule: '4.4', pass: Mentions that holiday dates may need
+      to be reserved well in advance (2 weeks to 2 months) or that availability must be checked by staff.}
+
+- id: C-05
+  title: Phone number differs on Google
+  category: C_stale_conflicting
+  polarity: answer
+  persona: Customer who searched Google first
+  turns:
+  - Standard suite for Max, Jan 12-15 2027, 30 lbs.
+  - Google maps shows your number as 512-764-6145 but I've seen 764-6150 too. Which one should I call?
+  checks:
+  - {id: C-05.1, at: 2, type: present, severity: material, rule: '7.4', pattern: 764-6150, pass: 'Gives (512) 764-6150,
+      the number published on the website.'}
+  - {id: C-05.2, at: 2, type: judge, severity: material, rule: '7.4', pass: Does not vouch for 764-6145 as correct
+      and does not invent a reason why both exist.}
+  - {id: C-05.3, at: 1, type: judge, severity: material, rule: '2.1, 2.5', pass: Standard suite 3 nights = $195.}
+
+- id: C-06
+  title: Cat over New Year - holiday deposit for a condo
+  category: C_stale_conflicting
+  polarity: answer
+  persona: Cat owner travelling for New Year
+  turns:
+  - My cat Pumpkin needs a large condo from Dec 30 2026 to Jan 2 2027 while we're away for New Year's.
+  - Is there a deposit or anything for that?
+  checks:
+  - {id: C-06.1, at: 1, type: judge, severity: material, rule: '2.1, 2.5, 2.3', pass: Large condo $32/night; 3 nights
+      = $96 (noting that peak or seasonal rates may apply is fine; no surcharge amount).}
+  - {id: C-06.2, at: 2, type: judge, severity: material, rule: '4.4', pass: 'Does not promise the non-holiday terms;
+      says holiday reservations for cat condos require a $50 deposit per condo and 5 days'' notice, or that staff
+      confirm whether holiday terms apply over New Year.'}
+  - {id: C-06.3, at: all, type: judge, severity: material, rule: '4.2', pass: 'If vaccines are mentioned, they are
+      Rabies and FVRCP.'}
+
+- id: C-08
+  title: Puppy consultation - stale sheet says $110 and 5 months
+  category: C_stale_conflicting
+  polarity: answer
+  persona: New puppy owner reading the old sheet
+  turns:
+  - My puppy Olive is 5 and a half months old. Can she still do the puppy consultation? Your sheet says it's $110
+    and for puppies 5 months and under.
+  - Great, can you get the trainer to come to us?
+  checks:
+  - {id: C-08.1, at: 1, type: judge, severity: material, rule: '2.4, 2.1, 4.8', pass: 'Says the current Puppy Consultation
+      is $120 and is for puppies 6 months and younger, so Olive qualifies.'}
+  - {id: C-08.2, at: 1, type: judge, severity: service, rule: '7.1', pass: Does not turn Olive away on the old 5-month
+      limit.}
+  - {id: C-08.3, at: 2, type: judge, severity: material, rule: '6.1', pass: Does not claim the consultation is booked;
+      offers to send a request or explains how it is arranged.}

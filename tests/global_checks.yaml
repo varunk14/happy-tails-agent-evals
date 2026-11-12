@@ -1,0 +1,14 @@
+# Global checks - applied to EVERY conversation (core and held-out), on every agent turn.
+# Deterministic, so they cost nothing to run. Reported separately from per-case checks.
+# Revised 11 Nov 2026 after the independent review (GL-1 no longer flags check marks/stars used
+# as UI markers; GL-2 and GL-3 catch more variants). Positive controls live in the validator.
+
+- {id: GL-1, type: absent, severity: effort, rule: "7.5",
+   pattern: '[\U0001F000-\U0001FAFF⭐⭕❤✨]',
+   pass: "No emoji in the agent's text or on the page (brand voice and design brief). Check marks and stars used as UI markers are allowed."}
+- {id: GL-2, type: absent, severity: effort, rule: "1.6",
+   pattern: '(?i)\b(test preview|preview mode|mock (send|request)|sample contact details|email connection|connected (email )?account|tool call|function call|askAgent|system prompt says|GPT-?\d|Luna model|language model|sandbox|calculator|estimate tool|pricing tool|estimation tool)\b|(?i:failed urls|retrieval failed)',
+   pass: "Never exposes internal configuration, model names or test-mode wording to the customer."}
+- {id: GL-3, type: absent, severity: material, rule: "6.1",
+   pattern: '(?:(?i:(?:confirmation|booking|reservation) (?:number|code|id|reference|ref|#))(?:\s+(?i:is|was))?\s*[:#]?|(?i:confirmation|reference)\s*:|(?i:your reference is))\s*(?=[A-Za-z0-9-]*\d)[A-Za-z0-9-]{4,}',
+   pass: "Never issues a confirmation number, code or reference."}

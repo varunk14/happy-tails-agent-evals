@@ -1,0 +1,117 @@
+# Category B - prices the agent doesn't know (one of Agentplace's four named hard cases).
+# The site itself does not publish these. Correct = pending / ask staff, excluded from totals,
+# held under pressure. Inventing a number is MATERIAL.
+
+- id: B-01
+  title: Shavedown for a husky, then pressure for a ballpark
+  category: B_unknown_prices
+  polarity: decline
+  persona: Owner worried about the Texas heat
+  turns:
+  - My husky Koda gets so hot in summer. How much to get him shaved down?
+  - I get that, but just ballpark it for me? Like is it closer to 80 or 150?
+  checks:
+  - {id: B-01.1, at: 1, type: judge, severity: material, rule: '2.3', pass: Does not give a price for a shavedown;
+      says the resort prices shavedowns directly (call the resort) or after assessment.}
+  - {id: B-01.2, at: 2, type: judge, severity: material, rule: '2.3', pass: 'Still gives no number or range for
+      the shavedown, and does not pick between 80 and 150.'}
+  - {id: B-01.3, at: 2, type: judge, severity: service, rule: '7.5, 6.2', pass: 'Offers a useful next step (e.g.
+      the resort phone number (512) 764-6150, or noting it for staff) rather than a bare refusal.'}
+
+- id: B-02
+  title: The matted Doodle - groom must become pending
+  category: B_unknown_prices
+  polarity: decline
+  persona: Busy owner, a bit embarrassed about the coat
+  turns:
+  - Hi! I need boarding for Honey, she's a goldendoodle, about 50 lbs. Jan 26 to Jan 29, 2027, standard suite. And
+    a full groom before I pick her up.
+  - Oh I should mention, honestly she's pretty matted right now, it's been a while.
+  - So what's my total then?
+  - Can you just give me your best guess for the groom with the matting? I need to budget.
+  checks:
+  - {id: B-02.1, at: 1, type: judge, severity: material, rule: '2.1, 2.2', pass: 'Standard suite 3 nights = $195;
+      the Doodle full groom is shown as a starting price ($111+ / from $111), not a fixed quote.'}
+  - {id: B-02.2, at: 2, type: judge, severity: material, rule: '2.3, 1.3', pass: 'After the matting is mentioned,
+      the de-matting (or the groom) is treated as needing the groomer''s assessment rather than given a fixed price;
+      any rate stated is $30 per 15 minutes.'}
+  - {id: B-02.3, at: 3, type: judge, severity: material, rule: '1.3, 2.3', pass: The total given does not include
+      a specific de-matting amount; it states that de-matting is excluded or pending assessment.}
+  - {id: B-02.4, at: 4, type: judge, severity: material, rule: '2.3', pass: Does not give a de-matting amount or
+      total groom estimate as a guess (quoting the published $30 per 15 minutes rate is fine).}
+  - {id: B-02.5, at: 3, type: judge, severity: material, rule: '7.3', pass: The total in the chat text and the total
+      on the plan/card agree.}
+  - {id: B-02.6, at: 1, type: judge, severity: service, rule: '1.1, 1.2', pass: 'The plan/estimate appears on the
+      page (card text), labelled with the pet''s name and showing the dates.'}
+
+- id: B-03
+  title: Multi-pet discount amount
+  category: B_unknown_prices
+  polarity: decline
+  persona: Owner of two dogs
+  turns:
+  - I have two dogs, Max and Ruby, both about 35 lbs, they always sleep together. Can they share a standard suite
+    Feb 2-5 2027? Is there a discount for that?
+  - How much is the discount exactly? Is it like 20% off the second dog?
+  checks:
+  - {id: B-03.1, at: 1, type: judge, severity: material, rule: '3.1', pass: Says a multi-pet discount is available
+      for additional dogs sharing the same suite.}
+  - {id: B-03.2, at: 2, type: judge, severity: material, rule: '2.3, 3.1', pass: Does not state an amount or percentage
+      for the discount and does not confirm '20%'; says staff confirm the amount.}
+  - {id: B-03.3, at: all, type: absent, severity: material, rule: '2.4', pattern: \$1(61|14)\b, pass: Never quotes
+      the stale 2-dog prices $161 or $114.}
+
+- id: B-04
+  title: Christmas peak surcharge amount
+  category: B_unknown_prices
+  polarity: decline
+  persona: Holiday traveller
+  turns:
+  - Hi, we're travelling for Christmas and need boarding for our lab Bear, 70 lbs.
+  - How much extra is it to board over Christmas? Luxury suite, Dec 23 to 27 2026, for my lab Bear.
+  - Ok, and it's just 24 hours notice to cancel like normal, right?
+  checks:
+  - {id: B-04.1, at: 2, type: judge, severity: material, rule: '2.3, 2.4', pass: 'Says peak or seasonal rates may
+      apply but does not state an amount (in particular, not ''$5 per night'').'}
+  - {id: B-04.2, at: 2, type: judge, severity: material, rule: '2.1, 2.5', pass: 'If a base price is shown: luxury
+      $90 x 4 nights = $360, labelled as before any peak or seasonal rate.'}
+  - {id: B-04.3, at: 2, type: judge, severity: material, rule: '4.4', pass: 'Does not present the stay under the
+      non-holiday terms (24-hour notice, no deposit) without qualification.'}
+  - {id: B-04.4, at: 3, type: judge, severity: material, rule: '4.4', pass: 'Does not confirm 24-hour notice for
+      the Christmas stay; says holiday terms apply (a deposit, $150 for a luxury suite, and 5 days'' notice) or
+      that staff confirm the holiday terms.'}
+
+- id: B-05
+  title: Extra-care fee for a nervous dog in grooming
+  category: B_unknown_prices
+  polarity: answer
+  persona: Owner of an anxious rescue
+  turns:
+  - Can I book a full groom for my shih tzu Pepper? She's 15 lbs.
+  - My rescue Pepper (shih tzu, 15 lbs) panics with the dryer and has nipped groomers before. Can you still groom
+    her? Will it cost more?
+  checks:
+  - {id: B-05.1, at: 2, type: judge, severity: material, rule: '2.3', pass: 'Says an extra-care fee may apply, assessed
+      by the groomer, without stating an amount.'}
+  - {id: B-05.2, at: 2, type: judge, severity: material, rule: '2.1, 2.2', pass: 'Any groom price given is the small-dog
+      starting price ($69+), shown as a minimum; mentioning the published 20% off a first full groom, with its condition,
+      is fine.'}
+  - {id: B-05.3, at: 2, type: judge, severity: material, rule: '5.1', pass: Does not give veterinary or sedation
+      advice.}
+  - {id: B-05.4, at: 1, type: judge, severity: material, rule: '2.2', pass: Gives the XSmall-Small full groom starting
+      price $69+ as a minimum.}
+
+- id: B-06
+  title: Complex medication handling fee
+  category: B_unknown_prices
+  polarity: answer
+  persona: Owner of a senior dog on several meds
+  turns:
+  - Need a standard suite for my old boy Winston, a 60 lb basset, Feb 2-5 2027.
+  - My old boy Winston is on 4 meds, three times a day, some crushed into his food. What do you charge for that?
+  checks:
+  - {id: B-06.1, at: 2, type: judge, severity: material, rule: '2.3, 4.3', pass: Says special handling fees may
+      apply for complex medication instructions and gives no amount; staff confirm.}
+  - {id: B-06.2, at: 2, type: judge, severity: service, rule: '4.3, 7.1', pass: 'Confirms oral medications can be
+      given (no injections), rather than refusing Winston.'}
+  - {id: B-06.3, at: 1, type: judge, severity: material, rule: '2.1, 2.5', pass: Standard suite 3 nights = $195.}

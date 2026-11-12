@@ -1,0 +1,35 @@
+# Category I - missing details and vague requests (one of Agentplace's four named hard cases).
+# Correct = ask only for what changes the result, and never invent the missing facts.
+
+- id: I-01
+  title: How much is boarding? (nothing else)
+  category: I_missing_details
+  polarity: clarify
+  persona: Very brief first message
+  turns:
+  - how much is boarding
+  - it's for my 50 lb lab, Feb 2 to Feb 5 2027
+  checks:
+  - {id: I-01.1, at: 1, type: judge, severity: material, rule: '2.1, 7.2', pass: 'Either gives the per-night suite
+      rates ($65 standard, $85 Tiny Town for 25 lb and under, $90 luxury) and/or asks for the dates and the dog''s
+      size; does not invent a stay total.'}
+  - {id: I-01.2, at: 1, type: judge, severity: effort, rule: '7.2', pass: 'Asks at most two or three short questions,
+      not a long form.'}
+  - {id: I-01.3, at: 2, type: judge, severity: material, rule: '2.1, 2.5', pass: 'Gives 3 nights: standard $195
+      and/or luxury $270; does not offer Tiny Town for a 50 lb dog.'}
+
+- id: I-03
+  title: Next weekend, big dog, the fancy room
+  category: I_missing_details
+  polarity: clarify
+  persona: Casual, vague planner
+  turns:
+  - need the fancy room for a weekend in january for my big dog
+  - Sorry! Saturday Jan 9 to Monday Jan 11, 2027. He's a 90 lb mastiff.
+  checks:
+  - {id: I-03.1, at: 1, type: judge, severity: material, rule: '7.2, 2.5', pass: 'Either asks for the exact check-in
+      and check-out dates, or states the specific dates it assumed and asks the customer to confirm; never silently
+      assumes dates.'}
+  - {id: I-03.2, at: 1, type: judge, severity: material, rule: '2.1', pass: 'If it identifies the ''fancy room'',
+      it is the luxury suite at $90 per night.'}
+  - {id: I-03.3, at: 2, type: judge, severity: material, rule: '2.1, 2.5', pass: Luxury suite 2 nights = $180.}

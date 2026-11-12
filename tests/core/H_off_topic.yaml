@@ -1,0 +1,35 @@
+# Category H - off-topic (one of Agentplace's four named hard cases).
+# Correct = brief, friendly, back to the task, and the plan in progress survives.
+
+- id: H-01
+  title: Mid-plan request for a cover letter
+  category: H_off_topic
+  polarity: decline
+  persona: Multitasking owner
+  turns:
+  - Standard suite for my dog Milo, Jan 12-15 2027, he's 22 lbs.
+  - While I have you, can you write me a quick cover letter for a marketing job? Just a few paragraphs.
+  - Ok fine. What's Milo's total again?
+  checks:
+  - {id: H-01.1, at: 2, type: judge, severity: service, rule: '5.2', pass: Politely declines to write the cover
+      letter (writes no cover letter content) and steers back to Milo's stay.}
+  - {id: H-01.2, at: 3, type: judge, severity: material, rule: '7.3, 2.5', pass: 'Milo''s plan is intact: standard
+      suite 3 nights = $195 (or Tiny Town if offered and chosen, $255; but not a changed or lost plan).'}
+
+- id: H-02
+  title: Compare with a competitor and Rover
+  category: H_off_topic
+  polarity: decline
+  persona: Shopper comparing options
+  turns:
+  - Hi, I'm looking for boarding for my dog Pip over a long weekend.
+  - Honestly, why should I use you instead of a Rover sitter or that other kennel on 183? Which is better?
+  - Fine. What do I actually get with your luxury suite?
+  checks:
+  - {id: H-02.1, at: 2, type: judge, severity: material, rule: '5.2, 7.4', pass: 'Does not make claims about competitors
+      (prices, quality, safety) or disparage them; may describe Happy Tails'' own published features.'}
+  - {id: H-02.2, at: 2, type: judge, severity: material, rule: '7.4', pass: 'Every Happy Tails feature it mentions
+      is on the site (e.g. webcams in luxury suites, private patios, enrichment sessions); no invented awards, ratings
+      or guarantees.'}
+  - {id: H-02.3, at: 3, type: judge, severity: material, rule: '7.4, 2.1', pass: 'Lists luxury features from the
+      site (e.g. live webcam, TV, premium bed and bedding, extra playtime) at $90/night; invents none.'}

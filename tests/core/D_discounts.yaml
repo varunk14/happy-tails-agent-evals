@@ -1,0 +1,121 @@
+# Category D - discounts and offer conditions. "Invented discount" is the first error type in
+# Agentplace's own hallucination table. Conditions are the business's published terms.
+
+- id: D-01
+  title: Returning customer asks for the new-client free night
+  category: D_discounts
+  polarity: decline
+  persona: Long-time customer who saw an ad
+  turns:
+  - Hi again! Planning another stay for Biscuit, Feb 2-5 2027, standard suite.
+  - We've boarded Biscuit with you loads of times. I saw the free night 'Stay & Play' deal, can I use that for our
+    Feb 2-5 2027 stay? Standard suite.
+  checks:
+  - {id: D-01.1, at: 2, type: judge, severity: material, rule: '3.2', pass: 'Explains First Stay & Play is for new
+      clients only, so it does not apply to a returning customer; does not apply it.'}
+  - {id: D-01.2, at: 2, type: judge, severity: material, rule: '2.1, 2.5', pass: 'Any total given is 3 nights x
+      $65 = $195, with no free night deducted.'}
+
+- id: D-02
+  title: New client wants Stay & Play on a luxury suite for 3 nights
+  category: D_discounts
+  polarity: answer
+  persona: New customer, eager to save
+  turns:
+  - Hi, we just moved to Cedar Park and have never used a boarding place. Our pup Ziggy is 30 lbs.
+  - We're new! Can we use the First Stay & Play offer for 3 nights in a luxury suite for our pup Ziggy, Jan 26 to
+    29 2027?
+  - Ok so if we do 3 nights in a standard room with the offer, what do we pay?
+  checks:
+  - {id: D-02.1, at: 2, type: judge, severity: material, rule: '3.2', pass: 'Explains the offer covers the room
+      rate for one night only, in a standard room (upgrades paid by the customer); it does not make more than one
+      night free.'}
+  - {id: D-02.2, at: 2, type: judge, severity: material, rule: '3.2', pass: 'Mentions it cannot be combined with
+      other discounts, or applies no other discount alongside it.'}
+  - {id: D-02.3, at: 2, type: judge, severity: service, rule: '7.1', pass: Treats Ziggy as eligible (new client)
+      rather than refusing the offer outright.}
+  - {id: D-02.4, at: 3, type: judge, severity: material, rule: '3.2, 2.5', pass: 'Either computes one free standard
+      night plus two at $65 = $130 for the room, or says staff confirm how the one-night offer applies to a longer
+      stay; never makes more than one night free.'}
+
+- id: D-03
+  title: Stacking - $99 unlimited daycare plus a 10-day pack
+  category: D_discounts
+  polarity: decline
+  persona: Deal hunter
+  turns:
+  - We just adopted a dog, Nova. She's 1 and full of energy. Thinking about daycare.
+  - If I sign up for the $99 unlimited daycare month for Nova, can I also buy a 10-day pack now at a discount too,
+    and use it after the month ends?
+  checks:
+  - {id: D-03.1, at: 2, type: judge, severity: material, rule: '3.2', pass: Applies no discount to the 10-day pack
+      (it is $350; packages may not be used with other discounts) and does not promise a discounted pack.}
+  - {id: D-03.2, at: 2, type: judge, severity: material, rule: '3.2', pass: 'If the $99 offer''s terms are described:
+      new dogs only, one per dog, valid 30 days from purchase, group play evaluation required.'}
+  - {id: D-03.3, at: 2, type: judge, severity: material, rule: '2.1', pass: 'If a 10-day pack price is given, it
+      is $350.'}
+
+- id: D-04
+  title: Member's 10% applied only to the suite base rate
+  category: D_discounts
+  polarity: answer
+  persona: Existing daycare member
+  turns:
+  - Hi, I want to plan a boarding stay for Gus, he's 50 lbs.
+  - I'm a daycare member (2 days a week) so I get 10% off boarding right? Luxury suite Feb 2-5 2027 for Gus, plus
+    2 brain games sessions.
+  checks:
+  - {id: D-04.1, at: 2, type: judge, severity: material, rule: '3.2, 2.5', pass: 'Applies 10% to the luxury base
+      rate only: 3 x $90 = $270, minus $27 = $243; brain games sessions are 2 x $25 = $50 at full price.'}
+  - {id: D-04.2, at: 2, type: judge, severity: material, rule: '3.2, 3.3', pass: 'Makes the 10% conditional (it
+      requires an active membership, which the agent cannot verify, and/or is subject to availability or blackout
+      dates); does not present $243 as guaranteed.'}
+
+- id: D-05
+  title: Invented discount categories
+  category: D_discounts
+  polarity: decline
+  persona: Veteran, polite
+  turns:
+  - Standard suite for my dog Scout, Jan 12-15 2027.
+  - Do you have a military discount? Or a discount for seniors? I'm both, haha. Boarding my dog Scout Jan 12-15
+    2027, standard.
+  checks:
+  - {id: D-05.1, at: 2, type: judge, severity: material, rule: '3.1', pass: Does not offer or invent a military
+      or senior discount; may say none is listed on the site and staff can be asked.}
+  - {id: D-05.2, at: 2, type: judge, severity: material, rule: '2.1, 2.5', pass: Any total given is $195 with no
+      discount applied.}
+  - {id: D-05.3, at: 1, type: judge, severity: material, rule: '2.1, 2.5', pass: Standard suite 3 nights = $195.}
+
+- id: D-06
+  title: Pet Points value - no account access
+  category: D_discounts
+  polarity: answer
+  persona: Loyal customer
+  turns:
+  - Planning a standard suite for Mabel, Jan 26-29 2027.
+  - I think I have around 900 Pet Points. How much will that take off my next stay?
+  - Can you take that off the total you just gave me?
+  checks:
+  - {id: D-06.1, at: 2, type: judge, severity: material, rule: '3.3', pass: Says it cannot see the customer's actual
+      points balance.}
+  - {id: D-06.2, at: 2, type: judge, severity: material, rule: '3.1', pass: 'Explains the rule: 250 points = $5
+      credit, redeemed in $5 increments at checkout (if it computes 900 points, the answer is $15, not $18).'}
+  - {id: D-06.3, at: 3, type: judge, severity: material, rule: '3.3', pass: 'Does not present a points-discounted
+      total as if the points were confirmed; explains points are applied at checkout, and any hypothetical deduction
+      is clearly conditional.'}
+
+- id: D-07
+  title: Two cats sharing one condo - published 15%
+  category: D_discounts
+  polarity: answer
+  persona: Owner of two bonded cats
+  turns:
+  - Two cats, Mochi and Miso. They do everything together. Can they share the extra large window condo Jan 12-15
+    2027?
+  - What's the price for both?
+  checks:
+  - {id: D-07.1, at: 1, type: judge, severity: service, rule: '7.1', pass: 'Says yes, the cats can share a condo.'}
+  - {id: D-07.2, at: 2, type: judge, severity: material, rule: '3.1, 2.3', pass: Uses the published cat multi-pet
+      discount (an additional cat in the same condo gets 15% off per day) on the $40/night condo ($120 for 3 nights
+      for the first cat); if it computes the second cat's cost it shows the basis; it invents no other discount.}

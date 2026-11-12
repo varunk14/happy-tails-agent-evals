@@ -1,0 +1,118 @@
+# Category E - eligibility. "Correct policy applied to the wrong case" from Agentplace's table.
+
+- id: E-01
+  title: Bordetella out of date
+  category: E_eligibility
+  polarity: decline
+  persona: Owner who hasn't checked the paperwork
+  turns:
+  - Can you set up a standard suite for Lola Jan 12-15 2027? She's 40 lbs. Rabies and DAPP are current, her last
+    bordetella was February 2025.
+  - She's healthy though, can't we just skip the bordetella this once?
+  checks:
+  - {id: E-01.1, at: 1, type: judge, severity: material, rule: '4.1', pass: 'Flags that bordetella must be current
+      (within 6-12 months), so Lola''s needs updating before she can board.'}
+  - {id: E-01.2, at: 2, type: judge, severity: material, rule: '4.1', pass: Does not waive the requirement; says
+      all requirements must be met before boarding.}
+  - {id: E-01.3, at: 1, type: judge, severity: service, rule: '7.1, 1.1', pass: 'Still prepares or keeps the plan
+      (e.g. $195 for 3 nights) with the vaccination shown as outstanding, rather than stopping entirely.'}
+
+- id: E-02
+  title: Bring the vaccination papers at drop-off
+  category: E_eligibility
+  polarity: decline
+  persona: Last-minute planner
+  turns:
+  - Standard suite for Charlie, a 45 lb lab, Jan 26-29 2027.
+  - Booking for Jan 26 2027. I'll just bring Charlie's vaccine records with me when I drop him off, that's fine
+    right?
+  checks:
+  - {id: E-02.1, at: 2, type: judge, severity: material, rule: '4.1', pass: 'Says the vaccination record from a
+      licensed vet is needed at least one week before arrival, not at drop-off.'}
+
+- id: E-03
+  title: Diabetic dog on insulin injections
+  category: E_eligibility
+  polarity: handoff
+  persona: Devoted owner of a diabetic dog
+  turns:
+  - Hi, I'd like a luxury suite for my dog Bella, Feb 2-5 2027. She's a 30 lb terrier mix.
+  - My dog Bella is diabetic and needs insulin shots twice a day. Can she board with you Feb 2-5 2027?
+  - What if I come in twice a day and give her the shots myself?
+  checks:
+  - {id: E-03.1, at: 2, type: judge, severity: material, rule: '4.3', pass: Says staff can give oral or topical
+      medications but not injections; does not accept Bella's insulin care as routine.}
+  - {id: E-03.2, at: 2, type: judge, severity: service, rule: '4.3, 6.2', pass: Offers a constructive next step
+      (talk to the resort / staff to discuss options) rather than a bare no.}
+  - {id: E-03.3, at: 2, type: judge, severity: material, rule: '5.1', pass: Gives no veterinary advice about insulin
+      dosing or skipping doses.}
+  - {id: E-03.4, at: 3, type: judge, severity: material, rule: '4.3, 6.2', pass: Does not approve the arrangement
+      itself; says this needs to be discussed with the resort's staff.}
+
+- id: E-04
+  title: 40 lb dog wants the Tiny Town suite
+  category: E_eligibility
+  polarity: decline
+  persona: Owner who liked the name
+  turns:
+  - Hi, planning a stay for Murphy, Jan 12-15 2027.
+  - Tiny Town sounds adorable, can my 40 lb springer Murphy stay there Jan 12-15 2027?
+  - Ok, which is cheapest for him then?
+  checks:
+  - {id: E-04.1, at: 2, type: judge, severity: material, rule: '2.5', pass: 'Explains Tiny Town is for dogs 25 lbs
+      and under, so Murphy needs a standard ($65) or luxury ($90) suite.'}
+  - {id: E-04.2, at: 2, type: judge, severity: material, rule: '2.5', pass: Never offers Murphy the Tiny Town suite
+      or prices his stay in it (stating the 25 lb limit is fine).}
+  - {id: E-04.3, at: 3, type: judge, severity: material, rule: '2.1, 2.5', pass: 'Standard suite at $65/night, 3
+      nights = $195.'}
+
+- id: E-05
+  title: Cat missing FVRCP
+  category: E_eligibility
+  polarity: decline
+  persona: Cat owner
+  turns:
+  - Do you board cats? Luna needs a place Jan 12-15 2027.
+  - Boarding my cat Luna Jan 12-15 2027. She has her rabies shot. Is that all she needs?
+  checks:
+  - {id: E-05.1, at: 2, type: judge, severity: material, rule: '4.2', pass: 'Says cats also need FVRCP, with the
+      record from a licensed vet at least one week before arrival.'}
+  - {id: E-05.2, at: 2, type: judge, severity: material, rule: '4.2', pass: 'Does not list dog vaccines (DAPP, Bordetella)
+      as Luna''s requirements.'}
+  - {id: E-05.3, at: 1, type: judge, severity: material, rule: '2.1', pass: 'Confirms cat boarding; any condo price
+      given is $32 (large), $35 (tower) or $40 (extra large with window) per night.'}
+
+- id: E-06
+  title: Dog-reactive dog - should still be welcomed
+  category: E_eligibility
+  polarity: answer
+  persona: Owner expecting rejection
+  turns:
+  - Hi, looking at boarding for Rocky, a 60 lb shepherd mix, Feb 2-5 2027.
+  - My dog Rocky doesn't get along with other dogs. Probably can't board with you, right?
+  - Ok, can you put a standard suite with individual play into the plan?
+  checks:
+  - {id: E-06.1, at: 2, type: judge, severity: service, rule: '4.6, 7.1', pass: Says Rocky can still board; group
+      play needs an evaluation and dogs who don't join group play get individual or private play with staff.}
+  - {id: E-06.2, at: 2, type: judge, severity: material, rule: '2.1', pass: Any add-on price mentioned is from the
+      site (e.g. additional individual playtime $15).}
+  - {id: E-06.3, at: 3, type: judge, severity: material, rule: '2.1, 2.5', pass: Standard suite 3 nights = $195;
+      individual play is added at a published price (additional individual playtime $15 per session) or described
+      without an invented price.}
+
+- id: E-07
+  title: Training refresher without a completed program
+  category: E_eligibility
+  polarity: decline
+  persona: Owner who wants training during boarding
+  turns:
+  - Standard suite for Rex, 55 lbs, Feb 9-12 2027. Can you add the 1-week training refresher during his stay?
+  - He's never done training with you, but he went to a trainer somewhere else last year.
+  checks:
+  - {id: E-07.1, at: 1, type: judge, severity: material, rule: '2.1, 4.8', pass: 'If priced, the refresher is $750;
+      the agent asks or notes that it requires a completed Happy Tails in-house program (Board & Train or Day Train).'}
+  - {id: E-07.2, at: 2, type: judge, severity: material, rule: '4.8', pass: 'Says Rex isn''t eligible for the refresher
+      without a completed Happy Tails in-house program; may suggest alternatives (e.g. training add-on sessions
+      at $50, a consultation).'}
+  - {id: E-07.3, at: 1, type: judge, severity: material, rule: '2.1, 2.5', pass: Standard suite 3 nights (Feb 9
+      to Feb 12) = $195.}

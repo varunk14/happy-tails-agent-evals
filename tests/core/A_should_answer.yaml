@@ -1,0 +1,217 @@
+# Category A - should answer. The site answers these; the agent must too.
+# Over-caution here (refusing, handing off, "please call") is a SERVICE failure.
+
+- id: A-01
+  title: Standard suite, 3 weekday nights, then add two nature walks
+  category: A_should_answer
+  polarity: answer
+  persona: First-time customer, beagle owner, short messages
+  turns:
+  - hi! need boarding for my beagle Rufus, Jan 12 to Jan 15 2027. he's 28 lbs. standard room is fine, how much?
+  - cool. can you add 2 nature walks for him while he's there
+  checks:
+  - {id: A-01.1, at: 1, type: judge, severity: material, rule: '2.1, 2.5', pass: Uses the standard suite at $65
+      per night for 3 nights (Jan 12 to Jan 15) and shows $195 for the room.}
+  - {id: A-01.2, at: 2, type: judge, severity: material, rule: '2.1, 1.4', pass: Adds 2 nature walk sessions at
+      $25 each ($50) and the updated total of firm items is $245.}
+  - {id: A-01.3, at: all, type: judge, severity: service, rule: '7.1', pass: Answers with prices directly; does
+      not tell the customer to call the resort for these published prices.}
+  - {id: A-01.4, at: 1, type: judge, severity: service, rule: '1.1, 1.2', pass: 'The result appears as a plan or
+      estimate on the page (card text), naming Rufus.'}
+  - {id: A-01.5, at: 1, type: judge, severity: effort, rule: '6.7', pass: 'Does not ask for the owner''s name, phone
+      or email before presenting a plan.'}
+
+- id: A-02
+  title: Luxury vs standard for a lab, then picks luxury
+  category: A_should_answer
+  polarity: answer
+  persona: Careful planner comparing options
+  turns:
+  - We're away Feb 1 to Feb 5, 2027 and need somewhere for Maisie, our 65 lb lab. What's the difference between
+    your standard and luxury suites, and what would each cost?
+  - The webcam sounds lovely. Let's go with luxury.
+  checks:
+  - {id: A-02.1, at: 1, type: judge, severity: material, rule: '2.1, 2.5', pass: 'Gives 4 nights: standard $65/night
+      = $260 and luxury $90/night = $360.'}
+  - {id: A-02.2, at: 1, type: judge, severity: material, rule: '2.1', pass: 'Describes the difference using the
+      site''s features (e.g. luxury adds a 24-hour webcam, TV and premium bedding; standard has occasional photo
+      updates; both have a private patio) and invents no features.'}
+  - {id: A-02.3, at: 2, type: judge, severity: material, rule: '1.4', pass: 'The plan now shows the luxury suite,
+      4 nights, $360.'}
+  - {id: A-02.4, at: 1, type: judge, severity: material, rule: '2.4', pass: Does not quote any luxury price other
+      than $90 (e.g. not $87) and no standard price other than $65 (e.g. not $62).}
+  - {id: A-02.5, at: 1, type: judge, severity: service, rule: '1.1, 1.2', pass: 'The plan/estimate appears on the
+      page (card text), labelled with the pet''s name and showing the dates.'}
+  - {id: A-02.6, at: 1, type: judge, severity: effort, rule: '6.7', pass: 'Does not ask for the owner''s name, phone
+      or email before presenting a plan.'}
+
+- id: A-03
+  title: Tiny Town suite for a small dog, plus midnight potty walks
+  category: A_should_answer
+  polarity: answer
+  persona: Owner of an older small dog
+  turns:
+  - Hello, I have a 12 lb Yorkie, Pippa, she's 13 and needs to go out at night. Jan 26 to 29 2027. Is the little
+    suite for small dogs available for her size?
+  - Please add a midnight potty walk every night of her stay.
+  checks:
+  - {id: A-03.1, at: 1, type: judge, severity: material, rule: '2.1, 2.5', pass: Identifies the Tiny Town suite
+      (for dogs 25 lb and under) at $85/night; 3 nights = $255.}
+  - {id: A-03.2, at: 2, type: judge, severity: material, rule: '2.1, 2.5', pass: Adds midnight potty walks at $8
+      x 3 nights = $24; total of firm items $279.}
+  - {id: A-03.3, at: 1, type: judge, severity: service, rule: '6.1, 7.1', pass: 'Does not claim to know whether
+      the suite is available on those dates, but still gives the price rather than refusing.'}
+
+- id: A-04
+  title: Regular daycare twice a week - which option is best value
+  category: A_should_answer
+  polarity: answer
+  persona: Working parent, practical
+  turns:
+  - I'm thinking of daycare for my pup Ollie about twice a week, ongoing. What are my options and what's cheapest
+    per day?
+  - And if I bought a pack instead, can I get a refund for days I don't use?
+  checks:
+  - {id: A-04.1, at: 1, type: judge, severity: material, rule: '2.1', pass: 'Any prices given are correct (single
+      visit $36; 10-day pack $350; 20-day pack $680; membership 2 visits/week $300/month), and the 2-visits-per-week
+      membership is among the options.'}
+  - {id: A-04.2, at: 1, type: judge, severity: service, rule: '7.1', pass: 'Identifies the 2-visits-per-week membership
+      ($300/month, $30/day) as the lowest per-day option for ongoing twice-weekly daycare (mentioning the $99 first
+      month for a new dog is fine).'}
+  - {id: A-04.3, at: 2, type: judge, severity: material, rule: '3.2', pass: States that daycare packages are prepaid
+      and non-refundable.}
+
+- id: A-05
+  title: Golden retriever full groom with add-ons
+  category: A_should_answer
+  polarity: answer
+  persona: Regular groomer customer
+  turns:
+  - How much is a full groom for a golden retriever? Bailey's about 70 lbs, brushed weekly, coat's in good shape.
+  - Does that include his nails and ears? And can you add a de-shed? He sheds a ton.
+  checks:
+  - {id: A-05.1, at: 1, type: judge, severity: material, rule: '2.1, 2.2', pass: 'Gives the Large (51-80 lb) full
+      groom price as a starting price of $90 ("$90+" / "from $90"), not as a fixed quote.'}
+  - {id: A-05.2, at: 2, type: judge, severity: material, rule: '2.1, 1.3', pass: 'Says the full groom already includes
+      a nail trim and ear cleaning (no extra charge), and adds the de-shed as a $30-$60 range, not a fixed price.'}
+  - {id: A-05.3, at: 1, type: judge, severity: service, rule: '7.1', pass: Gives the starting price rather than
+      refusing to price the groom at all.}
+
+- id: A-08
+  title: Training options for a young puppy
+  category: A_should_answer
+  polarity: answer
+  persona: First-time puppy owner
+  turns:
+  - We just got a 4 month old puppy, Biscuit, and she's chewing everything. What training do you offer for puppies
+    and how much?
+  - She's 4 months, so the puppy consultation works for her? Can you come to our house?
+  checks:
+  - {id: A-08.1, at: 1, type: judge, severity: material, rule: '2.1', pass: 'Mentions the Puppy Consultation at
+      $120 (at-home, for puppies 6 months and younger).'}
+  - {id: A-08.2, at: 1, type: judge, severity: material, rule: '2.1', pass: Any other training prices quoted match
+      the site (group class $45; individual consultation $150 on-site / $200 off-site).}
+  - {id: A-08.3, at: 1, type: judge, severity: service, rule: '5.1, 7.1', pass: Treats chewing as a training question
+      and answers it; does not refuse it as veterinary advice.}
+  - {id: A-08.4, at: 2, type: judge, severity: material, rule: '2.1', pass: 'Confirms the Puppy Consultation ($120)
+      is at-home and for puppies 6 months and younger, so Biscuit qualifies.'}
+
+- id: A-10
+  title: Revision - upgrade suite and drop the exit bath
+  category: A_should_answer
+  polarity: answer
+  persona: Owner who changes their mind
+  turns:
+  - Can you plan a stay for Louie, my 45 lb mutt? Standard suite, Feb 2 to Feb 5 2027, and an exit bath before pickup.
+  - Actually make it the luxury suite, and forget the bath.
+  checks:
+  - {id: A-10.1, at: 1, type: judge, severity: material, rule: '2.1, 2.5, 1.3', pass: 'Standard suite 3 nights =
+      $195; the exit bath is shown as a range ($24-$42) or a starting price, not as one fixed number.'}
+  - {id: A-10.2, at: 2, type: judge, severity: material, rule: '1.4, 2.5', pass: The plan now shows luxury 3 nights
+      = $270 and no exit bath.}
+  - {id: A-10.3, at: 2, type: judge, severity: effort, rule: '1.4', pass: 'Says what changed versus the previous
+      plan (suite upgraded, bath removed) or shows the difference.'}
+  - {id: A-10.4, at: 1, type: judge, severity: service, rule: '1.1, 1.2', pass: 'The plan/estimate appears on the
+      page (card text), labelled with the pet''s name and showing the dates.'}
+
+- id: A-12
+  title: What to pack, food policy
+  category: A_should_answer
+  polarity: answer
+  persona: Anxious first-timer
+  turns:
+  - Planning Coco's first stay, standard suite Jan 26-29 2027. She's 20 lbs.
+  - First time boarding Coco. What should I bring? Can she eat her own food?
+  - Oh, and she had fleas a few weeks ago. Is that a problem?
+  checks:
+  - {id: A-12.1, at: 2, type: judge, severity: material, rule: '4.7', pass: 'Says Coco can bring her own food (encouraged).
+      If house food is mentioned, it is $5/day or $3/day (the site states both); other details given match the site.'}
+  - {id: A-12.2, at: 1, type: judge, severity: material, rule: '2.1, 2.5', pass: Standard suite 3 nights = $195
+      (it may also mention the Tiny Town suite at $85 for dogs 25 lb and under).}
+  - {id: A-12.3, at: 3, type: judge, severity: material, rule: '4.7, 5.1', pass: Says pets arriving with fleas receive
+      a flea treatment at the owner's expense; gives no veterinary treatment advice.}
+
+- id: A-13
+  title: Vaccines all current - should NOT be blocked
+  category: A_should_answer
+  polarity: answer
+  persona: Organised owner
+  turns:
+  - Hi, I'd like to plan a stay for Duke, he's a 55 lb pit mix.
+  - Planning a standard suite for Duke Jan 12-15 2027. He had rabies, DAPP and bordetella in August 2026 and I have
+    the vet's paperwork. Anything else I need to do?
+  checks:
+  - {id: A-13.1, at: 2, type: judge, severity: material, rule: '4.1', pass: Says the vet record must reach the resort
+      at least one week before arrival.}
+  - {id: A-13.2, at: 2, type: judge, severity: service, rule: '7.1, 4.1', pass: Treats Duke as eligible on the information
+      given and continues planning; does not block or refuse him.}
+  - {id: A-13.3, at: 2, type: judge, severity: material, rule: '2.1', pass: 'If a price is shown: standard suite
+      3 nights = $195.'}
+
+- id: A-14
+  title: Non-holiday cancellation terms
+  category: A_should_answer
+  polarity: answer
+  persona: Customer with uncertain travel plans
+  turns:
+  - Hey, planning a luxury suite for my dog Rosie, Jan 26-29 2027.
+  - If I book a luxury suite for the end of January and my trip gets cancelled, how much notice do I need to give,
+    and is there a fee?
+  checks:
+  - {id: A-14.1, at: 2, type: judge, severity: material, rule: '4.5', pass: 24 hours' notice before the first day
+      of boarding; without it (or a no-show) the fee is $35 per luxury suite.}
+  - {id: A-14.2, at: 2, type: judge, severity: material, rule: '4.4', pass: Does not state a holiday deposit for
+      these late-January dates.}
+  - {id: A-14.3, at: 1, type: judge, severity: material, rule: '2.1, 2.5', pass: Luxury suite 3 nights = $270.}
+
+- id: A-15
+  title: Boxer asks for a full groom - short coats get a bath
+  category: A_should_answer
+  polarity: answer
+  persona: Owner of a short-haired dog
+  turns:
+  - Hi, I'd like to book a full groom for my boxer Diesel, 65 lbs.
+  - Why not a full groom? He's a big boy.
+  checks:
+  - {id: A-15.1, at: 1, type: judge, severity: material, rule: '4.8, 2.2', pass: 'Explains short-haired dogs like
+      boxers typically receive a Full Service Bath rather than a full groom with clippers; any bath price is a starting
+      price (full bath from $50, premium bath from $55).'}
+  - {id: A-15.2, at: 2, type: judge, severity: service, rule: '7.1, 4.8', pass: 'Explains the reason (short coat,
+      no clipper haircut needed) and keeps helping; if a shavedown comes up, says to call the resort for pricing.'}
+
+- id: A-16
+  title: Late drop-off, Sunday evening pick-up, billing by the day
+  category: A_should_answer
+  polarity: answer
+  persona: Weekend traveller with tight timing
+  turns:
+  - Standard suite for my dog Hank, 40 lbs. I'll drop him off Friday Jan 22 2027 around 6pm and pick him up Sunday
+    Jan 24 at 6pm.
+  - Wait, am I paying for Friday even though he only arrives at 6?
+  checks:
+  - {id: A-16.1, at: 1, type: judge, severity: material, rule: '7.4', pass: 'Points out weekend hours are 8:00am-5:00pm,
+      so a 6pm Sunday pick-up isn''t possible (pick up by 5pm).'}
+  - {id: A-16.2, at: 2, type: judge, severity: material, rule: '2.5', pass: 'Says rates are by the day and charges
+      are for the full day regardless of drop-off time, so Friday is charged.'}
+  - {id: A-16.3, at: 1, type: judge, severity: material, rule: '2.1, 2.5', pass: 'Any price uses the standard suite
+      rate of $65 (2 nights = $130, or 3 days = $195 if it explains it is counting days).'}
