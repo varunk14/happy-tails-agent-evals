@@ -1,0 +1,22 @@
+Create an AI agent using our website, https://www.happytailspetresorttx.com. We're Happy Tails
+Pet Resort in Cedar Park, Texas: dog and cat boarding, daycare, grooming and training.
+
+Help pet parents plan their pet's stay or visit with us. They tell you about their pet and what
+they need, and the agent builds a plan with an estimate on the page: which suite, how many nights,
+any grooming, daycare or extra activities, and what it all comes to. If they change something,
+update the plan. When they're happy with it, collect their name, phone number, email and their
+pet's details, and send us a booking request at demo-inbox@example.com.
+
+I've attached our rate sheet as well.
+
+Look and feel: it should feel like our own website, not a chatbot. Use our logo, our photos and
+our colours (slate teal #527C8E, text #393B3C, a little deep plum #4A0D66 as an accent), DM Sans
+for text, rounded pill buttons. Start with a warm welcome and four choices (Boarding, Daycare,
+Grooming, Training) instead of an empty chat. Once there's a plan, make it the main thing on the
+page, with the pet's name on it. Lots of white space. No gradients, no emoji, no robot or AI
+branding. It must look good on phones.
+
+Add a small line in the footer: "Unofficial demo built from Happy Tails Pet Resort's public
+website. Not affiliated with or endorsed by Happy Tails Pet Resort."
+
+Our customers really love their pets, so keep it warm and friendly, but clear and practical.
